@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- css -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+html,body{
+    width:100%;
+    height:100%;
+
+    margin:0px;
+}
+    #main{
+        width:100%;
+        height:100%;
+        background:red;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: start;
+    }
+    .top-head{
+        width: 100%;
+        height: 10%;
+        background: #eeeeee;
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content:center;
+    }
+    .left-menu{
+        width:12%;
+        height: 90%;
+        background:lightyellow;
+    }
+    .right-content{
+        width: 88%;
+        height:90%;
+        background:wheat;
+    }
+    #logo{
+        width:10%;
+        height:100%;
+        line-height:80px;
+        background:#eeeeee;
+    }
+    #title{
+        width:50%;
+        font-size: 28px;
+        text-align:center;
+        line-height: 80px;
+        background:#eee;
+    }
+    #per-mes{
+        width:20%;
+        height:100%;
+        line-height: 80px;
+        background:#eeeeee;
+    }
+    li{
+        list-style:none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+    }
+    li:hover{
+        list-style:none;
+    }
+
+</style>
+</head>
+<body>
+<div id="main">
+        <div class="top-head">
+            <div id="logo"></div>
+            <div id="title" style="font-size: xx-large">懒人在线测试平台</div>
+            <h4 style="text-align: right;padding-left: 30px;color: orangered;padding-top: 20px">Hello,{{ request.session.user_name }}欢迎回来！</h4>
+            <h5 style="text-align: left;padding-left: 10px;color: black;padding-top: 25px;float: right" id="datetime" >
+            <script>
+                setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+            </script>
+             </h5>
+        </div>
+        <div class="left-menu">
+             <!-- 侧边栏标签页 -->
+        <ul class="nav nav-stacked">
+            <!-- 侧边栏选项 -->
+            <li role="presentation" class="active">
+                <!-- 选项控制data-target对应的显隐 -->
+                <a href="#" data-toggle="collapse" data-target="#list"><strong>数据构造</strong></a>
+                <!-- 隐藏的详细菜单 -->
+                <ul id="list" class="collapse in">
+                    <li class="active glyphicon glyphicon-tags">
+                        <a href="/send_code/">
+                            听读券赠送
+                        </a>
+                    </li>
+                    <li class="active glyphicon glyphicon-tags">
+                        <a href="/send_vip/">
+                            VIP赠送
+                        </a>
+                    </li>
+                    <br>
+                    <li class="glyphicon glyphicon-phone"><a href="/lazy_reg/">
+                        手机号注册
+                        </a>
+                    </li>
+                    <li class="active glyphicon glyphicon-tags">
+                        <a href="/vip_expire/">
+                            VIP过期
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li role="presentation" class="active">
+                <!-- 选项控制data-target对应的显隐 -->
+                <a href="#" data-toggle="collapse" data-target="#list"><strong>测试报告</strong></a>
+                <!-- 隐藏的详细菜单 -->
+                <ul id="list" class="collapse in">
+                    <li class="active glyphicon glyphicon-book">
+                        <a href="/run_test/">
+                            测试报告生成
+                        </a>
+                    </li>
+                    <li class="active glyphicon glyphicon-tags">
+                        <a href="/test_report/">
+                            测试报告详情
+                        </a>
+                    </li>
+                    <li class="active glyphicon glyphicon-copyright-mark">
+                        <a href="/send_email/">
+                            邮件通知
+                        </a>
+                    </li>
+                    <br>
+                </ul>
+            </li>
+            <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>测试工具</strong></a>
+                <ul id="list1" class="collapse in">
+                <li class="active glyphicon glyphicon-tags">
+                    <a href="/api_test/">
+                        懒人接口调试
+                    </a>
+                </li><br>
+                <li class="glyphicon glyphicon-user"><a href="/get_ips/">
+                    用户ip
+                    </a>
+                </li>
+                 <li class="glyphicon glyphicon-apple"><a href="#">
+                    加解密
+                    </a>
+                </li>
+                    <br>
+                </ul>
+                 </li>
+                 <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>测试用例</strong></a>
+                <ul id="list1" class="collapse in">
+               <li class="glyphicon glyphicon-lock"><a href="/add_cases/">
+                    添加用例
+                    </a>
+                </li>
+                        <li class="glyphicon glyphicon-star"><a href="/cases_detail/">
+                            用例集
+                        </a>
+                        </li>
+                </ul>
+                 </li>
+             <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>友情链接</strong></a>
+                <ul id="list1" class="collapse in">
+                <li class="active glyphicon glyphicon-tags">
+                    <a href="https://apidoc.lrts.me/">
+                        懒人听书API接口文档
+                    </a>
+                </li><br>
+                <li class="glyphicon glyphicon-user"><a href="http://confluence.lrts.me/pages/#all-updates">
+                    Xconfluence
+                    </a>
+                </li><br>
+                 <li class="glyphicon glyphicon-lock"><a href="https://www.jianshu.com/p/04207f3f2129">
+                    Django教程
+                    </a>
+                </li>
+                </ul><br>
+                 </li>
+        </ul>
+                <li class="glyphicon glyphicon-log-out" style="margin-bottom: 10px;margin-left: 15px">
+                    <link style="size: B5"><a href="/logout/"><strong>登出</strong></a></link>
+                </li>
+                <li class="glyphicon glyphicon-cog" style="margin-bottom: 10px;margin-left: 15px">
+                    <link style="size: B5"><a href="/get_config/"><strong>配置信息</strong></a></link>
+                </li>
+        </div>
+        <div class="right-content">
+            <div style="margin:10px;">
+                    <ol class="breadcrumb">
+                    <li>》<a href="#">常用链接</a></li>
+                    </ol>
+            </div>
+            <div class="fl">
+                <a href="/activity_list/" class="btn-outline-light" style="margin-left: 50px">营销活动>>>></a>
+                <span>
+{#                   <a href="/add_cases/" style="margin-left: 20px;color: #1e7e34"><strong>营销活动生成</strong></a>#}
+                    <button style="margin-left: 20px"><a href="/add_buy_share/" style="color: cyan"><strong>买一赠一活动生成</strong></a></button>
+                    <button style="margin-left: 20px"><a href="/add_ShareListen_free/" style="color: cyan"><strong>分享免费听活动生成</strong></a></button>
+                    <button style="margin-left: 20px"><a href="/add_Subtracts_activity/" style="color: cyan"><strong>满减活动生成</strong></a></button>
+                </span>
+                <span id="info"></span>
+{#                <iframe width="800" scrolling="no" height="600" frameborder="0" allowtransparency="true" style="color: #721c24"></iframe>#}
+{#                <iframe ID='ifm1' width='500' height='330' align='center' marginwidth='0' marginheight='30' hspace='0' vspace='0' FRAMEBORDER='0' scrolling='no' src="http://weather.qq.com/24.htm" style="float: right"></iframe>#}
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>配置信息</title>
+</head>
+<body>
+<div>
+    <h3 class="text-center">配置信息:</h3>
+    {% for k,v in res_msg.items %}
+    <a><strong>{{ k }}</strong>: <br>{{ v }}<br></a>
+    {% endfor %}
+</div>
+</body>
+</html>

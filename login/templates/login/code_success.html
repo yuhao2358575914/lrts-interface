@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发券详情</title>
+</head>
+<body >
+<div class="div-left">
+    <h3 class="text-center">发券详情</h3>
+<p>
+    给用户：{{user_id}}发送听读券成功！，金额为：{{ amount }}元，发券类型为：{{ use_scope }}<br>
+        类型参考如下:<br>
+        ('1', '指定上传者'),<br>
+        ('10', '指定阅读版权机构'),<br>
+        ('11', '指定阅读分类'),<br>
+        ('12', '指定阅读书籍'),<br>
+        ('20', '指定听书版权机构'),<br>
+        ('21', '指定有声听书分类'),<br>
+        ('22', '指定有声书籍'),<br>
+        ('30', '指定有声节目')<br>
+        <span style="font-size:20px;"><a href="/send_code">返回</a></span>
+</p>
+</div>
+</body>
+</html>

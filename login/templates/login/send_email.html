@@ -1,0 +1,55 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'login/css/send_email.css' %}" rel="stylesheet"/>
+    <title>邮件通知</title>
+  </head>
+  <body>
+    <div class="container">
+            <div class="col">
+                <form class="form-send_email" action="/send_email/" method="post">
+                    {% if mail_form.captcha.errors %}
+                        <div class="alert alert-warning">{{ mail_form.captcha.errors}}</div>
+                    {% elif message %}
+                        <div class="alert alert-warning">{{ message }}</div>
+                    {% endif %}
+
+                  {% csrf_token %}
+{#                {{ request.session.user_name }}#}
+                    <h3 class="text-center">邮件通知</h3>
+                    <br><br>
+                  <div class="form-group">
+                      {{ mail_form.mail_receivers.label_tag}}
+                      {{ mail_form.mail_receivers}}
+                  </div>
+                  <div>
+                      <a href="/index/" class="text-success "><ins>返回首页</ins></a>
+                      <button id="button-send-email" type="submit" class="btn btn-primary float-right">发送邮件</button>
+                        <script>
+                        document.onclick=function(){
+                                var obj = event.srcElement;
+                                if(obj.id == "button-send-email"){
+                                    alert('已发送！');
+                                    }
+                                }
+                        </script>
+                  </div>
+                </form>
+            </div>
+    </div> <!-- /container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

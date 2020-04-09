@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MyPro1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPro1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPro1/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPro1/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/testcases.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0002_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0003_auto_20191224_1134.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0004_auto_20191224_1502.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0005_auto_20191224_1741.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0006_sendcode_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0007_iputils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0008_testcases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/run/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/run/run_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/add_cases.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/api_test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/run_test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/send_code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/send_email.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/css/send_vip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/data/addresses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/data/countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/fonts/dashboard.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/fonts/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/fonts/dashboard.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/fonts/dashboard.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/icons-reference/fonts/dashboard.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/icons-reference/fonts/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/icons-reference/fonts/dashboard.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/icons-reference/fonts/dashboard.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/icons-reference/icons-reference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/icons-reference/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/brand/brand-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/brand/brand-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/brand/brand-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/brand/brand-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/brand/brand-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/brand/brand-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/AZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/BZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/CZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/DE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/DJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/DK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/DM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/DO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/DZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/EC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/EE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/EG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/EH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ET.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/EU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/FI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/FJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/FK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/FM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/FO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/FR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/GY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/HK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/HN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/HR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/HT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/HU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/IT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/JE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/JM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/JO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/JP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/KZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/LY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ME.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/MZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/NZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/OM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/PY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/QA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/RE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/RO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/RS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/RU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/RW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ST.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/SZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/TZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/UA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/UG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/US.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/UY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/UZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/VA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/VC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/VE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/VG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/VI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/VN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/VU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/WF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/WS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/YE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/YT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ZA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ZM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/ZW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_abkhazia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_basque-country.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_british-antarctic-territory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_commonwealth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_gosquared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_kosovo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_mars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_nagorno-karabakh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_nato.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_northern-cyprus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_olympics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_red-cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_somaliland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_south-ossetia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_united-nations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/flags/16/_wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/photos/paul-morris-116514-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/photos/victor-ene-1301123-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/shouyebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/img/xunguang-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/js/charts-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/js/charts-home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/js/front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/js/grasp_mobile_progress_circle-1.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_bn_BD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_bn_BD.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_es_AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_es_AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_es_PE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_es_PE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ge.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_hy_AM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_hy_AM.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_my.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_pt_BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_pt_PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sr_lat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sr_lat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_tj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_tj.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_ur.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/messages_zh_TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_es_CL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery-validation/localization/methods_pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery.cookie/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/malihu-custom-scrollbar-plugin/mCSB_buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/static/login/vendor/popper.js/umd/poppper.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/account/adminlogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/activities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityCommon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/activities/send_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/albumn/Albumn_Operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/albumn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/anchor/Anchor_Operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/anchor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/book/Book_Operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/admin/book/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/app/account/Get_Auto_Register_Token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/app/account/Get_Logon_Token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/app/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/app/common/Get_Book_By_User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/app/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/config/config_global.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/config/constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/config/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/config/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/activity_init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/add_buy_share.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/add_cases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/add_share_listenfree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/add_substract.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/api_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/case_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/cases_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/code_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/cript_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/cript_utils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/delete_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/ip_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/lazy_crypt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/lazy_reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/run_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/send_code.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/send_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/send_vip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/test_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/vip_expire.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/users/Get_UserInfo_By_Token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/users/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/confutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/dbutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/emails.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/encodeutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/getconf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/httputils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/list_modify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/readconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Normal_Word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Special_Character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_all/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_all/case_Albumn_Can_Not_Appear_Prominent_Position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_all/case_Book_Free_Chapters_For_Purchased_Users_Not.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Account_Password_Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Phone_Number_Register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="284" column="24" selection-start-line="284" selection-start-column="24" selection-end-line="284" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/run/run_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="e#143#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1577">
+              <caret line="83" column="33" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/templates/utils/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3560">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/templates/utils/confutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/templates/utils/encodeutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/templates/utils/getconf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/templates/utils/httputils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mailBackend</find>
+      <find>register_form</find>
+      <find>mysite</find>
+      <find>dir</find>
+      <find>TEMPLATES</find>
+      <find>Case_ColorBar_Check</find>
+      <find>recomLabel</find>
+      <find>userExtGet.action</find>
+      <find>vip的兑换值</find>
+      <find>resourceType_book</find>
+      <find>payt</find>
+      <find>get_book_by_pay_type</find>
+      <find>测试结果集</find>
+      <find>log</find>
+      <find>out</find>
+      <find>rangetype</find>
+      <find>payty</find>
+      <find>json</find>
+      <find>None</find>
+      <find>syntaxHighlight</find>
+      <find>add_BuyShare_activity</find>
+      <find>add_Subtract_activity</find>
+      <find>ips</find>
+      <find>run</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\PycharmProjects\MyPro1</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login/templates/login/send_email.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/lazy_reg.html" />
+        <option value="$PROJECT_DIR$/login/static/login/css/index.css" />
+        <option value="$PROJECT_DIR$/login/models.py" />
+        <option value="$PROJECT_DIR$/db/db.txt" />
+        <option value="$PROJECT_DIR$/login/templates/app/account/Get_Logon_Token.py" />
+        <option value="$PROJECT_DIR$/login/templates/config/config.ini" />
+        <option value="$PROJECT_DIR$/login/templates/admin/anchor/Anchor_Operation.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/delete_case.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/add_cases.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/case_edit.html" />
+        <option value="$PROJECT_DIR$/login/templates/users/Get_UserInfo_By_Token.py" />
+        <option value="$PROJECT_DIR$/login/templates/app/common/Get_Book_By_User.py" />
+        <option value="$PROJECT_DIR$/login/testcases/case_Book_Free_Chapters_For_Purchased_Users_Not.py" />
+        <option value="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Account_Password_Login.py" />
+        <option value="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Phone_Number_Register.py" />
+        <option value="$PROJECT_DIR$/login/testcases/case_all/case_Search_Long_Word.py" />
+        <option value="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Special_Character.py" />
+        <option value="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Null_Word.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/send_code.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/sucess.html" />
+        <option value="$PROJECT_DIR$/login/templates/admin/activities/send_code.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/send_vip.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/vip_expire.html" />
+        <option value="$PROJECT_DIR$/login/templates/config/constant.py" />
+        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/add_share_listenfree.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/activity_init.html" />
+        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/add_buy_share.html" />
+        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityCommon.py" />
+        <option value="$PROJECT_DIR$/login/templates/admin/book/Book_Operation.py" />
+        <option value="$PROJECT_DIR$/login/templates/utils/confutils.py" />
+        <option value="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Normal_Word.py" />
+        <option value="$PROJECT_DIR$/MyPro1/urls.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/index.html" />
+        <option value="$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/add_substract.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/api_test.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/test.html" />
+        <option value="$PROJECT_DIR$/login/templates/login/success.html" />
+        <option value="$PROJECT_DIR$/login/templates/utils/encodeutils.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/cases_detail.html" />
+        <option value="$PROJECT_DIR$/login/templates/utils/getconf.py" />
+        <option value="$PROJECT_DIR$/login/forms.py" />
+        <option value="$PROJECT_DIR$/MyPro1/settings.py" />
+        <option value="$PROJECT_DIR$/login/run/run_test.py" />
+        <option value="$PROJECT_DIR$/login/templates/login/run_test.html" />
+        <option value="$PROJECT_DIR$/login/tests.py" />
+        <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="124" />
+    <option name="y" value="54" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/templates/login" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\MyPro1\login\templates\login" />
+      <recent name="D:\PycharmProjects\MyPro1\login\templates\admin\activities" />
+      <recent name="D:\PycharmProjects\MyPro1\login\static\login\css" />
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
+      <recent name="D:\PycharmProjects\MyPro1\login" />
+      <recent name="D:\PycharmProjects\MyPro1\login\static" />
+      <recent name="D:\PycharmProjects\MyPro1\login\static\login\img" />
+      <recent name="D:\PycharmProjects\MyPro1\login\templates\admin\anchor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.activityDiscountBook">
+    <configuration name="Book_Operation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/book" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/book/Book_Operation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="activityDiscountBook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/activities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="encodeutils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/utils/encodeutils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/run/run_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyPro1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.activityDiscountBook" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.Book_Operation" />
+        <item itemvalue="Python.encodeutils" />
+        <item itemvalue="Python.run_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="" />
+      <created>1571209299075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571209299075</updated>
+      <workItem from="1571209305828" duration="19295000" />
+      <workItem from="1571297079222" duration="172000" />
+      <workItem from="1571968165957" duration="3118000" />
+      <workItem from="1571972269151" duration="613000" />
+      <workItem from="1571993023183" duration="302000" />
+      <workItem from="1571996780887" duration="3557000" />
+      <workItem from="1572226886589" duration="16000" />
+      <workItem from="1572232938376" duration="3038000" />
+      <workItem from="1572243325753" duration="2409000" />
+      <workItem from="1572252947177" duration="734000" />
+      <workItem from="1575359464444" duration="627000" />
+      <workItem from="1577094029454" duration="4548000" />
+      <workItem from="1577152818102" duration="32767000" />
+      <workItem from="1578464619144" duration="27217000" />
+      <workItem from="1578879918785" duration="357000" />
+      <workItem from="1578880663539" duration="53163000" />
+      <workItem from="1579155419016" duration="86174000" />
+      <workItem from="1583115275757" duration="44417000" />
+      <workItem from="1583720406153" duration="628000" />
+      <workItem from="1584091968397" duration="2131000" />
+      <workItem from="1584096032032" duration="14662000" />
+      <workItem from="1584346759753" duration="4589000" />
+      <workItem from="1584413111929" duration="85697000" />
+      <workItem from="1586421924630" duration="474000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 43m 48s.xml">
+      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 44m 18s.xml">
+      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 46m 43s.xml">
+      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 48m 27s.xml">
+      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 53m 57s.xml">
+      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_case_Book_Free_Chapters_For_Purchased_Users_Not_py - 2020.03.06 at 16h 54m 43s.xml">
+      <configuration name="Unittests in case_Book_Free_Chapters_For_Purchased_Users_Not.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_case_Search_Long_Word_Case_Search_Long_Word - 2020.03.06 at 17h 21m 31s.xml">
+      <configuration name="Unittests for case_Search_Long_Word.Case_Search_Long_Word" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="390705000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24593717" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.4637053" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.29392624" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyPro1$getconf.coverage" NAME="getconf Coverage Results" MODIFIED="1577175178579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1584350512979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/MyPro1$email.coverage" NAME="email Coverage Results" MODIFIED="1579336915646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$encodeutils.coverage" NAME="encodeutils Coverage Results" MODIFIED="1585879263916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$Book_Operation.coverage" NAME="Book_Operation Coverage Results" MODIFIED="1585904752420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/book" />
+    <SUITE FILE_PATH="coverage/MyPro1$activityDiscountBook.coverage" NAME="activityDiscountBook Coverage Results" MODIFIED="1586329822129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
+    <SUITE FILE_PATH="coverage/MyPro1$emails.coverage" NAME="emails Coverage Results" MODIFIED="1579398280251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$views.coverage" NAME="views Coverage Results" MODIFIED="1586314032250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/MyPro1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1577094047044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPro1$adminlogin.coverage" NAME="adminlogin Coverage Results" MODIFIED="1579246311902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Book_Free_Chapters_For_Purchased_Users_Not_py.coverage" NAME="Unittests in case_Book_Free_Chapters_For_Purchased_Users_Not.py Coverage Results" MODIFIED="1583484882902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
+    <SUITE FILE_PATH="coverage/MyPro1$run_test__1_.coverage" NAME="run_test (1) Coverage Results" MODIFIED="1579229050393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
+    <SUITE FILE_PATH="coverage/MyPro1$Get_Logon_Token.coverage" NAME="Get_Logon_Token Coverage Results" MODIFIED="1579228593445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/app/account" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Search_Long_Word_Case_Search_Long_Word.coverage" NAME="Unittests for case_Search_Long_Word.Case_Search_Long_Word Coverage Results" MODIFIED="1583486490301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not.coverage" NAME="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not Coverage Results" MODIFIED="1583484836624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
+    <SUITE FILE_PATH="coverage/MyPro1$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1584415630376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
+    <SUITE FILE_PATH="coverage/MyPro1$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1571281823283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/login/templates/login/send_vip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/vip_expire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/cript_detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/activity_init.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/add_buy_share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/utils/dbutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/users/User.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#139#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/test_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/book/Book_Operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="318" selection-start-line="318" selection-end-line="318" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/add_share_listenfree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityCommon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/config/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/api_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/send_code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="54" column="74" selection-start-line="13" selection-start-column="8" selection-end-line="58" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/add_substract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/testcases/case_all/case_Albumn_Can_Not_Appear_Prominent_Position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="161" column="65" lean-forward="true" selection-start-line="161" selection-start-column="65" selection-end-line="161" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/testcases/case_all/Case_Search_Normal_Word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Phone_Number_Register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/cases_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/users/Get_UserInfo_By_Token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Account_Password_Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/config/config_global.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Python/Python37/Lib/site-packages/BeautifulReport/BeautifulReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="381" lean-forward="true" selection-start-line="381" selection-end-line="381" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPro1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/run_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/login/lazy_crypt.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/app/account/Get_Auto_Register_Token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPro1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3560">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/utils/confutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/utils/encodeutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/utils/getconf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/utils/httputils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/account/adminlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/send_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2230">
+          <caret line="166" column="35" lean-forward="true" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/run/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#143#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="284" column="24" selection-start-line="284" selection-start-column="24" selection-end-line="284" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

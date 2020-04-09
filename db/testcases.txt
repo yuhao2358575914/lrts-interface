@@ -1,0 +1,2 @@
+CREATE TABLE `login_testcases` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `case_name_ch` varchar(64) NOT NULL, `case_name_en` varchar(64) NOT NULL, `case_steps` varchar(128) NOT NULL, `script_name` varchar(64) NOT NULL, `create_time` datetime NOT NULL);
+COMMIT;

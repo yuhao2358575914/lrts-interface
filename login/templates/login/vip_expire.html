@@ -1,0 +1,51 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'login/css/send_vip.css' %}" rel="stylesheet"/>
+    <title>VIP过期</title>
+  </head>
+  <body>
+    <div class="container">
+            <div class="col-md-8">
+                <form class="form-vip_expire" action="/vip_expire/" method="post">
+                    {% if vipr_form.captcha.errors %}
+                        <div class="alert alert-warning">{{ vipr_form.captcha.errors}}</div>
+                    {% elif message %}
+                        <div class="alert alert-warning">{{ message }}</div>
+                    {% endif %}
+
+                  {% csrf_token %}
+{#                {{ request.session.user_name }}#}
+                    <h3 class="text-center">VIP过期</h3>
+                    <br><br>
+                    <div class="form-group">
+                      {{ vipr_form.host.label_tag}}
+                      {{ vipr_form.host}}
+                  </div>
+                  <div class="form-group">
+                      {{ vipr_form.user_id.label_tag }}&nbsp;&nbsp;&nbsp;
+                      {{ vipr_form.user_id }}
+                  </div>
+                  <div>
+                      <a href="/index/" class="text-success "><ins>返回首页</ins></a>
+                      <button name="button-vip_expire" type="submit" class="btn btn-dark float-right">过期</button>
+                  </div>
+                </form>
+            </div>
+    </div> <!-- /container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

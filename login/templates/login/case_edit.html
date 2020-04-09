@@ -1,0 +1,43 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+{#      //不缓存#}
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+{#    <link href="{% static 'login/css/add_cases.css' %}" rel="stylesheet"/>#}
+    <title>编辑用例</title>
+  </head>
+  <body>
+    <div class="container">
+            <div class="col-md-8 col-md-offset-1">
+              <h3 class="text-center">编辑</h3>
+                   <div class="col-md-12 col-md-offset-6">
+                    <form action="/case_edit/" method="post">
+                         {% csrf_token %}
+                    <input type="hidden" name="edit_id" value="{{ case_query.id }}">
+                        <p>id:<input type="text" name="edit_id" value="{{ case_query.id }}" class="form-control" readonly="true"></p>
+                        <p>用例名-中文:<input type="text" name="case_name_ch" value="{{ case_query.case_name_ch }}" class="form-control"></p>
+                        <p>用例名-英文:<input type="text" name="case_name_en" value="{{ case_query.case_name_en }}" class="form-control"></p>
+                        <p>用例步骤:<textarea type="text" name="case_steps" class="form-control">{{ case_query.case_steps }}</textarea></p>
+                        <p>脚本名:<input type="text" name="script_name" value="{{ case_query.script_name }}" class="form-control"></p>
+                     <input type="submit" class="btn btn-success">
+                    </form>
+                 </div>
+            </div>
+    </div> <!-- /container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
