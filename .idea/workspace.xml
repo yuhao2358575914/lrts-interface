@@ -2,11 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login/templates/app/common/Folder_Operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Add_Collection_Book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/single/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_new/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_new/assertutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_new/test_start_pro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Add_Follower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Album_Add_Comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_All_Category_Page_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Book_Add_Comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Book_Ranking_List_Page_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Discovery_Listener_Page_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Label_Category_Page_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Listening_Home_Page_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Listening_List_Add_Comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Post_Add_Comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Reading_Book_Add_Comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Reading_Bookstore_Page_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Album.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Reading_Book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/viewas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/viewas/lazy_view/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/viewas/lazy_view/vip_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/viewas/test_view/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyPro1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPro1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPro1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/testcases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/run/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/run/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/config/config_global.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config_global.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/add_share_listenfree.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/add_share_listenfree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/cases_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/cases_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/run_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/run_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/test_report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/confutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/confutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/dbutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/dbutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/httputils.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/httputils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Normal_Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/case_all/case_Search_Normal_Word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Special_Character.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/case_all/case_Search_Special_Character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/case_all/case_Albumn_Can_Not_Appear_Prominent_Position.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/case_all/case_Albumn_Can_Not_Appear_Prominent_Position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Account_Password_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Account_Password_Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Add_Collection_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Add_Collection_Book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Phone_Number_Register.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Phone_Number_Register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,262 +69,57 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="589" column="12" selection-start-line="589" selection-start-column="4" selection-end-line="589" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Add_Collection_Book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/templates/app/common/Folder_Operation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding>
-                <element signature="e#17#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="MyPro1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mailBackend</find>
-      <find>register_form</find>
-      <find>mysite</find>
-      <find>dir</find>
-      <find>TEMPLATES</find>
-      <find>Case_ColorBar_Check</find>
-      <find>recomLabel</find>
-      <find>userExtGet.action</find>
-      <find>vip的兑换值</find>
-      <find>resourceType_book</find>
-      <find>payt</find>
-      <find>get_book_by_pay_type</find>
-      <find>测试结果集</find>
-      <find>log</find>
-      <find>out</find>
-      <find>rangetype</find>
-      <find>payty</find>
-      <find>json</find>
-      <find>None</find>
-      <find>syntaxHighlight</find>
-      <find>add_BuyShare_activity</find>
-      <find>add_Subtract_activity</find>
-      <find>ips</find>
-      <find>run</find>
-      <find>init_env</find>
-    </findStrings>
-    <dirStrings>
-      <dir>D:\PycharmProjects\MyPro1</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/login/static/login/css/index.css" />
-        <option value="$PROJECT_DIR$/login/models.py" />
-        <option value="$PROJECT_DIR$/db/db.txt" />
-        <option value="$PROJECT_DIR$/login/templates/app/account/Get_Logon_Token.py" />
-        <option value="$PROJECT_DIR$/login/templates/config/config.ini" />
-        <option value="$PROJECT_DIR$/login/templates/admin/anchor/Anchor_Operation.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/delete_case.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/add_cases.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/case_edit.html" />
-        <option value="$PROJECT_DIR$/login/templates/users/Get_UserInfo_By_Token.py" />
-        <option value="$PROJECT_DIR$/login/templates/app/common/Get_Book_By_User.py" />
-        <option value="$PROJECT_DIR$/login/testcases/case_Book_Free_Chapters_For_Purchased_Users_Not.py" />
-        <option value="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Account_Password_Login.py" />
-        <option value="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Phone_Number_Register.py" />
-        <option value="$PROJECT_DIR$/login/testcases/case_all/case_Search_Long_Word.py" />
-        <option value="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Special_Character.py" />
-        <option value="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Null_Word.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/send_code.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/sucess.html" />
-        <option value="$PROJECT_DIR$/login/templates/admin/activities/send_code.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/send_vip.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/vip_expire.html" />
-        <option value="$PROJECT_DIR$/login/templates/config/constant.py" />
-        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/add_share_listenfree.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/activity_init.html" />
-        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/add_buy_share.html" />
-        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityCommon.py" />
-        <option value="$PROJECT_DIR$/login/templates/admin/book/Book_Operation.py" />
-        <option value="$PROJECT_DIR$/login/templates/utils/confutils.py" />
-        <option value="$PROJECT_DIR$/login/testcases/case_all/Case_Search_Normal_Word.py" />
-        <option value="$PROJECT_DIR$/MyPro1/urls.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/index.html" />
-        <option value="$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/add_substract.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/api_test.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/test.html" />
-        <option value="$PROJECT_DIR$/login/templates/login/success.html" />
-        <option value="$PROJECT_DIR$/login/templates/utils/encodeutils.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/cases_detail.html" />
-        <option value="$PROJECT_DIR$/login/templates/utils/getconf.py" />
-        <option value="$PROJECT_DIR$/login/forms.py" />
-        <option value="$PROJECT_DIR$/MyPro1/settings.py" />
-        <option value="$PROJECT_DIR$/login/run/run_test.py" />
-        <option value="$PROJECT_DIR$/login/templates/login/run_test.html" />
-        <option value="$PROJECT_DIR$/login/tests.py" />
-        <option value="$PROJECT_DIR$/login/views.py" />
-        <option value="$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py" />
-        <option value="$PROJECT_DIR$/login/templates/app/common/Folder_Operation.py" />
-        <option value="$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Add_Collection_Book.py" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1aTlPh4OlMtceTi7vgoPQgqJPM1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="124" />
-    <option name="y" value="54" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="case_all" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="cases_ns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-              <item name="MyPro1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/templates/app/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/testcases/cases_ns" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
-      <recent name="D:\PycharmProjects\MyPro1\login" />
-      <recent name="D:\PycharmProjects\MyPro1\login\static" />
-      <recent name="D:\PycharmProjects\MyPro1\login\static\login\img" />
-      <recent name="D:\PycharmProjects\MyPro1\login\templates\admin\anchor" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\MyPro1\login\templates\app\common" />
       <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns" />
+      <recent name="D:\PycharmProjects\MyPro1\login\templates\app\common" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\admin\activities" />
       <recent name="D:\PycharmProjects\MyPro1\login\static\login\css" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\MyPro1\login\viewas\test_view" />
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
+      <recent name="D:\PycharmProjects\MyPro1\login" />
+      <recent name="D:\PycharmProjects\MyPro1\login\static" />
+      <recent name="D:\PycharmProjects\MyPro1\login\static\login\img" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.Unittests in Case_Necessary_Add_Collection_Book.py">
-    <configuration name="Book_Operation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for case_Albumn_Can_Not_Appear_Prominent_Position.case_Albumn_Can_Not_Appear_Prominent_Position.test_Albumn_Can_Not_Appear_Prominent_Position">
+    <configuration name="Get_Logon_Token" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,12 +127,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/book" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/app/account" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/book/Book_Operation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/app/account/Get_Logon_Token.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="activityDiscountBook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_start_pro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,56 +149,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/activities" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/testcases/case_new" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="encodeutils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPro1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/utils/encodeutils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPro1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/testcases/case_new/test_start_pro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -381,7 +186,22 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in Case_Necessary_Add_Collection_Book.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for case_Albumn_Can_Not_Appear_Prominent_Position.case_Albumn_Can_Not_Appear_Prominent_Position.test_Albumn_Can_Not_Appear_Prominent_Position" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/testcases/case_all" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;case_Albumn_Can_Not_Appear_Prominent_Position.case_Albumn_Can_Not_Appear_Prominent_Position.test_Albumn_Can_Not_Appear_Prominent_Position&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_search_normal_word" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,17 +212,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Add_Collection_Book.py&quot;" />
+      <option name="_new_target" value="&quot;case_Necessary_Search_Book.case_Necessary_Search_Book.test_search_normal_word&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in case_Necessary_Search_Reading_Book.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/testcases/cases_ns" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Reading_Book.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in Case_Necessary_Add_Collection_Book.py" />
-        <item itemvalue="Python.activityDiscountBook" />
-        <item itemvalue="Python.views" />
-        <item itemvalue="Python.Book_Operation" />
-        <item itemvalue="Python.encodeutils" />
+        <item itemvalue="Python tests.Unittests for case_Albumn_Can_Not_Appear_Prominent_Position.case_Albumn_Can_Not_Appear_Prominent_Position.test_Albumn_Can_Not_Appear_Prominent_Position" />
+        <item itemvalue="Python tests.Unittests in case_Necessary_Search_Reading_Book.py" />
+        <item itemvalue="Python.test_start_pro" />
+        <item itemvalue="Python.Get_Logon_Token" />
+        <item itemvalue="Python tests.Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_search_normal_word" />
       </list>
     </recent_temporary>
   </component>
@@ -439,518 +274,110 @@
       <workItem from="1584096032032" duration="14662000" />
       <workItem from="1584346759753" duration="4589000" />
       <workItem from="1584413111929" duration="85697000" />
-      <workItem from="1586421924630" duration="5870000" />
+      <workItem from="1586421924630" duration="27186000" />
+      <workItem from="1586749226306" duration="154000" />
+      <workItem from="1586752419284" duration="238000" />
+      <workItem from="1586752683819" duration="533000" />
+      <workItem from="1586762415517" duration="98000" />
+      <workItem from="1586762561637" duration="55000" />
+      <workItem from="1586762642333" duration="73000" />
+      <workItem from="1586767446018" duration="1045000" />
+      <workItem from="1586768762392" duration="5003000" />
+      <workItem from="1586830898295" duration="10709000" />
+      <workItem from="1586851110497" duration="23834000" />
+      <workItem from="1587106297434" duration="8322000" />
+      <workItem from="1587463656040" duration="30377000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 43m 48s.xml">
-      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 44m 18s.xml">
-      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 46m 43s.xml">
-      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 48m 27s.xml">
-      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not - 2020.03.06 at 16h 53m 57s.xml">
-      <configuration name="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_case_Book_Free_Chapters_For_Purchased_Users_Not_py - 2020.03.06 at 16h 54m 43s.xml">
-      <configuration name="Unittests in case_Book_Free_Chapters_For_Purchased_Users_Not.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_case_Search_Long_Word_Case_Search_Long_Word - 2020.03.06 at 17h 21m 31s.xml">
-      <configuration name="Unittests for case_Search_Long_Word.Case_Search_Long_Word" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Case_Necessary_Add_Collection_Book_py - 2020.04.10 at 10h 13m 00s.xml">
-      <configuration name="Unittests in Case_Necessary_Add_Collection_Book.py" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396101000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5672451" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.4637053" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.29392624" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPro1$getconf.coverage" NAME="getconf Coverage Results" MODIFIED="1577175178579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
-    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1584350512979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
-    <SUITE FILE_PATH="coverage/MyPro1$email.coverage" NAME="email Coverage Results" MODIFIED="1579336915646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
-    <SUITE FILE_PATH="coverage/MyPro1$encodeutils.coverage" NAME="encodeutils Coverage Results" MODIFIED="1585879263916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_Case_Necessary_Add_Collection_Book_py.coverage" NAME="Unittests in Case_Necessary_Add_Collection_Book.py Coverage Results" MODIFIED="1586484775936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Book_Operation.coverage" NAME="Book_Operation Coverage Results" MODIFIED="1585904752420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/book" />
-    <SUITE FILE_PATH="coverage/MyPro1$activityDiscountBook.coverage" NAME="activityDiscountBook Coverage Results" MODIFIED="1586329822129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
-    <SUITE FILE_PATH="coverage/MyPro1$emails.coverage" NAME="emails Coverage Results" MODIFIED="1579398280251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
-    <SUITE FILE_PATH="coverage/MyPro1$views.coverage" NAME="views Coverage Results" MODIFIED="1586314032250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
-    <SUITE FILE_PATH="coverage/MyPro1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1577094047044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MyPro1$adminlogin.coverage" NAME="adminlogin Coverage Results" MODIFIED="1579246311902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Book_Free_Chapters_For_Purchased_Users_Not_py.coverage" NAME="Unittests in case_Book_Free_Chapters_For_Purchased_Users_Not.py Coverage Results" MODIFIED="1583484882902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
-    <SUITE FILE_PATH="coverage/MyPro1$run_test__1_.coverage" NAME="run_test (1) Coverage Results" MODIFIED="1579229050393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
-    <SUITE FILE_PATH="coverage/MyPro1$Get_Logon_Token.coverage" NAME="Get_Logon_Token Coverage Results" MODIFIED="1579228593445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/app/account" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Search_Long_Word_Case_Search_Long_Word.coverage" NAME="Unittests for case_Search_Long_Word.Case_Search_Long_Word Coverage Results" MODIFIED="1583486490301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not.coverage" NAME="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not Coverage Results" MODIFIED="1583484836624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
-    <SUITE FILE_PATH="coverage/MyPro1$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1584415630376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
-    <SUITE FILE_PATH="coverage/MyPro1$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1571281823283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586769368402">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586769368402" />
+    <state width="1877" height="495" key="GridCell.Tab.0.bottom" timestamp="1587724012903">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="495" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587724012903" />
+    <state width="1877" height="495" key="GridCell.Tab.0.center" timestamp="1587724012900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="495" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587724012900" />
+    <state width="1877" height="495" key="GridCell.Tab.0.left" timestamp="1587724012900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="495" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587724012899" />
+    <state width="1877" height="495" key="GridCell.Tab.0.right" timestamp="1587724012901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="495" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587724012901" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586769548508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586769548508" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587106298372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587106298372" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login/templates/login/activity_init.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/add_buy_share.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/utils/dbutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/users/User.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#139#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/test_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/book/Book_Operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="318" selection-start-line="318" selection-end-line="318" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/add_share_listenfree.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityCommon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/config/constant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/api_test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/send_code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="54" column="74" selection-start-line="13" selection-start-column="8" selection-end-line="58" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/add_substract.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/testcases/case_all/case_Albumn_Can_Not_Appear_Prominent_Position.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="161" column="65" lean-forward="true" selection-start-line="161" selection-start-column="65" selection-end-line="161" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/testcases/case_all/Case_Search_Normal_Word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Phone_Number_Register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/cases_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/users/Get_UserInfo_By_Token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Account_Password_Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/config/config_global.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Programs/Python/Python37/Lib/site-packages/BeautifulReport/BeautifulReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="381" lean-forward="true" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyPro1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-          <folding>
-            <element signature="e#307#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/run_test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/lazy_crypt.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/app/account/Get_Auto_Register_Token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyPro1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3560">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/account/adminlogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/send_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2230">
-          <caret line="166" column="35" lean-forward="true" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="85" column="58" lean-forward="true" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="83" column="33" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/admin/activities/activityDiscountBook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/utils/confutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/utils/encodeutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/utils/getconf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/utils/httputils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/run/run_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#143#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.ssh/private_rsa.pub">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="589" column="12" selection-start-line="589" selection-start-column="4" selection-end-line="589" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/app/common/Folder_Operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="e#17#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/testcases/cases_ns/Case_Necessary_Add_Collection_Book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Ranking_List_Page_Check_Case_Necessary_Book_Ranking_List_Page_Check_test_Book_Ranking_List_Page_Check.coverage" NAME="Unittests for case_Necessary_Book_Ranking_List_Page_Check.Case_Necessary_Book_Ranking_List_Page_Check.test_Book_Ranking_List_Page_Check Coverage Results" MODIFIED="1586834650131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Label_Category_Page_Check_Case_Necessary_Label_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_Label_Category_Page_Check.Case_Necessary_Label_Category_Page_Check Coverage Results" MODIFIED="1586845084620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_case_Necessary_Search_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_search_normal_word Coverage Results" MODIFIED="1587634272715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Add_Comments_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Book_Add_Comments.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586502976616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1584415630376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
+    <SUITE FILE_PATH="coverage/MyPro1$run_test__1_.coverage" NAME="run_test (1) Coverage Results" MODIFIED="1579229050393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_Case_Search_Normal_Word_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Book.Case_Search_Normal_Word.test_search_normal_word Coverage Results" MODIFIED="1586502274844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_All_Category_Page_Check_Case_Necessary_All_Category_Page_Check_test_All_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_All_Category_Page_Check.Case_Necessary_All_Category_Page_Check.test_All_Category_Page_Check Coverage Results" MODIFIED="1586836173118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_Home_Page_Check_Case_Necessary_Listening_Home_Page_Check.coverage" NAME="Unittests for case_Necessary_Listening_Home_Page_Check.Case_Necessary_Listening_Home_Page_Check Coverage Results" MODIFIED="1586832922512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word_test_search_normal_word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word.test_search_normal_word Coverage Results" MODIFIED="1586501638740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Discovery_Listener_Page_Check_Case_Necessary_Discovery_Listener_Page_Check_test_Discovery_Listener_Page_Check.coverage" NAME="Unittests for case_Necessary_Discovery_Listener_Page_Check.Case_Necessary_Discovery_Listener_Page_Check.test_Discovery_Listener_Page_Check Coverage Results" MODIFIED="1586835430576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586772376166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501534143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$encodeutils.coverage" NAME="encodeutils Coverage Results" MODIFIED="1585879263916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Search_Long_Word_Case_Search_Long_Word.coverage" NAME="Unittests for case_Search_Long_Word.Case_Search_Long_Word Coverage Results" MODIFIED="1583486490301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
+    <SUITE FILE_PATH="coverage/MyPro1$getconf.coverage" NAME="getconf Coverage Results" MODIFIED="1577175178579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$adminlogin.coverage" NAME="adminlogin Coverage Results" MODIFIED="1579246311902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not.coverage" NAME="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not Coverage Results" MODIFIED="1583484836624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Label_Category_Page_Check_Case_Necessary_Label_Category_Page_Check_test_Label_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_Label_Category_Page_Check.Case_Necessary_Label_Category_Page_Check.test_Label_Category_Page_Check Coverage Results" MODIFIED="1586845176528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_List_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Listening_List_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586505589661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_case_Necessary_Search_Book.coverage" NAME="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book Coverage Results" MODIFIED="1587622962740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Get_Logon_Token.coverage" NAME="Get_Logon_Token Coverage Results" MODIFIED="1587696814452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/app/account" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_case_Necessary_Search_Reading_Book.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.case_Necessary_Search_Reading_Book Coverage Results" MODIFIED="1586852963976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Bookstore_Page_Check_Case_Necessary_Reading_Bookstore_Page_Check_test_Reading_Bookstore_Page_Check.coverage" NAME="Unittests for case_Necessary_Reading_Bookstore_Page_Check.Case_Necessary_Reading_Bookstore_Page_Check.test_Reading_Bookstore_Page_Check Coverage Results" MODIFIED="1587613056398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_All_Category_Page_Check_Case_Necessary_All_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_All_Category_Page_Check.Case_Necessary_All_Category_Page_Check Coverage Results" MODIFIED="1586836631145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_Case_Search_Normal_Word.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501958649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Reading_Book_py.coverage" NAME="Unittests in case_Necessary_Search_Reading_Book.py Coverage Results" MODIFIED="1587717857845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1586939333214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Book_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Reading_Book_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586504990093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_Home_Page_Check_Case_Necessary_Listening_Home_Page_Check_test_Necessary_Listening_Home_Page_Check.coverage" NAME="Unittests for case_Necessary_Listening_Home_Page_Check.Case_Necessary_Listening_Home_Page_Check.test_Necessary_Listening_Home_Page_Check Coverage Results" MODIFIED="1586832823366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Book_Add_Comments_py.coverage" NAME="Unittests in case_Necessary_Book_Add_Comments.py Coverage Results" MODIFIED="1586502988468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Post_Add_Comments_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Post_Add_Comments.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586504074788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Follower_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Add_Follower.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586773674615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Book_py.coverage" NAME="Unittests in case_Necessary_Search_Book.py Coverage Results" MODIFIED="1587614174447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$emails.coverage" NAME="emails Coverage Results" MODIFIED="1579398280251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1586851073708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPro1$Book_Operation.coverage" NAME="Book_Operation Coverage Results" MODIFIED="1585904752420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/book" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Add_Collection_Book_py.coverage" NAME="Unittests in case_Necessary_Add_Collection_Book.py Coverage Results" MODIFIED="1586852874050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Album_Case_Search_Normal_Word.coverage" NAME="Unittests for case_Necessary_Search_Album.Case_Search_Normal_Word Coverage Results" MODIFIED="1586852924323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Post_Add_Comments_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Post_Add_Comments.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586504129796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Bookstore_Page_Check_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Reading_Bookstore_Page_Check.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586832309060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$email.coverage" NAME="email Coverage Results" MODIFIED="1579336915646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_Case_Necessary_Add_Collection_Book_py.coverage" NAME="Unittests in Case_Necessary_Add_Collection_Book.py Coverage Results" MODIFIED="1586484775936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Book_Free_Chapters_For_Purchased_Users_Not_py.coverage" NAME="Unittests in case_Book_Free_Chapters_For_Purchased_Users_Not.py Coverage Results" MODIFIED="1583484882902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
+    <SUITE FILE_PATH="coverage/MyPro1$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1571281823283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPro1$activityDiscountBook.coverage" NAME="activityDiscountBook Coverage Results" MODIFIED="1586329822129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Ranking_List_Page_Check_Case_Necessary_Book_Ranking_List_Page_Check.coverage" NAME="Unittests for case_Necessary_Book_Ranking_List_Page_Check.Case_Necessary_Book_Ranking_List_Page_Check Coverage Results" MODIFIED="1586835096695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Album_Add_Comments_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Album_Add_Comments.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586503200980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Collection_Book_Case_Necessary_Add_Collection_Book_test_case_necessary_add_collection_book.coverage" NAME="Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book.test_case_necessary_add_collection_book Coverage Results" MODIFIED="1586852848543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$test_start_pro.coverage" NAME="test_start_pro Coverage Results" MODIFIED="1587698957120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_new" />
+    <SUITE FILE_PATH="coverage/MyPro1$views.coverage" NAME="views Coverage Results" MODIFIED="1586314032250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Group_Add_TextPost_py.coverage" NAME="Unittests in case_Necessary_Group_Add_TextPost.py Coverage Results" MODIFIED="1586770965822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_All_Category_Page_Check_py.coverage" NAME="Unittests in case_Necessary_All_Category_Page_Check.py Coverage Results" MODIFIED="1586844473243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586772121787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Albumn_Can_Not_Appear_Prominent_Position_case_Albumn_Can_Not_Appear_Prominent_Position_test_Albumn_Can_Not_Appear_Prominent_Position.coverage" NAME="Unittests for case_Albumn_Can_Not_Appear_Prominent_Position.case_Albumn_Can_Not_Appear_Prominent_Position.test_Albumn_Can_Not_Appear_Prominent_Position Coverage Results" MODIFIED="1587724012880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
   </component>
 </project>

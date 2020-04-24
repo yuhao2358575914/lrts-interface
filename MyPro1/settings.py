@@ -86,6 +86,7 @@ pymysql.install_as_MySQLdb()
 #         'PORT': '3306',
 #     }
 # }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',

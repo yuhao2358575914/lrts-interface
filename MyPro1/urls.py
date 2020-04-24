@@ -1,13 +1,13 @@
 """MyPro1 URL Configuration
 
-The `urlpatterns` list routes URLs to views. For more information please see:
+The `urlpatterns` list routes URLs to viewas. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
 Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
+Function viewas
+    1. Add an import:  from my_app import viewas
+    2. Add a URL to urlpatterns:  path('', viewas.home, name='home')
+Class-based viewas
+    1. Add an import:  from other_app.viewas import Home
     2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from login import views
+from login.viewas.lazy_view import activitys_view
+from login.viewas.lazy_view import vip_view
+from login.viewas.test_view import autotest_view
+from login.viewas.test_view import cases_views
+
 from django.urls import include
 
 urlpatterns = [
@@ -26,26 +31,28 @@ urlpatterns = [
     path('login/', views.login),
     path('register/', views.register),
     path('logout/', views.logout),
-    path('api_test/', views.api_test),
-    path('send_code/', views.send_code),
+    path('add_cases/', cases_views.add_cases),
+    path('cases_detail/', cases_views.cases_detail),
+    path('search_case/', cases_views.search_case),
+    path('delete_case/', cases_views.delete_case),
+    path('case_edit/', cases_views.case_edit),
+    path('api_test/', autotest_view.api_test),
+    path('run_test/', autotest_view.run_test),
+    path('test_report/', autotest_view.test_report),
+    path('test_report_single/', autotest_view.test_report_single),
+    path('send_email/', autotest_view.send_email),
+    path('run_case/', autotest_view.run_case),
+    path('send_vip/', vip_view.send_vip),
+    path('vip_expire/', vip_view.vip_expire),
+    path('send_code/', vip_view.send_code),
+    path('add_buy_share/', activitys_view.add_buy_share),
+    path('add_ShareListen_free/', activitys_view.add_ShareListen_free),
+    path('add_Subtracts_activity/', activitys_view.add_Subtracts_activity),
+    path('activity_list/', activitys_view.activity_list),
     path('lazy_reg/', views.lazy_reg),
     path('get_config/', views.get_config),
-    # path('crypt_utils/',views.crypt_utils),
+    # path('crypt_utils/',viewas.crypt_utils),
     path('error/', views.error),
-    path('test_report/', views.test_report),
-    path('run_test/', views.run_test),
     path('get_ips/', views.get_ips),
-    path('send_email/', views.send_email),
-    path('add_cases/', views.add_cases),
-    path('cases_detail/', views.cases_detail),
-    path('delete_case/', views.delete_case),
-    path('run_case/', views.run_case),
-    path('case_edit/', views.case_edit),
-    path('send_vip/', views.send_vip),
-    path('vip_expire/', views.vip_expire),
-    path('add_buy_share/', views.add_buy_share),
-    path('add_ShareListen_free/', views.add_ShareListen_free),
-    path('add_Subtracts_activity/', views.add_Subtracts_activity),
-    path('activity_list/', views.activity_list),
     path('captcha/', include('captcha.urls'))
 ]

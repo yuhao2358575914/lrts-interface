@@ -68,10 +68,10 @@ def init_configs(host_name):
         write_config_ini('mysql', 'username', 'readonly')
         write_config_ini('mysql', 'password', 'X7sMx68IOLNCk%)d#DZ!-=4E')
     elif 'moon' in host_name:
-        write_config_ini('mysql', 'host', '172.16.6.2')
+        write_config_ini('mysql', 'host', '172.16.7.2')
         write_config_ini('mysql', 'port', '3306')
-        write_config_ini('mysql', 'username', 'readonly')
-        write_config_ini('mysql', 'password', 'X7sMx68IOLNCk%)d#DZ!-=4E')
+        write_config_ini('mysql', 'username', 'lazyaudio')
+        write_config_ini('mysql', 'password', 'q(nQ5_0xeYNriZaUSBvgP)@E')
     elif 'mars' in host_name:
         write_config_ini('mysql', 'host', '172.16.6.2')
         write_config_ini('mysql', 'port', '3306')

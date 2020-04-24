@@ -1,4 +1,5 @@
 import json
+import time
 
 from login.templates.admin.account.adminlogin import login_admin
 from login.templates.admin.activities.activityDiscountBook import add_resources_activity
@@ -37,7 +38,9 @@ def activity_sharelisten_add():
                             confutils.getcurrentPath('shareFree_edit'))
     print(r.text)
     if json.loads(r.text)['status'] == 0:
+        time.sleep(1)
         res = dbutil.select('SELECT id FROM `t_activity` WHERE title= "%s"' % title_share, 'db_audiobook')
+        print('查询结果', res)
         return str(res[0].get('id'))
     else:
         return json.loads(r.text)['msg']
@@ -81,7 +84,7 @@ def activity_ShareListen_Edit_online(activityId):
         return json.loads(r.text)['msg']
 
 
-def add_ShareListen_free_activity(entityIds):
+def add_ShareListen_free_activity(book_ids, albumn_ids):
     """
     全流程生成可用分享免费听活动
      其中entityIds可以根据Book_Operation.py下的get_book_by_pay_type方法获取
@@ -92,6 +95,7 @@ def add_ShareListen_free_activity(entityIds):
     # 将该活动上线
     activity_ShareListen_Edit_online(activityId)
     # 添加书籍资源
-    add_resources_activity(activityId, entityIds, constant.resourceType_book)
+    add_resources_activity(activityId, book_ids, constant.resourceType_book)
     # 添加节目资源
-    add_resources_activity(activityId, entityIds, constant.resourceType_albumn)
+    add_resources_activity(activityId, albumn_ids, constant.resourceType_albumn)
+    return activityId

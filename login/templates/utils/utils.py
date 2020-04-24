@@ -12,7 +12,6 @@ import time
 
 from datetime import timedelta
 
-
 # 读取配置文件下sc安全码，分ios和安卓
 from login.templates.utils import getconf
 
@@ -209,9 +208,14 @@ def get_local_time_second(n=0):
     return (datetime.datetime.now() + datetime.timedelta(seconds=n)).strftime("%Y-%m-%d %H:%M:%S")
 
 
+def get_local_time_second_new(n=0):
+    '''获取当前时间/当前时间往后延N秒的时间'''
+    return str((datetime.datetime.now() + datetime.timedelta(seconds=n)).strftime("%Y%m%d%H%M%S"))
+
+
 def get_local_time_str():
     '''获取当前时间的时间戳精确到毫秒'''
-    return str(int(round(time.time()*1000)))
+    return str(int(round(time.time() * 1000)))
 
 
 def del_dict_key_value_by_list(dict_data, keylist):
@@ -239,7 +243,7 @@ def dec_To_Bin(num):
     oss = ''
     if len(sts) < 8:
         for i in range(8 - len(sts)):
-            oss = '0'+oss
+            oss = '0' + oss
         bins = oss + sts
         return bins[::-1]
     else:

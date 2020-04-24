@@ -11,16 +11,16 @@ class UserForm(forms.Form):
 
 
 class RegisterForm(forms.Form):
-    gender = (
-        ('male', "男"),
-        ('female', "女"),
+    p_type = (
+        ('1', "管理员"),
+        ('2', "普通用户"),
     )
     username = forms.CharField(label="用户名", max_length=128, widget=forms.TextInput(attrs={'class': 'form-control'}))
     password1 = forms.CharField(label="密码", max_length=256, widget=forms.PasswordInput(attrs={'class': 'form-control'}))
     password2 = forms.CharField(label="确认密码", max_length=256,
                                 widget=forms.PasswordInput(attrs={'class': 'form-control'}))
     email = forms.EmailField(label="邮箱地址", widget=forms.EmailInput(attrs={'class': 'form-control'}))
-    sex = forms.ChoiceField(label="性别", choices=gender)
+    role = forms.ChoiceField(label="角色", choices=p_type)
     # captcha = CaptchaField(label='验证码', required=True, error_messages={'required': '验证码不能为空'})
 
 
@@ -91,12 +91,18 @@ class ReportUtils(forms.Form):
         ('Nec', '必测用例'),
     )
     host_name = (
-        ('1', '地球'),
-        ('2', '月亮'),
-        ('3', '火星'),
+        ('4', '地球'),
+        ('3', '月亮'),
+        ('5', '火星'),
     )
-    host = forms.ChoiceField(label="测试环境", choices=host_name)
+    api_choice=(
+        ('yyting-api','yyting-api'),
+    )
+    envId = forms.ChoiceField(label="测试环境", choices=host_name)
     test_type = forms.ChoiceField(label='自动化用例执行类型', choices=test_choice)
+    project = forms.ChoiceField(label="Api类型", choices=api_choice,
+                                 widget=forms.RadioSelect(attrs={'required': 'required',
+                                                                 'class': 'radioset'}))
 
 
 class SendEmails(forms.Form):
@@ -139,6 +145,7 @@ class SendVip(forms.Form):
 class VipExpire(forms.Form):
     host_name = (
         ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
     )
     host = forms.ChoiceField(label="测试环境", choices=host_name)
     user_id = forms.CharField(label="用户ID", max_length=64,
@@ -148,6 +155,7 @@ class VipExpire(forms.Form):
 class BuyShare(forms.Form):
     host_name = (
         ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
     )
     host = forms.ChoiceField(label="测试环境", choices=host_name)
     book_num = forms.CharField(label="书籍本数", max_length=64,
@@ -162,6 +170,7 @@ class ShareFree(forms.Form):
     """
     host_name = (
         ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
     )
     host = forms.ChoiceField(label="测试环境", choices=host_name)
     book_num = forms.CharField(label="书籍本数", max_length=64,
@@ -173,6 +182,7 @@ class ShareFree(forms.Form):
 class SubtractActivity(forms.Form):
     host_name = (
         ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
     )
     host = forms.ChoiceField(label="测试环境", choices=host_name)
     sub_choice = (

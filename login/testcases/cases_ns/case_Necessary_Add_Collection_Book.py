@@ -2,11 +2,12 @@ import time
 import unittest
 import json
 
+from login.templates.admin.book.Book_Operation import get_book_by_pay_type
 from login.templates.app.account.Get_Logon_Token import get_app_login_token
 from login.templates.app.common.Folder_Operation import add_new_folder, delete_folder
 from login.templates.users.Get_UserInfo_By_Token import get_userid_by_token
 from login.templates.utils import getconf, httputils
-from login.templates.utils.utils import get_json_value_by_key
+from login.templates.utils.utils import get_json_value_by_key, ranstr
 
 """
 收藏书籍
@@ -25,8 +26,8 @@ class Case_Necessary_Add_Collection_Book(unittest.TestCase):
     def test_case_necessary_add_collection_book(self):
         """收藏书籍"""
         token = get_app_login_token()  # 获取token
-        folderID = add_new_folder(token, '我喜欢的是11')  # 添加听单的ID
-        resource_ID = '30234'  # 书籍ID
+        folderID = add_new_folder(token, ranstr(4))  # 添加听单的ID
+        resource_ID = get_book_by_pay_type(1,1)  # 书籍ID
         create_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))  # 当前时间
         # 设置参数
         self.params['token'] = token

@@ -8,16 +8,26 @@ import os
 import unittest
 from BeautifulReport import BeautifulReport
 
+from login.templates.utils.utils import get_local_time_second_new
 
-def run_test_bf_old(patterns):
+
+def run_test_bf_old(patterns,exec_type='batch'):
     path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     suite_tests = unittest.defaultTestLoader.discover(path + "/testcases",
                                                       pattern=patterns,
                                                       top_level_dir=path)  # "./cases"表示当前目录，"case*.py"匹配当前目录下所有tests.py结尾的用例
-    BeautifulReport(suite_tests).report(filename='test_report',
-                                        description='懒人听书接口测试',
-                                        report_dir=path + '/templates/login')  # log_path='.'把report放到当前目录下
-
+    if exec_type=='batch':
+        file_name = 'test_report' + get_local_time_second_new()
+        BeautifulReport(suite_tests).report(filename=file_name,
+                                            description='懒人听书接口测试',
+                                            report_dir=path + '/templates/login/reports')  # log_path='.'把report放到当前目录下
+        return file_name
+    else:
+        file_name = 'test_report'+exec_type+'_'+get_local_time_second_new()
+        BeautifulReport(suite_tests).report(filename=file_name,
+                                            description='懒人听书接口测试',
+                                            report_dir=path + '/templates/login/reports/single')  # log_path='.'把report放到当前目录下
+        return file_name
 
 def run_test_bf(patterns):
     path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,7 +42,7 @@ def reporter(suite_tests):
     BeautifulReport(suite_tests).report(filename='test_report',
                                         description='懒人听书接口测试',
                                         report_dir=path + '/templates/login')  # log_path='.'把report放到当前目录下
-# list1 = ['Case_Search_Normal_Word.py', 'case_Book_Free_Chapters_For_Purchased_Users_Not.py','Case_Search_Special_Character.py']
+# list1 = ['case_Search_Normal_Word.py', 'case_Book_Free_Chapters_For_Purchased_Users_Not.py','case_Search_Special_Character.py']
 # suite = unittest.TestSuite()
 # for i in list1:
 #     suite_tests=run_test_bf(i)

@@ -2,15 +2,15 @@ from django.db import models
 
 
 class User(models.Model):
-    gender = (
-        ('male', "男"),
-        ('female', "女"),
+    p_type = (
+        ('1', "管理员"),
+        ('2', "普通用户"),
     )
 
     name = models.CharField(max_length=128, unique=True)
     password = models.CharField(max_length=256)
     email = models.EmailField(unique=True)
-    sex = models.CharField(max_length=32, choices=gender, default="男")
+    role = models.CharField(max_length=32, choices=p_type, default="2")
     c_time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -72,3 +72,37 @@ class TestCases(models.Model):
     case_steps = models.CharField(max_length=128)
     script_name = models.CharField(max_length=64)
     create_time = models.DateTimeField(auto_now_add=True)
+
+
+class Report_Results(models.Model):
+    type = (
+        ('All', "全量用例"),
+        ('Nec', "必测用例"),
+        ('Single', "单条用例")
+    )
+    style = (
+        ('1', '批量执行'),
+        ('2', '单条执行'),
+    )
+    reporter_name = models.CharField(max_length=164)
+    reporter_type = models.CharField(max_length=32, choices=type, default="全量用例")
+    create_user = models.CharField(max_length=64)
+    create_time = models.DateTimeField(auto_now_add=True)
+    report_style = models.CharField(max_length=8, choices=style, default="1")
+
+    class Meta:
+        verbose_name = "测试报告"
+        verbose_name_plural = "测试报告"
+
+
+class AutoTest_Results(models.Model):
+    script_name = models.CharField(max_length=164)
+    test_response = models.CharField(max_length=2048)
+    test_result = models.CharField(max_length=8)
+    create_time = models.DateTimeField(auto_now_add=True)
+    update_time = models.DateTimeField()
+    tester = models.CharField(max_length=64)
+
+    class Meta:
+        verbose_name = "测试结果"
+        verbose_name_plural = "测试结果"

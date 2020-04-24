@@ -118,7 +118,7 @@ html,body{
                         手机号注册
                         </a>
                     </li>
-                    <li class="active glyphicon glyphicon-tags">
+                    <li class="active glyphicon glyphicon-lock">
                         <a href="/vip_expire/">
                             VIP过期
                         </a>
@@ -130,21 +130,24 @@ html,body{
                 <a href="#" data-toggle="collapse" data-target="#list"><strong>测试报告</strong></a>
                 <!-- 隐藏的详细菜单 -->
                 <ul id="list" class="collapse in">
+{#                    {% if request.session.user_name == 'admin' %}#}
                     <li class="active glyphicon glyphicon-book">
-                        <a href="/run_test/">
-                            测试报告生成
-                        </a>
+                             <a href="/run_test/">
+                            自动化用例执行</a>
                     </li>
+{#                    {% endif %}#}
                     <li class="active glyphicon glyphicon-tags">
                         <a href="/test_report/">
                             测试报告详情
                         </a>
                     </li>
+{#                    {% if request.session.user_name == 'admin' %}#}
                     <li class="active glyphicon glyphicon-copyright-mark">
                         <a href="/send_email/">
                             邮件通知
                         </a>
                     </li>
+{#                     {% endif %}#}
                     <br>
                 </ul>
             </li>
