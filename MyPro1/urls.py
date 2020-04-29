@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from login import views
 from login.viewas.lazy_view import activitys_view
-from login.viewas.lazy_view import vip_view
+from login.viewas.lazy_view import user_view
 from login.viewas.test_view import autotest_view
 from login.viewas.test_view import cases_views
 
@@ -42,9 +42,10 @@ urlpatterns = [
     path('test_report_single/', autotest_view.test_report_single),
     path('send_email/', autotest_view.send_email),
     path('run_case/', autotest_view.run_case),
-    path('send_vip/', vip_view.send_vip),
-    path('vip_expire/', vip_view.vip_expire),
-    path('send_code/', vip_view.send_code),
+    path('send_vip/', user_view.send_vip),
+    path('vip_expire/', user_view.vip_expire),
+    path('send_code/', user_view.send_code),
+    path('charge_account/', user_view.charge_account),
     path('add_buy_share/', activitys_view.add_buy_share),
     path('add_ShareListen_free/', activitys_view.add_ShareListen_free),
     path('add_Subtracts_activity/', activitys_view.add_Subtracts_activity),

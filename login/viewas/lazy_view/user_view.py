@@ -4,6 +4,7 @@ from login import forms
 import requests
 import json
 from login.templates.admin.account.adminlogin import login_admin
+from login.templates.admin.account.user_account import charge_coin_to_user
 from login.templates.admin.activities.send_code import send_vip_by_exchangeCode, send_ticket_by_exchangeCode
 from login.templates.users.User import check_user_valid
 from login.templates.utils.confutils import init_configs
@@ -32,7 +33,7 @@ def send_vip(request):
             vip_dict = {'101': '1天', '102': '7天', '103': '15天', '104': '1个月', '105': '3个月', '106': '6个月', '107': '12个月'}
             if res == 1:
                 message = '给vip用户%s添加%s成功！' % (user_id, vip_dict[amount])
-                return render(request, 'login/success.html', locals())
+                return render(request, 'login/send_vip.html', locals())
     return render(request, 'login/send_vip.html', locals())
 
 
@@ -101,6 +102,38 @@ def send_code(request):
                 error(request)
             new_req.save()
     return render(request, 'login/send_code.html', locals())
+
+
+def charge_account(request):
+    """
+    懒人币充值
+    :param request:
+    :return:
+    """
+    if request.session.is_empty():
+        return redirect('/login/')
+    if request.method:
+        charge_form = forms.Account_Charge(request.POST)
+        if charge_form.is_valid():
+            host_name = charge_form.cleaned_data.get('host')
+            coin_type = charge_form.cleaned_data.get('coin_type')
+            amount = charge_form.cleaned_data.get('amount')
+            user_id = charge_form.cleaned_data.get('user_id')
+            init_configs(host_name)
+            res = charge_coin_to_user(coin_type, amount, user_id)
+            if len(amount.split('.')) == 2:
+                message = '充值金额必须为整数！'
+                return render(request, 'login/charge_account.html', locals())
+            if check_user_valid(user_id) == 0:
+                message = 'UserID错误！'
+                return render(request, 'login/charge_account.html', locals())
+            if res == 1:
+                message = '充值%s个懒人币成功！' % amount
+                return render(request, 'login/charge_account.html', locals())
+            else:
+                message = res
+                return render(request, 'login/charge_account.html', locals())
+    return render(request, 'login/charge_account.html', locals())
 
 
 def error(request):

@@ -99,4 +99,3 @@ def add_BuyShare_activity(entityIds_book,entityIds_album):
     #添加节目
     add_resources_activity(activityId, entityIds_album, constant.resourceType_albumn)
     return activityId
-

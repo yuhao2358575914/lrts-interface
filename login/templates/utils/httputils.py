@@ -75,11 +75,14 @@ def postadmin(apiname, parameters, admintoken, adminapiname):
     :param adminapiname:
     :return:
     """
-    headers = {'User-Agent': getconf.get_conf('webHD', 'User-Agent'), 'Accept': getconf.get_conf('webHD', 'Accept'),
+    headers = {'User-Agent': getconf.get_conf('webHD', 'user-agent'), 'Accept': getconf.get_conf('webHD', 'accept'),
                'Authorization': 'Bearer {"token":"' + admintoken + '","currentPath":"' + adminapiname + '"}'}
     if 'platformcopyright' in apiname:
         headers['Content-Type'] = 'application/json;charset=UTF-8'
         return requests.post(getconf.get_conf('HOST', 'adminDomain') + apiname, json=parameters, headers=headers)
+    elif 'operationRecordAuditEdit' in apiname:
+        return requests.post(getconf.get_conf('HOST', 'adminDomain') + apiname, data=parameters, headers=headers,
+                             cookies={"psid": admintoken})
     else:
         return requests.post(getconf.get_conf('HOST', 'adminDomain') + apiname, data=parameters, headers=headers)
 

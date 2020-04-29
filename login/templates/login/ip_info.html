@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-{{ ip }}
+{% if message %}
+    <div class="alert alert-warning">{{message}}</div>
+{% endif %}
+{{ ip_name }}
 </body>
 </html>

@@ -1,10 +1,7 @@
-
-
 """
 admin相关操作
 
 """
-
 
 # admin登录
 import json
@@ -14,7 +11,7 @@ from login.templates.utils.confutils import getAdminName, getcurrentPath
 from login.templates.utils.getconf import get_conf, write_config_ini
 
 
-def login_admin():
+def login_admin(username=getconf.get_conf('users', 'adminuser'), pwd=getconf.get_conf('users', 'adminpwd')):
     """
     admin登录
     :return:
@@ -22,9 +19,9 @@ def login_admin():
     admin_token = get_conf('admin', 'admin_token')
     check_code = check_admintoken_by_search(admin_token)
     print('*******CheckCode:重新获取1否则0*******', check_code)
-    if 1 == 1:
-        username = getconf.get_conf('users', 'adminuser')
-        pwd = getconf.get_conf('users', 'adminpwd')
+    if check_code == 1 or username != getconf.get_conf('users', 'adminuser'):
+        # username = getconf.get_conf('users', 'adminuser')
+        # pwd = getconf.get_conf('users', 'adminpwd')
         adminDomain = getconf.get_conf('HOST', 'adminDomain')
         r = httputils.postadmin_old(adminDomain, '/platformauth/login',
                                     {'accountName': username, 'password': pwd},
@@ -32,7 +29,9 @@ def login_admin():
                                         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
                                         'Content-Type': 'application/x-www-form-urlencoded'})
         token_got = json.loads(r.text)['data']['token']
-        write_config_ini('admin', "admin_token",token_got)
+        print('获取的token',token_got)
+        if token_got is not None:
+            write_config_ini('admin', "admin_token", token_got)
         return json.loads(r.text)['data']['token']
     else:
         return admin_token

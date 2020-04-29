@@ -12,8 +12,8 @@ class UserForm(forms.Form):
 
 class RegisterForm(forms.Form):
     p_type = (
-        ('1', "管理员"),
         ('2', "普通用户"),
+        ('1', "管理员"),
     )
     username = forms.CharField(label="用户名", max_length=128, widget=forms.TextInput(attrs={'class': 'form-control'}))
     password1 = forms.CharField(label="密码", max_length=256, widget=forms.PasswordInput(attrs={'class': 'form-control'}))
@@ -95,14 +95,14 @@ class ReportUtils(forms.Form):
         ('3', '月亮'),
         ('5', '火星'),
     )
-    api_choice=(
-        ('yyting-api','yyting-api'),
+    api_choice = (
+        ('yyting-api', 'yyting-api'),
     )
     envId = forms.ChoiceField(label="测试环境", choices=host_name)
     test_type = forms.ChoiceField(label='自动化用例执行类型', choices=test_choice)
     project = forms.ChoiceField(label="Api类型", choices=api_choice,
-                                 widget=forms.RadioSelect(attrs={'required': 'required',
-                                                                 'class': 'radioset'}))
+                                widget=forms.RadioSelect(attrs={'required': 'required',
+                                                                'class': 'radioset'}))
 
 
 class SendEmails(forms.Form):
@@ -193,3 +193,22 @@ class SubtractActivity(forms.Form):
     sub_type = forms.ChoiceField(label="满减类型", choices=sub_choice,
                                  widget=forms.RadioSelect(attrs={'required': 'required',
                                                                  'class': 'radioset'}))
+
+
+class Account_Charge(forms.Form):
+    app_type = (
+        ('0', '安卓'),
+        ('1', 'iOS'),
+    )
+    host_name = (
+        ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
+    )
+    host = forms.ChoiceField(label="测试环境", choices=host_name)
+    coin_type = forms.ChoiceField(label='懒人币类型', choices=app_type)
+    amount = forms.CharField(label='懒人币金额', max_length=64,
+                             widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "懒人币金额"}))
+    user_id = forms.CharField(label='用户ID', max_length=64,
+                              widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "懒人ID"}))
+
+

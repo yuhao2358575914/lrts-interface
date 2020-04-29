@@ -67,6 +67,10 @@ def get_dict_all(title):
 
 
 def get_config_info():
+    """
+    获取配置信息
+    :return:
+    """
     config = configparser.ConfigParser()
     path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     config.read(path + '/config/config.ini', encoding='utf-8')
@@ -81,4 +85,4 @@ def write_config_ini(title, key, value):
     path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     config.read(path + '/config/config.ini', encoding='utf-8')
     config.set(title, key, value)
-    config.write(open(path + '/config/config.ini', "r+", encoding="utf-8"))
+    config.write(open(path + '/config/config.ini', "w", encoding="utf-8"))

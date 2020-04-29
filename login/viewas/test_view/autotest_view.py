@@ -98,7 +98,10 @@ def run_test(request):
         test_repo.reporter_name = file_name
         test_repo.reporter_type = test_type
         test_repo.create_time = get_local_time_second()
-        test_repo.create_user = request.session.get('user_name')
+        if request.session.get('user_name'):
+            test_repo.create_user = request.session.get('user_name')
+        else:
+            test_repo.create_user = 'developer'
         test_repo.report_style = '1'
         test_repo.save()
         return HttpResponse(json.dumps(data))

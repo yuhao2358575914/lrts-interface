@@ -2,20 +2,15 @@
 import pymysql.cursors
 from login.templates.utils import getconf
 
-host = getconf.get_conf("mysql", "host")
-port = getconf.get_conf("mysql", "port")
-user = getconf.get_conf("mysql", "username")
-password = getconf.get_conf("mysql", "password")
-
 
 # 查
-def select(sql, dbname):
-    db = getconf.get_conf("mysql", dbname)
+def select(sql, dbname, host=getconf.get_conf("mysql", "host"), user=getconf.get_conf("mysql", "username"),
+           password=getconf.get_conf("mysql", "password")):
     print('****当前SQL****：' + sql)
     connection = pymysql.connect(host=host,
                                  user=user,
                                  password=password,
-                                 db=db,
+                                 db=getconf.get_conf("mysql", dbname),
                                  charset='utf8mb4',
                                  cursorclass=pymysql.cursors.DictCursor)
     cursor = connection.cursor()
@@ -26,17 +21,16 @@ def select(sql, dbname):
 
 
 # 改
-def update(sql, dbname):
-    db = getconf.get_conf("mysql", dbname)
+def update(sql, dbname, host=getconf.get_conf("mysql", "host"), user=getconf.get_conf("mysql", "username"),
+           password=getconf.get_conf("mysql", "password")):
     print('****当前SQL****：' + sql)
     connection = pymysql.connect(host=host,
                                  user=user,
                                  password=password,
-                                 db=db,
+                                 db=getconf.get_conf("mysql", dbname),
                                  charset='utf8mb4',
                                  cursorclass=pymysql.cursors.DictCursor)
     cursor = connection.cursor()
     cursor.execute(sql)
     connection.commit()
     connection.close()
-
