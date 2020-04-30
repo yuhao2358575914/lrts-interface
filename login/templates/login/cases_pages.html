@@ -22,6 +22,9 @@
         th{
         white-space: nowrap;
         }
+        td{
+        white-space: nowrap;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +46,7 @@
                     </div>
                 </form>
             </div>
-    <div id="header-search-box" class="col-md-offset-9" style="margin-left: 910px">
+    <div id="header-search-box" class="col-md-offset-9" style="margin-left: 895px">
                         <form role="search" method="get" id="searchform" action="/search_case/">
                         {% csrf_token %}
                         <input type="search" class="search-query" name="query" placeholder="用例脚本名" required>
@@ -65,13 +68,13 @@
     <tbody>
         {%for item in page%}
             <tr>
-                <td width="20px">{{forloop.counter}}</td>
-                <td width="180px">{{item.case_name_ch}}</td>
-                <td width="120px">{{item.case_name_en}}</td>
-                <td width="120px">{{item.case_steps}}</td>
-                <td width="120px">{{item.script_name}}</td>
-                <td width="120px">{{item.create_time}}</td>
-                <td width="350px">
+                <td>{{forloop.counter|add:strat}}</td>
+                <td>{{item.case_name_ch}}</td>
+                <td>{{item.case_name_en}}</td>
+                <td>{{item.case_steps}}</td>
+                <td>{{item.script_name}}</td>
+                <td>{{item.create_time}}</td>
+                <td>
                     <a href="/case_edit/?edit_id={{ item.pk }}" class="btn btn-success">编辑</a>　　
                     <a href="/delete_case/?delete_id={{ item.pk }} " class="btn btn-danger">删除</a>
                     <a href="/run_case/?run_id={{ item.pk }} " class="btn btn-info">执行</a>

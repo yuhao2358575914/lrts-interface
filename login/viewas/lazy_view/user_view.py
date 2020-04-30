@@ -17,8 +17,8 @@ def send_vip(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     if request.method:
         vip_form = forms.SendVip(request.POST)
         if vip_form.is_valid():
@@ -43,8 +43,8 @@ def vip_expire(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     if request.method:
         vipr_form = forms.VipExpire(request.POST)
         if vipr_form.is_valid():
@@ -70,8 +70,8 @@ def send_code(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     if request.method:
         send_form = forms.SendCodeForm(request.POST)
         if send_form.is_valid():
@@ -110,8 +110,8 @@ def charge_account(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     if request.method:
         charge_form = forms.Account_Charge(request.POST)
         if charge_form.is_valid():

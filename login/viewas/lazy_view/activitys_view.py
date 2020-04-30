@@ -15,8 +15,8 @@ def add_buy_share(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     if request.method:
         buy_form = forms.BuyShare(request.POST)
         if buy_form.is_valid():
@@ -39,8 +39,8 @@ def add_ShareListen_free(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     if request.method:
         share_form = forms.ShareFree(request.POST)
         if share_form.is_valid():
@@ -63,8 +63,8 @@ def add_Subtracts_activity(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     if request.method:
         substract_form = forms.SubtractActivity(request.POST)
         if substract_form.is_valid():

@@ -40,7 +40,8 @@ def cases_pages(request, pindex):
     else:  # 如果有返回在值，把返回值转为整数型
         int(pindex)
     page = paginator.page(pindex)  # 传递当前页的实例对象到前端
-    context = {"message": request.session["user_name"], "page": page}
+    strat = (int(pindex) - 1) * 10
+    context = {"page": page, "strat": strat}
     return render(request, "login/cases_pages.html", context)
 
 

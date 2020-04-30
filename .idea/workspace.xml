@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login/files/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/cases_pages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/run/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/run/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/cases_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/cases_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/cases_pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/cases_pages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/user_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/user_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -246,7 +243,7 @@
       <workItem from="1586830898295" duration="10709000" />
       <workItem from="1586851110497" duration="23834000" />
       <workItem from="1587106297434" duration="8322000" />
-      <workItem from="1587463656040" duration="100288000" />
+      <workItem from="1587463656040" duration="105598000" />
     </task>
     <servers />
   </component>
