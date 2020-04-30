@@ -174,7 +174,7 @@ def run_case(request):
         test_repo.create_user = request.session.get('user_name')
         test_repo.report_style = '2'
         test_repo.save()
-    return redirect('/cases_detail/')
+    return redirect('/cases_pages/%d' % 1)
 
 
 def test_report_single(request):

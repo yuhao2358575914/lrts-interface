@@ -29,17 +29,29 @@
     <div class="row">
     <h1 style="text-align: center">测试用例</h1>
         <div class="col-md-12 col-md-offset-0">
-            <a href="/add_cases/" class="btn btn-success">添加用例</a>&nbsp;
+            <div style="margin-left: 0px">
+                <form class="form-upload_file" action="/upload_cases/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div>
+                        <label for="file">选择用例文件(xlsx,csv,xls):</label>
+                        <input type="file" id="excel_file" name="files_excel">
+                    </div>
+                    <p></p>
+                    <div>
+                        <button class="button btn-info">批量导入</button>
+                         <a href="/add_cases/" class="btn btn-success" style="margin-left: 40px">添加用例</a>
+                    </div>
+                </form>
+            </div>
+            <p></p>
 {#            <a href="/delete_select/" class="btn btn-info">批量执行</a><br>#}
-{#                    <input type="file" name="files">#}
-{#                    <input type="submit" value="上传">#}
-                    <div id="header-search-box" class="col-md-offset-9">
+            <div id="header-search-box" class="col-md-offset-9">
                         <form role="search" method="get" id="searchform" action="/search_case/">
                         {% csrf_token %}
                         <input type="search" class="search-query" name="query" placeholder="用例脚本名" required>
                         <button type="submit" class="btn btn-primary"><span class="ion-ios-search-strong">搜索</span></button>
                         </form>
-                    </div>
+            </div>
             <table class="table-hover table table-bordered table-striped">
                 <thead>
                     <tr>
@@ -72,9 +84,13 @@
                         </tr>
                     {% endfor %}
                 </tobdy>
+
             </table>
+
             <a href="/index/" class="btn btn-success">返回首页</a><br>
+
         </div>
+
     </div>
 </div>
 {#        <!-- jQuery1.11.3 (necessary for Bo otstrap's JavaScript plugins) -->#}

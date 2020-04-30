@@ -96,7 +96,7 @@ class ReportUtils(forms.Form):
         ('5', '火星'),
     )
     api_choice = (
-        ('yyting-api', 'yyting-api'),
+        ('yyting-apps-api', 'yyting-apps-api'),
     )
     envId = forms.ChoiceField(label="测试环境", choices=host_name)
     test_type = forms.ChoiceField(label='自动化用例执行类型', choices=test_choice)
@@ -212,3 +212,6 @@ class Account_Charge(forms.Form):
                               widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "懒人ID"}))
 
 
+class upload_Form(forms.Form):
+    introduce = forms.CharField(max_length=50)
+    file_path = forms.FileField()

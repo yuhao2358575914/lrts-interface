@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/account/user_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/charge_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/cases_pages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/run/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/run/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/static/login/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/static/login/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/static/login/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/static/login/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/admin/account/adminlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/admin/account/adminlogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/config_global.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config_global.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/login/cases_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/cases_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/ip_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/ip_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/lazy_reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/lazy_reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/utils/dbutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/dbutil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/utils/getconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/getconf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/utils/httputils.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/httputils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/vip_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/user_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +246,7 @@
       <workItem from="1586830898295" duration="10709000" />
       <workItem from="1586851110497" duration="23834000" />
       <workItem from="1587106297434" duration="8322000" />
-      <workItem from="1587463656040" duration="67245000" />
+      <workItem from="1587463656040" duration="100288000" />
     </task>
     <servers />
   </component>
@@ -272,22 +258,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586769368402" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1588067605774">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1588214246453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588067605774" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1588067605774">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588214246453" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1588214246453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588067605774" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1588067605774">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588214246453" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1588214246453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588067605774" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1588067605774">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588214246453" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1588214246453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588067605774" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588214246453" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586769548508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,6 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587106298372" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588142210230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588142210230" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Ranking_List_Page_Check_Case_Necessary_Book_Ranking_List_Page_Check_test_Book_Ranking_List_Page_Check.coverage" NAME="Unittests for case_Necessary_Book_Ranking_List_Page_Check.Case_Necessary_Book_Ranking_List_Page_Check.test_Book_Ranking_List_Page_Check Coverage Results" MODIFIED="1586834650131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
@@ -327,7 +317,7 @@
     <SUITE FILE_PATH="coverage/MyPro1$activityBuyShare.coverage" NAME="activityBuyShare Coverage Results" MODIFIED="1587956248137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_Case_Search_Normal_Word.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501958649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Reading_Book_py.coverage" NAME="Unittests in case_Necessary_Search_Reading_Book.py Coverage Results" MODIFIED="1587717857845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1588067578211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1588131148783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Book_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Reading_Book_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1587955122298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_Home_Page_Check_Case_Necessary_Listening_Home_Page_Check_test_Necessary_Listening_Home_Page_Check.coverage" NAME="Unittests for case_Necessary_Listening_Home_Page_Check.Case_Necessary_Listening_Home_Page_Check.test_Necessary_Listening_Home_Page_Check Coverage Results" MODIFIED="1586832823366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Book_Add_Comments_py.coverage" NAME="Unittests in case_Necessary_Book_Add_Comments.py Coverage Results" MODIFIED="1586502988468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />

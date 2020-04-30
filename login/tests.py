@@ -4,6 +4,7 @@ import requests
 from django.test import TestCase
 
 # Create your tests here.
+from login.run.run_test import run_test_bf
 from login.templates.admin.activities.activityBuyShare import add_BuyShare_activity
 from login.templates.admin.book.Book_Operation import get_book_by_pay_type
 
@@ -19,3 +20,6 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type
 #         param_dict[s2[0]] = s2[1]
 # class_name = os.path.basename(__file__)
 # print(class_name)
+# aa=run_test_bf('case_Search_Normal_Word.py')
+# print(aa)
+# print(type(aa))

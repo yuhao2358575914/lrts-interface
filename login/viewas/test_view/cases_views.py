@@ -1,12 +1,15 @@
-from django.shortcuts import redirect, render
+import os
+
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 from login import models, forms
 from login import forms
 from django.db.models import Q
-import json
+import pandas as pd
 
+from login.models import TestCases
 from login.templates.utils.utils import get_local_time_second
 
 
@@ -19,8 +22,26 @@ def cases_detail(request):
     if request.session.is_empty():
         return redirect('/login/')
     case_list = models.TestCases.objects.all().reverse()
-    print(case_list)
     return render(request, 'login/cases_detail.html', locals())
+
+
+def cases_pages(request, pindex):
+    """
+    用例集-分页展示
+
+    """
+    case_obj = models.TestCases.objects.all()
+    case_list = []
+    for i in case_obj:
+        case_list.append(i)
+    paginator = Paginator(case_list, 10)  # 实例化Paginator, 每页显示10条数据
+    if pindex == "":  # django中默认返回空值，所以加以判断，并设置默认值为1
+        pindex = 1
+    else:  # 如果有返回在值，把返回值转为整数型
+        int(pindex)
+    page = paginator.page(pindex)  # 传递当前页的实例对象到前端
+    context = {"message": request.session["user_name"], "page": page}
+    return render(request, "login/cases_pages.html", context)
 
 
 def search_case(request):
@@ -28,10 +49,46 @@ def search_case(request):
     #     return redirect('/login/')
     query = request.GET.get('query')
     if not query:
-        return redirect('/cases_detail/')
+        return redirect('/cases_pages/%d' % 1)
     case_list = models.TestCases.objects.filter(Q(script_name__icontains=query))
-    print('结果111', case_list)
+    print('查询结果', case_list)
     return render(request, 'login/cases_detail.html', locals())
+
+
+def upload_cases(request):
+    if request.method == 'POST':
+        File = request.FILES.get('files_excel', None)
+        if File is None:
+            return HttpResponse("请选择需要上传的文件")
+        else:
+            BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) + '/files'
+            f = open(os.path.join(BASE_DIR, File.name), 'wb')
+            for chunk in File.chunks():
+                f.write(chunk)
+            f.close()
+            excel_type = f.name.split('.')[-1]
+            if excel_type in ['xlsx', 'xls', 'csv']:
+                data = pd.read_excel(f.name, sheet_name='Sheet1')
+                row_count = data.shape[0]
+                if row_count < 1:
+                    return HttpResponse("无可导入用例，请检查！")
+                local_time = get_local_time_second()
+                for row in range(row_count):
+                    row_data = data.loc[row]
+                    cases = models.TestCases()
+                    cases.case_name_ch = row_data[0]
+                    cases.case_name_en = row_data[1]
+                    cases.case_steps = row_data[2]
+                    cases.script_name = row_data[3]
+                    script_name_db = models.TestCases.objects.filter(script_name=row_data[3])
+                    cases.create_time = local_time
+                    if not script_name_db:
+                        cases.save()
+                return redirect('/cases_detail/')
+            else:
+                return HttpResponse("文件格式不正确")
+    else:
+        return render(request, 'login/cases_detail.html', locals())
 
 
 def add_cases(request):
@@ -89,7 +146,7 @@ def delete_case(request):
     res = models.TestCases.objects.filter(id=delete_id).first()  # 查看首条数据
     if res:
         models.TestCases.objects.filter(id=delete_id).delete()  # 删除数据
-    return redirect('/cases_detail/')
+    return redirect('/cases_pages/%d' % 1)
     return HttpResponse('删除成功')
 
 
@@ -110,7 +167,7 @@ def case_edit(request):
         # 更新数据库
         models.TestCases.objects.filter(id=edit_id).update(case_name_ch=case_name_ch, case_name_en=case_name_en,
                                                            case_steps=case_steps, script_name=script_name)
-        return redirect('/cases_detail/')  # 更新完成后重定向页面到查看用例列表页面
+        return redirect('/cases_pages/%d' % 1)  # 更新完成后重定向页面到查看用例列表页面
     # 获取用户想要修改的用户id
     edit_id = request.GET.get('edit_id')
     # 将该数据查询出来进行渲染

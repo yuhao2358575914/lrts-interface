@@ -43,9 +43,3 @@ def reporter(suite_tests):
     BeautifulReport(suite_tests).report(filename='test_report',
                                         description='懒人听书接口测试',
                                         report_dir=path + '/templates/login')  # log_path='.'把report放到当前目录下
-# list1 = ['case_Search_Normal_Word.py', 'case_Book_Free_Chapters_For_Purchased_Users_Not.py','case_Search_Special_Character.py']
-# suite = unittest.TestSuite()
-# for i in list1:
-#     suite_tests=run_test_bf(i)
-#     suite.addTests(suite_tests)
-# reporter(suite)

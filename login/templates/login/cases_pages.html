@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用例集</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/js/bootstrap-select.js"></script>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/css/bootstrap-select.css">
+    <script type="text/javascript">
+        $(window).on('load', function () {
+
+            $('.selectpicker').selectpicker({
+                'selectedText': 'cat'
+            });
+
+        });
+    </script>
+
+    <style>
+        th{
+        white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+ <div class="row">
+    <h1 style="text-align: center">测试用例</h1>
+     <div class="col-md-12 col-md-offset-0">
+    <div style="margin-left: 0px">
+                <form class="form-upload_file" action="/upload_cases/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div>
+                        <label for="file">选择用例文件(xlsx,csv,xls):</label>
+                        <input type="file" id="excel_file" name="files_excel">
+                    </div>
+                    <p></p>
+                    <div>
+                        <button class="button btn-info">批量导入</button>
+                         <a href="/add_cases/" class="btn btn-success" style="margin-left: 40px">添加用例</a>
+                    </div>
+                </form>
+            </div>
+    <div id="header-search-box" class="col-md-offset-9" style="margin-left: 910px">
+                        <form role="search" method="get" id="searchform" action="/search_case/">
+                        {% csrf_token %}
+                        <input type="search" class="search-query" name="query" placeholder="用例脚本名" required>
+                        <button type="submit" class="btn btn-primary"><span class="ion-ios-search-strong">搜索</span></button>
+                        </form>
+            </div>
+    <table class="table-hover table table-bordered table-striped">
+             <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>用例中文名</th>
+                        <th>用例英文名</th>
+                        <th>用例步骤</th>
+                        <th>用例脚本名</th>
+                        <th>创建时间</th>
+                        <th>功能</th>
+                    </tr>
+                </thead>
+    <tbody>
+        {%for item in page%}
+            <tr>
+                <td width="20px">{{forloop.counter}}</td>
+                <td width="180px">{{item.case_name_ch}}</td>
+                <td width="120px">{{item.case_name_en}}</td>
+                <td width="120px">{{item.case_steps}}</td>
+                <td width="120px">{{item.script_name}}</td>
+                <td width="120px">{{item.create_time}}</td>
+                <td width="350px">
+                    <a href="/case_edit/?edit_id={{ item.pk }}" class="btn btn-success">编辑</a>　　
+                    <a href="/delete_case/?delete_id={{ item.pk }} " class="btn btn-danger">删除</a>
+                    <a href="/run_case/?run_id={{ item.pk }} " class="btn btn-info">执行</a>
+                    <a href="/test_report_single/?run_id={{ item.pk }}" class="text-info">详情</a>
+                </td>
+            </tr>
+        {%endfor%}
+    </tbody>
+</table>
+    <nav aria-label="Page navigation">
+		<div class="pagination">
+			<ul class="pagination">
+			{% if page.has_previous %}
+				<li><a href="/cases_pages/{{page.previous_page_number}}" aria-label="Previous">
+					<span aria-hidden="true">&laquo;</span></a></li>
+            {% endif %}
+
+            {% for num in page.paginator.page_range%}
+            	{%if pindex == page.number%}
+                	<li><a href="">{{ num }}</a></li>
+                {%else%}
+                    <li><a href="/cases_pages/{{num}}">{{ num }}</a></li>
+                {%endif%}
+             {% endfor %}
+
+             {% if page.has_next %}
+                 <li><a href="/cases_pages/{{page.next_page_number}}" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span></a></li>
+              {% endif %}
+       		</ul>
+		</div>
+    </nav>
+     <di>
+         <a href="/index/" class="btn btn-success">返回首页</a><br>
+     </di>
+     </div>
+ </div>
+</div>
+
+</body>
+</html>
