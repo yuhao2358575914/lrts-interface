@@ -5,8 +5,10 @@ from django.test import TestCase
 
 # Create your tests here.
 from login.run.run_test import run_test_bf
+from login.templates.admin.account.user_account import charge_coin_to_user
 from login.templates.admin.activities.activityBuyShare import add_BuyShare_activity
-from login.templates.admin.book.Book_Operation import get_book_by_pay_type
+from login.templates.admin.book.Book_Operation import get_book_by_pay_type, operation_book_get_unbuyedcharpters_all, \
+    operation_book_get_buyedcharpters_all, operation_book_get_freecharpters
 
 #
 # a=add_BuyShare_activity(get_book_by_pay_type(1,3),get_book_by_pay_type(2,3))
@@ -23,3 +25,25 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type
 # aa=run_test_bf('case_Search_Normal_Word.py')
 # print(aa)
 # print(type(aa))
+# charpters = operation_book_get_unbuyedcharpters_all('92365489', 'MFyzOz-LtD7P1SZKF6GjFg**_qKkiCdyyMrjjDGxUh_yuZP2hbkAc4-6o')
+# print(charpters)
+# from login.templates.app.order.Entity_Price import get_entity_price_by_id
+# from login.templates.users.Get_UserInfo_By_Token import get_userid_by_token
+# token = 'M_2_2bkYZr7P1SZKF6GjFg**_gtSvJSSO3suJw7sB7aTQBX0Vfy9LgB7Z'
+# charpters = operation_book_get_unbuyedcharpters_all('92365489', token)
+# buy=operation_book_get_buyedcharpters_all('92365489', token)
+# free=operation_book_get_freecharpters('92365489')
+# print(charpters)
+# print(buy)
+# print(free)
+# from login.templates.utils import getconf
+#
+# headers = getconf.getdict('Headers', 'user-agent')
+# print(headers)
+# if 'Android' in headers.get('user-agent'):
+#     print('1111')
+# from login.templates.utils.getconf import get_conf
+#
+# mail_receivers=get_conf('email', 'mail_default_receivers')
+# mail_list = mail_receivers.split(',')
+# print(mail_list)

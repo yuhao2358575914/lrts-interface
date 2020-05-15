@@ -67,11 +67,21 @@ class IpUtils(models.Model):
 
 
 class TestCases(models.Model):
+    status_choices = (
+        ('1', '已实现'),
+        ('2', '未实现'),
+    )
     case_name_ch = models.CharField(max_length=64)
     case_name_en = models.CharField(max_length=64)
     case_steps = models.CharField(max_length=128)
     script_name = models.CharField(max_length=64)
     create_time = models.DateTimeField(auto_now_add=True)
+    case_creater = models.CharField(max_length=64, default='lazy')
+    # case_status = models.CharField(max_length=8, choices=status_choices, default="2")
+
+    class Meta:
+        verbose_name = "测试用例"
+        verbose_name_plural = "测试用例"
 
 
 class Report_Results(models.Model):
@@ -89,6 +99,7 @@ class Report_Results(models.Model):
     create_user = models.CharField(max_length=64)
     create_time = models.DateTimeField(auto_now_add=True)
     report_style = models.CharField(max_length=8, choices=style, default="1")
+    env_Id = models.CharField(max_length=8, default='4')
 
     class Meta:
         verbose_name = "测试报告"

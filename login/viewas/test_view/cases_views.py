@@ -1,15 +1,12 @@
 import os
-
-from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from django.core.paginator import Paginator
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
-from login import models, forms
+from login import models
 from login import forms
 from django.db.models import Q
 import pandas as pd
-
-from login.models import TestCases
 from login.templates.utils.utils import get_local_time_second
 
 
@@ -34,13 +31,13 @@ def cases_pages(request, pindex):
     case_list = []
     for i in case_obj:
         case_list.append(i)
-    paginator = Paginator(case_list, 10)  # 实例化Paginator, 每页显示10条数据
-    if pindex == "":  # django中默认返回空值，所以加以判断，并设置默认值为1
+    paginator = Paginator(case_list, 15)
+    if pindex == "":
         pindex = 1
-    else:  # 如果有返回在值，把返回值转为整数型
+    else:  # 如果有返回值，把返回值转为整数型
         int(pindex)
-    page = paginator.page(pindex)  # 传递当前页的实例对象到前端
-    strat = (int(pindex) - 1) * 10
+    page = paginator.page(pindex)
+    strat = (int(pindex) - 1) * 15
     context = {"page": page, "strat": strat}
     return render(request, "login/cases_pages.html", context)
 
@@ -69,7 +66,7 @@ def upload_cases(request):
             f.close()
             excel_type = f.name.split('.')[-1]
             if excel_type in ['xlsx', 'xls', 'csv']:
-                data = pd.read_excel(f.name, sheet_name='Sheet1')
+                data = pd.read_excel(f.name, sheet_name=0)
                 row_count = data.shape[0]
                 if row_count < 1:
                     return HttpResponse("无可导入用例，请检查！")
@@ -81,6 +78,7 @@ def upload_cases(request):
                     cases.case_name_en = row_data[1]
                     cases.case_steps = row_data[2]
                     cases.script_name = row_data[3]
+                    cases.case_creater = row_data[4]
                     script_name_db = models.TestCases.objects.filter(script_name=row_data[3])
                     cases.create_time = local_time
                     if not script_name_db:
@@ -89,7 +87,7 @@ def upload_cases(request):
             else:
                 return HttpResponse("文件格式不正确")
     else:
-        return render(request, 'login/cases_detail.html', locals())
+        return render(request, 'login/cases_pages/%d.html' % 1, locals())
 
 
 def add_cases(request):
@@ -126,6 +124,7 @@ def add_cases(request):
                 message = '该脚本已存在！'
                 return render(request, 'login/add_cases.html', locals())
             cases.create_time = local_time
+            cases.case_creater = request.session.get('user_name')
             cases.save()
             redirect('/cases_detail/')
             # return render(request,'login/add_cases.html')
@@ -148,7 +147,7 @@ def delete_case(request):
     if res:
         models.TestCases.objects.filter(id=delete_id).delete()  # 删除数据
     return redirect('/cases_pages/%d' % 1)
-    return HttpResponse('删除成功')
+    # return HttpResponse('删除成功')
 
 
 def case_edit(request):
@@ -165,9 +164,11 @@ def case_edit(request):
         case_name_en = request.POST.get('case_name_en')
         case_steps = request.POST.get('case_steps')
         script_name = request.POST.get('script_name')
+        update_user = request.session.get('user_name')
         # 更新数据库
         models.TestCases.objects.filter(id=edit_id).update(case_name_ch=case_name_ch, case_name_en=case_name_en,
-                                                           case_steps=case_steps, script_name=script_name)
+                                                           case_steps=case_steps, script_name=script_name,
+                                                           case_creater=update_user)
         return redirect('/cases_pages/%d' % 1)  # 更新完成后重定向页面到查看用例列表页面
     # 获取用户想要修改的用户id
     edit_id = request.GET.get('edit_id')

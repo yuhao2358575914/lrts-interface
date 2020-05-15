@@ -5,7 +5,8 @@ import requests
 import json
 from login.run.run_test import run_test_bf_old
 from login.templates.utils.confutils import init_configs
-from login.templates.utils.emails import send_emails
+from login.templates.utils.emails import send_emails, send_emails_multi
+from login.templates.utils.getconf import get_conf
 from login.templates.utils.utils import securitycode, geturl, get_local_time_second
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -102,26 +103,54 @@ def run_test(request):
             test_repo.create_user = request.session.get('user_name')
         else:
             test_repo.create_user = 'developer'
+            # 必测自动发送邮件
+            mail_receivers = get_conf('email', 'mail_default_receivers')
+            mail_list = mail_receivers.split(',')
+            send_emails_multi(mail_list, envId, get_local_time_second(),
+                              project, file_name)
         test_repo.report_style = '1'
+        test_repo.env_Id = envId
         test_repo.save()
         return HttpResponse(json.dumps(data))
         # return render(request, 'login/run_test.html', locals())
     return render(request, 'login/run_test.html', locals())
 
 
-def test_report(request):
+# def test_report(request):
+#     """
+#     测试报告
+#     :param name:
+#     :param request:
+#     :return:
+#     """
+#     # if request.session.is_empty():
+#     #     return redirect('/login/')
+#     report = models.Report_Results.objects.filter(report_style__exact='1').order_by('-id').values()[0].get(
+#         'reporter_name')
+#     print('报告名：', report)
+#     return render(request, 'login/reports/%s.html' % report, locals())
+
+
+def test_report(request, report_name):
     """
     测试报告
-    :param name:
+    :param report_name:
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
-    report = models.Report_Results.objects.filter(report_style__exact='1').order_by('-id').values()[0].get(
-        'reporter_name')
-    print('报告名：', report)
-    return render(request, 'login/reports/%s.html' % report, locals())
+    return render(request, 'login/reports/%s.html' % report_name, locals())
+
+
+def test_report_list10(request):
+    """
+    返回最近10次测试报告
+    :param request:
+    :return:
+    """
+    report_list = []
+    data = models.Report_Results.objects.filter(report_style__exact='1').order_by('-id').values()[0:10]
+    print('报告列表：', data)
+    return render(request, 'login/test_report_list10.html', locals())
 
 
 def send_email(request):

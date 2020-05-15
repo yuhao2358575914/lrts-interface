@@ -19,8 +19,11 @@
     </script>
 
     <style>
-        th{
+         th{
         white-space: nowrap;
+        }
+        td{
+        white-space: nowrap;overflow:hidden;text-overflow: ellipsis;-webkit-text-overflow:ellipsis;
         }
     </style>
 </head>
@@ -28,7 +31,7 @@
 <div class="container">
     <div class="row">
     <h1 style="text-align: center">测试用例</h1>
-        <div class="col-md-12 col-md-offset-0">
+        <div class="col-md-12 col-md-pull-3">
             <div style="margin-left: 0px">
                 <form class="form-upload_file" action="/upload_cases/" method="POST" enctype="multipart/form-data">
                     {% csrf_token %}
@@ -45,10 +48,10 @@
             </div>
             <p></p>
 {#            <a href="/delete_select/" class="btn btn-info">批量执行</a><br>#}
-            <div id="header-search-box" class="col-md-offset-9">
+            <div id="header-search-box" class="col-md-6 col-md-pull-0">
                         <form role="search" method="get" id="searchform" action="/search_case/">
                         {% csrf_token %}
-                        <input type="search" class="search-query" name="query" placeholder="用例脚本名" required>
+                        <input type="search" class="search-query" name="query" placeholder="用例脚本名" required style="margin-left: -14px">
                         <button type="submit" class="btn btn-primary"><span class="ion-ios-search-strong">搜索</span></button>
                         </form>
             </div>
@@ -61,6 +64,7 @@
                         <th>用例步骤</th>
                         <th>用例脚本名</th>
                         <th>创建时间</th>
+                        <th>创建者/更新者</th>
                         <th>功能</th>
                     </tr>
                 </thead>
@@ -75,6 +79,7 @@
                             <td>{{ foo.case_steps }}</td>
                             <td>{{ foo.script_name }}</td>
                             <td>{{ foo.create_time }}</td>
+                            <td>{{ foo.case_creater}}</td>
                             <td>
                                 <a href="/case_edit/?edit_id={{ foo.pk }}" class="btn btn-success">编辑</a>　　
                                 <a href="/delete_case/?delete_id={{ foo.pk }} " class="btn btn-danger">删除</a>

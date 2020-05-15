@@ -108,11 +108,11 @@ Const.showStyle_single_activity = 19
 活动添加资源类型
 """
 # 书籍资源类型
-Const.resourceType_book = 1
+Const.resourceType_book = '1'
 # 节目资源类型
-Const.resourceType_albumn = 2
+Const.resourceType_albumn = '2'
 # 节目资源类型
-Const.resourceType_readBook = 3
+Const.resourceType_readBook = '3'
 """
 活动范围类型
 """
@@ -167,8 +167,8 @@ Const.discountType_discountPrice = '2'
 """
 充值类型cointype，安卓/ios
 """
-Const.coinType_Andriod = 'coin'
-Const.coinType_ios = 'ios_coin'
+Const.coinType_Andriod = '0'
+Const.coinType_ios = '1'
 """
 购买方式
 """

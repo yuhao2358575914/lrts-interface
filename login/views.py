@@ -155,8 +155,8 @@ def get_ips(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
-        return redirect('/login/')
+    # if request.session.is_empty():
+    #     return redirect('/login/')
     # if request.session.get('role') != '2':
     #     message = '没有权限！'
     #     return render(request, 'login/ip_info.html', locals())

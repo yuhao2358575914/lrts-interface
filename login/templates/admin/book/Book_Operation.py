@@ -39,7 +39,7 @@ def operation_book_get_freecharpters(bookid):
         ed = rlt[rlt.index('-') + 1:]
         for m in range(int(ed) - int(strt) + 1):
             k1 = int(strt) + m
-            freelist1.append(k1)
+            freelist1.append(str(k1))
             freelist1.sort()
         return freelist1
     else:
@@ -80,7 +80,10 @@ def operation_book_get_buyedcharpters_all(bookid, token):
     res = dbutil.select(
         'SELECT item_ids FROM t_consume WHERE user_id =' + str(get_userid_by_token(token)) + ' AND goods_id=' + bookid,
         'db_audiobook')
-    rlt = str(res[0].get('item_ids'))
+    if res:
+        rlt = str(res[0].get('item_ids'))
+    else:
+        return []
     if ',' in rlt:
         chargelist = rlt.split(',')
         outlist = []
@@ -119,7 +122,7 @@ def operation_book_get_unbuyedcharpters_all(bookid, token):
     sct = sectioncount[0].get('section')
     all_list = []
     for i in range(sct):
-        all_list.append(i + 1)
+        all_list.append(str(i + 1))
     print('所有章节:', all_list)
     re_list = list(set(all_list) - set(operation_book_get_buyedcharpters_all(bookid, token)) - set(
         operation_book_get_freecharpters(bookid)))

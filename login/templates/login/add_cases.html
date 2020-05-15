@@ -17,7 +17,7 @@
   </head>
   <body onload="javascript:document.add_case.reset()">
     <div class="container">
-            <div class="col-md-8 col-md-offset-1">
+            <div class="col-md-8 col-md-offset-1"style="margin-top: 80px;margin-left: 100px">
                 <form name="add_case" class="form-add_cases" action="/add_cases/" method="post">
                     {% if case_form.captcha.errors %}
                         <div class="alert alert-warning">{{ case_form.captcha.errors}}</div>

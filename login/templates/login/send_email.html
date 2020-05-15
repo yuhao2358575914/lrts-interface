@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="container">
-            <div class="col">
+            <div class="col-md-8" style="margin-top: 110px;margin-left: 100px">
                 <form class="form-send_email" action="/send_email/" method="post">
                     {% if mail_form.captcha.errors %}
                         <div class="alert alert-warning">{{ mail_form.captcha.errors}}</div>

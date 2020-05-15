@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试报告列表</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/js/bootstrap-select.js"></script>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/css/bootstrap-select.css">
+</head>
+<body>
+    <h2 style="margin-left: 60px;margin-top: 80px">测试报告列表：</h2>
+    <div class="col-md-12 col-md-pull-0">
+        <div style="margin-left: 40px">
+        <table class="table-hover table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>报告链接</th>
+                    <th>报告类型</th>
+                    <th>触发人</th>
+                    <th>生成时间</th>
+                    <th>执行环境</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for report in data %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td><a href="/test_report/{{ report.reporter_name }}">{{ report.reporter_name }}</a></td>
+                    {% if report.reporter_type == 'Nec' %}
+                    <td>必测</td>
+                    {% else  %}
+                    <td>全量</td>
+                    {% endif %}
+                    {% if report.create_user == 'developer' %}
+                    <td>后台发布自动触发</td>
+                        {% else %}
+                        <td>{{ report.create_user }}</td>
+                    {% endif %}
+                    <td>{{ report.create_time }}</td>
+                    {% if report.env_Id == '4' %}
+                    <td>earth</td>
+                    {% elif report.env_Id == '3' %}
+                        <td>moon</td>
+                     {% else %}
+                         <td>mars</td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    </div>
+</body>
+</html>

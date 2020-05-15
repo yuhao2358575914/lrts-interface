@@ -23,7 +23,7 @@
         white-space: nowrap;
         }
         td{
-        white-space: nowrap;
+        white-space: nowrap;overflow:hidden;text-overflow: ellipsis;-webkit-text-overflow:ellipsis;
         }
     </style>
 </head>
@@ -31,8 +31,8 @@
 <div class="container">
  <div class="row">
     <h1 style="text-align: center">测试用例</h1>
-     <div class="col-md-12 col-md-offset-0">
-    <div style="margin-left: 0px">
+     <div class="col-md-12 col-md-pull-3">
+    <div style="margin-right: 0px">
                 <form class="form-upload_file" action="/upload_cases/" method="POST" enctype="multipart/form-data">
                     {% csrf_token %}
                     <div>
@@ -46,13 +46,14 @@
                     </div>
                 </form>
             </div>
-    <div id="header-search-box" class="col-md-offset-9" style="margin-left: 895px">
+     <p></p>
+    <div id="header-search-box" class="col-md-6 col-md-pull-0" >
                         <form role="search" method="get" id="searchform" action="/search_case/">
                         {% csrf_token %}
-                        <input type="search" class="search-query" name="query" placeholder="用例脚本名" required>
-                        <button type="submit" class="btn btn-primary"><span class="ion-ios-search-strong">搜索</span></button>
+                        <input type="search" class="search-query" name="query" placeholder="用例脚本名" required style="margin-left: -14px">
+                        &nbsp; <button type="submit" class="btn btn-primary"><span class="icon-search">搜索</span></button>
                         </form>
-            </div>
+    </div>
     <table class="table-hover table table-bordered table-striped">
              <thead>
                     <tr>
@@ -62,6 +63,7 @@
                         <th>用例步骤</th>
                         <th>用例脚本名</th>
                         <th>创建时间</th>
+                        <th>创建者/更新者</th>
                         <th>功能</th>
                     </tr>
                 </thead>
@@ -71,9 +73,10 @@
                 <td>{{forloop.counter|add:strat}}</td>
                 <td>{{item.case_name_ch}}</td>
                 <td>{{item.case_name_en}}</td>
-                <td>{{item.case_steps}}</td>
+                <td id="th-step">{{item.case_steps}}</td>
                 <td>{{item.script_name}}</td>
                 <td>{{item.create_time}}</td>
+                <td>{{item.case_creater}}</td>
                 <td>
                     <a href="/case_edit/?edit_id={{ item.pk }}" class="btn btn-success">编辑</a>　　
                     <a href="/delete_case/?delete_id={{ item.pk }} " class="btn btn-danger">删除</a>
@@ -85,7 +88,7 @@
     </tbody>
 </table>
     <nav aria-label="Page navigation">
-		<div class="pagination">
+		<div class="pagination"  style="text-align: center;margin-left: 800px">
 			<ul class="pagination">
 			{% if page.has_previous %}
 				<li><a href="/cases_pages/{{page.previous_page_number}}" aria-label="Previous">

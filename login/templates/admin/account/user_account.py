@@ -31,14 +31,16 @@ def charge_for_coin(coin_type: str, amount: str, user_id: str):
         return False
 
 
-def get_audit_list():
+def get_audit_list(user_id):
     """
     获取充值list
     :return:
     """
     super_admin_token = login_admin('admin', 'www.lrts.me')
     data = {
-        'recordStatus': '0'
+        'recordStatus': '0',
+        'searchKey': user_id,
+        'searchField': '0'
     }
     r = httputils.postadmin(getAdminName('operationRecordList'),
                             data,
@@ -87,7 +89,7 @@ def charge_coin_to_user(coin_type: str, amount: str, user_id: str):
     # 发起申请
     apply = charge_for_coin(coin_type, amount, user_id)
     if apply:
-        audits = get_audit_list()
+        audits = get_audit_list(user_id)
         print('超级管理员', audits)
         flag = approve_coin_charge(audits.get('last_id'), audits.get('super_admin_token'))
         if flag:

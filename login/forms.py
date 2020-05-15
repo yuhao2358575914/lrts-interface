@@ -216,3 +216,13 @@ class Account_Charge(forms.Form):
 class upload_Form(forms.Form):
     introduce = forms.CharField(max_length=50)
     file_path = forms.FileField()
+
+
+class Case_Search_Form(forms.Form):
+    status_choices = (
+        ('1', '已实现'),
+        ('2', '未实现'),
+    )
+    case_status = forms.ChoiceField(label='', choices=status_choices)
+    search_keyword = forms.CharField(label='2222',max_length=64,
+                                     widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "请输入关键字查询"}))
