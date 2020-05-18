@@ -39,8 +39,8 @@ class Case_Necessary_Add_Collection_Book(unittest.TestCase):
             self.params[key] = str(self.params[key])
 
         # 请求接口
-        API = getconf.get_global_conf('apinames', 'ClientAddConllection.action')  # 添加的至收藏的API
-        r = httputils.get_app(API, parameters=self.params)
+        API = getconf.get_global_conf('apinames', 'ClientAddConllection')  # 添加的至收藏的API
+        r = httputils.get_app(API, self.params)
         rs1 = json.loads(r.text)
         print(rs1)
         # 状态校验

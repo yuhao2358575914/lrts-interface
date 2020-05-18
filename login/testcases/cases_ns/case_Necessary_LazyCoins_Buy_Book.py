@@ -16,12 +16,13 @@ from login.templates.app.order.Purchase_Resources import buy_book_utils
 
 class case_Necessary_LazyCoins_Buy_Book(unittest.TestCase):
 
-    def test_search_normal_word(self):
+    def test_Necessary_LazyCoins_Buy_Book(self):
         '''懒人币购买有声书籍'''
 
         token = get_app_login_token()
         # 获取未购章节
         charpters = operation_book_get_unbuyedcharpters_all('92365489', token)
+        print('未购章节：',charpters)
         #购买书籍
         res = buy_book_utils(token, '92365489', charpters[0:1], '2', '27', '0')
         self.assertIsNotNone(res)

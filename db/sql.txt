@@ -1,8 +1,52 @@
-CREATE TABLE `login_testcases` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `case_name_ch` varchar(64) NOT NULL, `case_name_en` varchar(64) NOT NULL, `case_steps` varchar(128) NOT NULL, `script_name` varchar(64) NOT NULL, `create_time` datetime NOT NULL);
+CREATE TABLE `login_testcases` (
+    `id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    `case_name_ch` varchar(64) NOT NULL,
+    `case_name_en` varchar(64) NOT NULL,
+    `case_steps` varchar(128) NOT NULL,
+    `script_name` varchar(64) NOT NULL,
+    `create_time` datetime NOT NULL);
+
 create table `login_report_results` (
 	`id` int (11),
 	`reporter_name` varchar (492),
 	`reporter_type` varchar (96),
 	`create_user` varchar (192),
 	`create_time` datetime
+);
+
+ CREATE TABLE `login_iputils` (
+  `id` int(11) DEFAULT NULL,
+  `ip` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `login_time` datetime DEFAULT NULL
+) ;
+
+CREATE TABLE `login_requests` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `method_type` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `header` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `params` varchar(1024) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `apiname` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `host` varchar(1024) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `result` varchar(1024) COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `login_testcases` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `case_name_ch` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `case_name_en` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `case_steps` varchar(384) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `script_name` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `create_time` datetime DEFAULT NULL,
+  `case_creater` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  KEY `id` (`id`)
+);
+
+ CREATE TABLE `login_sendcode` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `mount_type` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `user_id` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `exchangeType` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `result` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
 );

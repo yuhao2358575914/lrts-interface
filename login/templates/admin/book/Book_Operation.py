@@ -104,7 +104,7 @@ def operation_book_get_buyedcharpters_all(bookid, token):
         ed = rlt[rlt.index('-') + 1:]
         for m in range(int(ed) - int(strt) + 1):
             k1 = int(strt) + m
-            chargelist1.append(k1)
+            chargelist1.append(str(k1))
             chargelist1.sort()
         return chargelist1
     else:
@@ -124,6 +124,8 @@ def operation_book_get_unbuyedcharpters_all(bookid, token):
     for i in range(sct):
         all_list.append(str(i + 1))
     print('所有章节:', all_list)
+    print('已购章节',operation_book_get_buyedcharpters_all(bookid, token))
+    print('免费章节：',operation_book_get_freecharpters(bookid))
     re_list = list(set(all_list) - set(operation_book_get_buyedcharpters_all(bookid, token)) - set(
         operation_book_get_freecharpters(bookid)))
     re_list.sort()
