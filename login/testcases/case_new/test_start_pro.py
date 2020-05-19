@@ -58,4 +58,4 @@ def test_case_mpro():
         return {'result': '0', 'response': traceback.format_exc(), 'case_name': case_name}
 
 
-# print('返回结果', test_case_mpro())
+print('返回结果', test_case_mpro())

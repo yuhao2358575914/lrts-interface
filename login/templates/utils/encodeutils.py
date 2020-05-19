@@ -6,9 +6,18 @@ import hashlib
 
 
 def encode_md(encodestr):
-    # MD5加密
+    # MD5加密(返回bytes，作为二进制数据字符串值)
     md = hashlib.md5(encodestr.encode("utf-8")).digest()
     return md
+
+
+def encrypt_md5(s):
+    #MD5加密(返回str，作为十六进制数据字符串值)
+    new_md5 = hashlib.md5()
+    # 这里必须用encode()函数对字符串进行编码，不然会报 TypeError: Unicode-objects must be encoded before hashing
+    new_md5.update(s.encode(encoding='utf-8'))
+    # 加密
+    return new_md5.hexdigest()
 
 
 def encode_base64(encodestr):

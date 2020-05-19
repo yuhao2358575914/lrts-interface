@@ -8,7 +8,7 @@ import json
 
 from login.templates.utils import dbutil, httputils, getconf
 from login.templates.utils.confutils import getApiName
-from login.templates.utils.encodeutils import app_account_encode\
+from login.templates.utils.encodeutils import app_account_encode \
     # , rsa_encrypt
 from login.templates.utils.utils import create_phone, ranstr, get_local_time_str
 
@@ -21,6 +21,7 @@ def check_user_valid(user_id: str):
     """
     type_num = user_id[-1]
     res = dbutil.select('SELECT id FROM t_user_ext_%s WHERE User_id= %s' % (type_num, user_id), 'db_audiobook')
+    print('查詢集', res)
     if res:
         return 1
     else:

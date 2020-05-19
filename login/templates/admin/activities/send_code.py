@@ -4,7 +4,7 @@
 # @Author  : caozhuo
 # @FileName: send_code.py
 # @Software: PyCharm
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # @Time    : 2019/12/24 15:56
 # @Author  : caozhuo
@@ -61,8 +61,8 @@ def send_vip_by_exchangeCode(swapGoodsId: str, user_id: str):
     :param user_id:
     :return:
     """
-    #发起vip申请
-    activity_dict=add_vip_exchange_code(swapGoodsId)
+    # 发起vip申请
+    activity_dict = add_vip_exchange_code(swapGoodsId)
     # 审核
     approve_res = approve_listen_tickets(activity_dict['activityId'])
     if approve_res == 'pass':
@@ -72,7 +72,7 @@ def send_vip_by_exchangeCode(swapGoodsId: str, user_id: str):
         band_activity_Code(code_list[0], user_id)
         return 1
     else:
-        return 0
+        return approve_res
 
 
 def add_vip_exchange_code(swapGoodsId: str):
@@ -82,7 +82,7 @@ def add_vip_exchange_code(swapGoodsId: str):
     :return:
     """
     orgName = 'AT' + ranstr(6)
-    data={
+    data = {
         'swapGoodsType': '1',
         'isActivityGift': '0',
         'swapGoodsId': swapGoodsId,
@@ -95,7 +95,7 @@ def add_vip_exchange_code(swapGoodsId: str):
         'maxForUser': '0:1',
         'detail': 'AT' + ranstr(4)
     }
-    r=httputils.postadmin(getAdminName('activityAdd'),
+    r = httputils.postadmin(getAdminName('activityAdd'),
                             data,
                             login_admin(),
                             confutils.getcurrentPath('ActivityAdd'))
@@ -285,8 +285,9 @@ def get_use_scope_info(scope_type: str):
         return {'name': copyright_info[0]['copy_name'], 'id': copyright_info[0]['id'], 'scope': scope_type}
     # 指定有声听书分类
     elif scope_type == constant.exchange_Code_Listen__Classify:
-        type_info = dbutil.select('SELECT type_id,type_name FROM `t_type` where father_type=6000  LIMIT %d,1' % random.randint(0, 9),
-                                  'db_audiobook')
+        type_info = dbutil.select(
+            'SELECT type_id,type_name FROM `t_type` where father_type=6000  LIMIT %d,1' % random.randint(0, 9),
+            'db_audiobook')
         print(type_info)
         return {'name': type_info[0]['type_name'], 'id': type_info[0]['type_id'], 'scope': scope_type}
     # 指定有声书籍
@@ -305,5 +306,3 @@ def get_use_scope_info(scope_type: str):
         return {'name': albumn_info[0]['name'], 'id': albumn_info[0]['id'], 'scope': scope_type}
     else:
         return 'scope值或格式错误'
-
-

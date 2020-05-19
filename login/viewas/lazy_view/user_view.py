@@ -28,11 +28,14 @@ def send_vip(request):
             init_configs(host_name)
             if check_user_valid(user_id) == 0:
                 message = 'UserID错误！'
-                return render(request, 'login/error.html', locals())
+                return render(request, 'login/send_vip.html', locals())
             res = send_vip_by_exchangeCode(amount, user_id)
             vip_dict = {'101': '1天', '102': '7天', '103': '15天', '104': '1个月', '105': '3个月', '106': '6个月', '107': '12个月'}
             if res == 1:
                 message = '给vip用户%s添加%s成功！' % (user_id, vip_dict[amount])
+                return render(request, 'login/send_vip.html', locals())
+            else:
+                message = res
                 return render(request, 'login/send_vip.html', locals())
     return render(request, 'login/send_vip.html', locals())
 

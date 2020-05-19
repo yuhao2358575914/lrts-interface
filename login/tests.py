@@ -5,8 +5,11 @@ from django.test import TestCase
 
 # Create your tests here.
 from login.run.run_test import run_test_bf
+from login.templates.admin.account.adminlogin import login_admin
 from login.templates.admin.account.user_account import charge_coin_to_user
 from login.templates.admin.activities.activityBuyShare import add_BuyShare_activity
+from login.templates.admin.activities.send_code import add_vip_exchange_code, send_vip_by_exchangeCode, \
+    approve_listen_tickets
 from login.templates.admin.book.Book_Operation import get_book_by_pay_type, operation_book_get_unbuyedcharpters_all, \
     operation_book_get_buyedcharpters_all, operation_book_get_freecharpters
 
@@ -46,4 +49,10 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type, oper
 #
 # mail_receivers=get_conf('email', 'mail_default_receivers')
 # mail_list = mail_receivers.split(',')
-# print(mail_list)
+# print(mail_list)101
+# sss=add_vip_exchange_code('101')
+# print(sss)
+# from login.templates.utils.encodeutils import encode_md
+#
+# aa=encode_md('cao12345'+'69FzDZZgC%4BWv%AE-l#l~.7')
+# print(aa)

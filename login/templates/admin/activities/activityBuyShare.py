@@ -1,4 +1,5 @@
 import json
+from time import sleep
 
 from login.templates.admin.account.adminlogin import login_admin
 from login.templates.admin.activities.activityDiscountBook import add_resources_activity
@@ -38,6 +39,7 @@ def activity_BuyShare_add():
                             confutils.getcurrentPath('buyOneGetOne_edit'))
     print(r.text)
     if json.loads(r.text)['status'] == 0:
+        sleep(0.1)
         print('sql:','SELECT id FROM `t_activity` WHERE title= "%s"' % title_share)
         res = dbutil.select('SELECT id FROM `t_activity` WHERE title= "%s"' % title_share, 'db_audiobook')
         return str(res[0].get('id'))

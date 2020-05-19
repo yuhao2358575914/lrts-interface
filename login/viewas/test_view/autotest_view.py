@@ -1,3 +1,5 @@
+import urllib
+
 from django.views.decorators.csrf import csrf_exempt
 
 import re
@@ -29,7 +31,8 @@ def api_test(request):
             user_agent = requests_form.cleaned_data.get('user_agent')
             params = requests_form.cleaned_data.get('params')
             host = requests_form.cleaned_data.get('host')
-            apiname = params.split('?')[0]
+            params = urllib.parse.unquote(params)
+            api_name = params.split('?')[0]
             s1 = params.split('?')[1].split('&')
             param_dict = {}
             for i in s1:
@@ -39,24 +42,24 @@ def api_test(request):
 
             if request_type == 'post':
                 if 'Android' in user_agent:
-                    param_dict['sc'] = securitycode(apiname, param_dict)
-                    res = requests.post(host + apiname, data=param_dict, headers={'user-agent': user_agent})
+                    param_dict['sc'] = securitycode(api_name, param_dict)
+                    res = requests.post(host + api_name, data=param_dict, headers={'user-agent': user_agent})
                     message = res.text
                     return render(request, 'login/success.html', locals())
                 elif 'iOS' in user_agent:
-                    param_dict['sc'] = securitycode(apiname, param_dict, 2)
-                    res = requests.post(host + apiname, data=param_dict, headers={'user-agent': user_agent})
+                    param_dict['sc'] = securitycode(api_name, param_dict, 2)
+                    res = requests.post(host + api_name, data=param_dict, headers={'user-agent': user_agent})
                     message = res.text
                     return render(request, 'login/success.html', locals())
             elif request_type == 'get':
                 if 'Android' in user_agent:
-                    param_dict['sc'] = securitycode(apiname, param_dict)
-                    res = requests.get(host + apiname + '?' + geturl(param_dict), headers={'user-agent': user_agent})
+                    param_dict['sc'] = securitycode(api_name, param_dict)
+                    res = requests.get(host + api_name + '?' + geturl(param_dict), headers={'user-agent': user_agent})
                     message = res.text
                     return render(request, 'login/success.html', locals())
                 elif 'iOS' in user_agent:
-                    param_dict['sc'] = securitycode(apiname, param_dict, 2)
-                    res = requests.get(host + apiname + '?' + geturl(param_dict), headers={'user-agent': user_agent})
+                    param_dict['sc'] = securitycode(api_name, param_dict, 2)
+                    res = requests.get(host + api_name + '?' + geturl(param_dict), headers={'user-agent': user_agent})
                     message = res.text
                     return render(request, 'login/success.html', locals())
         return render(request, 'login/api_test.html', locals())

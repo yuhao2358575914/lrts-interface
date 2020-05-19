@@ -31,6 +31,7 @@ class RequestsForm(forms.Form):
     )
     host_name = (
         ('http://earth-api.mting.info', '地球'),
+        ('http://moon-api.mting.info', '月亮'),
     )
     user_agent = forms.CharField(label="User-Agent", max_length=1024,
                                  widget=forms.TextInput(
@@ -126,6 +127,7 @@ class AddCase(forms.Form):
 class SendVip(forms.Form):
     host_name = (
         ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
     )
     vip_mount = (
         ('101', '一天'),

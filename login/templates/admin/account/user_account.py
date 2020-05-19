@@ -36,7 +36,7 @@ def get_audit_list(user_id):
     获取充值list
     :return:
     """
-    super_admin_token = login_admin('admin', 'www.lrts.me')
+    super_admin_token = login_admin('admin', 'f812fef47443cc097ab46012fcc15cb4')
     data = {
         'recordStatus': '0',
         'searchKey': user_id,
