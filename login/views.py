@@ -87,9 +87,9 @@ def register(request):
                 if same_email_user:
                     message = '该邮箱已经被注册了！'
                     return render(request, 'login/register.html', locals())
-                check = re.compile(r'^\w+@lazyaudio.com$')
+                check = re.compile(r'^[a-z0-9A-Z]+[-|a-z0-9A-Z._]+@lazyaudio.com$')
                 if not check.search(email):
-                    message = '請使用懶人邮箱！'
+                    message = '请使用懒人邮箱！'
                     return render(request, 'login/register.html', locals())
                 new_user = models.User()
                 new_user.name = username
