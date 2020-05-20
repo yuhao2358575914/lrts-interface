@@ -29,6 +29,9 @@ def add_new_folder(token, folderName):
     if json.loads(r.text)["status"]==2:
         print("听单已存在")
         return False
+    elif json.loads(r.text)["status"]==5:
+        print("超出限制")
+        return False
     else:
         folderID = json.loads(r.text)['data']['folderId']
         return folderID

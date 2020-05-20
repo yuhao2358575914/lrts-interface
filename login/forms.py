@@ -47,6 +47,7 @@ class RequestsForm(forms.Form):
 class SendCodeForm(forms.Form):
     host_name = (
         ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
     )
     host = forms.ChoiceField(label="测试环境", choices=host_name)
     ticket_mount = (

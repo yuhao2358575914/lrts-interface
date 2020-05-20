@@ -1,4 +1,5 @@
 import os
+import re
 
 import requests
 from django.test import TestCase
@@ -42,17 +43,3 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type, oper
 # from login.templates.utils import getconf
 #
 # headers = getconf.getdict('Headers', 'user-agent')
-# print(headers)
-# if 'Android' in headers.get('user-agent'):
-#     print('1111')
-# from login.templates.utils.getconf import get_conf
-#
-# mail_receivers=get_conf('email', 'mail_default_receivers')
-# mail_list = mail_receivers.split(',')
-# print(mail_list)101
-# sss=add_vip_exchange_code('101')
-# print(sss)
-# from login.templates.utils.encodeutils import encode_md
-#
-# aa=encode_md('cao12345'+'69FzDZZgC%4BWv%AE-l#l~.7')
-# print(aa)
