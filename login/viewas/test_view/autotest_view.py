@@ -216,8 +216,8 @@ def test_report_single(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty():
+        return redirect('/login/')
     run_id = request.GET.get('run_id')
     report = \
         models.Report_Results.objects.filter(report_style__exact='2', reporter_type=run_id).order_by('-id').values()[
