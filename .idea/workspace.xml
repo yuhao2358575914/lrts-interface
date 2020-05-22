@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/login/templates/login/mail_config.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_Search_Book">
+  <component name="RunManager" selected="Python tests.Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost">
     <configuration name="MyPro1" type="Python.DjangoServer" factoryName="Django server">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost" />
         <item itemvalue="Python tests.Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_Search_Book" />
         <item itemvalue="Python tests.Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book" />
         <item itemvalue="Python tests.Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_LazyCoins_Buy_Book" />
-        <item itemvalue="Python tests.Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost" />
         <item itemvalue="Python tests.Unittests for case_Necessary_Book_Add_Comments.case_Necessary_Book_Add_Comments.test_book_add_comments" />
       </list>
     </recent_temporary>
@@ -227,7 +231,7 @@
       <workItem from="1589511763619" duration="274000" />
       <workItem from="1589512209728" duration="13022000" />
       <workItem from="1589767440340" duration="53382000" />
-      <workItem from="1590048038213" duration="2938000" />
+      <workItem from="1590048038213" duration="12214000" />
     </task>
     <servers />
   </component>
@@ -242,26 +246,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586769368402" />
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1590112609852">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1590136873750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590112609852" />
-    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1590112609852">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590136873750" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1590136873750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590112609852" />
-    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1590112609852">
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590136873750" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1590136873750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589882343648" />
-    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590112609852" />
-    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1590112609852">
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590136873750" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1590136873750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590112609852" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590136873750" />
     <state width="1877" height="372" key="GridCell.Tab.1.bottom" timestamp="1590058774000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,7 +332,7 @@
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Album_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Album.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1588922205392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Collection_Book_Case_Necessary_Add_Collection_Book.coverage" NAME="Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book Coverage Results" MODIFIED="1589535756751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586772376166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Group_Add_TextPost_test__Group_Add_TextPost.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost Coverage Results" MODIFIED="1590058890042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Group_Add_TextPost_test__Group_Add_TextPost.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost Coverage Results" MODIFIED="1590130243383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501534143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$encodeutils.coverage" NAME="encodeutils Coverage Results" MODIFIED="1585879263916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Search_Long_Word_Case_Search_Long_Word.coverage" NAME="Unittests for case_Search_Long_Word.Case_Search_Long_Word Coverage Results" MODIFIED="1583486490301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />

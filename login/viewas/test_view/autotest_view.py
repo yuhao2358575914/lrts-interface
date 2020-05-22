@@ -8,7 +8,7 @@ import json
 from login.run.run_test import run_test_bf_old
 from login.templates.utils.confutils import init_configs
 from login.templates.utils.emails import send_emails, send_emails_multi
-from login.templates.utils.getconf import get_conf
+from login.templates.utils.getconf import get_conf, write_config_ini
 from login.templates.utils.utils import securitycode, geturl, get_local_time_second
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -225,3 +225,27 @@ def test_report_single(request):
             'reporter_name')
     print('报告名：', report)
     return render(request, 'login/reports/single/%s.html' % report, locals())
+
+
+def mail_config_manual(request):
+    if request.session.is_empty():
+        return redirect('/login/')
+    if request.method == 'POST':
+        receivers_new = request.POST.get('receivers')
+        if receivers_new == '':
+            message = '邮箱配置不能为空！'
+            return render(request, 'login/mail_config.html', locals())
+        write_config_ini('email', 'mail_default_receivers', receivers_new.strip())
+        return redirect('/index/')
+    # 获取配置文件下的收件人邮箱
+    receivers = get_conf('email', 'mail_default_receivers')
+    if receivers is None:
+        receivers = ''
+    # 将当前数据渲染到页面上去
+    return render(request, 'login/mail_config.html', locals())
+
+#
+# def host_exchange(request):
+#     if request.session.is_empty():
+#         return redirect('/login/')
+#

@@ -44,6 +44,7 @@ urlpatterns = [
     path('test_report_single/', autotest_view.test_report_single),
     path('test_report_list10/', autotest_view.test_report_list10),
     path('send_email/', autotest_view.send_email),
+    path('mail_config_manual/', autotest_view.mail_config_manual),
     path('run_case/', autotest_view.run_case),
     path('send_vip/', user_view.send_vip),
     path('vip_expire/', user_view.vip_expire),

@@ -227,5 +227,16 @@ class Case_Search_Form(forms.Form):
         ('2', '未实现'),
     )
     case_status = forms.ChoiceField(label='', choices=status_choices)
-    search_keyword = forms.CharField(label='2222',max_length=64,
+    search_keyword = forms.CharField(label='2222', max_length=64,
                                      widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "请输入关键字查询"}))
+
+
+class HostExchange_Form(forms.Form):
+    host_choice = (
+        ('1', '地球'),
+        ('2', '月亮'),
+        ('3', '火星'),
+    )
+    host_value = forms.ChoiceField(label='环境切换', choices=host_choice,
+                                   widget=forms.RadioSelect(attrs={'required': 'required',
+                                                                   'class': 'radioset'}))
