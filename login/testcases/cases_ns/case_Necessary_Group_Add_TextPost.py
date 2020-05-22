@@ -18,14 +18,15 @@ from login.templates.utils import getconf, httputils, dbutil
 from login.templates.utils.utils import get_json_value_by_key, check_keyword_in_list, ranstr
 
 
-class case_Necessary_Book_Add_Comments(unittest.TestCase):
+class case_Necessary_Group_Add_TextPost(unittest.TestCase):
 
-    def test_book_add_comments(self):
+    def test__Group_Add_TextPost(self):
         """听友会发布文字帖子"""
         # 登录并获取token
         token = get_app_login_token()
         # 数据准备，查询用户是否加入听友会
         user_id = get_userid_by_token(token)
+        print('测试sql','SELECT group_id FROM t_group_user WHERE User_id=%s' % user_id)
         group_ids = dbutil.select('SELECT group_id FROM t_group_user WHERE User_id=%s' % user_id, 'db_audiobook')
         if group_ids[0]["group_id"]:
             group_id = str(group_ids[0]["group_id"])

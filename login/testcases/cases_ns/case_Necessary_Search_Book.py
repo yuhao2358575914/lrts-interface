@@ -22,9 +22,9 @@ class case_Necessary_Search_Book(unittest.TestCase):
     def test_Search_Book(self):
         '''有声书搜索'''
         # 数据准备
-        book_name = dbutil.select('SELECT book_name FROM t_book WHERE bState=0 LIMIT 1', 'db_audiobook')
+        book_name = dbutil.select('SELECT book_name FROM t_book WHERE bState=0 LIMIT 1,2', 'db_audiobook')
         if book_name:
-            search_word = book_name[0]["book_name"]
+            search_word = book_name[1]["book_name"]
         print('*********************：',book_name)
         # 获取一本在线节目
         data = {'type': '0',
