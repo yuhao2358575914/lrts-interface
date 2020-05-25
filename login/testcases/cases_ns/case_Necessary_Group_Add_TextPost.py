@@ -28,6 +28,7 @@ class case_Necessary_Group_Add_TextPost(unittest.TestCase):
         user_id = get_userid_by_token(token)
         print('测试sql','SELECT group_id FROM t_group_user WHERE User_id=%s' % user_id)
         group_ids = dbutil.select('SELECT group_id FROM t_group_user WHERE User_id=%s' % user_id, 'db_audiobook')
+        print('查询出的组id：',group_ids)
         if group_ids[0]["group_id"]:
             group_id = str(group_ids[0]["group_id"])
         else:
