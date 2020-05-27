@@ -6,12 +6,19 @@ CREATE TABLE `login_testcases` (
     `script_name` varchar(64) NOT NULL,
     `create_time` datetime NOT NULL);
 
-create table `login_report_results` (
-	`id` int (11),
-	`reporter_name` varchar (492),
-	`reporter_type` varchar (96),
-	`create_user` varchar (192),
-	`create_time` datetime
+CREATE TABLE `login_report_results` (
+	`id` INT (11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	`reporter_name` VARCHAR (492),
+	`reporter_type` VARCHAR (96),
+	`create_user` VARCHAR (192),
+	`create_time` DATETIME ,
+	`report_style` VARCHAR (24),
+	`env_Id` VARCHAR (24),
+	`report_successRate` INT (11),
+	`report_testAll` INT (11),
+	`report_testError` INT (11),
+	`report_testFail` INT (11),
+	`report_testPass` INT (11)
 );
 
  CREATE TABLE `login_iputils` (

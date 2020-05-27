@@ -92,11 +92,20 @@ def run_test(request):
             test_type_1 = 'case_*.py'
         elif test_type == 'Nec':
             test_type_1 = 'case_Necessary*.py'
-        file_name = run_test_bf_old(test_type_1)
+        test_results = run_test_bf_old(test_type_1)
+        file_name = test_results.get('filename')
+        test_all = test_results.get('result').get('testAll')
+        test_Pass = test_results.get('result').get('testPass')
+        test_fail = test_results.get('result').get('testFail')
+        test_Error = test_results.get('result').get('testError')
+        success_rate = (test_all - test_fail - test_Error) / test_all
+        test_results.get('result')['success_rate'] = success_rate
+        print('成功率', success_rate)
         data = {
             'envId': envId,
             'test_type': test_type,
-            'project': project
+            'project': project,
+            'successRate': success_rate
         }
         test_repo = models.Report_Results()
         test_repo.reporter_name = file_name
@@ -110,9 +119,14 @@ def run_test(request):
             mail_receivers = get_conf('email', 'mail_default_receivers')
             mail_list = mail_receivers.split(',')
             send_emails_multi(mail_list, envId, get_local_time_second(),
-                              project, file_name)
+                              project, file_name, round(success_rate * 100))
         test_repo.report_style = '1'
         test_repo.env_Id = envId
+        test_repo.report_testAll = test_all
+        test_repo.report_testPass = test_Pass
+        test_repo.report_testFail = test_fail
+        test_repo.report_testError = test_Error
+        test_repo.report_successRate = success_rate * 100
         test_repo.save()
         return HttpResponse(json.dumps(data))
         # return render(request, 'login/run_test.html', locals())

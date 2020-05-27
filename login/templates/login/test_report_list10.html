@@ -18,6 +18,11 @@
                 <tr>
                     <th>序号</th>
                     <th>报告链接</th>
+                    <th>用例数</th>
+                    <th>成功数</th>
+                    <th>失败数</th>
+                    <th>错误数</th>
+                    <th>通过率</th>
                     <th>报告类型</th>
                     <th>触发人</th>
                     <th>生成时间</th>
@@ -29,6 +34,11 @@
                 <tr>
                     <td>{{ forloop.counter }}</td>
                     <td><a href="/test_report/{{ report.reporter_name }}">{{ report.reporter_name }}</a></td>
+                    <td>{{ report.report_testAll}}</td>
+                    <td>{{ report.report_testPass}}</td>
+                    <td>{{ report.report_testFail}}</td>
+                    <td>{{ report.report_testError}}</td>
+                    <td>{{ report.report_successRate}}%</td>
                     {% if report.reporter_type == 'Nec' %}
                     <td>必测</td>
                     {% else  %}

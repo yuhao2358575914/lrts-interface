@@ -52,7 +52,7 @@ def send_emails(receivers: list):
 </body>
 </html>
 
-    """ % ('地球', '地球', '2022-02-09 10:01:00', 'apidemp', 'test_reporter20121212121','test_reporter20121212121')
+    """ % ('地球', '地球', '2022-02-09 10:01:00', 'apidemp', 'test_reporter20121212121', 'test_reporter20121212121')
     message = MIMEText(versionDsc, 'html', 'utf-8')
     message['From'] = Header("测试邮箱", 'utf-8')
     message['To'] = Header("自动化测试", 'utf-8')
@@ -64,7 +64,7 @@ def send_emails(receivers: list):
     smtpObj.sendmail(get_conf('email', 'mail_user'), receivers, message.as_string())
 
 
-def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name):
+def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name, success_Rate):
     if envId == '4':
         host_names = '地球'
     elif envId == '3':
@@ -90,6 +90,7 @@ def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name):
                 <p style="font-size: 16px">测试环境：<label style="font-weight: bold">%s</label></p>
                 <p style="font-size: 16px">发布时间：<label style="font-weight: bold">%s</label></p>
                 <p style="font-size: 16px">发布模块：<label style="font-weight: bold">%s</label></P>
+                <p style="font-size: 16px">用例通过率：<label style="font-weight: bold">%s</label></P>
                 <p style="font-size: 16px">测试报告查看链接如下：</p>
                 <p><a href='http://autotest.lrts.me/test_report/%s'>报告名:%s</a></p>
             </div>
@@ -106,7 +107,7 @@ def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name):
 </table>
 </body>
 </html>
-    """ % (host_names, host_names, pubTime, apimodule, report_name, report_name)
+    """ % (host_names, host_names, pubTime, apimodule, str(success_Rate) + '%', report_name, report_name)
     message = MIMEText(versionDsc, 'html', 'utf-8')
     message['From'] = Header("测试邮箱", 'utf-8')
     message['To'] = Header("自动化测试", 'utf-8')

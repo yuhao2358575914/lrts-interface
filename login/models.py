@@ -77,6 +77,7 @@ class TestCases(models.Model):
     script_name = models.CharField(max_length=64)
     create_time = models.DateTimeField(auto_now_add=True)
     case_creater = models.CharField(max_length=64, default='lazy')
+
     # case_status = models.CharField(max_length=8, choices=status_choices, default="2")
 
     class Meta:
@@ -100,6 +101,11 @@ class Report_Results(models.Model):
     create_time = models.DateTimeField(auto_now_add=True)
     report_style = models.CharField(max_length=8, choices=style, default="1")
     env_Id = models.CharField(max_length=8, default='4')
+    report_testAll = models.IntegerField(default=0)
+    report_testPass = models.IntegerField(default=0)
+    report_testFail = models.IntegerField(default=0)
+    report_testError = models.IntegerField(default=0)
+    report_successRate = models.IntegerField(default=0)
 
     class Meta:
         verbose_name = "测试报告"
