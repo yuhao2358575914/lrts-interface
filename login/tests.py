@@ -43,3 +43,8 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type, oper
 # from login.templates.utils import getconf
 #
 # headers = getconf.getdict('Headers', 'user-agent')
+from login.templates.app.order.Purchase_Resources import get_user_resource_ticket
+
+token='SQYlt_rZc53P1SZKF6GjFg**_gtSvJSSO3st-luSHgWwCxHTWnUe3DnXm'
+cc=get_user_resource_ticket('402789', '2', '0', token)
+print(cc)
