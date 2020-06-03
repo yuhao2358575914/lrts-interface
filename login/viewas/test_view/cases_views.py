@@ -127,11 +127,8 @@ def add_cases(request):
             cases.case_creater = request.session.get('user_name')
             cases.save()
             redirect('/cases_detail/')
-            # return render(request,'login/add_cases.html')
     return render(request, 'login/add_cases.html', locals())
 
-
-# def edit_case(request):
 
 def delete_case(request):
     """

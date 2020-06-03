@@ -123,3 +123,16 @@ class AutoTest_Results(models.Model):
     class Meta:
         verbose_name = "测试结果"
         verbose_name_plural = "测试结果"
+
+
+class Employee(models.Model):
+    name = models.CharField(max_length=32, verbose_name='姓名')
+    age = models.IntegerField(verbose_name='年龄')
+    salary = models.DecimalField(max_digits=10, decimal_places=2, verbose_name='薪资')
+
+
+class EventInfo(models.Model):
+    event_location = models.CharField(max_length=30)
+
+    class Meta:
+        db_table = "app_event_info"

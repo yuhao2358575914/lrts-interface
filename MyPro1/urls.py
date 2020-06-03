@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.views.generic import TemplateView
+from login.views import echarts_data
 from login import views
 from login.viewas.lazy_view import activitys_view
 from login.viewas.lazy_view import user_view
@@ -59,5 +61,7 @@ urlpatterns = [
     # path('crypt_utils/',viewas.crypt_utils),
     path('error/', views.error),
     path('get_ips/', views.get_ips),
+    path('echarts/', TemplateView.as_view(template_name='login/echarts.html'), name='echarts-url'),
+    path('api/echarts/', echarts_data, name='api-echarts'),
     path('captcha/', include('captcha.urls'))
 ]

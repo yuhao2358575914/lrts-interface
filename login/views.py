@@ -1,10 +1,13 @@
 import re
 
+from django.db import connection
+from django.db.models import Count
+from django.http import JsonResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 import hashlib
 from login import models, forms
-from login.models import IpUtils
+from login.models import IpUtils, EventInfo, Report_Results
 
 from login.templates.users.User import init_register_user_by_phone
 from login.templates.utils import utils
@@ -188,3 +191,24 @@ def init_env(host_name):
     """
     write_config_ini('HOST', 'apidomain', host_name.split(',')[0])
     write_config_ini('HOST', 'admindomain', host_name.split(',')[1])
+
+
+def echarts_data(request):
+    """
+    自动化测试结果图形化展示
+    :param request:
+    :return:
+    """
+    select = {'day': connection.ops.date_trunc_sql('day', 'create_time')}
+    key_data = Report_Results.objects.extra(select=select).values_list('day').annotate(number=Count('id'))
+    data_earth = Report_Results.objects.filter(env_Id=4).extra(select=select).values_list('day').annotate(
+        number=Count('id'))
+    data_moon = Report_Results.objects.filter(env_Id=3).extra(select=select).values_list('day').annotate(
+        number=Count('id'))
+    json_data = {
+        "key": [i[0] for i in key_data],
+        "value_earth": [i[1] for i in data_earth],
+        "value_moon": [i[1] for i in data_moon],
+    }
+
+    return JsonResponse(json_data)
