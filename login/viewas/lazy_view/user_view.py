@@ -1,6 +1,6 @@
 from django.shortcuts import redirect, render
 
-from login import forms
+import time
 import requests
 import json
 from login.templates.admin.account.adminlogin import login_admin
@@ -26,6 +26,7 @@ def send_vip(request):
             host_name = vip_form.cleaned_data.get('host')
             amount = vip_form.cleaned_data.get('amount')
             init_configs(host_name)
+            time.sleep(0.2)
             if check_user_valid(user_id) == 0:
                 message = 'UserID错误！'
                 return render(request, 'login/send_vip.html', locals())

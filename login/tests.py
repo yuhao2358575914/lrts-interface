@@ -42,3 +42,11 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type, oper
 # print(buy)
 # print(free)
 # from login.templates.utils import getconf
+#
+# headers = getconf.getdict('Headers', 'user-agent')
+from login.templates.utils import dbutil
+
+user_id = '676455008'
+type_num = user_id[-1]
+res = dbutil.select('SELECT id FROM t_user_ext_%s WHERE User_id= %s' % (type_num, user_id), 'db_audiobook')
+print(res)
