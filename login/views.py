@@ -205,10 +205,61 @@ def echarts_data(request):
         number=Count('id'))
     data_moon = Report_Results.objects.filter(env_Id=3).extra(select=select).values_list('day').annotate(
         number=Count('id'))
+    date_list = []
+    earth_date_list = []
+    moon_date_list = []
+    earth_list = []
+    moon_list = []
+    for i in key_data:
+        date_list.append(i[0])
+    print('x轴日期', date_list)
+    for k in data_earth:
+        earth_list.append((k[0], k[1]))
+    for c in data_moon:
+        moon_list.append((c[0], c[1]))
+    for m in earth_list:
+        earth_date_list.append(m[0])
+        less_list = list(set(date_list) - set(earth_date_list))
+    for h in moon_list:
+        moon_date_list.append(h[0])
+        less_list_moon = list(set(date_list) - set(moon_date_list))
+    for j in less_list:
+        earth_list.append((j, 0))
+    for t in less_list_moon:
+        moon_list.append((t, 0))
+    earth_list.sort(key=takeFirst)
+    moon_list.sort(key=takeFirst)
+    print('处理后的地球数据', earth_list)
+    print('处理后的月亮数据', moon_list)
     json_data = {
         "key": [i[0] for i in key_data],
-        "value_earth": [i[1] for i in data_earth],
-        "value_moon": [i[1] for i in data_moon],
+        "valueEarth": [i[1] for i in earth_list],
+        "valueMoon": [i[1] for i in moon_list],
     }
-
     return JsonResponse(json_data)
+
+
+def takeFirst(elem):
+    """
+    list排序指定第一个key
+    :param elem:
+    :return:
+    """
+    return elem[0]
+
+
+def get_data_filter(data_list, all_date):
+    """
+    数据处理
+    :param data_list:
+    :param all_date:
+    :return:
+    """
+    date_list = []
+    for m in data_list:
+        date_list.append(m[0])
+        less_list = list(set(all_date) - set(date_list))
+    for j in less_list:
+        data_list.append((j, 0))
+    data_list.sort(key=takeFirst)
+    return date_list
