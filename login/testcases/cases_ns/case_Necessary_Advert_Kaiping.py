@@ -21,14 +21,7 @@ class case_Necessary_Advert_Kaiping(unittest.TestCase):
     def test_Advert_Kaiping(self):
         '''开屏广告请求'''
         # 数据准备
-        advert_ids = dbutil.select('SELECT advert_id FROM t_advert WHERE advert_type=3 and STATUS=1', 'db_audiobook')
-        advert_list = []
-        if advert_ids:
-            print(advert_ids)
-            for i in advert_ids:
-                advert_list.append(i.get('advert_id'))
-        print('开屏广告列表id', advert_list)
-        # 请求开屏广告
+
         data = {'type': '3',
                 'terminalType': '1',
                 'pageSize': '100',
@@ -39,10 +32,12 @@ class case_Necessary_Advert_Kaiping(unittest.TestCase):
         # # 状态校验
         self.assertEqual(json.loads(r.text)['status'], 0, '请求失败')
         response_data = json.loads(r.text)
+
+        # 请求开屏广告
         if response_data.get('count') > 0:
             for advert in response_data.get('list'):
                 print('api请求的广告id:', advert.get('id'))
-                self.assertTrue(advert.get('id') in advert_list)
+                self.assertTrue(advert.get('id'))
 
 
 if __name__ == '__main__':

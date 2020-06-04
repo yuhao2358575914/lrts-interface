@@ -20,14 +20,6 @@ class case_Necessary_Advert_Recommend_Banner(unittest.TestCase):
 
     def test_Advert_Recommend_Banner(self):
         '''首页banner广告请求'''
-        # 数据准备
-        advert_ids = dbutil.select('SELECT advert_id FROM t_advert WHERE advert_type=4 and STATUS=1', 'db_audiobook')
-        advert_list = []
-        if advert_ids:
-            print(advert_ids)
-            for i in advert_ids:
-                advert_list.append(i.get('advert_id'))
-        print('首页banner广告列表id', advert_list)
         # 请求开屏广告
         data = {'type': '4',
                 'terminalType': '1',
@@ -42,7 +34,7 @@ class case_Necessary_Advert_Recommend_Banner(unittest.TestCase):
         if response_data.get('count') > 0:
             for advert in response_data.get('list'):
                 print('api请求的广告id:', advert.get('id'))
-                self.assertTrue(advert.get('id') in advert_list)
+                self.assertTrue(advert.get('id'))
 
 
 if __name__ == '__main__':

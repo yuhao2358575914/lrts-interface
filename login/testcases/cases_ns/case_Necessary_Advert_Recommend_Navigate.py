@@ -20,14 +20,7 @@ class case_Necessary_Advert_Recommend_Navigate(unittest.TestCase):
 
     def test_Advert_Recommend_Navigate(self):
         '''app首页导航广告请求'''
-        # 数据准备
-        advert_ids = dbutil.select('SELECT advert_id FROM t_advert WHERE advert_type=15 and STATUS=1', 'db_audiobook')
-        advert_list = []
-        if advert_ids:
-            print(advert_ids)
-            for i in advert_ids:
-                advert_list.append(i.get('advert_id'))
-        print('app首页导航广告列表id', advert_list)
+
         # 请求开屏广告
         data = {'type': '15',
                 'terminalType': '1',
@@ -42,7 +35,7 @@ class case_Necessary_Advert_Recommend_Navigate(unittest.TestCase):
         if response_data.get('count') > 0:
             for advert in response_data.get('list'):
                 print('api请求的广告id:', advert.get('id'))
-                self.assertTrue(advert.get('id') in advert_list)
+                self.assertTrue(advert.get('id'))
 
 
 if __name__ == '__main__':
