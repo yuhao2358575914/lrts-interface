@@ -12,11 +12,9 @@
   <h3>懒人自动化统计</h3>
   <br>
   <div id="main" style="height:800px;"></div>
- <script type="text/javascript">
+  <script type="text/javascript">
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));
-
-
     $.ajax({
       type: "get",
       url: "/api/echarts",
@@ -33,7 +31,7 @@
               trigger: 'axis'
           },
           legend: {
-                data:['地球','月亮']
+                data:['earth','moon']
             },
           xAxis: {
               data: data.key
@@ -42,7 +40,7 @@
           series: [{
             name: '地球',
             type: 'bar',
-            data: data.value_earth,
+            data: data.valueEarth,
             itemStyle:{
                 normal:{
                     color:'#4ad2ff'
@@ -50,12 +48,12 @@
                 }
             },
               {
-            name: '月亮',
+            name: '月球',
             type: 'bar',
-            data: data.value_moon,
+            data: data.valueMoon,
             itemStyle:{
                 normal:{
-                    color:'#4B0082'
+                    color:'green'
                     }
                 }
             }

@@ -14,6 +14,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 from login import models, forms
+import time
 
 
 def api_test(request):
@@ -86,6 +87,7 @@ def run_test(request):
         elif envId == '5':
             host_names = 'http://mars-api.mting.info,http://mars-admin.lrts.me'
         init_configs(host_names)
+        time.sleep(0.2)
         test_type = test_form.cleaned_data.get('test_type')
         project = test_form.cleaned_data.get('project')
         if test_type == 'All':

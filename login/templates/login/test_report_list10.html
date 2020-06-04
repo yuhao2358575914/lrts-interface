@@ -85,14 +85,14 @@
               trigger: 'axis'
           },
           legend: {
-                data:['地球','月球']
+                data:['earth','moon']
             },
           xAxis: {
               data: data.key
           },
           yAxis: {},
           series: [{
-            name: '地球',
+            name: 'earth',
             type: 'bar',
             data: data.valueEarth,
             itemStyle:{
@@ -102,12 +102,12 @@
                 }
             },
               {
-            name: '月球',
+            name: 'moon',
             type: 'bar',
             data: data.valueMoon,
             itemStyle:{
                 normal:{
-                    color:'red'
+                    color:'blue'
                     }
                 }
             }

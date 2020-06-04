@@ -5,7 +5,7 @@
 # @FileName: User.py
 # @Software: PyCharm
 import json
-
+import time
 from login.templates.utils import dbutil, httputils, getconf
 from login.templates.utils.confutils import getApiName
 from login.templates.utils.encodeutils import app_account_encode \
@@ -21,6 +21,7 @@ def check_user_valid(user_id: str):
     """
     type_num = user_id[-1]
     res = dbutil.select('SELECT id FROM t_user_ext_%s WHERE User_id= %s' % (type_num, user_id), 'db_audiobook')
+    time.sleep(0.1)
     print('查詢集', res)
     if res:
         return 1
