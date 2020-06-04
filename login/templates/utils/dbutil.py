@@ -21,7 +21,7 @@ def select(sql, dbname, host=getconf.get_conf("mysql", "host"), user=getconf.get
     except Exception as e:
         print('查询出错:%s' % e)
     finally:
-        # cursor.close()
+        cursor.close()
         connection.close()
 
 
