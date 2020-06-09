@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/migrations/0002_employee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/migrations/0003_eventinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Kaiping.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Kaiping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Recommend_Banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Recommend_Banner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Recommend_Navigate.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Recommend_Navigate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/add_cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/add_cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/emails.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/emails.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +237,9 @@
       <workItem from="1590371138869" duration="573000" />
       <workItem from="1590493299100" duration="11977000" />
       <workItem from="1590574958321" duration="19264000" />
-      <workItem from="1590976350732" duration="49720000" />
+      <workItem from="1590976350732" duration="55842000" />
+      <workItem from="1591612217909" duration="258000" />
+      <workItem from="1591668005555" duration="5544000" />
     </task>
     <servers />
   </component>
@@ -248,50 +254,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586769368402" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1591256965650">
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1591325405766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591256965650" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1591256965649">
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405766" />
+    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1591325405763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591256965649" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1591256965648">
+    <state width="1877" height="372" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405763" />
+    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1591325405763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589882343648" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591256965648" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1591256965649">
+    <state width="1877" height="372" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405763" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1591325405766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591256965649" />
-    <state width="1877" height="372" key="GridCell.Tab.1.bottom" timestamp="1591254462101">
+    <state width="1877" height="372" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405766" />
+    <state width="1877" height="372" key="GridCell.Tab.1.bottom" timestamp="1591325405767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591254462101" />
-    <state width="1877" height="372" key="GridCell.Tab.1.center" timestamp="1591254462099">
+    <state width="1877" height="372" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405767" />
+    <state width="1877" height="372" key="GridCell.Tab.1.center" timestamp="1591325405767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591254462099" />
-    <state width="1877" height="372" key="GridCell.Tab.1.left" timestamp="1591254462098">
+    <state width="1877" height="372" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405767" />
+    <state width="1877" height="372" key="GridCell.Tab.1.left" timestamp="1591325405767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591254462098" />
-    <state width="1877" height="372" key="GridCell.Tab.1.right" timestamp="1591254462100">
+    <state width="1877" height="372" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405767" />
+    <state width="1877" height="372" key="GridCell.Tab.1.right" timestamp="1591325405767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591254462100" />
+    <state width="1877" height="372" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405767" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1591088707065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591088707065" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590976377971">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591668006115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590976377971" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591668006115" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591080629875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,7 +378,7 @@
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word_test_search_normal_word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word.test_search_normal_word Coverage Results" MODIFIED="1586501638740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Advert_Recommend_Navigate_case_Necessary_Advert_Recommend_Navigate_test_Advert_Recommend_Navigate.coverage" NAME="Unittests for case_Necessary_Advert_Recommend_Navigate.case_Necessary_Advert_Recommend_Navigate.test_Advert_Recommend_Navigate Coverage Results" MODIFIED="1591256348887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586772376166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Group_Add_TextPost_test__Group_Add_TextPost.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost Coverage Results" MODIFIED="1591256965638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Group_Add_TextPost_test__Group_Add_TextPost.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost Coverage Results" MODIFIED="1591259260309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Search_Long_Word_Case_Search_Long_Word.coverage" NAME="Unittests for case_Search_Long_Word.Case_Search_Long_Word Coverage Results" MODIFIED="1583486490301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Album_case_Necessary_Search_Album_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Album.case_Necessary_Search_Album.test_search_normal_word Coverage Results" MODIFIED="1589790542314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$adminlogin.coverage" NAME="adminlogin Coverage Results" MODIFIED="1589859725879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />

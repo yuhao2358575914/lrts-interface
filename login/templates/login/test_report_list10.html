@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/css/bootstrap-select.css">
 </head>
 <body>
-    <h2 style="margin-left: 60px;margin-top: 80px">测试报告列表：</h2>
+    <h4 style="margin-left: 60px;margin-top: 80px">测试报告列表：</h4>
     <div class="col-md-12 col-md-pull-0">
         <div style="margin-left: 40px">
         <table class="table-hover table table-bordered table-striped">
@@ -63,9 +63,12 @@
             </tbody>
         </table>
     </div>
-        <h2 style="margin-left: 50px;margin-top: 80px">用例执行统计：</h2>
+        <h4 style="margin-left: 50px;margin-top: 80px">用例执行统计：</h4>
         <div id="main" style="height:500px; margin-left: 0px">
         </div>
+        <div style="margin-bottom: 30px;margin-left: 60px">
+        <a href="/index/"><label>返回首页</label></a>
+    </div>
     <script type="text/javascript">
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));

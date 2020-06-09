@@ -7,7 +7,7 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 import hashlib
 from login import models, forms
-from login.models import IpUtils, EventInfo, Report_Results
+from login.models import IpUtils, Report_Results
 
 from login.templates.users.User import init_register_user_by_phone
 from login.templates.utils import utils

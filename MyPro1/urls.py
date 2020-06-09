@@ -22,7 +22,6 @@ from login.viewas.lazy_view import activitys_view
 from login.viewas.lazy_view import user_view
 from login.viewas.test_view import autotest_view
 from login.viewas.test_view import cases_views
-
 from django.urls import include
 
 urlpatterns = [

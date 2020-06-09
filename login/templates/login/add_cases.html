@@ -4,7 +4,6 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-{#      //不缓存#}
     <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
     <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
     <meta HTTP-EQUIV="expires" CONTENT="0">
@@ -12,7 +11,6 @@
     <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-{#    <link href="{% static 'login/css/add_cases.css' %}" rel="stylesheet"/>#}
     <title>添加用例</title>
   </head>
   <body onload="javascript:document.add_case.reset()">
@@ -25,7 +23,6 @@
                         <div class="alert alert-warning">{{ message }}</div>
                     {% endif %}
                   {% csrf_token %}
-{#                {{ request.session.user_name }}#}
                     <h3 class="text-center">添加用例</h3>
                     <br><br>
                     <div class="form-group">
@@ -47,7 +44,6 @@
                   <div>
 {#                      <a href="/sendcode_detail/"  class="text-success"><ins>直接登录</ins></a>#}
                       <a href="/index/" class="text-success "><ins>返回首页</ins></a>
-                      &nbsp;
                       <a href="/cases_detail/" class="text-success "><ins>用例详情</ins></a>
                       <button id="button-add-case" type="submit" class="btn btn-primary float-right">添加用例</button>
                   </div>
@@ -63,12 +59,3 @@
 
   </body>
 </html>
-{#<script type="text/javascript">#}
-{#    window.onload = function(){#}
-{#        var button = document.getElementById('button-add-case');#}
-{#        button.click();//执行执行点击按钮#}
-{#    };#}
-{#    var sendMsg = function(){#}
-{#      alert('按钮已点击执行');#}
-{#    };#}
-{#</script>#}
