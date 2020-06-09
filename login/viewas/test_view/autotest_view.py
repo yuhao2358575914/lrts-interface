@@ -6,7 +6,7 @@ import re
 import requests
 import json
 from login.run.run_test import run_test_bf_old
-from login.templates.utils.confutils import init_configs
+from login.templates.utils.confutils import init_configs, login_control
 from login.templates.utils.emails import send_emails, send_emails_multi
 from login.templates.utils.getconf import get_conf, write_config_ini
 from login.templates.utils.utils import securitycode, geturl, get_local_time_second
@@ -178,7 +178,7 @@ def send_email(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     mail_form = forms.SendEmails(request.POST)
     if mail_form.is_valid():
@@ -202,7 +202,7 @@ def run_case(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     run_id = request.GET.get('run_id')
     res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
@@ -232,7 +232,7 @@ def test_report_single(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     run_id = request.GET.get('run_id')
     report = \
@@ -244,7 +244,7 @@ def test_report_single(request):
 
 
 def mail_config_manual(request):
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     if request.method == 'POST':
         receivers_new = request.POST.get('receivers')
@@ -260,8 +260,3 @@ def mail_config_manual(request):
     # 将当前数据渲染到页面上去
     return render(request, 'login/mail_config.html', locals())
 
-#
-# def host_exchange(request):
-#     if request.session.is_empty():
-#         return redirect('/login/')
-#

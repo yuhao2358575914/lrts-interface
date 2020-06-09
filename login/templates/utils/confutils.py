@@ -1,5 +1,5 @@
 import os
-
+import yaml
 from login.templates.utils import getconf
 from login.templates.utils.getconf import write_config_ini
 
@@ -77,3 +77,26 @@ def init_configs(host_name):
         write_config_ini('mysql', 'port', '3306')
         write_config_ini('mysql', 'username', 'readonly')
         write_config_ini('mysql', 'password', 'X7sMx68IOLNCk%)d#DZ!-=4E')
+
+
+def get_services_conf(key1, key2):
+    """
+    读取yaml文件获取配置，二级key
+    :param key1:第一层级的key值
+    :param key2:第二层级的key值
+    :return:
+    """
+    config_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '\\config\\service_config.yaml'
+    f = open(config_path, 'r', encoding='utf-8')
+    cfg = f.read()
+    data = yaml.load(cfg)
+    value = data[key1][key2]
+    return value
+
+
+def login_control():
+    """
+    获取登录开关配置
+    :return:
+    """
+    return get_services_conf('keys', 'loginKey')

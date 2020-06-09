@@ -10,10 +10,6 @@ from email.header import Header
 from login.templates.utils.getconf import get_conf
 
 
-# < p > 你好，Python接口自动化测试报告... < / p >
-# < p > 报告查看链接如下： < / p >
-# < p > < a
-# href = 'http://autotest.lrts.me/test_report/' > 接口测试报告 < / a > < / p >
 def send_emails(receivers: list):
     versionDsc = """
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

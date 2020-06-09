@@ -7,6 +7,8 @@ from login import models
 from login import forms
 from django.db.models import Q
 import pandas as pd
+
+from login.templates.utils.confutils import login_control
 from login.templates.utils.utils import get_local_time_second
 
 
@@ -16,7 +18,7 @@ def cases_detail(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     case_list = models.TestCases.objects.all().reverse()
     return render(request, 'login/cases_detail.html', locals())
@@ -27,6 +29,8 @@ def cases_pages(request, pindex):
     用例集-分页展示
 
     """
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     case_obj = models.TestCases.objects.all()
     case_list = []
     for i in case_obj:
@@ -43,8 +47,8 @@ def cases_pages(request, pindex):
 
 
 def search_case(request):
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     query = request.GET.get('query')
     if not query:
         return redirect('/cases_pages/%d' % 1)
@@ -54,6 +58,8 @@ def search_case(request):
 
 
 def upload_cases(request):
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method == 'POST':
         File = request.FILES.get('files_excel', None)
         if File is None:
@@ -96,7 +102,7 @@ def add_cases(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     if request.method:
         case_form = forms.AddCase(request.POST)
@@ -136,7 +142,7 @@ def delete_case(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     delete_id = request.GET.get('delete_id')
     print(delete_id)
@@ -153,7 +159,7 @@ def case_edit(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     if request.method == 'POST':
         edit_id = request.POST.get('edit_id')

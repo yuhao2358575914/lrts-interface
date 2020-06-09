@@ -18,9 +18,9 @@ from login.templates.utils import getconf, httputils, dbutil
 from login.templates.utils.utils import get_json_value_by_key, check_keyword_in_list, ranstr
 
 
-class case_Necessary_Book_Add_Comments(unittest.TestCase):
+class case_Necessary_Add_Follower(unittest.TestCase):
 
-    def test_book_add_comments(self):
+    def test_Add_Follower(self):
         """关注主播"""
         # 登录并获取token
         token = get_app_login_token()

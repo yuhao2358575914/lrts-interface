@@ -7,7 +7,7 @@ from login.templates.admin.account.adminlogin import login_admin
 from login.templates.admin.account.user_account import charge_coin_to_user
 from login.templates.admin.activities.send_code import send_vip_by_exchangeCode, send_ticket_by_exchangeCode
 from login.templates.users.User import check_user_valid
-from login.templates.utils.confutils import init_configs
+from login.templates.utils.confutils import init_configs, login_control
 from login import models, forms
 
 
@@ -17,8 +17,8 @@ def send_vip(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method:
         vip_form = forms.SendVip(request.POST)
         if vip_form.is_valid():
@@ -47,8 +47,8 @@ def vip_expire(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method:
         vipr_form = forms.VipExpire(request.POST)
         if vipr_form.is_valid():
@@ -74,8 +74,8 @@ def send_code(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method:
         send_form = forms.SendCodeForm(request.POST)
         if send_form.is_valid():
@@ -114,8 +114,8 @@ def charge_account(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method:
         charge_form = forms.Account_Charge(request.POST)
         if charge_form.is_valid():

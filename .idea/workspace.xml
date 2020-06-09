@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/login/templates/config/service_config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/migrations/0002_employee.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/migrations/0003_eventinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/add_cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/add_cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/confutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/confutils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/utils/emails.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/emails.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Add_Follower.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Add_Follower.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/user_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/user_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,29 @@
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost">
+  <component name="RunManager" selected="Python.tests">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MyPro1" type="Python.DjangoServer" factoryName="Django server">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,21 +161,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in case_Necessary_Advert_Kaiping.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="MyPro1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/testcases/cases_ns" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Kaiping.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in case_Necessary_Advert_Recommend_Navigate.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python tests.Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost" />
         <item itemvalue="Python tests.Unittests in case_Necessary_Advert_Recommend_Navigate.py" />
         <item itemvalue="Python tests.Unittests for case_Necessary_Advert_Recommend_Navigate.case_Necessary_Advert_Recommend_Navigate.test_Advert_Recommend_Navigate" />
         <item itemvalue="Python tests.Unittests for case_Necessary_Advert_Recommend_Banner.case_Necessary_Advert_Recommend_Banner.test_Advert_Recommend_Banner" />
-        <item itemvalue="Python tests.Unittests in case_Necessary_Advert_Kaiping.py" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +245,7 @@
       <workItem from="1590574958321" duration="19264000" />
       <workItem from="1590976350732" duration="55842000" />
       <workItem from="1591612217909" duration="258000" />
-      <workItem from="1591668005555" duration="5544000" />
+      <workItem from="1591668005555" duration="11972000" />
     </task>
     <servers />
   </component>
@@ -254,26 +260,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586769368402" />
-    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1591325405766">
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1591689101202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405766" />
-    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1591325405763">
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591689101202" />
+    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1591689101202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="372" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405763" />
-    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1591325405763">
+    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591689101202" />
+    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1591689101201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589882343648" />
-    <state width="1877" height="372" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405763" />
-    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1591325405766">
+    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591689101201" />
+    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1591689101202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="372" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591325405766" />
+    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591689101202" />
     <state width="1877" height="372" key="GridCell.Tab.1.bottom" timestamp="1591325405767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,6 +321,10 @@
           <url>file://$PROJECT_DIR$/login/templates/app/order/Purchase_Resources.py</url>
           <line>165</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/login/templates/utils/confutils.py</url>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -394,7 +404,7 @@
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Advert_Recommend_Navigate_py.coverage" NAME="Unittests in case_Necessary_Advert_Recommend_Navigate.py Coverage Results" MODIFIED="1591256363125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_All_Category_Page_Check_Case_Necessary_All_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_All_Category_Page_Check.Case_Necessary_All_Category_Page_Check Coverage Results" MODIFIED="1586836631145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$activityBuyShare.coverage" NAME="activityBuyShare Coverage Results" MODIFIED="1587956248137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
-    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1591181437740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1591689101196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Book_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1588843640112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Book_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Reading_Book_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1588906929600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Book_Add_Comments_py.coverage" NAME="Unittests in case_Necessary_Book_Add_Comments.py Coverage Results" MODIFIED="1586502988468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
