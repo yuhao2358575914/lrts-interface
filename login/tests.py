@@ -41,6 +41,4 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type, oper
 # print(charpters)
 # print(buy)
 # print(free)
-# from login.templates.utils import getconf
-#
-# headers = getconf.getdict('Headers', 'user-agent')
+

@@ -6,11 +6,15 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 import hashlib
+
+from django.views.decorators.csrf import csrf_exempt
+
 from login import models, forms
 from login.models import IpUtils, Report_Results
 
 from login.templates.users.User import init_register_user_by_phone
 from login.templates.utils import utils
+from login.templates.utils.confutils import init_configs, login_control
 from login.templates.utils.getconf import write_config_ini, get_config_info
 from login.templates.utils.utils import get_local_time_second
 
@@ -129,6 +133,16 @@ def get_config(request):
         return redirect('/login/')
     res_msg = get_config_info()
     return render(request, 'login/config.html', {'res_msg': res_msg})
+
+
+def change_hosts(request):
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
+    if request.method == 'POST':
+        host = request.POST.get('optionValue')
+        print('host配置', host)
+    init_configs(host)
+    return render(request, 'login/config.html', locals())
 
 
 # def crypt_utils(request):

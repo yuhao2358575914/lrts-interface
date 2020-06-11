@@ -14,6 +14,8 @@ import os
 import pymysql
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from sqlalchemy import false
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -24,7 +26,7 @@ SECRET_KEY = 'y8bmpy%ds5+c4#j@@*76&z#a)k%nv-#ur93a7m4#g=s!&h6thw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+APPEND_SLASH = False
 ALLOWED_HOSTS = ['*', ]
 
 # Application definition
