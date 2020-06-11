@@ -6,7 +6,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 import hashlib
-
+import logging
 from django.views.decorators.csrf import csrf_exempt
 
 from login import models, forms
@@ -142,6 +142,8 @@ def change_hosts(request):
         host = request.POST.get('optionValue')
         print('host配置', host)
     init_configs(host)
+    logger = logging.getLogger('log')
+    logger.info('请求成功！ 操作人:{}'.format(request.session.get('user_name')))
     return render(request, 'login/config.html', locals())
 
 

@@ -1,0 +1,42 @@
+[2020-06-11 16:59:52,269] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 16:59:54,716] [views.py:147] [views:change_hosts] [INFO]- 请求成功！ 操作人:<django.contrib.sessions.backends.db.SessionStore object at 0x000001ECB3D32780>
+[2020-06-11 16:59:54,722] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2869
+[2020-06-11 16:59:54,739] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:00:50,438] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_config/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\views.py", line 134, in get_config
+    res_msg = get_config_info()
+  File "D:\PycharmProjects\MyPro1\login\templates\utils\getconf.py", line 79, in get_config_info
+    res_dict = {**res_dict, **get_dict_all(section)}
+  File "D:\PycharmProjects\MyPro1\login\templates\utils\getconf.py", line 64, in get_dict_all
+    for key in config.options(title):
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 674, in options
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'HOST'
+[2020-06-11 17:00:50,705] [views.py:147] [views:change_hosts] [INFO]- 请求成功！ 操作人:None
+[2020-06-11 17:00:50,711] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2869
+[2020-06-11 17:00:50,818] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_config/ HTTP/1.1" 500 89237
+[2020-06-11 17:01:00,903] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:01:04,700] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:01:16,107] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:01:18,423] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:01:18,669] [views.py:147] [views:change_hosts] [INFO]- 请求成功！ 操作人:None
+[2020-06-11 17:01:18,672] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2869
+[2020-06-11 17:01:59,081] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:02:02,793] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:02:04,960] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:02:05,212] [views.py:147] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-06-11 17:02:05,215] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2869
+[2020-06-11 17:03:21,180] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5616
+[2020-06-11 17:03:21,422] [views.py:146] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-06-11 17:03:21,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2869
+[2020-06-11 17:03:26,606] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5615
+[2020-06-11 17:03:26,930] [views.py:146] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-06-11 17:03:26,936] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2869
+[2020-06-11 17:08:00,161] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10121

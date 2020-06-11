@@ -41,4 +41,3 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type, oper
 # print(charpters)
 # print(buy)
 # print(free)
-
