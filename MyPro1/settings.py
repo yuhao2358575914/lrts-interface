@@ -15,7 +15,6 @@ import pymysql
 import time
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-from sqlalchemy import false
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

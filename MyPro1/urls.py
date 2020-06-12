@@ -24,7 +24,7 @@ from login.viewas.test_view import autotest_view
 from login.viewas.test_view import cases_views
 from django.urls import include
 
-urlpatterns = {
+urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index),
     path('pages/', views.pages),
@@ -64,4 +64,4 @@ urlpatterns = {
     path('api/echarts/', echarts_data, name='api-echarts'),
     path('api/modify_config/', change_hosts, name='modify_config'),
     path('captcha/', include('captcha.urls'))
-}
+]

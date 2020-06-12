@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/all-2020-06-12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2020-06-12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2020-06-12.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPro1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all-2020-06-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-06-11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2020-06-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-06-12.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +244,7 @@
       <workItem from="1591612217909" duration="258000" />
       <workItem from="1591668005555" duration="12918000" />
       <workItem from="1591755777932" duration="10813000" />
-      <workItem from="1591847353133" duration="14438000" />
+      <workItem from="1591847353133" duration="15871000" />
     </task>
     <servers />
   </component>

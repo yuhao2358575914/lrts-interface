@@ -95,3 +95,5 @@ configparser.NoSectionError: No section: 'HOST'
 [2020-06-12 11:09:42,958] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
 [2020-06-12 11:10:30,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
 [2020-06-12 11:10:59,891] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10121
+[2020-06-12 11:16:20,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 9850
+[2020-06-12 11:16:22,067] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 321
