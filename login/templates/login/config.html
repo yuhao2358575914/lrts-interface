@@ -8,8 +8,11 @@
     <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <div style="margin-left: 20px;margin-top: 20px">
+        <a href="/index/"><label style="color: green">返回首页</label></a>
+    </div>
     <div>
-    <h3 class="text-left" style="margin-left: 20px">配置信息:</h3>
+    <h4 class="text-left" style="margin-left: 20px"><label>配置信息:</label></h4>
         {% csrf_token %}
         <table class="table-hover table table-bordered table-striped" style="margin-left: 20px">
             <thead>
@@ -33,6 +36,7 @@
         <form class="form-inline pull-right" id="hostChange" role="form" method="post">
                         {% csrf_token %}
                         <div class="form-group">
+                            <span><label>HOST切换：</label></span>
                             <select class="form-control" id="hostName">
                                 <option value="http://earth-api.mting.info,http://earth-admin.lrts.me">地球</option>
                                 <option value="http://moon-api.mting.info,http://moon-admin.lrts.me">月亮</option>
@@ -57,8 +61,6 @@
                         })
         </script>
     </div>
-    <div class="col-xs-1">
-        <a href="/index/" class="btn btn-success">返回首页</a>
-    </div>
+
 </body>
 </html>
