@@ -40,7 +40,6 @@ def api_test(request):
                 s2 = i.split('=')
                 if s2[0] != 'sc':
                     param_dict[s2[0]] = s2[1]
-
             if request_type == 'post':
                 if 'Android' in user_agent:
                     param_dict['sc'] = securitycode(api_name, param_dict)

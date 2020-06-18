@@ -47,6 +47,11 @@ def cases_pages(request, pindex):
 
 
 def search_case(request):
+    """
+    用例查询
+    :param request:
+    :return:
+    """
     if request.session.is_empty() and login_control():
         return redirect('/login/')
     query = request.GET.get('query')

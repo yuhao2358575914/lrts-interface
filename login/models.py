@@ -124,3 +124,9 @@ class AutoTest_Results(models.Model):
         verbose_name = "测试结果"
         verbose_name_plural = "测试结果"
 
+# class Devices_Management(models.Model):
+#     device_type=models.CharField(max_length=32)
+#     device_logo = models.CharField(max_length=32)
+#     device_version = models.CharField(max_length=64)
+#     device_operation_system = models.CharField(max_length=64)
+#     device_defi = models.CharField(max_length=64)

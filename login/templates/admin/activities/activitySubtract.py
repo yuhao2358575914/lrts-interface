@@ -1,5 +1,5 @@
 import json
-
+import time
 from login.templates.admin.account.adminlogin import login_admin
 from login.templates.admin.activities.activityCommon import init_Substract_rules
 from login.templates.admin.activities.activityDiscountBook import add_resources_activity
@@ -51,6 +51,7 @@ def activity_Subtract_add(rangetype, rangeentitytype, Subtractcount):
     print(r.text)
     if json.loads(r.text)['status'] == 0:
         res = dbutil.select('SELECT id FROM `t_activity` WHERE title= "%s"' % title_share, 'db_audiobook')
+        time.sleep(0.1)
         print('满减活动id为：', str(res[0].get('id')))
         return str(res[0].get('id'))
     else:

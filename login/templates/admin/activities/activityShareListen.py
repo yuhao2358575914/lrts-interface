@@ -38,8 +38,8 @@ def activity_sharelisten_add():
                             confutils.getcurrentPath('shareFree_edit'))
     print(r.text)
     if json.loads(r.text)['status'] == 0:
-        time.sleep(1)
         res = dbutil.select('SELECT id FROM `t_activity` WHERE title= "%s"' % title_share, 'db_audiobook')
+        time.sleep(0.1)
         print('查询结果', res)
         return str(res[0].get('id'))
     else:

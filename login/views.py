@@ -1,5 +1,4 @@
 import re
-
 from django.db import connection
 from django.db.models import Count
 from django.http import JsonResponse
@@ -7,11 +6,8 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 import hashlib
 import logging
-from django.views.decorators.csrf import csrf_exempt
-
 from login import models, forms
 from login.models import IpUtils, Report_Results
-
 from login.templates.users.User import init_register_user_by_phone
 from login.templates.utils import utils
 from login.templates.utils.confutils import init_configs, login_control

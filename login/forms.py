@@ -32,6 +32,8 @@ class RequestsForm(forms.Form):
     host_name = (
         ('http://earth-api.mting.info', '地球'),
         ('http://moon-api.mting.info', '月亮'),
+        ('http://pm.mting.info', '预发布'),
+        ('http://dapi.mting.info', '线上'),
     )
     user_agent = forms.CharField(label="User-Agent", max_length=1024,
                                  widget=forms.TextInput(

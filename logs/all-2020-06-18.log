@@ -1,0 +1,201 @@
+[2020-06-18 09:58:59,249] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 09:59:05,150] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 65021
+[2020-06-18 09:59:22,539] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 10:24:48,659] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 65021
+[2020-06-18 10:24:59,041] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 10:26:03,911] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 65021
+[2020-06-18 11:11:45,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 11:11:49,226] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 11:11:51,868] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 11:11:53,328] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 11:27:48,083] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 11:31:45,496] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5748
+[2020-06-18 11:31:58,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5748
+[2020-06-18 11:32:07,622] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 11:32:37,298] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5748
+[2020-06-18 11:32:54,136] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5749
+[2020-06-18 11:33:08,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 11:55:35,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 11:55:40,415] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:25:43,488] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16253
+[2020-06-18 14:29:25,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16253
+[2020-06-18 14:29:55,164] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:29:56,210] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-06-18 14:39:00,899] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10223
+[2020-06-18 14:39:03,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 240
+[2020-06-18 14:39:12,166] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /test_report/test_report20200603144316
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\test_view\autotest_view.py", line 159, in test_report
+    return render(request, 'login/reports/%s.html' % report_name, locals())
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login/reports/test_report20200603144316.html
+[2020-06-18 14:39:12,229] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /test_report/test_report20200603144316 HTTP/1.1" 500 89138
+[2020-06-18 14:42:14,643] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:42:15,557] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /mail_config_manual/ HTTP/1.1" 200 2089
+[2020-06-18 14:42:19,795] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:46:10,060] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:46:15,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_Subtracts_activity/ HTTP/1.1" 200 2896
+[2020-06-18 14:46:18,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:46:24,833] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_Subtracts_activity/ HTTP/1.1" 200 2896
+[2020-06-18 14:46:29,035] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /add_Subtracts_activity/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\lazy_view\activitys_view.py", line 74, in add_Subtracts_activity
+    activityId = add_Subtract_activity(sub_type)
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\activities\activitySubtract.py", line 119, in add_Subtract_activity
+    activityId = activity_Subtract_add('1', rangeentitytype, 4)
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\activities\activitySubtract.py", line 54, in activity_Subtract_add
+    print('满减活动id为：', str(res[0].get('id')))
+IndexError: tuple index out of range
+[2020-06-18 14:46:29,088] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /add_Subtracts_activity/ HTTP/1.1" 500 86059
+[2020-06-18 14:49:01,091] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /add_Subtracts_activity/ HTTP/1.1" 200 3043
+[2020-06-18 14:50:13,005] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:50:14,991] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_Subtracts_activity/ HTTP/1.1" 200 2896
+[2020-06-18 14:50:20,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /add_Subtracts_activity/ HTTP/1.1" 200 3043
+[2020-06-18 14:50:23,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:50:25,873] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_ShareListen_free/ HTTP/1.1" 200 2847
+[2020-06-18 14:50:33,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /add_ShareListen_free/ HTTP/1.1" 200 3015
+[2020-06-18 14:55:17,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 14:55:22,848] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-06-18 14:55:22,850] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 6183
+[2020-06-18 15:06:05,179] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 302 0
+[2020-06-18 15:06:06,202] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-06-18 15:06:17,512] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-06-18 15:06:18,941] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 15:06:21,357] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5740
+[2020-06-18 15:06:26,694] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 15:06:26,959] [views.py:142] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-06-18 15:06:26,960] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/modify_config/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.views.change_hosts didn't return an HttpResponse object. It returned None instead.
+[2020-06-18 15:06:27,064] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /api/modify_config/ HTTP/1.1" 500 18664
+[2020-06-18 15:06:32,215] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 15:06:35,222] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 15:06:37,561] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 15:07:00,617] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 15:07:11,421] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_config/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\views.py", line 130, in get_config
+    res_msg = get_config_info()
+  File "D:\PycharmProjects\MyPro1\login\templates\utils\getconf.py", line 79, in get_config_info
+    res_dict = {**res_dict, **get_dict_all(section)}
+  File "D:\PycharmProjects\MyPro1\login\templates\utils\getconf.py", line 64, in get_dict_all
+    for key in config.options(title):
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 674, in options
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'webHD'
+[2020-06-18 15:07:11,693] [views.py:142] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-06-18 15:07:11,694] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/modify_config/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.views.change_hosts didn't return an HttpResponse object. It returned None instead.
+[2020-06-18 15:07:11,708] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /api/modify_config/ HTTP/1.1" 500 18666
+[2020-06-18 15:07:11,746] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_config/ HTTP/1.1" 500 89393
+[2020-06-18 15:07:57,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5740
+[2020-06-18 15:08:13,806] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5739
+[2020-06-18 15:08:14,042] [views.py:142] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-06-18 15:08:14,044] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/modify_config/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.views.change_hosts didn't return an HttpResponse object. It returned None instead.
+[2020-06-18 15:08:14,054] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /api/modify_config/ HTTP/1.1" 500 18664
+[2020-06-18 15:08:27,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 5740
+[2020-06-18 15:08:27,702] [views.py:142] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-06-18 15:08:27,704] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/modify_config/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.views.change_hosts didn't return an HttpResponse object. It returned None instead.
+[2020-06-18 15:08:27,715] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /api/modify_config/ HTTP/1.1" 500 18666
+[2020-06-18 15:09:04,469] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 15:09:07,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5740
+[2020-06-18 15:09:22,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5750
+[2020-06-18 15:10:13,793] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5732
+[2020-06-18 15:10:16,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 15:10:19,354] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5732
+[2020-06-18 15:10:28,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5728
+[2020-06-18 15:10:42,812] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5725
+[2020-06-18 15:11:04,697] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5726
+[2020-06-18 15:11:21,061] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5728
+[2020-06-18 15:12:18,251] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5763
+[2020-06-18 15:12:29,377] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5761
+[2020-06-18 15:12:40,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5762
+[2020-06-18 15:12:55,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5760
+[2020-06-18 15:13:25,649] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5723
+[2020-06-18 15:13:34,040] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5733
+[2020-06-18 15:13:42,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5725
+[2020-06-18 15:13:49,510] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 15:18:47,592] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6200
+[2020-06-18 15:20:12,822] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5726
+[2020-06-18 15:20:45,690] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5716
+[2020-06-18 15:20:59,174] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5725
+[2020-06-18 15:21:33,368] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5725
+[2020-06-18 15:25:55,730] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 15:25:58,296] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5725
+[2020-06-18 15:26:01,683] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 5725
+[2020-06-18 15:26:07,753] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:26:20,054] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 77900
+[2020-06-18 15:27:10,138] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:30:42,924] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 77900
+[2020-06-18 15:32:25,187] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:33:12,732] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 77900
+[2020-06-18 15:35:25,333] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:35:28,498] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-06-18 15:38:46,621] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:41:07,525] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
+[2020-06-18 15:41:27,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:41:32,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 276948
+[2020-06-18 15:41:55,588] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:42:00,536] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 278164
+[2020-06-18 15:42:41,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 15:42:46,909] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
+[2020-06-18 15:44:10,094] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:01:20,162] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
+[2020-06-18 16:06:53,356] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:06:55,718] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
+[2020-06-18 16:07:28,557] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:07:32,679] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
+[2020-06-18 16:07:34,977] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:07:43,271] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 1832
+[2020-06-18 16:07:45,639] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:07:54,247] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
+[2020-06-18 16:14:58,245] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:15:00,313] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
+[2020-06-18 16:15:24,428] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:15:31,972] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 240841
+[2020-06-18 16:15:36,787] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-06-18 16:15:40,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api_test/ HTTP/1.1" 200 2616
