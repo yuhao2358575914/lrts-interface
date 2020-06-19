@@ -2,67 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login/templates/login/pages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/all-2020-06-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/all-2020-06-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2020-06-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2020-06-16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2020-06-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2020-06-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/migrations/0002_sendcode_send_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/all-2020-06-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error-2020-06-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info-2020-06-19.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityBuyShare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/admin/activities/activityShareListen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/admin/activities/activitySubtract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/add_substract.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/add_substract.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200424154242.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200508183103.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200509100546.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200509101836.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200509102143.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200509103110.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200513184132.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200514152657.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200518175601.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200518181350.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200518185256.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200526192017.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200526192019.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200526192134.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200526192155.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200526192202.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527154909.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527161806.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527161956.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527175355.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527175615.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527180344.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527180522.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527180909.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527181022.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527181246.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527181521.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200527182816.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200603144020.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200603144316.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200604141808.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reports/test_report20200604142122.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/code_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/code_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/send_code.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/send_code.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/utils/emails.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/emails.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/user_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/user_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-06-11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-06-12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-06-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-06-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-06-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error-2020-06-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-06-11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-06-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error-2020-06-17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2020-06-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-06-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info-2020-06-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info-2020-06-18.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +255,7 @@
       <workItem from="1591755777932" duration="10813000" />
       <workItem from="1591847353133" duration="19068000" />
       <workItem from="1592204708583" duration="3377000" />
-      <workItem from="1592275285304" duration="27349000" />
+      <workItem from="1592275285304" duration="40613000" />
     </task>
     <servers />
   </component>

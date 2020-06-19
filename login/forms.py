@@ -1,5 +1,6 @@
 from captcha.fields import CaptchaField
 from django import forms
+from django.forms import CheckboxSelectMultiple
 
 
 class UserForm(forms.Form):
@@ -76,7 +77,9 @@ class SendCodeForm(forms.Form):
 
     user_id = forms.CharField(label="用户ID", max_length=64,
                               widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "懒人ID"}))
-    amount = forms.ChoiceField(label="送券面额", choices=ticket_mount)
+    # amount = forms.ChoiceField(label="送券面额", choices=ticket_mount)
+    amount = forms.MultipleChoiceField(label="送券面额", required=False, widget=CheckboxSelectMultiple(),
+                                       choices=ticket_mount)
     use_scope = forms.ChoiceField(label="使用范围", choices=ex_type)
 
 
@@ -240,4 +243,3 @@ class HostExchange_Form(forms.Form):
         ('mars', '火星'),
     )
     host_value = forms.ChoiceField(label="测试环境切换", choices=host_choice)
-

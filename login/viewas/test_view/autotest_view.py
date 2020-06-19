@@ -69,7 +69,7 @@ def api_test(request):
 @csrf_exempt
 def run_test(request):
     """
-    执行用例
+    批量执行用例
     :param request:
     :return:
     """

@@ -1,3 +1,5 @@
+import django.utils.timezone as timezone
+
 from django.db import models
 
 
@@ -51,6 +53,7 @@ class SendCode(models.Model):
     user_id = models.CharField(max_length=64)
     exchangeType = models.CharField(max_length=64)
     result = models.CharField(max_length=32)
+    send_time = models.DateTimeField(default=timezone.now)
 
     class Meta:
         verbose_name = "兑换码"

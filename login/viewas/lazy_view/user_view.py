@@ -9,6 +9,7 @@ from login.templates.admin.activities.send_code import send_vip_by_exchangeCode,
 from login.templates.users.User import check_user_valid
 from login.templates.utils.confutils import init_configs, login_control
 from login import models, forms
+from login.templates.utils.utils import get_local_time_second
 
 
 def send_vip(request):
@@ -83,11 +84,16 @@ def send_code(request):
             use_scope = send_form.cleaned_data.get('use_scope')
             user_id = send_form.cleaned_data.get('user_id')
             host_name = send_form.cleaned_data.get('host')
+            print('送券金额：', amount)
+            ticket_dict = {'0': '通用', '1': '指定上传者', '10': '指定阅读版权机构', '11': '指定阅读分类', '12': '指定阅读书籍', '20': '指定听书版权机构',
+                           '21': '指定有声听书分类', '22': '指定有声书籍', '30': '指定有声节目'}
             init_configs(host_name)
             if check_user_valid(user_id) == 0:
                 message = 'UserID错误！'
                 return render(request, 'login/error.html', locals())
-            res = send_ticket_by_exchangeCode(amount, user_id, use_scope)
+            for ticket in amount:
+                res = send_ticket_by_exchangeCode(ticket, user_id, use_scope)
+            local_time = get_local_time_second()
             if res == 0:
                 message = '听读券发放成功！'
                 new_req = models.SendCode()
@@ -95,7 +101,9 @@ def send_code(request):
                 new_req.exchangeType = use_scope
                 new_req.user_id = user_id
                 new_req.result = 'success'
-                return render(request, 'login/code_success.html', locals())
+                new_req.send_time = local_time
+                message = "给用户：{}发送听读券成功！，金额为：{}元，发券类型为：{}".format(user_id, amount, ticket_dict[use_scope])
+                return render(request, 'login/send_code.html', locals())
             else:
                 message = '听读券发放失败！'
                 new_req = models.SendCode()
@@ -103,8 +111,10 @@ def send_code(request):
                 new_req.exchangeType = use_scope
                 new_req.user_id = user_id
                 new_req.result = 'fail'
+                new_req.send_time = local_time
                 error(request)
             new_req.save()
+            return render(request, 'login/send_code.html', locals())
     return render(request, 'login/send_code.html', locals())
 
 
