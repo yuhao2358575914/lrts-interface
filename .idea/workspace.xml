@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200707185634.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200707190036.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200707191259.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200707192816.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/service_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/service_config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/utils/confutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/confutils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-07.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-07.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +48,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\MyPro1\login\static\login\js" />
-      <recent name="D:\PycharmProjects\MyPro1\login\viewas\test_view" />
-      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
-      <recent name="D:\PycharmProjects\MyPro1\login" />
-      <recent name="D:\PycharmProjects\MyPro1\login\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\app\account" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\app\order" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\app\common" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\MyPro1\login\static\login\js" />
+      <recent name="D:\PycharmProjects\MyPro1\login\viewas\test_view" />
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
+      <recent name="D:\PycharmProjects\MyPro1\login" />
+      <recent name="D:\PycharmProjects\MyPro1\login\static" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Group_Add_TextPost.test__Group_Add_TextPost">
