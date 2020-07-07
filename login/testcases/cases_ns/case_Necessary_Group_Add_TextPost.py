@@ -11,8 +11,7 @@
 import json
 import unittest
 from login.templates.app.account.Get_Logon_Token import get_app_login_token
-from login.templates.users.Get_UserInfo_By_Token import get_userid_by_token
-from login.templates.utils import getconf, httputils, dbutil
+from login.templates.utils import getconf, httputils
 from login.templates.utils.utils import ranstr
 
 

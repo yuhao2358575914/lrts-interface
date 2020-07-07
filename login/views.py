@@ -6,6 +6,7 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 import hashlib
 import logging
+import datetime
 from login import models, forms
 from login.models import IpUtils, Report_Results
 from login.templates.users.User import init_register_user_by_phone
@@ -211,11 +212,14 @@ def echarts_data(request):
     :param request:
     :return:
     """
+    # 展示周期
+    show_time = datetime.datetime.now().date() - datetime.timedelta(days=30)
     select = {'day': connection.ops.date_trunc_sql('day', 'create_time')}
-    key_data = Report_Results.objects.extra(select=select).values_list('day').annotate(number=Count('id'))
-    data_earth = Report_Results.objects.filter(env_Id=4).extra(select=select).values_list('day').annotate(
+    key_data = Report_Results.objects.filter(create_time__gt=show_time).extra(select=select).values_list('day').annotate(number=Count('id'))
+    data_earth = Report_Results.objects.filter(env_Id=4, create_time__gt=show_time).extra(select=select).values_list(
+        'day').annotate(
         number=Count('id'))
-    data_moon = Report_Results.objects.filter(env_Id=3).extra(select=select).values_list('day').annotate(
+    data_moon = Report_Results.objects.filter(env_Id=3, create_time__gt=show_time).extra(select=select).values_list('day').annotate(
         number=Count('id'))
     date_list = []
     earth_date_list = []

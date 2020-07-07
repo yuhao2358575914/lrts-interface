@@ -86,7 +86,7 @@ def get_services_conf(key1, key2):
     :param key2:第二层级的key值
     :return:
     """
-    config_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '\\config\\service_config.yaml'
+    config_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/config/service_config.yaml'
     f = open(config_path, 'r', encoding='utf-8')
     cfg = f.read()
     data = yaml.load(cfg)

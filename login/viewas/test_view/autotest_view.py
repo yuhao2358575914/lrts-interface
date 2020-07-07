@@ -6,7 +6,7 @@ import re
 import requests
 import json
 from login.run.run_test import run_test_bf_old
-from login.templates.utils.confutils import init_configs, login_control
+from login.templates.utils.confutils import init_configs, login_control, get_services_conf
 from login.templates.utils.emails import send_emails, send_emails_multi
 from login.templates.utils.getconf import get_conf, write_config_ini
 from login.templates.utils.utils import securitycode, geturl, get_local_time_second
@@ -15,6 +15,8 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 from login import models, forms
 import time
+
+from login.templates.utils.wechat_robot import msg_robot
 
 
 def api_test(request):
@@ -121,6 +123,18 @@ def run_test(request):
             mail_list = mail_receivers.split(',')
             send_emails_multi(mail_list, envId, get_local_time_second(),
                               project, file_name, round(success_rate * 100))
+            # 必测自动通知到企业微信群
+            robotKeys = get_services_conf('keys', 'robotKey')
+            if ',' in robotKeys:
+                robotKey_list = robotKeys.split(',')
+            else:
+                robotKey_list = [robotKeys]
+            message = {'envId': envId, 'test_all': test_all, 'test_Pass': test_Pass, 'test_fail': test_fail,
+                       'test_Error': test_Error,
+                       'success_rate': str(round(success_rate * 100))+'%',
+                       'report_name': file_name}
+            for robotKey in robotKey_list:
+                msg_robot(message, robotKey)
         test_repo.report_style = '1'
         test_repo.env_Id = envId
         test_repo.report_testAll = test_all
@@ -258,4 +272,3 @@ def mail_config_manual(request):
         receivers = ''
     # 将当前数据渲染到页面上去
     return render(request, 'login/mail_config.html', locals())
-
