@@ -9,11 +9,12 @@
 
 """
 import json
+import random
 import unittest
 from login.templates.admin.book.Book_Operation import operation_book_get_unbuyedcharpters_all
 from login.templates.app.account.Get_Logon_Token import get_app_login_token
 from login.templates.app.order.Purchase_Resources import buy_albumn_utils
-from login.templates.utils import httputils, getconf
+from login.templates.utils import httputils, getconf, dbutil
 
 
 class case_Necessary_LazyCoins_Buy_Album(unittest.TestCase):
@@ -22,11 +23,17 @@ class case_Necessary_LazyCoins_Buy_Album(unittest.TestCase):
         '''懒人币购买节目'''
 
         token = get_app_login_token()
-        # 获取节目未购章节
+        # 获取节目
+        random_int = random.randint(0, 30)
+        albumn = dbutil.select(
+            ' SELECT Id FROM `t_sns_ablumn` WHERE  pay_type=2 AND pay_free=1 AND STATUS=0 LIMIT %d,1' % random_int,
+            'db_audiobook')
+        print('获取的albumn_id', albumn)
+        albumn_id = str(albumn[0]['Id'])
         # 第一次请求获取资源筛选数据
         data = {
             'token': token,
-            'ablumnId': '402789',
+            'ablumnId': albumn_id,
             'pageNum': '1',
             'pageSize': '10000',
             'sortType': '0',
@@ -42,7 +49,7 @@ class case_Necessary_LazyCoins_Buy_Album(unittest.TestCase):
                 audio_list.append(audio.get('audioId'))
         print(audio_list)
         # 购买节目
-        res = buy_albumn_utils(token, '402789', audio_list[0:1], '2', '41', '0')
+        res = buy_albumn_utils(token, albumn_id, audio_list[0:1], '2', '41', '0')
         self.assertIsNotNone(res)
 
 
