@@ -27,8 +27,8 @@ class case_Necessary_LazyCoins_Buy_Book(unittest.TestCase):
         book = dbutil.select(
             ' SELECT book_id FROM `t_book` WHERE bState=0 AND pay_type=2 AND pay_free=1 AND price=20 AND section>300 LIMIT %d,1' % random_int,
             'db_audiobook')
-        print('获取的bookid',book)
-        book_id=str(book[0]['book_id'])
+        print('获取的bookid', book)
+        book_id = str(book[0]['book_id'])
         # 获取未购章节
         charpters = operation_book_get_unbuyedcharpters_all(book_id, token)
         print('未购章节：', charpters)

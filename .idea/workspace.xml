@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c619eeb-8914-4a54-859b-f2480ce43bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200708170507.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_LazyCoins_Buy_Album.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_LazyCoins_Buy_Album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/config/service_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/service_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_LazyCoins_Buy_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_LazyCoins_Buy_Book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-08.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-08.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +28,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eORgOYqSQMTSvtpO0Kp08fjOqM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -97,34 +105,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190762255</updated>
-      <workItem from="1594190763341" duration="3357000" />
+      <workItem from="1594190763341" duration="7122000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1594190873571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594190873571" />
-    <state width="1877" height="446" key="GridCell.Tab.0.bottom" timestamp="1594194097427">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1594198654228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="446" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594194097427" />
-    <state width="1877" height="446" key="GridCell.Tab.0.center" timestamp="1594194097427">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594198654228" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1594198654227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="446" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594194097427" />
-    <state width="1877" height="446" key="GridCell.Tab.0.left" timestamp="1594194097427">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594198654227" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1594198654227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="446" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594194097427" />
-    <state width="1877" height="446" key="GridCell.Tab.0.right" timestamp="1594194097427">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594198654227" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1594198654228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="446" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594194097427" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594198654228" />
     <state x="665" y="311" key="git4idea.merge.GitPullDialog" timestamp="1594190859278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,7 +143,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Book_case_Necessary_LazyCoins_Buy_Book_test_Necessary_LazyCoins_Buy_Book.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_LazyCoins_Buy_Book.test_Necessary_LazyCoins_Buy_Book Coverage Results" MODIFIED="1594193256634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Album_case_Necessary_LazyCoins_Buy_Album_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Album.case_Necessary_LazyCoins_Buy_Album.test_search_normal_word Coverage Results" MODIFIED="1594194097412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Album_case_Necessary_LazyCoins_Buy_Album_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Album.case_Necessary_LazyCoins_Buy_Album.test_search_normal_word Coverage Results" MODIFIED="1594195798101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_LazyCoins_Buy_Book_py.coverage" NAME="Unittests in case_Necessary_LazyCoins_Buy_Book.py Coverage Results" MODIFIED="1594193221969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
   </component>
 </project>

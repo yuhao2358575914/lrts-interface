@@ -124,14 +124,26 @@ def run_test(request):
             send_emails_multi(mail_list, envId, get_local_time_second(),
                               project, file_name, round(success_rate * 100))
             # 必测自动通知到企业微信群
-            robotKeys = get_services_conf('keys', 'robotKey')
-            if ',' in robotKeys:
-                robotKey_list = robotKeys.split(',')
-            else:
-                robotKey_list = [robotKeys]
-            message = {'envId': envId, 'test_all': test_all, 'test_Pass': test_Pass, 'test_fail': test_fail,
+            # robotKeys = get_services_conf('keys', 'robotKey')
+            robotKeys_earth = get_services_conf('keys', 'robotKeyEarth')
+            robotKeys_moon = get_services_conf('keys', 'robotKeyMoon')
+            if envId == '4':
+                host_name = '地球'
+                if ',' in robotKeys_earth:
+                    robotKey_list = robotKeys_earth.split(',')
+                else:
+                    robotKey_list = [robotKeys_earth]
+            elif envId == '3':
+                host_name = '月亮'
+                if ',' in robotKeys_moon:
+                    robotKey_list = robotKeys_moon.split(',')
+                else:
+                    robotKey_list = [robotKeys_moon]
+            elif envId == '5':
+                host_name = '火星'
+            message = {'host_name': host_name, 'test_all': test_all, 'test_Pass': test_Pass, 'test_fail': test_fail,
                        'test_Error': test_Error,
-                       'success_rate': str(round(success_rate * 100))+'%',
+                       'success_rate': str(round(success_rate * 100)) + '%',
                        'report_name': file_name}
             for robotKey in robotKey_list:
                 msg_robot(message, robotKey)

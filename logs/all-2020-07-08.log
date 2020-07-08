@@ -12,3 +12,21 @@
 [2020-07-08 10:48:04,453] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=EKREfm6g19sDfULMvVWpHHNEeYzkw2YEf4go83lQb7oIU6akqSf21sF1nbumad7k&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
 [2020-07-08 11:58:00,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
 [2020-07-08 11:58:00,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-08 16:57:13,245] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 2888
+[2020-07-08 16:57:52,853] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=bOzmK5AS4aJFSB0SZKDUhel4intG3ULcM8Y6DMPse8FKxNpqUHWxBZdrrAoIH5US&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 17:00:00,124] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /run_test/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\test_view\autotest_view.py", line 132, in run_test
+    if ',' in robotKeys_earth:
+TypeError: argument of type 'NoneType' is not iterable
+[2020-07-08 17:00:00,238] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /run_test/?csrfmiddlewaretoken=bOzmK5AS4aJFSB0SZKDUhel4intG3ULcM8Y6DMPse8FKxNpqUHWxBZdrrAoIH5US&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 500 82069
+[2020-07-08 17:04:54,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=bOzmK5AS4aJFSB0SZKDUhel4intG3ULcM8Y6DMPse8FKxNpqUHWxBZdrrAoIH5US&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 17:05:26,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=bOzmK5AS4aJFSB0SZKDUhel4intG3ULcM8Y6DMPse8FKxNpqUHWxBZdrrAoIH5US&test_type=Nec&envId=3&project=yyting-apps-api HTTP/1.1" 200 84
