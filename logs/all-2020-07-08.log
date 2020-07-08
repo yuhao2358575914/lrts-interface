@@ -10,3 +10,5 @@
 [2020-07-08 10:45:58,807] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 2888
 [2020-07-08 10:46:28,719] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=EKREfm6g19sDfULMvVWpHHNEeYzkw2YEf4go83lQb7oIU6akqSf21sF1nbumad7k&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
 [2020-07-08 10:48:04,453] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=EKREfm6g19sDfULMvVWpHHNEeYzkw2YEf4go83lQb7oIU6akqSf21sF1nbumad7k&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 11:58:00,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-08 11:58:00,838] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
