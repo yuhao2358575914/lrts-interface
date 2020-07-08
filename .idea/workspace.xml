@@ -14,14 +14,11 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="MyPro1" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -34,28 +31,21 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\MyPro1\login\viewas\test_view" />
-      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
-      <recent name="D:\PycharmProjects\MyPro1\login" />
-      <recent name="D:\PycharmProjects\MyPro1\login\static" />
-      <recent name="D:\PycharmProjects\MyPro1\login\static\login\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\app\account" />
@@ -63,9 +53,16 @@
       <recent name="D:\PycharmProjects\MyPro1\login\templates\app\common" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Automation_platform\testplat\login\templates\admin\platform\common" />
+      <recent name="D:\PycharmProjects\MyPro1\login\viewas\test_view" />
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all" />
+      <recent name="D:\PycharmProjects\MyPro1\login" />
+      <recent name="D:\PycharmProjects\MyPro1\login\static" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.tests">
-    <configuration name="adminlogin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Add_ChannelPartner">
+    <configuration name="Add_ChannelPartner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,12 +70,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/account" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/platform/add_Partner" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/account/adminlogin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/platform/add_Partner/Add_ChannelPartner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_start_pro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Add_DivideChannel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,12 +92,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/testcases/case_new" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/platform/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/testcases/case_new/test_start_pro.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/platform/common/Add_DivideChannel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Add_ReleaseChannel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,12 +114,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/platform/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/platform/common/Add_ReleaseChannel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Create_ChannelName (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/platform/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login/templates/admin/platform/common/Create_ChannelName.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Create_Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPro1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/templates/admin/platform/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Automation_platform\testplat\login\templates\admin\platform\common\Create_Number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,43 +195,13 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book.test_case_necessary_add_collection_book" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="MyPro1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/testcases/cases_ns" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book.test_case_necessary_add_collection_book&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in case_Necessary_Search_Album.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="MyPro1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/login/testcases/cases_ns" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Album.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tests" />
-        <item itemvalue="Python tests.Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book.test_case_necessary_add_collection_book" />
-        <item itemvalue="Python tests.Unittests in case_Necessary_Search_Album.py" />
-        <item itemvalue="Python.test_start_pro" />
-        <item itemvalue="Python.adminlogin" />
+        <item itemvalue="Python.Add_ChannelPartner" />
+        <item itemvalue="Python.Create_Number" />
+        <item itemvalue="Python.Create_ChannelName (1)" />
+        <item itemvalue="Python.Add_ReleaseChannel" />
+        <item itemvalue="Python.Add_DivideChannel" />
       </list>
     </recent_temporary>
   </component>
@@ -247,11 +258,17 @@
       <workItem from="1589511763619" duration="274000" />
       <workItem from="1589512209728" duration="13022000" />
       <workItem from="1589767440340" duration="52146000" />
+      <workItem from="1590060910921" duration="8815000" />
+      <workItem from="1590210265103" duration="161000" />
+      <workItem from="1590210446817" duration="186000" />
+      <workItem from="1590210643756" duration="39296000" />
+      <workItem from="1590659199230" duration="67153000" />
+      <workItem from="1591347748375" duration="1276000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -261,42 +278,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586769368402" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1589957670313">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom" timestamp="1591328983655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589957670313" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1589957670313">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591328983655" />
+    <state width="1877" height="200" key="GridCell.Tab.0.center" timestamp="1591328983655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589957670313" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1589957670312">
+    <state width="1877" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591328983655" />
+    <state width="1877" height="200" key="GridCell.Tab.0.left" timestamp="1591328983655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589882343648" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589957670312" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1589957670313">
+    <state width="1877" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591328983655" />
+    <state width="1877" height="200" key="GridCell.Tab.0.right" timestamp="1591328983655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="206" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589882343649" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589957670313" />
-    <state width="1877" height="372" key="GridCell.Tab.1.bottom" timestamp="1589942772386">
+    <state width="1877" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591328983655" />
+    <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1591010263603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589942772386" />
-    <state width="1877" height="372" key="GridCell.Tab.1.center" timestamp="1589942772386">
+    <state width="1877" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591010263603" />
+    <state width="1877" height="242" key="GridCell.Tab.1.center" timestamp="1591010263602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589942772386" />
-    <state width="1877" height="372" key="GridCell.Tab.1.left" timestamp="1589942772386">
+    <state width="1877" height="242" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591010263602" />
+    <state width="1877" height="242" key="GridCell.Tab.1.left" timestamp="1591010263601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589942772386" />
-    <state width="1877" height="372" key="GridCell.Tab.1.right" timestamp="1589942772386">
+    <state width="1877" height="242" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591010263601" />
+    <state width="1877" height="242" key="GridCell.Tab.1.right" timestamp="1591010263603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589942772386" />
+    <state width="1877" height="242" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591010263603" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589945173062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,76 +339,96 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Ranking_List_Page_Check_Case_Necessary_Book_Ranking_List_Page_Check_test_Book_Ranking_List_Page_Check.coverage" NAME="Unittests for case_Necessary_Book_Ranking_List_Page_Check.Case_Necessary_Book_Ranking_List_Page_Check.test_Book_Ranking_List_Page_Check Coverage Results" MODIFIED="1586834650131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Label_Category_Page_Check_Case_Necessary_Label_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_Label_Category_Page_Check.Case_Necessary_Label_Category_Page_Check Coverage Results" MODIFIED="1586845084620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_case_Necessary_Search_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_search_normal_word Coverage Results" MODIFIED="1587634272715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Add_Comments_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Book_Add_Comments.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586502976616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1584415630376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
-    <SUITE FILE_PATH="coverage/MyPro1$run_test__1_.coverage" NAME="run_test (1) Coverage Results" MODIFIED="1579229050393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_case_Necessary_Search_Book_test_Search_Book.coverage" NAME="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_Search_Book Coverage Results" MODIFIED="1589535559178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_Case_Search_Normal_Word_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Book.Case_Search_Normal_Word.test_search_normal_word Coverage Results" MODIFIED="1586502274844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_All_Category_Page_Check_Case_Necessary_All_Category_Page_Check_test_All_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_All_Category_Page_Check.Case_Necessary_All_Category_Page_Check.test_All_Category_Page_Check Coverage Results" MODIFIED="1586836173118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_Home_Page_Check_Case_Necessary_Listening_Home_Page_Check.coverage" NAME="Unittests for case_Necessary_Listening_Home_Page_Check.Case_Necessary_Listening_Home_Page_Check Coverage Results" MODIFIED="1586832922512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word_test_search_normal_word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word.test_search_normal_word Coverage Results" MODIFIED="1586501638740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Album_Add_Comments_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Album_Add_Comments.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586503200980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$adminlogin.coverage" NAME="adminlogin Coverage Results" MODIFIED="1589859725879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />
+    <SUITE FILE_PATH="coverage/testplat$Create_CopyrightName__1_.coverage" NAME="Create_CopyrightName (1) Coverage Results" MODIFIED="1590749079085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Discovery_Listener_Page_Check_Case_Necessary_Discovery_Listener_Page_Check_test_Discovery_Listener_Page_Check.coverage" NAME="Unittests for case_Necessary_Discovery_Listener_Page_Check.Case_Necessary_Discovery_Listener_Page_Check.test_Discovery_Listener_Page_Check Coverage Results" MODIFIED="1588906685998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Album_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Album.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1588922205392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Collection_Book_Case_Necessary_Add_Collection_Book.coverage" NAME="Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book Coverage Results" MODIFIED="1589535756751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586772376166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501534143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$encodeutils.coverage" NAME="encodeutils Coverage Results" MODIFIED="1585879263916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Book_Add_Comments_py.coverage" NAME="Unittests in case_Necessary_Book_Add_Comments.py Coverage Results" MODIFIED="1586502988468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1584415630376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Search_Long_Word_Case_Search_Long_Word.coverage" NAME="Unittests for case_Search_Long_Word.Case_Search_Long_Word Coverage Results" MODIFIED="1583486490301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
+    <SUITE FILE_PATH="coverage/MyPro1$email.coverage" NAME="email Coverage Results" MODIFIED="1579336915646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Book_case_Necessary_LazyCoins_Buy_Book_test_Necessary_LazyCoins_Buy_Book.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_LazyCoins_Buy_Book.test_Necessary_LazyCoins_Buy_Book Coverage Results" MODIFIED="1589534568260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Group_Add_TextPost_py.coverage" NAME="Unittests in case_Necessary_Group_Add_TextPost.py Coverage Results" MODIFIED="1586770965822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$views.coverage" NAME="views Coverage Results" MODIFIED="1586314032250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/testplat$Create_ChannelName.coverage" NAME="Create_ChannelName Coverage Results" MODIFIED="1591151185277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
+    <SUITE FILE_PATH="coverage/testplat$Create_CopyrightName.coverage" NAME="Create_CopyrightName Coverage Results" MODIFIED="1591152400066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_Case_Necessary_Add_Collection_Book_py.coverage" NAME="Unittests in Case_Necessary_Add_Collection_Book.py Coverage Results" MODIFIED="1586484775936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Book_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Reading_Book_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1588906929600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Album_case_Necessary_Search_Album_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Album.case_Necessary_Search_Album.test_search_normal_word Coverage Results" MODIFIED="1589790542314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Book_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1588843640112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Book_Add_Comments_case_Necessary_Reading_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Reading_Book_Add_Comments.case_Necessary_Reading_Book_Add_Comments Coverage Results" MODIFIED="1588906212608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$run_test__1_.coverage" NAME="run_test (1) Coverage Results" MODIFIED="1579229050393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/run" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Reading_Book_py.coverage" NAME="Unittests in case_Necessary_Search_Reading_Book.py Coverage Results" MODIFIED="1587717857845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$Add_CopyRight.coverage" NAME="Add_CopyRight Coverage Results" MODIFIED="1591152331196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/Settlement_Management" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_All_Category_Page_Check_Case_Necessary_All_Category_Page_Check_test_All_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_All_Category_Page_Check.Case_Necessary_All_Category_Page_Check.test_All_Category_Page_Check Coverage Results" MODIFIED="1586836173118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586772121787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_Case_Search_Normal_Word.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501958649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Post_Add_Comments_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Post_Add_Comments.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586504074788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_Case_Search_Normal_Word_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Book.Case_Search_Normal_Word.test_search_normal_word Coverage Results" MODIFIED="1586502274844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$emails.coverage" NAME="emails Coverage Results" MODIFIED="1579398280251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
+    <SUITE FILE_PATH="coverage/testplat$Create_PartnerName.coverage" NAME="Create_PartnerName Coverage Results" MODIFIED="1590223880392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
+    <SUITE FILE_PATH="coverage/MyPro1$encodeutils.coverage" NAME="encodeutils Coverage Results" MODIFIED="1585879263916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Post_Add_Comments_py.coverage" NAME="Unittests in case_Necessary_Post_Add_Comments.py Coverage Results" MODIFIED="1587956117383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$getconf.coverage" NAME="getconf Coverage Results" MODIFIED="1577175178579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Album_case_Necessary_Search_Album_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Album.case_Necessary_Search_Album.test_search_normal_word Coverage Results" MODIFIED="1589790542314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$adminlogin.coverage" NAME="adminlogin Coverage Results" MODIFIED="1589859725879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_LazyCoins_Buy_Album_py.coverage" NAME="Unittests in case_Necessary_LazyCoins_Buy_Album.py Coverage Results" MODIFIED="1588921838832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_All_Category_Page_Check_py.coverage" NAME="Unittests in case_Necessary_All_Category_Page_Check.py Coverage Results" MODIFIED="1586844473243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$tests.coverage" NAME="tests Coverage Results" MODIFIED="1590721063908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Book_Free_Chapters_For_Purchased_Users_Not_case_Book_Free_Chapters_For_Purchased_Users_Not_test_Book_Free_Chapters_For_Purchased_Users_Not.coverage" NAME="Unittests for case_Book_Free_Chapters_For_Purchased_Users_Not.case_Book_Free_Chapters_For_Purchased_Users_Not.test_Book_Free_Chapters_For_Purchased_Users_Not Coverage Results" MODIFIED="1583484836624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Label_Category_Page_Check_Case_Necessary_Label_Category_Page_Check_test_Label_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_Label_Category_Page_Check.Case_Necessary_Label_Category_Page_Check.test_Label_Category_Page_Check Coverage Results" MODIFIED="1586845176528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$Add_CopyrightPartner.coverage" NAME="Add_CopyrightPartner Coverage Results" MODIFIED="1591181337366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platform/add_Partner" />
+    <SUITE FILE_PATH="coverage/testplat$Add_DivideChannel.coverage" NAME="Add_DivideChannel Coverage Results" MODIFIED="1591181628348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platform/common" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_case_Necessary_Search_Book_test_Search_Book.coverage" NAME="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_Search_Book Coverage Results" MODIFIED="1589535559178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$activityDiscountBook.coverage" NAME="activityDiscountBook Coverage Results" MODIFIED="1586329822129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Collection_Book_Case_Necessary_Add_Collection_Book_test_case_necessary_add_collection_book.coverage" NAME="Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book.test_case_necessary_add_collection_book Coverage Results" MODIFIED="1589942772272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Albumn_Can_Not_Appear_Prominent_Position_case_Albumn_Can_Not_Appear_Prominent_Position_test_Albumn_Can_Not_Appear_Prominent_Position.coverage" NAME="Unittests for case_Albumn_Can_Not_Appear_Prominent_Position.case_Albumn_Can_Not_Appear_Prominent_Position.test_Albumn_Can_Not_Appear_Prominent_Position Coverage Results" MODIFIED="1587724012880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Bookstore_Page_Check_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Reading_Bookstore_Page_Check.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586832309060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Album_py.coverage" NAME="Unittests in case_Necessary_Search_Album.py Coverage Results" MODIFIED="1589883371567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1589535742820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_List_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Listening_List_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586505589661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_case_Necessary_Search_Book.coverage" NAME="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book Coverage Results" MODIFIED="1588906223443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Get_Logon_Token.coverage" NAME="Get_Logon_Token Coverage Results" MODIFIED="1587696814452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/app/account" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_LazyCoins_Buy_Book_py.coverage" NAME="Unittests in case_Necessary_LazyCoins_Buy_Book.py Coverage Results" MODIFIED="1589534630543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_case_Necessary_Search_Reading_Book.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.case_Necessary_Search_Reading_Book Coverage Results" MODIFIED="1586852963976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$activityBuyShare.coverage" NAME="activityBuyShare Coverage Results" MODIFIED="1587956248137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
+    <SUITE FILE_PATH="coverage/testplat$Create_BookCopyrightName.coverage" NAME="Create_BookCopyrightName Coverage Results" MODIFIED="1590732445092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
+    <SUITE FILE_PATH="coverage/testplat$Create_AnchorName.coverage" NAME="Create_AnchorName Coverage Results" MODIFIED="1591008830582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Add_Collection_Book_py.coverage" NAME="Unittests in case_Necessary_Add_Collection_Book.py Coverage Results" MODIFIED="1589536546995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Book_py.coverage" NAME="Unittests in case_Necessary_Search_Book.py Coverage Results" MODIFIED="1589535565515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$test.coverage" NAME="test Coverage Results" MODIFIED="1590739068751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/Settlement_Management" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Book_Free_Chapters_For_Purchased_Users_Not_py.coverage" NAME="Unittests in case_Book_Free_Chapters_For_Purchased_Users_Not.py Coverage Results" MODIFIED="1583484882902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501534143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$Create_ComicCopyrightName.coverage" NAME="Create_ComicCopyrightName Coverage Results" MODIFIED="1590745901736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_Home_Page_Check_Case_Necessary_Listening_Home_Page_Check_test_Necessary_Listening_Home_Page_Check.coverage" NAME="Unittests for case_Necessary_Listening_Home_Page_Check.Case_Necessary_Listening_Home_Page_Check.test_Necessary_Listening_Home_Page_Check Coverage Results" MODIFIED="1586832823366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1586851073708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_LazyCoins_Buy_Album_py.coverage" NAME="Unittests in case_Necessary_LazyCoins_Buy_Album.py Coverage Results" MODIFIED="1588921838832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$Add_ReleaseChannel.coverage" NAME="Add_ReleaseChannel Coverage Results" MODIFIED="1591181695692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platform/common" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Label_Category_Page_Check_Case_Necessary_Label_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_Label_Category_Page_Check.Case_Necessary_Label_Category_Page_Check Coverage Results" MODIFIED="1586845084620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Add_Comments_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Book_Add_Comments.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586502976616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1589535742820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Bookstore_Page_Check_Case_Necessary_Reading_Bookstore_Page_Check_test_Reading_Bookstore_Page_Check.coverage" NAME="Unittests for case_Necessary_Reading_Bookstore_Page_Check.Case_Necessary_Reading_Bookstore_Page_Check.test_Reading_Bookstore_Page_Check Coverage Results" MODIFIED="1587613056398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_All_Category_Page_Check_Case_Necessary_All_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_All_Category_Page_Check.Case_Necessary_All_Category_Page_Check Coverage Results" MODIFIED="1586836631145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$activityBuyShare.coverage" NAME="activityBuyShare Coverage Results" MODIFIED="1587956248137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_Case_Search_Normal_Word.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.Case_Search_Normal_Word Coverage Results" MODIFIED="1586501958649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Reading_Book_py.coverage" NAME="Unittests in case_Necessary_Search_Reading_Book.py Coverage Results" MODIFIED="1587717857845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1589957407538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Book_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1588843640112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Book_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Reading_Book_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1588906929600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_Home_Page_Check_Case_Necessary_Listening_Home_Page_Check_test_Necessary_Listening_Home_Page_Check.coverage" NAME="Unittests for case_Necessary_Listening_Home_Page_Check.Case_Necessary_Listening_Home_Page_Check.test_Necessary_Listening_Home_Page_Check Coverage Results" MODIFIED="1586832823366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Book_Add_Comments_py.coverage" NAME="Unittests in case_Necessary_Book_Add_Comments.py Coverage Results" MODIFIED="1586502988468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_List_Add_Comments_case_Necessary_Reading_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Listening_List_Add_Comments.case_Necessary_Reading_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586505589661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_LazyCoins_Buy_Book_py.coverage" NAME="Unittests in case_Necessary_LazyCoins_Buy_Book.py Coverage Results" MODIFIED="1589534630543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Discovery_Listener_Page_Check_py.coverage" NAME="Unittests in case_Necessary_Discovery_Listener_Page_Check.py Coverage Results" MODIFIED="1588906622657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Post_Add_Comments_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Post_Add_Comments.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586504074788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Purchase_Resources.coverage" NAME="Purchase_Resources Coverage Results" MODIFIED="1588840225134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/app/order" />
+    <SUITE FILE_PATH="coverage/testplat$Create_ChannelName__1_.coverage" NAME="Create_ChannelName (1) Coverage Results" MODIFIED="1591253562376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platform/common" />
+    <SUITE FILE_PATH="coverage/testplat$Create_ReadBookCopyrightName.coverage" NAME="Create_ReadBookCopyrightName Coverage Results" MODIFIED="1590732433814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Follower_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Add_Follower.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586773674615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Search_Book_py.coverage" NAME="Unittests in case_Necessary_Search_Book.py Coverage Results" MODIFIED="1589535565515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$emails.coverage" NAME="emails Coverage Results" MODIFIED="1579398280251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
-    <SUITE FILE_PATH="coverage/MyPro1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1586851073708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Book_Add_Comments_case_Necessary_Reading_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Reading_Book_Add_Comments.case_Necessary_Reading_Book_Add_Comments Coverage Results" MODIFIED="1588906212608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$user_account.coverage" NAME="user_account Coverage Results" MODIFIED="1587973958453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />
-    <SUITE FILE_PATH="coverage/MyPro1$Book_Operation.coverage" NAME="Book_Operation Coverage Results" MODIFIED="1585904752420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/book" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Add_Collection_Book_py.coverage" NAME="Unittests in case_Necessary_Add_Collection_Book.py Coverage Results" MODIFIED="1589536546995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Book_case_Necessary_LazyCoins_Buy_Book_test_Necessary_LazyCoins_Buy_Book.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_LazyCoins_Buy_Book.test_Necessary_LazyCoins_Buy_Book Coverage Results" MODIFIED="1589534568260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Album_Case_Search_Normal_Word.coverage" NAME="Unittests for case_Necessary_Search_Album.Case_Search_Normal_Word Coverage Results" MODIFIED="1586852924323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Post_Add_Comments_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Post_Add_Comments.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586504129796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Reading_Bookstore_Page_Check_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Reading_Bookstore_Page_Check.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586832309060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$email.coverage" NAME="email Coverage Results" MODIFIED="1579336915646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/utils" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_Case_Necessary_Add_Collection_Book_py.coverage" NAME="Unittests in Case_Necessary_Add_Collection_Book.py Coverage Results" MODIFIED="1586484775936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Book_Free_Chapters_For_Purchased_Users_Not_py.coverage" NAME="Unittests in case_Book_Free_Chapters_For_Purchased_Users_Not.py Coverage Results" MODIFIED="1583484882902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases" />
+    <SUITE FILE_PATH="coverage/MyPro1$Purchase_Resources.coverage" NAME="Purchase_Resources Coverage Results" MODIFIED="1588840225134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/app/order" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Listening_Home_Page_Check_Case_Necessary_Listening_Home_Page_Check.coverage" NAME="Unittests for case_Necessary_Listening_Home_Page_Check.Case_Necessary_Listening_Home_Page_Check Coverage Results" MODIFIED="1586832922512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1571281823283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MyPro1$activityDiscountBook.coverage" NAME="activityDiscountBook Coverage Results" MODIFIED="1586329822129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/activities" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Ranking_List_Page_Check_Case_Necessary_Book_Ranking_List_Page_Check.coverage" NAME="Unittests for case_Necessary_Book_Ranking_List_Page_Check.Case_Necessary_Book_Ranking_List_Page_Check Coverage Results" MODIFIED="1586835096695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Album_Add_Comments_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Album_Add_Comments.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586503200980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Collection_Book_Case_Necessary_Add_Collection_Book_test_case_necessary_add_collection_book.coverage" NAME="Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book.test_case_necessary_add_collection_book Coverage Results" MODIFIED="1589942772272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Reading_Book_case_Necessary_Search_Reading_Book.coverage" NAME="Unittests for case_Necessary_Search_Reading_Book.case_Necessary_Search_Reading_Book Coverage Results" MODIFIED="1586852963976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Book_case_Necessary_Search_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_Search_Book.case_Necessary_Search_Book.test_search_normal_word Coverage Results" MODIFIED="1587634272715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$test_start_pro.coverage" NAME="test_start_pro Coverage Results" MODIFIED="1589882343641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_new" />
-    <SUITE FILE_PATH="coverage/MyPro1$views.coverage" NAME="views Coverage Results" MODIFIED="1586314032250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Group_Add_TextPost_py.coverage" NAME="Unittests in case_Necessary_Group_Add_TextPost.py Coverage Results" MODIFIED="1586770965822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_All_Category_Page_Check_py.coverage" NAME="Unittests in case_Necessary_All_Category_Page_Check.py Coverage Results" MODIFIED="1586844473243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586772121787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Albumn_Can_Not_Appear_Prominent_Position_case_Albumn_Can_Not_Appear_Prominent_Position_test_Albumn_Can_Not_Appear_Prominent_Position.coverage" NAME="Unittests for case_Albumn_Can_Not_Appear_Prominent_Position.case_Albumn_Can_Not_Appear_Prominent_Position.test_Albumn_Can_Not_Appear_Prominent_Position Coverage Results" MODIFIED="1587724012880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/case_all" />
+    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1589957407538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/testplat$Add_AnchorPartner.coverage" NAME="Add_AnchorPartner Coverage Results" MODIFIED="1591088406684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/Settlement_Management" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Search_Album_Case_Search_Normal_Word.coverage" NAME="Unittests for case_Necessary_Search_Album.Case_Search_Normal_Word Coverage Results" MODIFIED="1586852924323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$Create_PhoneNum.coverage" NAME="Create_PhoneNum Coverage Results" MODIFIED="1591327283202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platform/common" />
+    <SUITE FILE_PATH="coverage/MyPro1$Book_Operation.coverage" NAME="Book_Operation Coverage Results" MODIFIED="1585904752420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/book" />
+    <SUITE FILE_PATH="coverage/MyPro1$user_account.coverage" NAME="user_account Coverage Results" MODIFIED="1587973958453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/account" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Post_Add_Comments_case_Necessary_Book_Add_Comments_test_book_add_comments.coverage" NAME="Unittests for case_Necessary_Post_Add_Comments.case_Necessary_Book_Add_Comments.test_book_add_comments Coverage Results" MODIFIED="1586504129796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Book_Ranking_List_Page_Check_Case_Necessary_Book_Ranking_List_Page_Check_test_Book_Ranking_List_Page_Check.coverage" NAME="Unittests for case_Necessary_Book_Ranking_List_Page_Check.Case_Necessary_Book_Ranking_List_Page_Check.test_Book_Ranking_List_Page_Check Coverage Results" MODIFIED="1586834650131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Get_Logon_Token.coverage" NAME="Get_Logon_Token Coverage Results" MODIFIED="1587696814452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/app/account" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_Case_Necessary_Search_Album_Case_Search_Normal_Word_test_search_normal_word.coverage" NAME="Unittests for Case_Necessary_Search_Album.Case_Search_Normal_Word.test_search_normal_word Coverage Results" MODIFIED="1586501638740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$Create_AnnouncerName__1_.coverage" NAME="Create_AnnouncerName (1) Coverage Results" MODIFIED="1591009964649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/common" />
+    <SUITE FILE_PATH="coverage/testplat$Add_Announcer.coverage" NAME="Add_Announcer Coverage Results" MODIFIED="1591010263581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platformcopyright/Settlement_Management" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Group_Add_TextPost_case_Necessary_Book_Add_Comments.coverage" NAME="Unittests for case_Necessary_Group_Add_TextPost.case_Necessary_Book_Add_Comments Coverage Results" MODIFIED="1586772376166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Album_case_Necessary_Search_Reading_Book_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Album.case_Necessary_Search_Reading_Book.test_search_normal_word Coverage Results" MODIFIED="1588922205392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/testplat$Add_ChannelPartner.coverage" NAME="Add_ChannelPartner Coverage Results" MODIFIED="1591328983649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/templates/admin/platform/add_Partner" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Label_Category_Page_Check_Case_Necessary_Label_Category_Page_Check_test_Label_Category_Page_Check.coverage" NAME="Unittests for case_Necessary_Label_Category_Page_Check.Case_Necessary_Label_Category_Page_Check.test_Label_Category_Page_Check Coverage Results" MODIFIED="1586845176528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_Add_Collection_Book_Case_Necessary_Add_Collection_Book.coverage" NAME="Unittests for case_Necessary_Add_Collection_Book.Case_Necessary_Add_Collection_Book Coverage Results" MODIFIED="1589535756751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
   </component>
 </project>
