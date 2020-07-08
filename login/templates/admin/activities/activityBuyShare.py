@@ -39,9 +39,9 @@ def activity_BuyShare_add():
                             confutils.getcurrentPath('buyOneGetOne_edit'))
     print(r.text)
     if json.loads(r.text)['status'] == 0:
-        sleep(0.1)
         print('sql:','SELECT id FROM `t_activity` WHERE title= "%s"' % title_share)
         res = dbutil.select('SELECT id FROM `t_activity` WHERE title= "%s"' % title_share, 'db_audiobook')
+        sleep(0.1)
         return str(res[0].get('id'))
     else:
         return json.loads(r.text)['msg']

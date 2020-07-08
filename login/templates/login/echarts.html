@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>统计</title>
+  <!-- 引入 echarts.js -->
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/static/login/js/echarts.min.js"></script>
+</head>
+<body>
+  <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+  <h3>懒人自动化统计</h3>
+  <br>
+  <div id="main" style="height:800px;"></div>
+  <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    $.ajax({
+      type: "get",
+      url: "/api/echarts",
+      dataType: "json",
+      success: function (data) {
+
+        // 指定图表的配置项和数据
+        var option = {
+          title: {
+            left: 'center',
+            text: ''
+          },
+          tooltip: {
+              trigger: 'axis'
+          },
+          legend: {
+                data:['earth','moon']
+            },
+          xAxis: {
+              data: data.key
+          },
+          yAxis: {},
+          series: [{
+            name: '地球',
+            type: 'bar',
+            data: data.valueEarth,
+            itemStyle:{
+                normal:{
+                    color:'#4ad2ff'
+                    }
+                }
+            },
+              {
+            name: '月球',
+            type: 'bar',
+            data: data.valueMoon,
+            itemStyle:{
+                normal:{
+                    color:'green'
+                    }
+                }
+            }
+          ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+      },
+      error: function () {
+        alert('Error: ajax 请求出错！')
+      }
+    });
+  </script>
+</body>
+</html>

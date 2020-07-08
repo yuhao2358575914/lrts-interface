@@ -248,3 +248,5 @@ def dec_To_Bin(num):
         return bins[::-1]
     else:
         return sts[::-1]
+
+

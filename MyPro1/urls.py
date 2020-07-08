@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.views.generic import TemplateView
+from login.views import echarts_data, change_hosts
 from login import views
 from login.viewas.lazy_view import activitys_view
 from login.viewas.lazy_view import user_view
 from login.viewas.test_view import autotest_view
 from login.viewas.test_view import cases_views
-
 from django.urls import include
 
 urlpatterns = [
@@ -44,6 +45,7 @@ urlpatterns = [
     path('test_report_single/', autotest_view.test_report_single),
     path('test_report_list10/', autotest_view.test_report_list10),
     path('send_email/', autotest_view.send_email),
+    path('mail_config_manual/', autotest_view.mail_config_manual),
     path('run_case/', autotest_view.run_case),
     path('send_vip/', user_view.send_vip),
     path('vip_expire/', user_view.vip_expire),
@@ -58,5 +60,8 @@ urlpatterns = [
     # path('crypt_utils/',viewas.crypt_utils),
     path('error/', views.error),
     path('get_ips/', views.get_ips),
+    path('echarts/', TemplateView.as_view(template_name='login/echarts.html'), name='echarts-url'),
+    path('api/echarts/', echarts_data, name='api-echarts'),
+    path('api/modify_config/', change_hosts, name='modify_config'),
     path('captcha/', include('captcha.urls'))
 ]

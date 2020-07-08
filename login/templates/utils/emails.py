@@ -10,10 +10,6 @@ from email.header import Header
 from login.templates.utils.getconf import get_conf
 
 
-# < p > 你好，Python接口自动化测试报告... < / p >
-# < p > 报告查看链接如下： < / p >
-# < p > < a
-# href = 'http://autotest.lrts.me/test_report/' > 接口测试报告 < / a > < / p >
 def send_emails(receivers: list):
     versionDsc = """
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -52,7 +48,7 @@ def send_emails(receivers: list):
 </body>
 </html>
 
-    """ % ('地球', '地球', '2022-02-09 10:01:00', 'apidemp', 'test_reporter20121212121','test_reporter20121212121')
+    """ % ('地球', '地球', '2022-02-09 10:01:00', 'apidemp', 'test_reporter20121212121', 'test_reporter20121212121')
     message = MIMEText(versionDsc, 'html', 'utf-8')
     message['From'] = Header("测试邮箱", 'utf-8')
     message['To'] = Header("自动化测试", 'utf-8')
@@ -64,7 +60,7 @@ def send_emails(receivers: list):
     smtpObj.sendmail(get_conf('email', 'mail_user'), receivers, message.as_string())
 
 
-def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name):
+def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name, success_Rate):
     if envId == '4':
         host_names = '地球'
     elif envId == '3':
@@ -81,17 +77,19 @@ def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name):
 
 <body style="margin: 0; padding: 0;">
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="650" style="border-collapse: collapse;">
     <tr>
         <td>
             <div style="border: #36649d 1px dashed;margin: 30px;padding: 20px">
                 <label style="font-size: 18px;color: #36649d;font-weight: bold">你好，必测接口测试报告，请查收~</label>
-                <p style="font-size: 20px"><label style="font-weight: bold">%s</label>环境刚刚发布了后台代码，并进行了自动化测试</p>
+                <p style="font-size: 20px"><label style="font-weight: bold">%s</label>环境发布了后台代码，并进行了自动化测试</p>
                 <p style="font-size: 16px">测试环境：<label style="font-weight: bold">%s</label></p>
                 <p style="font-size: 16px">发布时间：<label style="font-weight: bold">%s</label></p>
                 <p style="font-size: 16px">发布模块：<label style="font-weight: bold">%s</label></P>
+                <p style="font-size: 16px">用例通过率：<label style="font-weight: bold">%s</label></P>
                 <p style="font-size: 16px">测试报告查看链接如下：</p>
-                <p><a href='http://autotest.lrts.me/test_report/%s'>报告名:%s</a></p>
+                <p><a href='http://autotest.lrts.me/test_report/%s'>本次测试结果:%s</a></p>
+                <p><a href='http://autotest.lrts.me/test_report_list10/'>近10次测试结果</a></p>
             </div>
         </td>
     </tr>
@@ -99,14 +97,13 @@ def send_emails_multi(receivers: list, envId, pubTime, apimodule, report_name):
         <td>
             <div style="margin: 40px">
                 <p style="color:red;font-size: 14px ">（这是一封自动发送的邮件，请勿回复。）</p>
-
             </div>
         </td>
     </tr>
 </table>
 </body>
 </html>
-    """ % (host_names, host_names, pubTime, apimodule, report_name, report_name)
+    """ % (host_names, host_names, pubTime, apimodule, str(success_Rate) + '%', report_name, report_name)
     message = MIMEText(versionDsc, 'html', 'utf-8')
     message['From'] = Header("测试邮箱", 'utf-8')
     message['To'] = Header("自动化测试", 'utf-8')

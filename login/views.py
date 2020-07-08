@@ -1,13 +1,17 @@
 import re
-
+from django.db import connection
+from django.db.models import Count
+from django.http import JsonResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 import hashlib
+import logging
+import datetime
 from login import models, forms
-from login.models import IpUtils
-
+from login.models import IpUtils, Report_Results
 from login.templates.users.User import init_register_user_by_phone
 from login.templates.utils import utils
+from login.templates.utils.confutils import init_configs, login_control
 from login.templates.utils.getconf import write_config_ini, get_config_info
 from login.templates.utils.utils import get_local_time_second
 
@@ -128,6 +132,18 @@ def get_config(request):
     return render(request, 'login/config.html', {'res_msg': res_msg})
 
 
+def change_hosts(request):
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
+    if request.method == 'POST':
+        host = request.POST.get('optionValue')
+        print('host配置', host)
+    init_configs(host)
+    logger = logging.getLogger('log')
+    logger.info('请求成功！ 操作人:{}'.format(request.session.get('user_name')))
+    return render(request, 'login/config.html', locals())
+
+
 # def crypt_utils(request):
 #     # if not request.session['is_login']:
 #     #     return redirect('/index/')
@@ -188,3 +204,78 @@ def init_env(host_name):
     """
     write_config_ini('HOST', 'apidomain', host_name.split(',')[0])
     write_config_ini('HOST', 'admindomain', host_name.split(',')[1])
+
+
+def echarts_data(request):
+    """
+    自动化测试结果图形化展示
+    :param request:
+    :return:
+    """
+    # 展示周期
+    show_time = datetime.datetime.now().date() - datetime.timedelta(days=30)
+    select = {'day': connection.ops.date_trunc_sql('day', 'create_time')}
+    key_data = Report_Results.objects.filter(create_time__gt=show_time).extra(select=select).values_list('day').annotate(number=Count('id'))
+    data_earth = Report_Results.objects.filter(env_Id=4, create_time__gt=show_time).extra(select=select).values_list(
+        'day').annotate(
+        number=Count('id'))
+    data_moon = Report_Results.objects.filter(env_Id=3, create_time__gt=show_time).extra(select=select).values_list('day').annotate(
+        number=Count('id'))
+    date_list = []
+    earth_date_list = []
+    moon_date_list = []
+    earth_list = []
+    moon_list = []
+    for i in key_data:
+        date_list.append(i[0])
+    print('x轴日期', date_list)
+    for k in data_earth:
+        earth_list.append((k[0], k[1]))
+    for c in data_moon:
+        moon_list.append((c[0], c[1]))
+    for m in earth_list:
+        earth_date_list.append(m[0])
+        less_list = list(set(date_list) - set(earth_date_list))
+    for h in moon_list:
+        moon_date_list.append(h[0])
+        less_list_moon = list(set(date_list) - set(moon_date_list))
+    for j in less_list:
+        earth_list.append((j, 0))
+    for t in less_list_moon:
+        moon_list.append((t, 0))
+    earth_list.sort(key=takeFirst)
+    moon_list.sort(key=takeFirst)
+    print('处理后的地球数据', earth_list)
+    print('处理后的月亮数据', moon_list)
+    json_data = {
+        "key": [i[0] for i in key_data],
+        "valueEarth": [i[1] for i in earth_list],
+        "valueMoon": [i[1] for i in moon_list],
+    }
+    return JsonResponse(json_data)
+
+
+def takeFirst(elem):
+    """
+    list排序指定第一个key
+    :param elem:
+    :return:
+    """
+    return elem[0]
+
+
+def get_data_filter(data_list, all_date):
+    """
+    数据处理
+    :param data_list:
+    :param all_date:
+    :return:
+    """
+    date_list = []
+    for m in data_list:
+        date_list.append(m[0])
+        less_list = list(set(all_date) - set(date_list))
+    for j in less_list:
+        data_list.append((j, 0))
+    data_list.sort(key=takeFirst)
+    return date_list

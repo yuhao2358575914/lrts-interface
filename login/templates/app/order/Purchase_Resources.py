@@ -147,6 +147,7 @@ def buy_albumn_utils(token, bookid: str, items: list, opType: str, ptype: str, u
     # 获取最终提交价格
     totalFee_1 = get_entity_price_totalFee(bookid, constant.resourceType_albumn, token)
     totalFee_account = str(len(items) * int(totalFee_1))
+    print('总金额：',totalFee_account)
     # 获取采用听读券金额
     pay = get_user_resource_ticket(bookid, '2', totalFee_account, token)
     # totalFee_ticket = '0'

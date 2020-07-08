@@ -1,3 +1,5 @@
+import django.utils.timezone as timezone
+
 from django.db import models
 
 
@@ -51,6 +53,7 @@ class SendCode(models.Model):
     user_id = models.CharField(max_length=64)
     exchangeType = models.CharField(max_length=64)
     result = models.CharField(max_length=32)
+    send_time = models.DateTimeField(default=timezone.now)
 
     class Meta:
         verbose_name = "兑换码"
@@ -77,6 +80,7 @@ class TestCases(models.Model):
     script_name = models.CharField(max_length=64)
     create_time = models.DateTimeField(auto_now_add=True)
     case_creater = models.CharField(max_length=64, default='lazy')
+
     # case_status = models.CharField(max_length=8, choices=status_choices, default="2")
 
     class Meta:
@@ -100,6 +104,11 @@ class Report_Results(models.Model):
     create_time = models.DateTimeField(auto_now_add=True)
     report_style = models.CharField(max_length=8, choices=style, default="1")
     env_Id = models.CharField(max_length=8, default='4')
+    report_testAll = models.IntegerField(default=0)
+    report_testPass = models.IntegerField(default=0)
+    report_testFail = models.IntegerField(default=0)
+    report_testError = models.IntegerField(default=0)
+    report_successRate = models.IntegerField(default=0)
 
     class Meta:
         verbose_name = "测试报告"
@@ -117,3 +126,10 @@ class AutoTest_Results(models.Model):
     class Meta:
         verbose_name = "测试结果"
         verbose_name_plural = "测试结果"
+
+# class Devices_Management(models.Model):
+#     device_type=models.CharField(max_length=32)
+#     device_logo = models.CharField(max_length=32)
+#     device_version = models.CharField(max_length=64)
+#     device_operation_system = models.CharField(max_length=64)
+#     device_defi = models.CharField(max_length=64)

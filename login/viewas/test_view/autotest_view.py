@@ -6,14 +6,17 @@ import re
 import requests
 import json
 from login.run.run_test import run_test_bf_old
-from login.templates.utils.confutils import init_configs
+from login.templates.utils.confutils import init_configs, login_control, get_services_conf
 from login.templates.utils.emails import send_emails, send_emails_multi
-from login.templates.utils.getconf import get_conf
+from login.templates.utils.getconf import get_conf, write_config_ini
 from login.templates.utils.utils import securitycode, geturl, get_local_time_second
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
 from login import models, forms
+import time
+
+from login.templates.utils.wechat_robot import msg_robot
 
 
 def api_test(request):
@@ -39,7 +42,6 @@ def api_test(request):
                 s2 = i.split('=')
                 if s2[0] != 'sc':
                     param_dict[s2[0]] = s2[1]
-
             if request_type == 'post':
                 if 'Android' in user_agent:
                     param_dict['sc'] = securitycode(api_name, param_dict)
@@ -69,7 +71,7 @@ def api_test(request):
 @csrf_exempt
 def run_test(request):
     """
-    执行用例
+    批量执行用例
     :param request:
     :return:
     """
@@ -86,17 +88,27 @@ def run_test(request):
         elif envId == '5':
             host_names = 'http://mars-api.mting.info,http://mars-admin.lrts.me'
         init_configs(host_names)
+        time.sleep(0.2)
         test_type = test_form.cleaned_data.get('test_type')
         project = test_form.cleaned_data.get('project')
         if test_type == 'All':
             test_type_1 = 'case_*.py'
         elif test_type == 'Nec':
             test_type_1 = 'case_Necessary*.py'
-        file_name = run_test_bf_old(test_type_1)
+        test_results = run_test_bf_old(test_type_1)
+        file_name = test_results.get('filename')
+        test_all = test_results.get('result').get('testAll')
+        test_Pass = test_results.get('result').get('testPass')
+        test_fail = test_results.get('result').get('testFail')
+        test_Error = test_results.get('result').get('testError')
+        success_rate = (test_all - test_fail - test_Error) / test_all
+        test_results.get('result')['success_rate'] = success_rate
+        print('成功率', success_rate)
         data = {
             'envId': envId,
             'test_type': test_type,
-            'project': project
+            'project': project,
+            'successRate': success_rate
         }
         test_repo = models.Report_Results()
         test_repo.reporter_name = file_name
@@ -110,9 +122,26 @@ def run_test(request):
             mail_receivers = get_conf('email', 'mail_default_receivers')
             mail_list = mail_receivers.split(',')
             send_emails_multi(mail_list, envId, get_local_time_second(),
-                              project, file_name)
+                              project, file_name, round(success_rate * 100))
+            # 必测自动通知到企业微信群
+            robotKeys = get_services_conf('keys', 'robotKey')
+            if ',' in robotKeys:
+                robotKey_list = robotKeys.split(',')
+            else:
+                robotKey_list = [robotKeys]
+            message = {'envId': envId, 'test_all': test_all, 'test_Pass': test_Pass, 'test_fail': test_fail,
+                       'test_Error': test_Error,
+                       'success_rate': str(round(success_rate * 100))+'%',
+                       'report_name': file_name}
+            for robotKey in robotKey_list:
+                msg_robot(message, robotKey)
         test_repo.report_style = '1'
         test_repo.env_Id = envId
+        test_repo.report_testAll = test_all
+        test_repo.report_testPass = test_Pass
+        test_repo.report_testFail = test_fail
+        test_repo.report_testError = test_Error
+        test_repo.report_successRate = success_rate * 100
         test_repo.save()
         return HttpResponse(json.dumps(data))
         # return render(request, 'login/run_test.html', locals())
@@ -162,7 +191,7 @@ def send_email(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     mail_form = forms.SendEmails(request.POST)
     if mail_form.is_valid():
@@ -186,7 +215,7 @@ def run_case(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     run_id = request.GET.get('run_id')
     res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
@@ -216,7 +245,7 @@ def test_report_single(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     run_id = request.GET.get('run_id')
     report = \
@@ -225,3 +254,21 @@ def test_report_single(request):
             'reporter_name')
     print('报告名：', report)
     return render(request, 'login/reports/single/%s.html' % report, locals())
+
+
+def mail_config_manual(request):
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
+    if request.method == 'POST':
+        receivers_new = request.POST.get('receivers')
+        if receivers_new == '':
+            message = '邮箱配置不能为空！'
+            return render(request, 'login/mail_config.html', locals())
+        write_config_ini('email', 'mail_default_receivers', receivers_new.strip())
+        return redirect('/index/')
+    # 获取配置文件下的收件人邮箱
+    receivers = get_conf('email', 'mail_default_receivers')
+    if receivers is None:
+        receivers = ''
+    # 将当前数据渲染到页面上去
+    return render(request, 'login/mail_config.html', locals())

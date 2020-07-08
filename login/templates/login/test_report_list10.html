@@ -6,11 +6,12 @@
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/js/bootstrap-select.js"></script>
+    <script src="/static/login/js/echarts.min.js"></script>
     <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/css/bootstrap-select.css">
 </head>
 <body>
-    <h2 style="margin-left: 60px;margin-top: 80px">测试报告列表：</h2>
+    <h4 style="margin-left: 60px;margin-top: 80px">测试报告列表：</h4>
     <div class="col-md-12 col-md-pull-0">
         <div style="margin-left: 40px">
         <table class="table-hover table table-bordered table-striped">
@@ -18,6 +19,11 @@
                 <tr>
                     <th>序号</th>
                     <th>报告链接</th>
+                    <th>用例数</th>
+                    <th>成功数</th>
+                    <th>失败数</th>
+                    <th>错误数</th>
+                    <th>通过率</th>
                     <th>报告类型</th>
                     <th>触发人</th>
                     <th>生成时间</th>
@@ -29,6 +35,11 @@
                 <tr>
                     <td>{{ forloop.counter }}</td>
                     <td><a href="/test_report/{{ report.reporter_name }}">{{ report.reporter_name }}</a></td>
+                    <td>{{ report.report_testAll}}</td>
+                    <td>{{ report.report_testPass}}</td>
+                    <td>{{ report.report_testFail}}</td>
+                    <td>{{ report.report_testError}}</td>
+                    <td>{{ report.report_successRate}}%</td>
                     {% if report.reporter_type == 'Nec' %}
                     <td>必测</td>
                     {% else  %}
@@ -52,6 +63,88 @@
             </tbody>
         </table>
     </div>
+        <h4 style="margin-left: 50px;margin-top: 80px">用例执行统计：</h4>
+        <div id="main" style="height:500px; margin-left: 0px">
+        </div>
+        <div style="margin-bottom: 30px;margin-left: 60px">
+        <a href="/index/"><label>返回首页</label></a>
+        </div>
+    <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    $.ajax({
+      type: "get",
+      url: "/api/echarts/",
+      dataType: "json",
+      success: function (data) {
+
+        // 指定图表的配置项和数据
+        var option = {
+          title: {
+            left: 'center',
+            text: ''
+          },
+          tooltip: {
+              trigger: 'axis'
+          },
+          legend: {
+                data:['earth','moon']
+            },
+          xAxis: {
+              data: data.key
+          },
+          yAxis: {},
+          series: [{
+            name: 'earth',
+            type: 'bar',
+            data: data.valueEarth,
+            itemStyle:{
+                normal:{
+                    color:'#4ad2ff'
+                    }
+                }
+            },
+              {
+            name: 'earth',
+            type: 'line',
+            data: data.valueEarth,
+            itemStyle:{
+                normal:{
+                    color:'#DC143C'
+                    }
+                }
+            },
+              {
+            name: 'moon',
+            type: 'bar',
+            data: data.valueMoon,
+            itemStyle:{
+                normal:{
+                    color:'#1E90FF'
+                    }
+                }
+            },
+              {
+            name: 'moon',
+            type: 'line',
+            data: data.valueMoon,
+            itemStyle:{
+                normal:{
+                    color:'#00FF00'
+                    }
+                }
+            }
+          ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+      },
+      error: function () {
+        alert('Error: ajax 请求出错！')
+      }
+    });
+  </script>
     </div>
 </body>
 </html>

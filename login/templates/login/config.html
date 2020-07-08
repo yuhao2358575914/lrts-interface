@@ -3,13 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>配置信息</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div>
-    <h3 class="text-center">配置信息:</h3>
-    {% for k,v in res_msg.items %}
-    <a><strong>{{ k }}</strong>: <br>{{ v }}<br></a>
-    {% endfor %}
-</div>
+    <div style="margin-left: 20px;margin-top: 20px">
+        <a href="/index/" class="btn btn-info">返回首页</a>
+    </div>
+    <div>
+    <h4 class="text-left" style="margin-left: 20px"><label>配置信息:</label></h4>
+        {% csrf_token %}
+        <table class="table-hover table table-bordered table-striped" style="margin-left: 20px">
+            <thead>
+                    <tr>
+                        <th>配置项</th>
+                        <th>配置值</th>
+                    </tr>
+            </thead>
+            <tbody>
+             {% for k,v in res_msg.items %}
+                <tr>
+                    <td>{{ k }}</td>
+                    <td>{{ v }}</td>
+                </tr>
+             {% endfor %}
+            </tbody>
+        </table>
+    </div>
+        <!-- 样式2 -->
+    <div class="col-xs-1">
+        <form class="form-inline pull-right" id="hostChange" role="form" method="post">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <span><label>HOST切换：</label></span>
+                            <select class="form-control" id="hostName">
+                                <option value="http://earth-api.mting.info,http://earth-admin.lrts.me">地球</option>
+                                <option value="http://moon-api.mting.info,http://moon-admin.lrts.me">月亮</option>
+                                <option value="http://mars-api.mting.info,http://mars-admin.lrts.me">火星</option>
+                            </select>
+                            <button name="host-button" type="submit" class="btn btn-primary" id="host-button-id">保存</button>
+                        </div>
+        </form>
+        <script type="text/javascript">
+                    $("#hostChange").on('submit',function(){
+                        var optionValue=$("#hostName option:selected").val()
+                        $.ajax({
+                            type: "POST",//方法类型
+                            dataType: "json",//预期服务器返回的数据类型
+                            url: "/api/modify_config/" ,//url
+                            data: {'optionValue':optionValue,"csrfmiddlewaretoken":$("[name='csrfmiddlewaretoken']").val()},
+                        success: function (arg) {
+                            console.log(data);
+                            alert("修改成功")
+                                },
+                            });
+                        })
+        </script>
+    </div>
+
 </body>
 </html>

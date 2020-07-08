@@ -17,9 +17,9 @@ from login.templates.utils import getconf, httputils
 from login.templates.utils.utils import get_json_value_by_key, check_keyword_in_list, ranstr
 
 
-class case_Necessary_Book_Add_Comments(unittest.TestCase):
+class case_Necessary_Album_Add_Comments(unittest.TestCase):
 
-    def test_book_add_comments(self):
+    def test_Album_Add_Comments(self):
         """节目添加评论"""
         # 登录并获取token
         token = get_app_login_token()

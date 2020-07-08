@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # coding=gbk
 from login.templates.admin.account.adminlogin import login_admin
 from login.templates.admin.platformcopyright.Settlement_Management.Add_CopyRight import add_AudioBookCopyright, \
@@ -8,6 +9,11 @@ from login.templates.admin.platformcopyright.common.operate_mysql import billing
 from login.templates.utils import httputils, confutils
 from login.templates.utils.confutils import getAdminName
 import json
+=======
+import datetime
+import os
+import re
+>>>>>>> 32710e2b23b2c1a79d8b621327862c7624be5996
 
 def add_CopyrightPartner(order):
     '''添加版权合作方(付费收听/vip会员）
@@ -120,7 +126,36 @@ def add_CopyrightPartner(order):
         print('---------添加失败！！！-----------')
 
 
+<<<<<<< HEAD
 if __name__=='__main__':
     # add_AudioBookCopyright()
     # add_ReadBookCopyright()
     add_CopyrightPartner(1)
+=======
+#
+# a=add_BuyShare_activity(get_book_by_pay_type(1,3),get_book_by_pay_type(2,3))
+# print(a)
+# params = '/yyting/page/recommendPage.action?pageVersion=v3&recommendedSwitch=0&type=2&token=JTa_wEdSIhzP1SZKF6GjFg**_gtSvJSSO3svh93sMwoQnezwJTTOmUT-m&imei=ODYzMjU0MDEwMTQwMjMz&nwt=1&q=474&mode=0&sc=67f156dc6a39b5884ab7f0c5a0c39695'
+# s1 = params.split('?')[1].split('&')
+# param_dict = {}
+# for i in s1:
+#     s2 = i.split('=')
+#     if s2[0] != 'sc':
+#         param_dict[s2[0]] = s2[1]
+# class_name = os.path.basename(__file__)
+# print(class_name)
+# aa=run_test_bf('case_Search_Normal_Word.py')
+# print(aa)
+# print(type(aa))
+# charpters = operation_book_get_unbuyedcharpters_all('92365489', 'MFyzOz-LtD7P1SZKF6GjFg**_qKkiCdyyMrjjDGxUh_yuZP2hbkAc4-6o')
+# print(charpters)
+# from login.templates.app.order.Entity_Price import get_entity_price_by_id
+# from login.templates.users.Get_UserInfo_By_Token import get_userid_by_token
+# token = 'M_2_2bkYZr7P1SZKF6GjFg**_gtSvJSSO3suJw7sB7aTQBX0Vfy9LgB7Z'
+# charpters = operation_book_get_unbuyedcharpters_all('92365489', token)
+# buy=operation_book_get_buyedcharpters_all('92365489', token)
+# free=operation_book_get_freecharpters('92365489')
+# print(charpters)
+# print(buy)
+# print(free)
+>>>>>>> 32710e2b23b2c1a79d8b621327862c7624be5996

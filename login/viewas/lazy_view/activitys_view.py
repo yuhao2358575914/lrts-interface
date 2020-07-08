@@ -5,7 +5,7 @@ from login.templates.admin.activities.activityBuyShare import add_BuyShare_activ
 from login.templates.admin.activities.activityShareListen import add_ShareListen_free_activity
 from login.templates.admin.activities.activitySubtract import add_Subtract_activity
 from login.templates.admin.book.Book_Operation import get_book_by_pay_type, get_albumn_by_pay_type
-from login.templates.utils.confutils import init_configs
+from login.templates.utils.confutils import init_configs, login_control
 from login.templates.config import constant
 
 
@@ -15,8 +15,8 @@ def add_buy_share(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method:
         buy_form = forms.BuyShare(request.POST)
         if buy_form.is_valid():
@@ -39,8 +39,8 @@ def add_ShareListen_free(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method:
         share_form = forms.ShareFree(request.POST)
         if share_form.is_valid():
@@ -63,8 +63,8 @@ def add_Subtracts_activity(request):
     :param request:
     :return:
     """
-    # if request.session.is_empty():
-    #     return redirect('/login/')
+    if request.session.is_empty() and login_control():
+        return redirect('/login/')
     if request.method:
         substract_form = forms.SubtractActivity(request.POST)
         if substract_form.is_valid():
@@ -79,6 +79,6 @@ def add_Subtracts_activity(request):
 
 
 def activity_list(request):
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     return render(request, 'login/activity_init.html', locals())
