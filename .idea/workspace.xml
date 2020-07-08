@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="" />
+    <list default="true" id="341f26d7-282d-4d08-9c27-3fb07c0f2871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200708104603.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200708104745.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/all-2020-07-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error-2020-07-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info-2020-07-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +256,7 @@
       <workItem from="1591847353133" duration="19068000" />
       <workItem from="1592204708583" duration="3377000" />
       <workItem from="1592275285304" duration="40613000" />
-      <workItem from="1594123055296" duration="413000" />
+      <workItem from="1594123055296" duration="4124000" />
     </task>
     <servers />
   </component>
@@ -261,6 +270,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594174795682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594174795682" />
     <state x="774" y="393" key="FileChooserDialogImpl" timestamp="1591864926766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

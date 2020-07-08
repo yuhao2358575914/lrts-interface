@@ -4,12 +4,11 @@ import requests
 def msg_robot(message, robot_Key):
     """
     企业微信机器人发送消息
+    :param robot_Key: 机器人key
     :param message:消息内容
-    :param url:发送消息到指定的群url
     :return:
     """
     headers = {"Content-Type": "text/plain"}
-    # message = "测试环境：{}已经发布api，用例通过率：".format({str(message)})
     if message['envId'] == '4':
         host_names = '地球'
     elif message['envId'] == '3':
@@ -27,14 +26,14 @@ def msg_robot(message, robot_Key):
                        "> 失败数：<font color=\"warning\">%s</font> \n" % (message.get('test_fail')) +  # 引用：> 需要引用的文字
                        "> 错误数：<font color=\"warning\">%s</font> \n" % (message.get('test_Error')) +  # 引用：> 需要引用的文字
                        "> 成功率：<font color=\"error\">%s</font> \n" % (message.get('success_rate')) +  # 字体颜色(只支持3种内置颜色)
-                       "[本次测试结果详情:%s](http://autotest.lrts.me/test_report/%s)" % (message.get('report_name'),message.get('report_name'))
-            # 绿色：info、灰色：comment、橙红：warning
+                       "[本次测试结果详情:%s](http://autotest.lrts.me/test_report/%s) \n" % (
+                           message.get('report_name'), message.get('report_name')) +
+                       "[近10测试结果](http://autotest.lrts.me/test_report_list10/)"  # 绿色：info、灰色：comment、橙红：warning
         }
     }
     ret = requests.post(
-        url="https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key="+robot_Key,
+        url="https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=" + robot_Key,
         headers=headers,
         json=data
     )
     print(ret.text)
-
