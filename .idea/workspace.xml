@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5c619eeb-8914-4a54-859b-f2480ce43bda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/forms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/formsgroup/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/forms/platform_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/formsgroup/platform_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/platform_views/anchor_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/platform_views/anchor_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/platform_views/channel_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/platform_views/channel_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/platform_views/copyright_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/platform_views/copyright_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all-2020-07-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-10.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +47,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/templates/login/platform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/formsgroup" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login\platform" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\MyPro1\login\formsgroup" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login\platform" />
       <recent name="D:\PycharmProjects\MyPro1\login\viewas\platform_views" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login" />
@@ -158,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190762255</updated>
-      <workItem from="1594190763341" duration="42955000" />
+      <workItem from="1594190763341" duration="43893000" />
     </task>
     <servers />
   </component>

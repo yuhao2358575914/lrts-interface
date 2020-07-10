@@ -189,3 +189,84 @@ ValueError: The view login.viewas.lazy_view.activitys_view.activity_list didn't 
 [2020-07-10 11:11:21,879] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/1 HTTP/1.1" 200 493
 [2020-07-10 11:31:28,496] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
 [2020-07-10 11:36:46,420] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 14:48:42,588] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 14:48:48,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 14:48:51,550] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 14:49:39,589] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10340
+[2020-07-10 14:50:02,361] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10345
+[2020-07-10 14:51:19,315] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 14:51:22,096] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10345
+[2020-07-10 14:54:13,651] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10344
+[2020-07-10 14:59:19,589] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16572
+[2020-07-10 15:00:06,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10344
+[2020-07-10 15:00:51,775] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10350
+[2020-07-10 15:01:09,077] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10352
+[2020-07-10 15:01:21,939] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10368
+[2020-07-10 15:01:47,437] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10376
+[2020-07-10 15:01:59,725] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10392
+[2020-07-10 15:02:42,166] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 15:07:34,159] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 15:07:35,907] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /add_buy_share/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\lazy_view\activitys_view.py", line 21, in add_buy_share
+    buy_form = forms.BuyShare(request.POST)
+AttributeError: module 'login.forms' has no attribute 'BuyShare'
+[2020-07-10 15:07:35,942] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /add_buy_share/ HTTP/1.1" 500 72680
+[2020-07-10 15:10:46,296] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /add_buy_share/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\lazy_view\activitys_view.py", line 21, in add_buy_share
+    buy_form = forms.BuyShare(request.POST)
+AttributeError: module 'login.forms' has no attribute 'BuyShare'
+[2020-07-10 15:10:46,424] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /add_buy_share/ HTTP/1.1" 500 72680
+[2020-07-10 15:10:50,693] [base.py:93] [base:get_response] [WARNING]- Not Found: /add_buy_share
+[2020-07-10 15:10:50,696] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /add_buy_share HTTP/1.1" 404 6360
+[2020-07-10 15:10:57,567] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /add_buy_share/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\lazy_view\activitys_view.py", line 21, in add_buy_share
+    buy_form = forms.BuyShare(request.POST)
+AttributeError: module 'login.forms' has no attribute 'BuyShare'
+[2020-07-10 15:10:57,599] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /add_buy_share/ HTTP/1.1" 500 72525
+[2020-07-10 15:13:48,175] [base.py:93] [base:get_response] [WARNING]- Not Found: /add_buy_share
+[2020-07-10 15:13:48,178] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /add_buy_share HTTP/1.1" 404 6360
+[2020-07-10 15:13:52,438] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /add_buy_share/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\lazy_view\activitys_view.py", line 20, in add_buy_share
+    buy_form = form.BuyShare(request.POST)
+AttributeError: module 'login.forms' has no attribute 'BuyShare'
+[2020-07-10 15:13:52,551] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /add_buy_share/ HTTP/1.1" 500 72658
+[2020-07-10 15:17:12,727] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /add_buy_share/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\lazy_view\activitys_view.py", line 20, in add_buy_share
+    buy_form = forms.BuyShare(request.POST)
+AttributeError: module 'login.forms' has no attribute 'BuyShare'
+[2020-07-10 15:17:12,847] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /add_buy_share/ HTTP/1.1" 500 72660

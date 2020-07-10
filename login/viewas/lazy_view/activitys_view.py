@@ -1,5 +1,4 @@
 from django.shortcuts import redirect, render
-
 from login import forms
 from login.templates.admin.activities.activityBuyShare import add_BuyShare_activity
 from login.templates.admin.activities.activityShareListen import add_ShareListen_free_activity
