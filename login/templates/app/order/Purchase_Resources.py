@@ -83,9 +83,14 @@ def buy_book_utils(token, bookid: str, items: list, opType: str, ptype: str, use
                         }
     if ptype in ['27', '41']:
         parameters_order['items'] = str(items)
+
+    if useTickets == '':
+        coin_total_fee = str(pay.get('coin_amount'))
+    else:
+        coin_total_fee = '0'
     parameters_coinPay = {
         'outOrderNo': outOrderNo,
-        'totalFee': str(pay.get('coin_amount')),
+        'totalFee': coin_total_fee,
         'useTickets': useTickets,
         'useTicketsType': useTicketsType
     }
@@ -105,7 +110,7 @@ def buy_book_utils(token, bookid: str, items: list, opType: str, ptype: str, use
     jsonr_dict = json.loads(res)
     result = jsonr_dict['list'][0].get('result')
     dict_result = json.loads(result)
-    print(dict_result.get('data'))
+    print('购买最终结果coinPay，：', dict_result.get('data'))
     if str(jsonr_dict.get('status')) == '0':
         return dict_result.get('data').get('orderNo')
     else:
@@ -147,7 +152,7 @@ def buy_albumn_utils(token, bookid: str, items: list, opType: str, ptype: str, u
     # 获取最终提交价格
     totalFee_1 = get_entity_price_totalFee(bookid, constant.resourceType_albumn, token)
     totalFee_account = str(len(items) * int(totalFee_1))
-    print('总金额：',totalFee_account)
+    print('总金额：', totalFee_account)
     # 获取采用听读券金额
     pay = get_user_resource_ticket(bookid, '2', totalFee_account, token)
     # totalFee_ticket = '0'
@@ -161,9 +166,13 @@ def buy_albumn_utils(token, bookid: str, items: list, opType: str, ptype: str, u
                         }
     if ptype in ['27', '41', '25']:
         parameters_order['items'] = str(items)
+    if useTickets == '':
+        coin_total_fee = str(pay.get('coin_amount'))
+    else:
+        coin_total_fee = '0'
     parameters_coinPay = {
         'outOrderNo': outOrderNo,
-        'totalFee': str(pay.get('coin_amount')),
+        'totalFee': coin_total_fee,
         'useTickets': useTickets,
         'useTicketsType': useTicketsType
     }
@@ -188,6 +197,7 @@ def buy_albumn_utils(token, bookid: str, items: list, opType: str, ptype: str, u
         return dict_result.get('data').get('orderNo')
     else:
         return dict_result.get('msg')
+
 
 # def purchase_datas_reduction(orderNo, goodid, userid):
 #     """

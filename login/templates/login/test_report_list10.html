@@ -24,6 +24,7 @@
                     <th>失败数</th>
                     <th>错误数</th>
                     <th>通过率</th>
+                    <th>发布模块</th>
                     <th>报告类型</th>
                     <th>触发人</th>
                     <th>生成时间</th>
@@ -41,13 +42,20 @@
                     <td>{{ report.report_testError}}</td>
                     <td>{{ report.report_successRate}}%</td>
                     {% if report.reporter_type == 'Nec' %}
-                    <td>必测</td>
-                    {% else  %}
-                    <td>全量</td>
+                    <td>yyting-apps-api</td>
+                    {% elif report.reporter_type == 'AdminNec'  %}
+                    <td>yyting-apps-admin</td>
+                    {% endif %}
+                    {% if report.reporter_type == 'Nec' %}
+                        <td>必测</td>
+                    {% elif report.reporter_type == 'AdminNec'  %}
+                        <td>Admin必测</td>
+                    {% else %}
+                        <td>全量</td>
                     {% endif %}
                     {% if report.create_user == 'developer' %}
-                    <td>后台发布自动触发</td>
-                        {% else %}
+                        <td>后台发布自动触发</td>
+                    {% else %}
                         <td>{{ report.create_user }}</td>
                     {% endif %}
                     <td>{{ report.create_time }}</td>
@@ -55,7 +63,7 @@
                     <td>earth</td>
                     {% elif report.env_Id == '3' %}
                         <td>moon</td>
-                     {% else %}
+                    {% else %}
                          <td>mars</td>
                     {% endif %}
                 </tr>

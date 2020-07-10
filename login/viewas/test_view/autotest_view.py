@@ -95,6 +95,8 @@ def run_test(request):
             test_type_1 = 'case_*.py'
         elif test_type == 'Nec':
             test_type_1 = 'case_Necessary*.py'
+        elif test_type == 'AdminNec':
+            test_type_1 = 'case_Admin_Necessary*.py'
         test_results = run_test_bf_old(test_type_1)
         file_name = test_results.get('filename')
         test_all = test_results.get('result').get('testAll')
@@ -141,7 +143,8 @@ def run_test(request):
                     robotKey_list = [robotKeys_moon]
             elif envId == '5':
                 host_name = '火星'
-            message = {'host_name': host_name, 'test_all': test_all, 'test_Pass': test_Pass, 'test_fail': test_fail,
+            message = {'project': project, 'host_name': host_name, 'test_all': test_all, 'test_Pass': test_Pass,
+                       'test_fail': test_fail,
                        'test_Error': test_Error,
                        'success_rate': str(round(success_rate * 100)) + '%',
                        'report_name': file_name}

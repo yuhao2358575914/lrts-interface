@@ -7,7 +7,6 @@ from login import models
 from login import forms
 from django.db.models import Q
 import pandas as pd
-
 from login.templates.utils.confutils import login_control
 from login.templates.utils.utils import get_local_time_second
 

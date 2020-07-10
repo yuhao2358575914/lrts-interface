@@ -1,0 +1,189 @@
+[2020-07-10 10:07:26,854] [base.py:93] [base:get_response] [WARNING]- Not Found: /add_copyright_partner/
+[2020-07-10 10:07:26,855] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /add_copyright_partner/ HTTP/1.1" 404 6376
+[2020-07-10 10:07:53,015] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner/ HTTP/1.1" 200 3033
+[2020-07-10 10:08:06,395] [base.py:93] [base:get_response] [WARNING]- Not Found: /platform/
+[2020-07-10 10:08:06,397] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /platform/ HTTP/1.1" 404 6406
+[2020-07-10 10:08:44,203] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3033
+[2020-07-10 10:08:46,816] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9943
+[2020-07-10 10:09:06,426] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9950
+[2020-07-10 10:09:08,842] [base.py:93] [base:get_response] [WARNING]- Not Found: /index/platform/add_copyright_partner
+[2020-07-10 10:09:08,844] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /index/platform/add_copyright_partner HTTP/1.1" 404 6418
+[2020-07-10 10:09:30,845] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9951
+[2020-07-10 10:09:32,798] [base.py:93] [base:get_response] [WARNING]- Not Found: /index/platform/add_copyright_partner/
+[2020-07-10 10:09:32,801] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /index/platform/add_copyright_partner/ HTTP/1.1" 404 6421
+[2020-07-10 10:10:16,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9952
+[2020-07-10 10:10:21,189] [base.py:93] [base:get_response] [WARNING]- Not Found: /platform/add_copyright_partner/
+[2020-07-10 10:10:21,190] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /platform/add_copyright_partner/ HTTP/1.1" 404 6471
+[2020-07-10 10:10:32,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9951
+[2020-07-10 10:10:34,525] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3033
+[2020-07-10 10:11:58,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3033
+[2020-07-10 10:12:02,330] [base.py:93] [base:get_response] [WARNING]- Not Found: /add_copyright_partner/
+[2020-07-10 10:12:02,333] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /add_copyright_partner/ HTTP/1.1" 404 6377
+[2020-07-10 10:12:44,152] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9951
+[2020-07-10 10:12:49,856] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3033
+[2020-07-10 10:13:19,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3051
+[2020-07-10 10:13:23,967] [base.py:93] [base:get_response] [WARNING]- Not Found: /platform/add_copyright_partner/
+[2020-07-10 10:13:23,970] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /platform/add_copyright_partner/ HTTP/1.1" 404 6472
+[2020-07-10 10:13:37,853] [base.py:93] [base:get_response] [WARNING]- Not Found: /platform/add_copyright_partner/
+[2020-07-10 10:13:37,855] [basehttp.py:124] [basehttp:log_message] [WARNING]- "POST /platform/add_copyright_partner/ HTTP/1.1" 404 6472
+[2020-07-10 10:14:31,086] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9951
+[2020-07-10 10:14:33,798] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 10:14:39,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3211
+[2020-07-10 10:15:49,478] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9951
+[2020-07-10 10:16:10,751] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 10:16:20,054] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /platform/add_copyright_partner
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\platform_views\copyright_views.py", line 22, in add_copyright_partner
+    result = add_CopyrightPartner(int(copyright_type))
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\add_Partner\Add_CopyrightPartner.py", line 79, in add_CopyrightPartner
+    comic_cp = add_ComicCopyright()  # 获取版权信息
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\Add_CopyRight.py", line 94, in add_ComicCopyright
+    comicNameInfo=Create_CopyrightName.comicName()
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\Create_CopyrightName.py", line 46, in comicName
+    cp_record = select("select * from yyting_partdb.c_comic_copyright order by id desc limit 1;","yyting_partdb")
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\operate_mysql.py", line 7, in select
+    conn = pymysql.connect(host=get_conf('moon','host'), user=get_conf('moon','username'), password=get_conf('moon','password'), database=db,charset='utf8mb4')
+  File "D:\PycharmProjects\MyPro1\login\templates\utils\getconf.py", line 17, in get_conf
+    cf = config.get(title, value)
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'moon'
+[2020-07-10 10:16:20,186] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /platform/add_copyright_partner HTTP/1.1" 500 107268
+[2020-07-10 10:16:33,772] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /platform/add_copyright_partner
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\platform_views\copyright_views.py", line 22, in add_copyright_partner
+    result = add_CopyrightPartner(int(copyright_type))
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\add_Partner\Add_CopyrightPartner.py", line 79, in add_CopyrightPartner
+    comic_cp = add_ComicCopyright()  # 获取版权信息
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\Add_CopyRight.py", line 94, in add_ComicCopyright
+    comicNameInfo=Create_CopyrightName.comicName()
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\Create_CopyrightName.py", line 46, in comicName
+    cp_record = select("select * from yyting_partdb.c_comic_copyright order by id desc limit 1;","yyting_partdb")
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\operate_mysql.py", line 7, in select
+    conn = pymysql.connect(host=get_conf('moon','host'), user=get_conf('moon','username'), password=get_conf('moon','password'), database=db,charset='utf8mb4')
+  File "D:\PycharmProjects\MyPro1\login\templates\utils\getconf.py", line 17, in get_conf
+    cf = config.get(title, value)
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'moon'
+[2020-07-10 10:16:33,810] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /platform/add_copyright_partner HTTP/1.1" 500 107268
+[2020-07-10 10:19:09,385] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3211
+[2020-07-10 10:21:23,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9951
+[2020-07-10 10:21:27,349] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 10:21:35,619] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 9951
+[2020-07-10 10:34:34,657] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 10:34:38,136] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3352
+[2020-07-10 10:34:51,562] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_channel_partner HTTP/1.1" 200 3513
+[2020-07-10 10:46:06,384] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10343
+[2020-07-10 10:46:08,567] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10343
+[2020-07-10 10:46:16,601] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/ HTTP/1.1" 200 427
+[2020-07-10 10:51:21,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10343
+[2020-07-10 10:51:24,965] [base.py:93] [base:get_response] [WARNING]- Not Found: /activity_list/
+[2020-07-10 10:51:24,967] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /activity_list/ HTTP/1.1" 404 6366
+[2020-07-10 10:51:53,356] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /activity_list/1
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: activity_list() got an unexpected keyword argument 'x_type'
+[2020-07-10 10:51:53,480] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /activity_list/1 HTTP/1.1" 500 68928
+[2020-07-10 10:52:28,407] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /activity_list/1
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: activity_list() got an unexpected keyword argument 'x_type'
+[2020-07-10 10:52:28,528] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /activity_list/1 HTTP/1.1" 500 68928
+[2020-07-10 10:53:06,732] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /activity_list/1
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: activity_list() got an unexpected keyword argument 'x_type'
+[2020-07-10 10:53:06,841] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /activity_list/1 HTTP/1.1" 500 68928
+[2020-07-10 10:54:41,642] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /activity_list/1
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.viewas.lazy_view.activitys_view.activity_list didn't return an HttpResponse object. It returned None instead.
+[2020-07-10 10:54:41,753] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /activity_list/1 HTTP/1.1" 500 63873
+[2020-07-10 10:55:57,788] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/1 HTTP/1.1" 200 427
+[2020-07-10 10:57:03,817] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /activity_list/activity
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.viewas.lazy_view.activitys_view.activity_list didn't return an HttpResponse object. It returned None instead.
+[2020-07-10 10:57:03,929] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /activity_list/activity HTTP/1.1" 500 63686
+[2020-07-10 10:57:27,086] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /activity_list/activity
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.viewas.lazy_view.activitys_view.activity_list didn't return an HttpResponse object. It returned None instead.
+[2020-07-10 10:57:27,115] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /activity_list/activity HTTP/1.1" 500 63949
+[2020-07-10 10:57:41,744] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/1 HTTP/1.1" 200 427
+[2020-07-10 11:01:17,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/2 HTTP/1.1" 200 501
+[2020-07-10 11:01:31,857] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/2 HTTP/1.1" 200 505
+[2020-07-10 11:02:23,896] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10343
+[2020-07-10 11:02:50,201] [base.py:93] [base:get_response] [WARNING]- Not Found: /activity_list/
+[2020-07-10 11:02:50,203] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /activity_list/ HTTP/1.1" 404 6366
+[2020-07-10 11:02:55,345] [base.py:93] [base:get_response] [WARNING]- Not Found: /activity_list/
+[2020-07-10 11:02:55,347] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /activity_list/ HTTP/1.1" 404 6366
+[2020-07-10 11:03:42,437] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10345
+[2020-07-10 11:03:44,431] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /activity_list/1
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view login.viewas.lazy_view.activitys_view.activity_list didn't return an HttpResponse object. It returned None instead.
+[2020-07-10 11:03:44,544] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /activity_list/1 HTTP/1.1" 500 63893
+[2020-07-10 11:03:58,240] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/1 HTTP/1.1" 200 427
+[2020-07-10 11:04:02,909] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/2 HTTP/1.1" 200 505
+[2020-07-10 11:04:07,231] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/1 HTTP/1.1" 200 427
+[2020-07-10 11:04:11,040] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /activity_list/2 HTTP/1.1" 200 505
+[2020-07-10 11:05:05,684] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 11:05:09,926] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/1 HTTP/1.1" 200 427
+[2020-07-10 11:05:13,597] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/2 HTTP/1.1" 200 505
+[2020-07-10 11:08:26,349] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 11:08:32,942] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3352
+[2020-07-10 11:08:35,589] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 11:08:37,905] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 2848
+[2020-07-10 11:08:40,281] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 11:08:43,798] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 11:08:46,118] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 11:08:48,237] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3352
+[2020-07-10 11:09:08,135] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 11:09:12,651] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/2 HTTP/1.1" 200 505
+[2020-07-10 11:09:17,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/1 HTTP/1.1" 200 427
+[2020-07-10 11:11:21,879] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/1 HTTP/1.1" 200 493

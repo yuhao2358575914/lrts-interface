@@ -78,7 +78,10 @@ def add_Subtracts_activity(request):
     return render(request, 'login/add_substract.html', locals())
 
 
-def activity_list(request):
+def items_list(request, x_type):
     if request.session.is_empty() and login_control():
         return redirect('/login/')
-    return render(request, 'login/activity_init.html', locals())
+    if x_type == "1":
+        return render(request, 'login/activity_init.html', locals())
+    elif x_type == "2":
+        return render(request, 'login/platform/platform_all.html', locals())

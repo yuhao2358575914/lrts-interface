@@ -30,3 +30,22 @@ TypeError: argument of type 'NoneType' is not iterable
 [2020-07-08 17:00:00,238] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /run_test/?csrfmiddlewaretoken=bOzmK5AS4aJFSB0SZKDUhel4intG3ULcM8Y6DMPse8FKxNpqUHWxBZdrrAoIH5US&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 500 82069
 [2020-07-08 17:04:54,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=bOzmK5AS4aJFSB0SZKDUhel4intG3ULcM8Y6DMPse8FKxNpqUHWxBZdrrAoIH5US&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
 [2020-07-08 17:05:26,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=bOzmK5AS4aJFSB0SZKDUhel4intG3ULcM8Y6DMPse8FKxNpqUHWxBZdrrAoIH5US&test_type=Nec&envId=3&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 17:10:40,521] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-08 17:10:41,344] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-08 17:10:42,189] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-08 17:10:42,207] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /index/ HTTP/1.1" 500 59
+[2020-07-08 17:10:42,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-08 17:26:01,716] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-08 17:26:03,331] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 2888
+[2020-07-08 17:26:38,017] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=x0gCascdyuqjJMLWnPEx1RP4GqQrN6NB8kFm39rNIsmooYauiMXalCHrPDLtrhWh&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 17:28:35,445] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=x0gCascdyuqjJMLWnPEx1RP4GqQrN6NB8kFm39rNIsmooYauiMXalCHrPDLtrhWh&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 17:34:47,592] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=x0gCascdyuqjJMLWnPEx1RP4GqQrN6NB8kFm39rNIsmooYauiMXalCHrPDLtrhWh&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 17:35:28,873] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=x0gCascdyuqjJMLWnPEx1RP4GqQrN6NB8kFm39rNIsmooYauiMXalCHrPDLtrhWh&test_type=Nec&envId=3&project=yyting-apps-api HTTP/1.1" 200 84
+[2020-07-08 18:06:38,119] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-09 10:50:24,026] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-09 10:50:24,262] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-09 10:50:24,266] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 6234
+[2020-07-09 11:28:22,538] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16253
+[2020-07-09 11:49:52,561] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132
+[2020-07-09 14:50:14,339] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 2888
+[2020-07-09 16:09:47,692] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10132

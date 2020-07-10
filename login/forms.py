@@ -97,6 +97,7 @@ class ReportUtils(forms.Form):
     test_choice = (
         ('All', '全量用例'),
         ('Nec', '必测用例'),
+        ('AdminNec', 'Admin必测用例'),
     )
     host_name = (
         ('4', '地球'),
@@ -105,6 +106,7 @@ class ReportUtils(forms.Form):
     )
     api_choice = (
         ('yyting-apps-api', 'yyting-apps-api'),
+        ('yyting-apps-admin','yyting-apps-admin'),
     )
     envId = forms.ChoiceField(label="测试环境", choices=host_name)
     test_type = forms.ChoiceField(label='自动化用例执行类型', choices=test_choice)
@@ -189,6 +191,9 @@ class ShareFree(forms.Form):
 
 
 class SubtractActivity(forms.Form):
+    """
+    满减
+    """
     host_name = (
         ('http://earth-api.mting.info,http://earth-admin.lrts.me', '地球'),
         ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),

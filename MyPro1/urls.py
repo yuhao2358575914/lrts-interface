@@ -16,16 +16,19 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
+from login.viewas.platform_views import copyright_views
 from login.views import echarts_data, change_hosts
 from login import views
 from login.viewas.lazy_view import activitys_view
 from login.viewas.lazy_view import user_view
 from login.viewas.test_view import autotest_view
 from login.viewas.test_view import cases_views
+from login.viewas.platform_views import copyright_views
 from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('platform/', include('login.urls')),
     path('index/', views.index),
     path('pages/', views.pages),
     path('pages/', views.error),
@@ -54,7 +57,7 @@ urlpatterns = [
     path('add_buy_share/', activitys_view.add_buy_share),
     path('add_ShareListen_free/', activitys_view.add_ShareListen_free),
     path('add_Subtracts_activity/', activitys_view.add_Subtracts_activity),
-    path('activity_list/', activitys_view.activity_list),
+    path('items_list/<x_type>', activitys_view.items_list),
     path('lazy_reg/', views.lazy_reg),
     path('get_config/', views.get_config),
     # path('crypt_utils/',viewas.crypt_utils),
