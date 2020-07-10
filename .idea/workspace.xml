@@ -2,67 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c619eeb-8914-4a54-859b-f2480ce43bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login/forms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/forms/platform_forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/add_Partner/Add_AnchorPartner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/add_Partner/Add_ChannelPartner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/add_Partner/Add_CopyrightPartner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/add_Partner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Add_Announcer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Add_CopyRight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Add_DivideChannel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Add_ReleaseChannel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Create_AnnouncerName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Create_ChannelName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Create_CopyrightName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Create_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/Create_PartnerName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/common/operate_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/settlement/Settlement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/settlement/SettlementVIP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/settlement/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/admin/platform/settlement/get_CurrentTime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/platform/anchor_partner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/platform/channel_partner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/platform/copyright_partner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/platform/platform_all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200708172809.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200708173428.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200708173506.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200709163840.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200709163921.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/reports/test_report20200709165428.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Admin_Necessary_Add_Follower.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Ticket_Buy_Album.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Ticket_Buy_Book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/viewas/platform_views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/viewas/platform_views/anchor_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/viewas/platform_views/channel_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/viewas/platform_views/copyright_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/all-2020-07-09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/all-2020-07-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2020-07-09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2020-07-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2020-07-09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2020-07-10.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/app/order/Purchase_Resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/app/order/Purchase_Resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/config_global.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config_global.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/activity_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/activity_init.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/users/Get_UserInfo_By_Token.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/users/Get_UserInfo_By_Token.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/lazy_view/activitys_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/autotest_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-08.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-10.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190762255</updated>
-      <workItem from="1594190763341" duration="38886000" />
+      <workItem from="1594190763341" duration="42955000" />
     </task>
     <servers />
   </component>

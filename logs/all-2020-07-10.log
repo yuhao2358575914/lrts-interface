@@ -187,3 +187,5 @@ ValueError: The view login.viewas.lazy_view.activitys_view.activity_list didn't 
 [2020-07-10 11:09:12,651] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/2 HTTP/1.1" 200 505
 [2020-07-10 11:09:17,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/1 HTTP/1.1" 200 427
 [2020-07-10 11:11:21,879] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/1 HTTP/1.1" 200 493
+[2020-07-10 11:31:28,496] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
+[2020-07-10 11:36:46,420] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10339
