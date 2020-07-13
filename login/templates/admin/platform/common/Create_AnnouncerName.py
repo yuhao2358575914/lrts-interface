@@ -1,10 +1,10 @@
 # coding=gbk
-from login.templates.admin.platform.common.operate_mysql import select, readbook_select, platform_select
+from login.templates.admin.platform.common.operate_mysql import select,billing_select
 import re
 
 def announcerName():
     '''生成播音名称'''
-    cp_record = platform_select("select * from platform.t_copyright_announcer order by id desc limit 1;")
+    cp_record = billing_select("select * from platform.t_copyright_announcer order by id desc limit 1;","platform")
     cp_id = cp_record[0]['id']
     cp_id = str(cp_id)
     cp_id_lenth = len(cp_id)

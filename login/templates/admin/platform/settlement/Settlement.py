@@ -1,19 +1,20 @@
 # coding=gbk
 from login.templates.admin.platform.common.operate_mysql import billing_select
 from decimal import *
-from login.templates.admin.platform.settlement.get_CurrentTime import getCurrentTime
+from login.templates.admin.platform.settlement.get_CurrentTime import getCurrentTime, month_days
 import math
 
 
 class Settlement(object):
     '''结算类'''
 
-    def __init__(self,entity_id,partner_id,sp_type):
+    def __init__(self,settlement_month,entity_id,partner_id,sp_type):
         '''
         :param entity_id: 书籍id
         :param partner_id 合作方id
         :param sp_type: 2付费收听  8漫画
         '''
+        self.settlement_month=settlement_month
         self.entity_id=entity_id
         self.partner_id=partner_id
         self.sp_type=sp_type
@@ -21,13 +22,24 @@ class Settlement(object):
         '''结算懒人/芽芽
         :param product_type 1懒人 2芽芽
         '''
-        time = getCurrentTime()
-        # first_day_month = time[1] + '-01'
-        first_day_month='2020-06-01'
-        # current_date = time[0]
-        current_date='2020-06-30'
+        date_style = str(self.settlement_month)
+        year_month = date_style[0:4] + '-' + date_style[4:6]
+        # 结算开始时间
+        start_time = year_month + '-01'
+        print(start_time)
+        #根据传入的结算月份得到结算结束时间
+        input_month=date_style[0:6]
+        current_time_recorde=getCurrentTime()
+        current_month=current_time_recorde[2]
+        if input_month==current_month:
+            end_time=current_time_recorde[0]
+            print(end_time)
+        else:
+            days = month_days(date_style)
+            end_time = year_month + '-' + str(days)
+            print(end_time)
         '''查询合作方的分成比例、技术服务费率'''
-        partner_record = billing_select("SELECT * from billing.p_partner_service where partner_id='%s' ORDER BY id desc LIMIT 1" % (self.partner_id), "billing")
+        partner_record = billing_select("SELECT * from billing.p_partner_service where partner_id='%s' and service_type=%s ORDER BY id desc LIMIT 1" % (self.partner_id,self.sp_type), "billing")
         cooperator_type=partner_record[0]['sp_type'] #合作方类型 1渠道 2版权3主播 4分销商
         tech_service_rate = partner_record[0]['channel_rate']  # 版权/渠道/主播合作方的技术服务费比例
         rate={}
@@ -38,6 +50,8 @@ class Settlement(object):
             if self.sp_type==2 or self.sp_type==5:
                 Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 2 order by create_time desc limit 1;" % (self.entity_id), "billing")
                 rate['partner_rate'] =Anch_partner_record[0]['share_fee_ratio'] #主播合作方分成比例
+                # rate['partner_rate']=Decimal('0.05')
+                # print('--------------------'+str(rate['partner_rate']))
             elif self.sp_type==4 or self.sp_type==5:
                 Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 1 order by create_time desc limit 1;" % (self.entity_id), "billing")
                 rate['partner_rate'] = Anch_partner_record[0]['share_fee_ratio']  # 主播合作方分成比例
@@ -50,7 +64,7 @@ class Settlement(object):
         #                                   % (self.entity_id, self.partner_id, self.sp_type,product_type, first_day_month, current_date),"billing")
         lr_cp_daily_info = billing_select(''' SELECT * FROM p_resource_daily_billing
                                             WHERE entity_id='%s' and partner_id='%s'and sp_type='%s' and  product_type='%s'and billing_date between '%s' and '%s' ORDER BY create_time desc ;'''
-                                          % (self.entity_id, self.partner_id, self.sp_type, product_type,first_day_month,current_date), "billing")
+                                          % (self.entity_id, self.partner_id, self.sp_type, product_type,start_time,end_time), "billing")
         lr_sum_cash_flow_billing = 0
         lr_sum_commission_out = 0
         lr_sum_cash_flow = 0
@@ -149,6 +163,7 @@ class Settlement(object):
 if __name__=="__main__":
     # Settlement().cp_settlement(33214,2)
     '''依次传入资源id，合作方id，合作业务(1电子阅读 2付费收听 4主播打赏  8漫画)'''
-    Settlement(92426468, 1489,4).settlement_partner()
+    # Settlement(92426468, 1489,4).settlement_partner()
+    Settlement(202006,33214, 1596,2).settlement_partner()
     # Settlement(147, 1638, 8).settlement_partner()
 

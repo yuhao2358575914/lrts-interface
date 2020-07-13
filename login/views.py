@@ -215,11 +215,14 @@ def echarts_data(request):
     # 展示周期(默认两个月)
     show_time = datetime.datetime.now().date() - datetime.timedelta(days=60)
     select = {'day': connection.ops.date_trunc_sql('day', 'create_time')}
-    key_data = Report_Results.objects.filter(create_time__gt=show_time).extra(select=select).values_list('day').annotate(number=Count('id'))
-    data_earth = Report_Results.objects.filter(env_Id=4, create_time__gt=show_time).extra(select=select).values_list(
+    key_data = Report_Results.objects.filter(create_time__gt=show_time).extra(select=select).values_list(
+        'day').annotate(number=Count('id'))
+    data_earth = Report_Results.objects.filter(env_Id=4, report_style=1, create_time__gt=show_time).extra(
+        select=select).values_list(
         'day').annotate(
         number=Count('id'))
-    data_moon = Report_Results.objects.filter(env_Id=3, create_time__gt=show_time).extra(select=select).values_list('day').annotate(
+    data_moon = Report_Results.objects.filter(env_Id=3, report_style=1, create_time__gt=show_time).extra(
+        select=select).values_list('day').annotate(
         number=Count('id'))
     date_list = []
     earth_date_list = []

@@ -1,11 +1,11 @@
 # coding=gbk
-from login.templates.admin.platform.common.operate_mysql import select, readbook_select, billing_select
+from login.templates.admin.platform.common.operate_mysql import select,  billing_select
 import re
 
 
 def releaseChannelName():
     '''生成发布渠道的简称和全称'''
-    channel_record = billing_select("select * from platform.t_copyright_channel order by id desc limit 1;")
+    channel_record = billing_select("select * from platform.t_copyright_channel order by id desc limit 1;","billing")
     channel_id = channel_record[0]['id']
     channel_id = str(channel_id)
     print(channel_id)
@@ -24,7 +24,7 @@ def releaseChannelName():
     return [ChannelName,ChannelCode]
 def divideChannelName():
     '''生成分成渠道的名称'''
-    channel_record = billing_select("select * from billing.p_share_fee_channel order by id desc limit 1;")
+    channel_record = billing_select("select * from billing.p_share_fee_channel order by id desc limit 1;","billing")
     channel_id = channel_record[0]['id']
     channel_id = str(channel_id)
     print(channel_id)

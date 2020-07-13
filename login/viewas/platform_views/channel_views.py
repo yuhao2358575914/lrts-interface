@@ -17,9 +17,10 @@ def add_channel_partner(request):
         if channel_form.is_valid():
             host_name = channel_form.cleaned_data.get('host')
             channel_type = channel_form.cleaned_data.get('channel_type')
+            partnerType = channel_form.cleaned_data.get('partnerType')
             print('数据类型：', type(channel_type))
             init_configs(host_name)
-            result = add_ChannelPartner(int(channel_type))
+            result = add_ChannelPartner(int(channel_type), int(partnerType))
             if result:
                 message = "渠道合作方:%s，id为%d添加成功" % (result[1], result[0])
                 return render(request, 'login/platform/channel_partner.html', locals())

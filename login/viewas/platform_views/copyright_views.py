@@ -17,9 +17,10 @@ def add_copyright_partner(request):
         if copyright_form.is_valid():
             host_name = copyright_form.cleaned_data.get('host')
             copyright_type = copyright_form.cleaned_data.get('copyright_type')
+            partnerType = copyright_form.cleaned_data.get('partnerType')
             print('数据类型：', type(copyright_type))
             init_configs(host_name)
-            result = add_CopyrightPartner(int(copyright_type))
+            result = add_CopyrightPartner(int(copyright_type), int(partnerType))
             if result:
                 message = "版权合作方:%s，id为%d添加成功" % (result[1], result[0])
                 return render(request, 'login/platform/copyright_partner.html', locals())

@@ -16,7 +16,7 @@ def partnerName(cooperator_type):
         partnerName = '主播合作方'
     else:
         print('-------输入错误！！！只能输入1或2或3-------')
-    partner_record = billing_select('SELECT * from billing.p_partner ORDER BY id desc LIMIT 1;')
+    partner_record = billing_select('SELECT * from billing.p_partner ORDER BY id desc LIMIT 1;',"billing")
     partner_id = partner_record[0]['id']
     partner_id = str(partner_id)
     partner_id_lenth = len(partner_id)
