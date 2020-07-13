@@ -13,6 +13,7 @@
 import datetime
 import json
 import random
+from time import sleep
 
 from login.templates.admin.anchor.Anchor_Operation import get_user_info_dict
 from login.templates.admin.account.adminlogin import login_admin
@@ -36,6 +37,7 @@ def send_ticket_by_exchangeCode(ticket_amount: str, user_id: str, use_scope='0')
         # 通用使用范围
         if use_scope == '0':
             activity_dict = add_listen_tickets(ticket_amount, {'scope': use_scope})
+            print('活动字典信息：',activity_dict)
         # 非通用
         else:
             activity_dict = add_listen_tickets(ticket_amount, get_use_scope_info(use_scope))
@@ -172,6 +174,7 @@ def add_listen_tickets(ticket_amount: str, goods_info: dict):
     print(result)
     if result['status'] == 0:
         code_id = dbutil.select('SELECT id  FROM `t_activity` WHERE org_name=\'%s\'' % orgName, 'db_audiobook')
+        sleep(0.2)
         if code_id:
             return {'activityId': code_id[0]['id'], 'orgName': orgName}
         else:

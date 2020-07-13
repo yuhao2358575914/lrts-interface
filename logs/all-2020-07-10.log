@@ -270,3 +270,44 @@ Traceback (most recent call last):
     buy_form = forms.BuyShare(request.POST)
 AttributeError: module 'login.forms' has no attribute 'BuyShare'
 [2020-07-10 15:17:12,847] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /add_buy_share/ HTTP/1.1" 500 72660
+[2020-07-10 15:18:03,473] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_buy_share/ HTTP/1.1" 200 2833
+[2020-07-10 15:18:16,064] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 15:18:18,900] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /send_code/ HTTP/1.1" 200 4204
+[2020-07-10 15:18:20,008] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/css/send_code.css HTTP/1.1" 200 609
+[2020-07-10 15:18:27,122] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /send_email/ HTTP/1.1" 200 2437
+[2020-07-10 15:18:28,198] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/css/send_email.css HTTP/1.1" 200 610
+[2020-07-10 15:18:40,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3050
+[2020-07-10 15:18:43,160] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 15:18:47,163] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3352
+[2020-07-10 15:18:50,209] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 15:18:52,572] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 2848
+[2020-07-10 15:18:55,468] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 15:39:10,322] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 17:37:28,345] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-10 17:37:32,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11208
+[2020-07-10 17:37:33,972] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 400
+[2020-07-10 17:39:31,182] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11278
+[2020-07-10 17:39:32,653] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 400
+[2020-07-10 17:49:38,616] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11314
+[2020-07-10 17:49:40,185] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 641
+[2020-07-10 18:19:59,600] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /items_list/2 HTTP/1.1" 200 505
+[2020-07-10 18:24:41,271] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_Subtracts_activity/ HTTP/1.1" 200 2896
+[2020-07-10 18:24:45,310] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /add_Subtracts_activity/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\lazy_view\activitys_view.py", line 73, in add_Subtracts_activity
+    activityId = add_Subtract_activity(sub_type)
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\activities\activitySubtract.py", line 120, in add_Subtract_activity
+    activityId = activity_Subtract_add('1', rangeentitytype, 4)
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\activities\activitySubtract.py", line 55, in activity_Subtract_add
+    print('满减活动id为：', str(res[0].get('id')))
+IndexError: tuple index out of range
+[2020-07-10 18:24:45,349] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /add_Subtracts_activity/ HTTP/1.1" 500 85876
+[2020-07-10 18:27:02,037] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /add_Subtracts_activity/ HTTP/1.1" 200 3043
+[2020-07-13 10:15:21,706] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10448
+[2020-07-13 10:15:22,881] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0

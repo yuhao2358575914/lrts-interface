@@ -92,7 +92,7 @@ def upload_cases(request):
                     script_name_db = models.TestCases.objects.filter(script_name=row_data[3])
                     cases.create_time = local_time
                     if not script_name_db:
-                        cases.save()
+                        cases.save()  # 自动去重，已有用例则写入数据库
                 return redirect('/cases_detail/')
             else:
                 return HttpResponse("文件格式不正确")

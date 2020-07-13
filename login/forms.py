@@ -97,7 +97,7 @@ class ReportUtils(forms.Form):
     test_choice = (
         ('All', '全量用例'),
         ('Nec', '必测用例'),
-        ('AdminNec', 'Admin必测用例'),
+        ('AdminNec', 'Admin必测'),
     )
     host_name = (
         ('4', '地球'),

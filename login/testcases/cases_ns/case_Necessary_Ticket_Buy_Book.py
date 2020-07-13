@@ -55,7 +55,7 @@ class case_Necessary_Ticket_Buy_Book(unittest.TestCase):
             if i.get('balance') > 20:
                 ticket_ids.append(i.get('id'))
         if len(ticket_ids) == 0:
-            #如果当前用户无可用听读券，则发券
+            # 如果当前用户无可用听读券，则发券
             send_ticket_by_exchangeCode('2', str(user_id))
             sleep(0.1)
             tikect = dbutil.select(

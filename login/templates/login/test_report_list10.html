@@ -42,9 +42,11 @@
                     <td>{{ report.report_testError}}</td>
                     <td>{{ report.report_successRate}}%</td>
                     {% if report.reporter_type == 'Nec' %}
-                    <td>yyting-apps-api</td>
+                        <td>yyting-apps-api</td>
                     {% elif report.reporter_type == 'AdminNec'  %}
-                    <td>yyting-apps-admin</td>
+                        <td>yyting-apps-admin</td>
+                    {% elif report.reporter_type == 'All'  %}
+                        <td>yyting-apps-api</td>
                     {% endif %}
                     {% if report.reporter_type == 'Nec' %}
                         <td>必测</td>
