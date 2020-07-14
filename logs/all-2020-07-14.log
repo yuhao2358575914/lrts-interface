@@ -1,0 +1,117 @@
+[2020-07-14 10:22:51,672] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 10:29:43,756] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 10:33:13,965] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6506
+[2020-07-14 10:33:18,055] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 6505
+[2020-07-14 10:33:18,368] [views.py:143] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-07-14 10:33:18,370] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2978
+[2020-07-14 10:33:20,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 10:33:40,840] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6505
+[2020-07-14 10:33:44,253] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 10:33:46,285] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6505
+[2020-07-14 10:48:52,600] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 10:48:55,415] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11348
+[2020-07-14 10:48:57,140] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 10:49:36,105] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11348
+[2020-07-14 10:49:37,626] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 420
+[2020-07-14 10:50:46,200] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11348
+[2020-07-14 10:50:47,978] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 420
+[2020-07-14 10:51:21,201] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11348
+[2020-07-14 10:51:22,967] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 10:55:30,085] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11348
+[2020-07-14 10:55:31,609] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 11:11:53,280] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11872
+[2020-07-14 11:11:54,833] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:12:09,471] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11872
+[2020-07-14 11:12:11,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:12:32,810] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11851
+[2020-07-14 11:12:34,314] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:12:54,229] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11838
+[2020-07-14 11:12:55,751] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:14:12,883] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11838
+[2020-07-14 11:14:14,408] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:14:46,096] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11838
+[2020-07-14 11:14:47,655] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:26:04,099] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12278
+[2020-07-14 11:26:06,408] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:26:17,369] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12278
+[2020-07-14 11:26:18,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:26:22,706] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12278
+[2020-07-14 11:26:24,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:26:28,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12278
+[2020-07-14 11:26:29,574] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:26:33,699] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12278
+[2020-07-14 11:26:35,196] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:30:22,042] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12339
+[2020-07-14 11:30:23,594] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:30:28,865] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12339
+[2020-07-14 11:30:30,370] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:31:09,794] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12278
+[2020-07-14 11:31:11,311] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:45:41,559] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12278
+[2020-07-14 11:45:43,132] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/30?optionValue=30 HTTP/1.1" 200 420
+[2020-07-14 11:56:22,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12337
+[2020-07-14 11:56:28,851] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12337
+[2020-07-14 11:56:33,765] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12337
+[2020-07-14 14:17:10,737] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11347
+[2020-07-14 14:17:11,912] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/echarts/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: echarts_data() missing 1 required positional argument: 'date_choice'
+[2020-07-14 14:17:12,274] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/echarts/ HTTP/1.1" 500 18737
+[2020-07-14 14:17:46,411] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11347
+[2020-07-14 14:17:47,980] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 14:18:10,603] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11347
+[2020-07-14 14:18:12,164] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 14:19:24,527] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /echarts/ HTTP/1.1" 200 1781
+[2020-07-14 14:19:25,620] [base.py:93] [base:get_response] [WARNING]- Not Found: /api/echarts
+[2020-07-14 14:19:25,620] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /api/echarts HTTP/1.1" 404 6354
+[2020-07-14 14:19:46,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /echarts/ HTTP/1.1" 200 1782
+[2020-07-14 14:19:47,651] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 14:20:16,905] [base.py:93] [base:get_response] [WARNING]- Not Found: /echarts-url/
+[2020-07-14 14:20:16,906] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /echarts-url/ HTTP/1.1" 404 6357
+[2020-07-14 14:20:20,197] [base.py:93] [base:get_response] [WARNING]- Not Found: /echarts-url
+[2020-07-14 14:20:20,198] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /echarts-url HTTP/1.1" 404 6354
+[2020-07-14 14:20:43,880] [base.py:93] [base:get_response] [WARNING]- Not Found: /echarts-url
+[2020-07-14 14:20:43,881] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /echarts-url HTTP/1.1" 404 6354
+[2020-07-14 14:20:52,380] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /echarts/ HTTP/1.1" 200 1782
+[2020-07-14 14:20:53,874] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 14:42:07,996] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 14:42:10,153] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3426
+[2020-07-14 14:46:27,149] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 14:46:32,386] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3114
+[2020-07-14 14:46:34,706] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3114
+[2020-07-14 14:51:02,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 14:51:07,886] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /send_code/ HTTP/1.1" 200 4204
+[2020-07-14 14:52:26,912] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3114
+[2020-07-14 14:52:33,729] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /platform/add_anchor_partner
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\platform_views\anchor_views.py", line 23, in add_anchor_partner
+    result = add_AnchorPartner(int(anchor_type), int(partnerType))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-07-14 14:52:34,178] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /platform/add_anchor_partner HTTP/1.1" 500 75839
+[2020-07-14 14:56:10,141] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 14:56:14,736] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3114
+[2020-07-14 14:56:23,288] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_anchor_partner HTTP/1.1" 200 3355
+[2020-07-14 14:57:00,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_anchor_partner HTTP/1.1" 200 3306
+[2020-07-14 15:00:48,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:00:51,229] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3549
+[2020-07-14 15:03:16,850] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:03:18,960] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3291
+[2020-07-14 15:03:47,564] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3511
+[2020-07-14 15:04:23,771] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3450
+[2020-07-14 15:05:50,911] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:05:54,613] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3444
+[2020-07-14 15:06:08,617] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3603
+[2020-07-14 15:08:29,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:08:45,841] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3549

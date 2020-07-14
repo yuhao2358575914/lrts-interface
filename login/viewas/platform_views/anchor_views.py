@@ -20,8 +20,11 @@ def add_anchor_partner(request):
             partnerType = anchor_form.cleaned_data.get('partnerType')
             print('数据类型：', type(anchor_type))
             init_configs(host_name)
-            result = add_AnchorPartner(int(anchor_type), int(partnerType))
-            if result:
-                message = "主播合作方:%s，id为%d添加成功" % (result[1], result[0])
+            anchor_list = []
+            for anchor in anchor_type:
+                result = add_AnchorPartner(int(anchor), int(partnerType))
+                anchor_list.append(result)
+            if anchor_list:
+                message = "主播合作方添加成功，列表为：%s" % (str(anchor_list))
                 return render(request, 'login/platform/anchor_partner.html', locals())
     return render(request, 'login/platform/anchor_partner.html', locals())

@@ -1,9 +1,10 @@
 from django import forms
+from django.forms import CheckboxSelectMultiple
 
 
 class CopyrightForm(forms.Form):
     """
-    order 1表示付费收听 2 表示电子阅读 3表示VIP会员 4 表示漫画
+    order 0表示勾选全部业务 1表示付费收听 2 表示电子阅读 3表示VIP会员 4 表示漫画
     partnerType 1表示个人账户 2表示公司账户
     """
     host_name = (
@@ -11,14 +12,14 @@ class CopyrightForm(forms.Form):
     )
     host = forms.ChoiceField(label="测试环境", choices=host_name)
     copyright_choice = (
+        (0, '全部业务'),
         (1, '付费收听'),
         (2, '电子阅读'),
         (3, 'VIP会员'),
         (4, '漫画'),
     )
-    copyright_type = forms.ChoiceField(label="版权类型", choices=copyright_choice,
-                                       widget=forms.RadioSelect(attrs={'required': 'required',
-                                                                       'class': 'radioset'}))
+    copyright_type = forms.MultipleChoiceField(label="业务类型", required=False, choices=copyright_choice,
+                                               widget=CheckboxSelectMultiple())
     partner_choice = (
         (1, '个人账户'),
         (2, '公司账户'),
@@ -43,9 +44,8 @@ class ChannelForm(forms.Form):
         (4, 'VIP会员'),
         (5, '漫画'),
     )
-    channel_type = forms.ChoiceField(label="业务类型", choices=channel_choice,
-                                     widget=forms.RadioSelect(attrs={'required': 'required',
-                                                                     'class': 'radioset'}))
+    channel_type = forms.MultipleChoiceField(label="业务类型", required=False, choices=channel_choice,
+                                             widget=CheckboxSelectMultiple())
     partner_choice = (
         (1, '个人账户'),
         (2, '公司账户'),
@@ -67,9 +67,8 @@ class AnchorForm(forms.Form):
         (2, '主播打赏'),
         (3, 'VIP会员'),
     )
-    anchor_type = forms.ChoiceField(label="业务类型", choices=anchor_choice,
-                                    widget=forms.RadioSelect(attrs={'required': 'required',
-                                                                    'class': 'radioset'}))
+    anchor_type = forms.MultipleChoiceField(label="业务类型", required=False, choices=anchor_choice,
+                                            widget=CheckboxSelectMultiple())
     partner_choice = (
         (1, '个人账户'),
         (2, '公司账户'),

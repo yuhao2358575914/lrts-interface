@@ -121,7 +121,7 @@ def buy_albumn_utils(token, bookid: str, items: list, opType: str, ptype: str, u
     """
     购买节目
     :param token:
-    :param useTicketsType:用券类型：0-不用券，1-券+余额,2-不用券
+    :param useTicketsType:用券类型：0-默认，1-券+余额,2-不用券
     :param bookid:书籍id
     :param items:书籍章节，分章购买章节获取参考get_albumn_chapters方法
     :param opType:Item模式

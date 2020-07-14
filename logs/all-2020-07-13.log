@@ -80,3 +80,25 @@ configparser.NoSectionError: No section: 'webHD'
 [2020-07-13 18:21:29,612] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
 [2020-07-13 18:21:31,734] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3180
 [2020-07-13 18:22:41,075] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3155
+[2020-07-13 18:27:42,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-13 18:27:44,268] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-13 18:27:45,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3660
+[2020-07-13 18:27:51,087] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-13 18:27:53,060] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3155
+[2020-07-13 18:28:08,367] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_anchor_partner HTTP/1.1" 200 3325
+[2020-07-13 18:28:17,326] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_anchor_partner HTTP/1.1" 200 3339
+[2020-07-13 18:28:24,345] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-13 18:28:27,459] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3660
+[2020-07-13 18:28:38,299] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_channel_partner HTTP/1.1" 200 3844
+[2020-07-13 18:28:48,161] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_channel_partner HTTP/1.1" 200 3844
+[2020-07-13 18:28:52,944] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-13 18:28:54,836] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3358
+[2020-07-13 18:29:03,202] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3542
+[2020-07-13 18:29:08,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3542
+[2020-07-13 18:29:11,270] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 10:04:05,868] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6505
+[2020-07-14 10:04:24,309] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_config/ HTTP/1.1" 200 6506
+[2020-07-14 10:04:24,622] [views.py:143] [views:change_hosts] [INFO]- 请求成功！ 操作人:lazy
+[2020-07-14 10:04:24,622] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /api/modify_config/ HTTP/1.1" 200 2978
+[2020-07-14 10:04:26,956] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451
+[2020-07-14 10:20:34,293] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10451

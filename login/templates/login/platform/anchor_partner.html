@@ -25,7 +25,7 @@
 {#                {{ request.session.user_name }}#}
                     <h3 class="text-center">添加主播合作方</h3>
                     <br><br>
-                    <p style="background: gold">tips：主播合作方添加数据大部分都是默认</p>
+                    <p style="background: gold">tips：分成合作方关联的实体对象都是重新生成的，如书籍/阅读/漫画版权、分成渠道、播音等</p>
                     <div class="form-group">
                       {{ anchor_form.host.label_tag}}
                       {{ anchor_form.host}}
@@ -40,7 +40,7 @@
                   </div>
                   <div>
                       <a href="/index/" class="text-success "><ins>返回首页</ins></a>
-                      <button name="button-add_anchor_partner" type="submit" class="btn btn-primary float-right">生成主播合作方</button>
+                      <button name="button-add_anchor_partner" type="submit" class="btn btn-primary float-right">创建主播合作方</button>
                   </div>
                 </form>
             </div>

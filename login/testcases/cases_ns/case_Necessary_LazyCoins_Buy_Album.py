@@ -15,6 +15,7 @@ from login.templates.admin.book.Book_Operation import operation_book_get_unbuyed
 from login.templates.app.account.Get_Logon_Token import get_app_login_token
 from login.templates.app.order.Purchase_Resources import buy_albumn_utils
 from login.templates.utils import httputils, getconf, dbutil
+from login.templates.utils.confutils import getApiName
 
 
 class case_Necessary_LazyCoins_Buy_Album(unittest.TestCase):
@@ -40,8 +41,8 @@ class case_Necessary_LazyCoins_Buy_Album(unittest.TestCase):
             'mode': '0'
         }
         # 首次请求资源筛选页数据
-        r = httputils.get_app(getconf.get_global_conf('apinames', 'getAblumnAudios'), data)
-        print(r.text)
+        r = httputils.get_app(getApiName("getAblumnAudios"), data)
+        print("响应结果:", r.text)
         res = json.loads(r.text)
         audio_list = []
         for audio in res.get('list'):
