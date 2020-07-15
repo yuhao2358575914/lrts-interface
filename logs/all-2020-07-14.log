@@ -115,3 +115,99 @@ TypeError: int() argument must be a string, a bytes-like object or a number, not
 [2020-07-14 15:06:08,617] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3603
 [2020-07-14 15:08:29,872] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
 [2020-07-14 15:08:45,841] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3549
+[2020-07-14 15:09:58,497] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:10:08,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:10:33,264] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3444
+[2020-07-14 15:10:36,372] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:18:34,621] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /lazy_reg/ HTTP/1.1" 200 538
+[2020-07-14 15:18:37,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:24:12,004] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3444
+[2020-07-14 15:35:11,010] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 15:43:39,252] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 16:03:47,835] [base.py:93] [base:get_response] [WARNING]- Not Found: /data_ajax/
+[2020-07-14 16:03:47,836] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /data_ajax/ HTTP/1.1" 404 6483
+[2020-07-14 16:03:55,912] [base.py:93] [base:get_response] [WARNING]- Not Found: /test_ajax/
+[2020-07-14 16:03:55,913] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /test_ajax/ HTTP/1.1" 404 6483
+[2020-07-14 16:04:15,548] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/ HTTP/1.1" 200 499
+[2020-07-14 16:15:57,069] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1382
+[2020-07-14 16:15:58,102] [base.py:93] [base:get_response] [WARNING]- Not Found: /resources/js/jquery.js
+[2020-07-14 16:15:58,104] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /resources/js/jquery.js HTTP/1.1" 404 6629
+[2020-07-14 16:16:46,519] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1409
+[2020-07-14 16:16:53,092] [base.py:93] [base:get_response] [WARNING]- Not Found: /test_data/api/test_ajax/
+[2020-07-14 16:16:53,093] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /test_data/api/test_ajax/?opt_values=1 HTTP/1.1" 404 6648
+[2020-07-14 16:17:15,367] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1409
+[2020-07-14 16:17:31,946] [base.py:93] [base:get_response] [WARNING]- Not Found: /test_data/api/test_ajax/
+[2020-07-14 16:17:31,948] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /test_data/api/test_ajax/?opt_values=1 HTTP/1.1" 404 6648
+[2020-07-14 16:17:37,215] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1410
+[2020-07-14 16:17:42,339] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/test_ajax/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\views.py", line 290, in data_ajax
+    show_time = datetime.datetime.now().date() - datetime.timedelta(days=date1)
+TypeError: unsupported type for timedelta days component: str
+[2020-07-14 16:17:42,771] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 500 18881
+[2020-07-14 16:18:13,636] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 37
+[2020-07-14 16:18:24,937] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 51
+[2020-07-14 16:19:47,952] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1415
+[2020-07-14 16:19:54,242] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 42
+[2020-07-14 16:20:00,578] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 56
+[2020-07-14 16:20:04,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=3 HTTP/1.1" 200 70
+[2020-07-14 16:22:10,847] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 56
+[2020-07-14 16:22:14,019] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 42
+[2020-07-14 16:24:46,049] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1439
+[2020-07-14 16:24:49,616] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 56
+[2020-07-14 16:24:51,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 56
+[2020-07-14 16:25:03,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1437
+[2020-07-14 16:29:13,989] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1437
+[2020-07-14 16:29:17,826] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 42
+[2020-07-14 16:40:17,717] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1500
+[2020-07-14 16:40:21,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=3 HTTP/1.1" 200 70
+[2020-07-14 16:40:34,648] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 42
+[2020-07-14 16:40:42,396] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1500
+[2020-07-14 16:40:45,476] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 56
+[2020-07-14 16:41:06,248] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1437
+[2020-07-14 16:41:11,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 42
+[2020-07-14 16:44:06,279] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1874
+[2020-07-14 16:44:10,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 42
+[2020-07-14 16:45:37,389] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1853
+[2020-07-14 16:45:40,579] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 56
+[2020-07-14 16:46:34,900] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1848
+[2020-07-14 16:46:38,016] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=2 HTTP/1.1" 200 56
+[2020-07-14 16:54:46,525] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 16:58:28,566] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api_test/ HTTP/1.1" 200 3039
+[2020-07-14 16:58:29,592] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/css/api_test.css HTTP/1.1" 200 608
+[2020-07-14 16:58:37,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:35:49,048] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:54:41,699] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 302 0
+[2020-07-14 17:54:43,053] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:54:48,615] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2020-07-14 17:54:49,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-07-14 17:54:50,667] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/css/login.css HTTP/1.1" 200 1121
+[2020-07-14 17:54:51,694] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/img/photos/timg3.jpg HTTP/1.1" 200 13234
+[2020-07-14 17:55:55,510] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-07-14 17:56:05,813] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-07-14 17:56:07,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:56:12,979] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 302 0
+[2020-07-14 17:58:09,497] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:58:29,567] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 302 0
+[2020-07-14 17:58:30,921] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:58:33,730] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2020-07-14 17:58:34,744] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-07-14 17:58:42,541] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:58:45,723] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-07-14 17:58:51,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-07-14 17:58:53,275] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 17:59:33,480] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11349
+[2020-07-14 17:59:35,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 740
+[2020-07-14 18:10:49,849] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10457
+[2020-07-14 18:11:10,426] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10459
+[2020-07-14 18:11:30,889] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10461
+[2020-07-14 18:11:48,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10461
+[2020-07-14 18:12:01,194] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10465
+[2020-07-14 18:12:17,139] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10459
+[2020-07-14 18:12:57,269] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10459

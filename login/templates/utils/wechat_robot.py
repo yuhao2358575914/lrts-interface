@@ -15,7 +15,7 @@ def msg_robot(message, robot_Key):
             "content": "# **%s环境后台api发布！自动化测试完成。**\n" % (
                 message.get('host_name')) +  # 标题 （支持1至6级标题，注意#与文字中间要有空格）
                        "#### **请相关同事注意，及时跟进！**\n" +  # 加粗：**需要加粗的字**
-                       "> 发布模块：<font color=\"info\">%s</font> \n" % (message.get('project')) +  # 引用：> 需要引用的文字
+                       "> 发布模块：<font color=\"comment\">%s</font> \n" % (message.get('project')) +  # 引用：> 需要引用的文字
                        "> 总用例数：<font color=\"info\">%s</font> \n" % (message.get('test_all')) +  # 引用：> 需要引用的文字
                        "> 成功数：<font color=\"info\">%s</font> \n" % (message.get('test_Pass')) +  # 引用：> 需要引用的文字
                        "> 失败数：<font color=\"warning\">%s</font> \n" % (message.get('test_fail')) +  # 引用：> 需要引用的文字

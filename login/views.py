@@ -283,3 +283,44 @@ def get_data_filter(data_list, all_date):
         data_list.append((j, 0))
     data_list.sort(key=takeFirst)
     return date_list
+
+
+def data_ajax(request):
+    date1 = request.GET.get('opt_values')
+    show_time = datetime.datetime.now().date() - datetime.timedelta(days=int(date1))
+    select = {'day': connection.ops.date_trunc_sql('day', 'create_time')}
+    key_data = Report_Results.objects.filter(create_time__gt=show_time, report_style=1).extra(
+        select=select).values_list(
+        'day').annotate(number=Count('id'))
+    json_data = {
+        "key_name": [i[0] for i in key_data],
+    }
+    return JsonResponse(json_data)
+
+
+def test_data(request):
+    """
+    返回最近10次测试报告
+    :param request:
+    :return:
+    """
+    return render(request, 'login/ajax/test_ajax.html', locals())
+
+
+def pass_rate_stats(request):
+    show_time = datetime.datetime.now().date() - datetime.timedelta(days=30)
+    select = {'day': connection.ops.date_trunc_sql('day', 'create_time')}
+    key_data = Report_Results.objects.filter(create_time__gt=show_time, report_style=1).extra(
+        select=select).values_list(
+        'create_time')
+    successRate = Report_Results.objects.filter(report_style=1, create_time__gt=show_time).extra(
+        select=select).values_list(
+        'report_successRate')
+    print('key个数',len(key_data))
+    print('key值',len(successRate))
+
+    json_data = {
+        "key1": [i[0] for i in key_data],
+        "report_successRate": [i[0] for i in successRate]
+    }
+    return JsonResponse(json_data)

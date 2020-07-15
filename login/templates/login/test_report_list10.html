@@ -76,12 +76,16 @@
         <h4 style="margin-left: 50px;margin-top: 80px">用例执行统计：</h4>
         <div id="main" style="height:500px; margin-left: 0px">
         </div>
+        <h4 style="margin-left: 50px;margin-top: 80px">通过率趋势统计：</h4>
+        <div id="mainStat" style="height:500px; margin-left: 0px">
+        </div>
         <div style="margin-bottom: 30px;margin-left: 60px">
         <a href="/index/"><label>返回首页</label></a>
         </div>
     <script type="text/javascript">
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));
+    var myChart2 = echarts.init(document.getElementById('mainStat'));
     $.ajax({
       type: "get",
       url: "/api/echarts/",
@@ -148,6 +152,56 @@
 
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
+      },
+      error: function () {
+        alert('Error: ajax 请求出错！')
+      }
+    });
+    $.ajax({
+      type: "get",
+      url: "/api/pass_stats/",
+      dataType: "json",
+      success: function (data) {
+        // 指定图表的配置项和数据
+        var option2 = {
+          title: {
+            left: 'center',
+            text: ''
+          },
+          tooltip: {
+              trigger: 'axis',
+              formatter: '{b0}<br/>{a0}: {c0}%<br/>'
+          },
+          legend: {
+                data:['通过率']
+            },
+          xAxis: {
+              data: data.key1
+          },
+          yAxis: {
+              type: 'value',
+        axisLabel: {
+            show: true,
+            interval: 'auto',
+            formatter: '{value}%'
+            },
+            show: true
+          },
+          series: [
+              {
+            name: '通过率',
+            type: 'line',
+            data: data.report_successRate,
+            itemStyle:{
+                normal:{
+                    color:'#8A2BE2'
+                    }
+                }
+            }
+          ]
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart2.setOption(option2);
       },
       error: function () {
         alert('Error: ajax 请求出错！')

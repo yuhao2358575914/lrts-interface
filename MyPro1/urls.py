@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 from login.viewas.platform_views import copyright_views
-from login.views import echarts_data, change_hosts
+from login.views import echarts_data, change_hosts, data_ajax, test_data, pass_rate_stats
 from login import views
 from login.viewas.lazy_view import activitys_view
 from login.viewas.lazy_view import user_view
@@ -65,6 +65,10 @@ urlpatterns = [
     path('get_ips/', views.get_ips),
     path('echarts/', TemplateView.as_view(template_name='login/echarts.html'), name='echarts-url'),
     path('api/echarts/', echarts_data, name='api-echarts'),
+    path('api/pass_stats/', pass_rate_stats, name='api-passStats'),
     path('api/modify_config/', change_hosts, name='modify_config'),
-    path('captcha/', include('captcha.urls'))
+    path('captcha/', include('captcha.urls')),
+    path('api/test_ajax/', data_ajax, name='test_ajax'),
+    path('test_data/', test_data),
+
 ]
