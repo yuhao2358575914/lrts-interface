@@ -1,5 +1,5 @@
 from django import forms
-from django.forms import CheckboxSelectMultiple
+from django.forms import CheckboxSelectMultiple,RadioSelect
 
 
 class CopyrightForm(forms.Form):
@@ -18,8 +18,8 @@ class CopyrightForm(forms.Form):
         (3, 'VIP会员'),
         (4, '漫画'),
     )
-    copyright_type = forms.MultipleChoiceField(label="业务类型", required=False, choices=copyright_choice,
-                                               widget=CheckboxSelectMultiple())
+    copyright_type = forms.CharField(label="业务类型", required=False, choices=copyright_choice,
+                                               widget=RadioSelect())
     partner_choice = (
         (1, '个人账户'),
         (2, '公司账户'),
