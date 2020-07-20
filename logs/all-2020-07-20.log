@@ -1,0 +1,29 @@
+[2020-07-20 16:40:26,192] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-20 16:40:45,320] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3444
+[2020-07-20 16:40:59,482] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /platform/add_copyright_partner
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\platform_views\copyright_views.py", line 25, in add_copyright_partner
+    result = add_CopyrightPartner(int(copyright), int(partnerType))
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\add_Partner\Add_CopyrightPartner.py", line 48, in add_CopyrightPartner
+    comic_cp = add_ComicCopyright()  # 获取漫画版权信息
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\Add_CopyRight.py", line 93, in add_ComicCopyright
+    comicNameInfo=Create_CopyrightName.comicName()
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\Create_CopyrightName.py", line 46, in comicName
+    cp_record = select("select * from yyting_partdb.c_comic_copyright order by id desc limit 1;","yyting_partdb")
+  File "D:\PycharmProjects\MyPro1\login\templates\admin\platform\common\operate_mysql.py", line 10, in select
+    conn = pymysql.connect(host=get_conf('moon','host'), user=get_conf('moon','username'), password=get_conf('moon','password'), database=db,charset='utf8mb4')
+  File "D:\PycharmProjects\MyPro1\login\templates\utils\getconf.py", line 17, in get_conf
+    cf = config.get(title, value)
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "D:\Programs\Python\Python37\lib\configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'moon'
+[2020-07-20 16:40:59,657] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /platform/add_copyright_partner HTTP/1.1" 500 112948
+[2020-07-20 16:43:33,006] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3664
