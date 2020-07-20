@@ -2,84 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c619eeb-8914-4a54-859b-f2480ce43bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login/templates/login/ajax/test_ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/case_Admin_Necessary_Listeners_Useful_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_all/admin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/testcases/case_all/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/all-2020-07-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/all-2020-07-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error-2020-07-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error-2020-07-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info-2020-07-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info-2020-07-17.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyPro1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyPro1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/config/config_global.ini" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/config/config_global.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/add_cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/add_cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/templates/login/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/config.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/lazy_reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/lazy_reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/test_report_list10.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/utils/wechat_robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Admin_Necessary_Albumn_Search_byKeyWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/case_Admin_Necessary_Albumn_Search_byKeyWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Admin_Necessary_BookRank_Useful_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/case_Admin_Necessary_BookRank_Useful_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Admin_Necessary_Book_Search_byKeyWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/case_Admin_Necessary_Book_Search_byKeyWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Admin_Necessary_Collections_Folder_Useful_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/case_Admin_Necessary_Collections_Folder_Useful_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Admin_Necessary_ReadingBook_Search_byKeyWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/case_Admin_Necessary_ReadingBook_Search_byKeyWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Admin_Necessary_Topic_Useful_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/case_Admin_Necessary_Topic_Useful_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Account_Password_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Account_Password_Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Add_Follower.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Add_Follower.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Kaiping.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Advert_Kaiping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Recommend_Banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Advert_Recommend_Banner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Advert_Recommend_Navigate.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Advert_Recommend_Navigate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Album_Add_Comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Album_Add_Comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Album_Classification_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Album_Classification_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Albumn_Ranking_List_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Albumn_Ranking_List_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_All_Category_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_All_Category_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Anchor_Ranking_List_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Anchor_Ranking_List_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Anchor_Station_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Anchor_Station_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Book_Add_Comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Book_Add_Comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Book_Classification_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Book_Classification_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Book_Ranking_List_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Book_Ranking_List_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Discovery_Hottheme_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Discovery_Hottheme_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Discovery_Listener_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Discovery_Listener_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Group_Add_TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Group_Add_TextPost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Hearing_Club_List_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Hearing_Club_List_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Label_Category_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Label_Category_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_LazyCoins_Buy_Album.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_LazyCoins_Buy_Album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_LazyCoins_Buy_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_LazyCoins_Buy_Book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Listening_Home_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Listening_Home_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Listening_List_Add_Comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Listening_List_Add_Comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Phone_Number_Register.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Phone_Number_Register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Post_Add_Comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Post_Add_Comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_ReadBook_Ranking_List_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_ReadBook_Ranking_List_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Reading_Book_Add_Comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Reading_Book_Add_Comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Reading_Bookstore_Page_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Reading_Bookstore_Page_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_RecommendPage_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_RecommendPage_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Album.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Search_Album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Search_Book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Search_Reading_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Search_Reading_Book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_TabChannlPage_Check.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_TabChannlPage_Check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Ticket_Buy_Album.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Ticket_Buy_Album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/testcases/cases_ns/case_Necessary_Ticket_Buy_Book.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/case_Necessary_Ticket_Buy_Book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/case_all/case_Albumn_Can_Not_Appear_Prominent_Position.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/case_all/app/case_Albumn_Can_Not_Appear_Prominent_Position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/case_all/case_Book_Free_Chapters_For_Purchased_Users_Not.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/case_all/app/case_Book_Free_Chapters_For_Purchased_Users_Not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/case_all/case_Search_Normal_Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/case_all/app/case_Search_Normal_Word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/testcases/case_all/case_Search_Special_Character.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/case_all/app/case_Search_Special_Character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/viewas/test_view/cases_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-06-16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-06-18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-06-19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-07.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-14.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-06-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/admin/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-06-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/login/testcases/cases_ns/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-06-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-06-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error-2020-07-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-07-07.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info-2020-07-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-07-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-07-09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-07-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error-2020-07-13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-06-16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-06-18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-06-19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-07-07.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-07-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-07-09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-07-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info-2020-07-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2020-07-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/all-2020-07-15.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +64,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/login/testcases/cases_ns/admin" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns\app" />
-      <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns\admin" />
-      <recent name="D:\PycharmProjects\MyPro1\login\templates\login\platform" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns\admin" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login\ajax" />
@@ -132,8 +71,14 @@
       <recent name="D:\PycharmProjects\MyPro1\login\formsgroup" />
       <recent name="D:\PycharmProjects\MyPro1\login\templates\login\platform" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\case_all\app" />
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns\app" />
+      <recent name="D:\PycharmProjects\MyPro1\login\testcases\cases_ns\admin" />
+      <recent name="D:\PycharmProjects\MyPro1\login\templates\login\platform" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for case_Admin_Necessary_Listeners_Useful_Check.case_Admin_Necessary_Listeners_Useful_Check.test_Admin_Listeners_Useful_Check">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPro1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for case_Admin_Necessary_Listeners_Useful_Check.case_Admin_Necessary_Listeners_Useful_Check.test_Admin_Listeners_Useful_Check" />
         <item itemvalue="Python.tests" />
+        <item itemvalue="Python tests.Unittests for case_Admin_Necessary_Listeners_Useful_Check.case_Admin_Necessary_Listeners_Useful_Check.test_Admin_Listeners_Useful_Check" />
         <item itemvalue="Python tests.Unittests for login.testcases.cases_ns.admin.case_Admin_Necessary_BookRank_Useful_Check.case_Admin_Necessary_BookRank_Useful_Check" />
         <item itemvalue="Python tests.Unittests in case_Admin_Necessary_BookRank_Useful_Check.py" />
         <item itemvalue="Python tests.Unittests for login.testcases.cases_ns.app.case_Necessary_LazyCoins_Buy_Book.case_Necessary_LazyCoins_Buy_Book.test_Necessary_LazyCoins_Buy_Book" />
@@ -239,6 +184,8 @@
       <workItem from="1594190763341" duration="56125000" />
       <workItem from="1594620997146" duration="29296000" />
       <workItem from="1594779389252" duration="6642000" />
+      <workItem from="1594799441243" duration="4950000" />
+      <workItem from="1594864796694" duration="40520000" />
     </task>
     <servers />
   </component>
@@ -253,22 +200,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594190873571" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1594795454980">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594881720088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594795454980" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1594795454977">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594881720088" />
+    <state width="1877" height="194" key="GridCell.Tab.0.bottom" timestamp="1595233393287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594795454977" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1594795454977">
+    <state width="1877" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595233393287" />
+    <state width="1877" height="194" key="GridCell.Tab.0.center" timestamp="1595233393286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594795454977" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1594795454977">
+    <state width="1877" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595233393286" />
+    <state width="1877" height="194" key="GridCell.Tab.0.left" timestamp="1595233393286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594795454977" />
+    <state width="1877" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595233393286" />
+    <state width="1877" height="194" key="GridCell.Tab.0.right" timestamp="1595233393287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595233393287" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594692767059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,7 +250,7 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594798326415" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1594710418650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
+    <SUITE FILE_PATH="coverage/MyPro1$tests.coverage" NAME="tests Coverage Results" MODIFIED="1595233393278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Admin_Necessary_ReadingBook_Search_byKeyWords_py.coverage" NAME="Unittests in case_Admin_Necessary_ReadingBook_Search_byKeyWords.py Coverage Results" MODIFIED="1594622730160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Admin_Necessary_ReadingBook_Search_byKeyWords_case_Admin_Necessary_ReadingBook_Search_byKeyWords.coverage" NAME="Unittests for case_Admin_Necessary_ReadingBook_Search_byKeyWords.case_Admin_Necessary_ReadingBook_Search_byKeyWords Coverage Results" MODIFIED="1594622721336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Admin_Necessary_Collections_Folder_Useful_Check_case_Admin_Necessary_Collections_Folder_Useful_Check_test_Admin_Collections_Folder_Useful_Check.coverage" NAME="Unittests for case_Admin_Necessary_Collections_Folder_Useful_Check.case_Admin_Necessary_Collections_Folder_Useful_Check.test_Admin_Collections_Folder_Useful_Check Coverage Results" MODIFIED="1594626827697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
@@ -319,7 +270,7 @@
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Necessary_Ticket_Buy_Album_py.coverage" NAME="Unittests in case_Necessary_Ticket_Buy_Album.py Coverage Results" MODIFIED="1594281728120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_in_case_Admin_Necessary_Book_Search_byKeyWords_py.coverage" NAME="Unittests in case_Admin_Necessary_Book_Search_byKeyWords.py Coverage Results" MODIFIED="1594621474305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Admin_Necessary_BookRank_Useful_Check_case_Admin_Necessary_BookRank_Useful_Check.coverage" NAME="Unittests for case_Admin_Necessary_BookRank_Useful_Check.case_Admin_Necessary_BookRank_Useful_Check Coverage Results" MODIFIED="1594694633076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
-    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Admin_Necessary_Listeners_Useful_Check_case_Admin_Necessary_Listeners_Useful_Check_test_Admin_Listeners_Useful_Check.coverage" NAME="Unittests for case_Admin_Necessary_Listeners_Useful_Check.case_Admin_Necessary_Listeners_Useful_Check.test_Admin_Listeners_Useful_Check Coverage Results" MODIFIED="1594794398550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns/admin" />
+    <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Admin_Necessary_Listeners_Useful_Check_case_Admin_Necessary_Listeners_Useful_Check_test_Admin_Listeners_Useful_Check.coverage" NAME="Unittests for case_Admin_Necessary_Listeners_Useful_Check.case_Admin_Necessary_Listeners_Useful_Check.test_Admin_Listeners_Useful_Check Coverage Results" MODIFIED="1594868198706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns/admin" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Book_case_Necessary_LazyCoins_Buy_Book_test_Necessary_LazyCoins_Buy_Book.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Book.case_Necessary_LazyCoins_Buy_Book.test_Necessary_LazyCoins_Buy_Book Coverage Results" MODIFIED="1594694009321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Admin_Necessary_ReadingBook_Search_byKeyWords_case_Admin_Necessary_ReadingBook_Search_byKeyWords_test_Admin_ReadingBook_Search_byKeyWords.coverage" NAME="Unittests for case_Admin_Necessary_ReadingBook_Search_byKeyWords.case_Admin_Necessary_ReadingBook_Search_byKeyWords.test_Admin_ReadingBook_Search_byKeyWords Coverage Results" MODIFIED="1594624281895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />
     <SUITE FILE_PATH="coverage/MyPro1$Unittests_for_case_Necessary_LazyCoins_Buy_Album_case_Necessary_LazyCoins_Buy_Album_test_search_normal_word.coverage" NAME="Unittests for case_Necessary_LazyCoins_Buy_Album.case_Necessary_LazyCoins_Buy_Album.test_search_normal_word Coverage Results" MODIFIED="1594693952217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/login/testcases/cases_ns" />

@@ -1,0 +1,329 @@
+[2020-07-16 10:04:19,618] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 11:17:49,127] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12810
+[2020-07-16 11:17:50,709] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 760
+[2020-07-16 11:17:50,731] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 3223
+[2020-07-16 11:17:55,626] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2020-07-16 11:17:55,627] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 6682
+[2020-07-16 11:18:04,053] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_data/ HTTP/1.1" 200 1848
+[2020-07-16 11:18:08,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=1 HTTP/1.1" 200 28
+[2020-07-16 11:18:13,587] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/?opt_values=3 HTTP/1.1" 200 56
+[2020-07-16 15:29:44,485] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 15:29:45,498] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16572
+[2020-07-16 15:29:48,013] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 15:29:50,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3136
+[2020-07-16 15:29:58,077] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 15:43:44,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3136
+[2020-07-16 15:44:21,542] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3150
+[2020-07-16 16:02:07,100] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3150
+[2020-07-16 16:02:12,107] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /cases_detail/ HTTP/1.1" 200 44997
+[2020-07-16 16:02:18,138] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 16:32:46,128] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/test_ajax/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\views.py", line 290, in data_ajax
+    show_time = datetime.datetime.now().date() - datetime.timedelta(days=int(date1))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[2020-07-16 16:32:46,530] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /api/test_ajax/ HTTP/1.1" 500 73944
+[2020-07-16 16:33:20,470] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/test_ajax/ HTTP/1.1" 200 294
+[2020-07-16 16:34:20,560] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 3279
+[2020-07-16 16:35:16,780] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 3279
+[2020-07-16 16:39:40,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6505
+[2020-07-16 17:50:34,025] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 17:50:53,904] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6505
+[2020-07-16 17:51:27,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6505
+[2020-07-16 17:51:46,128] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6531
+[2020-07-16 17:51:51,993] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6530
+[2020-07-16 17:52:02,969] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:52:09,108] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:52:16,123] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:52:23,833] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:52:30,570] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:52:48,636] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:52:57,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6530
+[2020-07-16 17:53:06,798] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:54:42,919] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 17:54:45,197] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:55:00,065] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-16 17:55:20,992] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:55:21,588] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6532
+[2020-07-16 17:55:27,002] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-17 16:36:17,236] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\base.py", line 191, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 958, in connect
+    **kwargs)
+  File "D:\Programs\Python\Python37\lib\socket.py", line 727, in create_connection
+    raise err
+  File "D:\Programs\Python\Python37\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 216, in ensure_connection
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 704, in __init__
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1005, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.1.175' (timed out)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\views.py", line 28, in index
+    return render(request, 'login/index.html', locals())
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 993, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 676, in resolve
+    obj = self.var.resolve(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 802, in resolve
+    value = self._resolve_lookup(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_session
+    self._session_cache = self.load()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in load
+    expire_date__gt=timezone.now()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 397, in get
+    num = len(clone)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 254, in __len__
+    self._fetch_all()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 1051, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 459, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\where.py", line 80, in as_sql
+    sql, params = compiler.compile(child)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\lookups.py", line 160, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\lookups.py", line 153, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\fields\__init__.py", line 648, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 133, in data_types
+    if self.features.supports_microsecond_precision:
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\features.py", line 65, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 345, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "D:\Programs\Python\Python37\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 576, in temporary_connection
+    cursor = self.cursor()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 255, in cursor
+    return self._cursor()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 216, in ensure_connection
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 216, in ensure_connection
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 704, in __init__
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1005, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '192.168.1.175' (timed out)")
+[2020-07-17 16:37:17,629] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /index/ HTTP/1.1" 500 354956
+[2020-07-17 16:37:18,808] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-17 16:37:18,810] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 6733
+[2020-07-17 16:38:41,936] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\base.py", line 191, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 958, in connect
+    **kwargs)
+  File "D:\Programs\Python\Python37\lib\socket.py", line 727, in create_connection
+    raise err
+  File "D:\Programs\Python\Python37\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 216, in ensure_connection
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 704, in __init__
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1005, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.1.175' (timed out)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\views.py", line 28, in index
+    return render(request, 'login/index.html', locals())
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 993, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 676, in resolve
+    obj = self.var.resolve(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 802, in resolve
+    value = self._resolve_lookup(context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\base.py", line 196, in _get_session
+    self._session_cache = self.load()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in load
+    expire_date__gt=timezone.now()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 397, in get
+    num = len(clone)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 254, in __len__
+    self._fetch_all()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 1051, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 459, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\where.py", line 80, in as_sql
+    sql, params = compiler.compile(child)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\lookups.py", line 160, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\lookups.py", line 153, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\fields\__init__.py", line 648, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 133, in data_types
+    if self.features.supports_microsecond_precision:
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\features.py", line 65, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 345, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "D:\Programs\Python\Python37\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 576, in temporary_connection
+    cursor = self.cursor()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 255, in cursor
+    return self._cursor()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 216, in ensure_connection
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 216, in ensure_connection
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\base\base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 704, in __init__
+    self.connect()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1005, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '192.168.1.175' (timed out)")

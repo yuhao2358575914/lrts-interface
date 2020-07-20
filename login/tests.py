@@ -41,3 +41,39 @@ from login.templates.admin.book.Book_Operation import get_book_by_pay_type, oper
 # print(charpters)
 # print(buy)
 # print(free)
+from login.templates.utils import getconf
+# 买vip
+# r = requests.get(
+#     'http://192.168.3.158:8084/yytingopenapi/order/createOrder?totalFee=1500&goodsId=1&phoneNum=15959082192&partnerId=200429001579&goodsNum=1&shareFee=233&outOrderNum=VJ511r6s122H411&goodsType=3&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
+
+# 买vip
+# r = requests.get(
+#     'http://moon-openapi.lrts.me/order/createOrder?totalFee=1500&goodsId=1&phoneNum=15959082191&partnerId=200720001927&goodsNum=1&shareFee=233&outOrderNum=VJ52GGWb13H321&goodsType=3&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
+
+# #买书
+# r = requests.get(
+#     'http://moon-openapi.lrts.me/open/oauth2/tmall/createOrder?accessToken=qweqe1212121asd&totalFee=20&goodsId=58&phoneNum=15959082192&payTime=1594971823721&partnerId=200429001579&shareFee=2&outOrderNum=VJ66rrk14H311&goodsType=1&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
+
+
+# 充值
+# r = requests.get(
+#     'http://moon-openapi.lrts.me/order/createOrder?totalFee=1000&goodsId=1&phoneNum=15959082192&partnerId=200429001579&goodsNum=100&shareFee=233&outOrderNum=VT67rok122H311&goodsType=1&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
+
+
+# r = requests.get(
+#     'http://moon-openapi.lrts.me/open/oauth2/accessToken?appId=200429001579&secret=U?YXFAcwmzrtUe%CbxcdRFGF&code=epMSMr3QADeBL5txsLlv78WY8GOogNUuTbeD32lqnj1xsQGVvaWXE+69vBGLdJNjQ/fKa124oZM4Tc14ZvCAfDCFBhKbs/WI7GTz9VYUsiP1H0zKYMtxLQ==',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
