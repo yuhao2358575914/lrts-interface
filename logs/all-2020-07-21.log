@@ -15,3 +15,54 @@
 [2020-07-21 11:07:30,081] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
 [2020-07-21 11:23:41,550] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
 [2020-07-21 11:23:46,613] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 11:36:59,902] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 11:59:38,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3549
+[2020-07-21 11:59:52,945] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /platform/add_channel_partner
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\platform_views\channel_views.py", line 34, in add_channel_partner
+    message = "渠道合作方添加成功，列表为：%s" % (str(json.loads(json_res)))
+  File "D:\Programs\Python\Python37\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+[2020-07-21 11:59:53,068] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /platform/add_channel_partner HTTP/1.1" 500 83853
+[2020-07-21 12:00:27,372] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_channel_partner HTTP/1.1" 200 3812
+[2020-07-21 12:01:08,212] [base.py:93] [base:get_response] [WARNING]- Not Found: /index/
+[2020-07-21 12:01:08,213] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /index/ HTTP/1.1" 404 6712
+[2020-07-21 12:01:14,971] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 12:01:40,286] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3543
+[2020-07-21 12:01:42,440] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:09:00,809] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:09:11,188] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3543
+[2020-07-21 14:09:28,181] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_channel_partner HTTP/1.1" 200 3806
+[2020-07-21 14:09:51,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:11:37,078] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:11:43,018] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:12:23,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:12:26,339] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_anchor_partner HTTP/1.1" 200 3108
+[2020-07-21 14:12:28,709] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:16:44,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-07-21 14:17:12,517] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2328
+[2020-07-21 14:17:20,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-07-21 14:17:21,890] [base.py:93] [base:get_response] [WARNING]- Not Found: /index/
+[2020-07-21 14:17:21,892] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /index/ HTTP/1.1" 404 6712
+[2020-07-21 14:17:32,149] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 302 0
+[2020-07-21 14:17:33,507] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:17:34,104] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-07-21 14:17:35,467] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:17:39,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2020-07-21 14:17:40,773] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-07-21 14:17:51,908] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-07-21 14:17:52,933] [base.py:93] [base:get_response] [WARNING]- Not Found: /index/
+[2020-07-21 14:17:52,934] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /index/ HTTP/1.1" 404 6712
+[2020-07-21 14:18:12,158] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 302 0
+[2020-07-21 14:18:13,528] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 14:18:16,893] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /logout/ HTTP/1.1" 302 0
+[2020-07-21 14:18:17,928] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2216
+[2020-07-21 14:18:24,577] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-07-21 14:18:25,947] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468

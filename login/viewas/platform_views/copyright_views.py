@@ -25,6 +25,10 @@ def add_copyright_partner(request):
                 result = add_CopyrightPartner(int(copyright), int(partnerType))
                 copyright_list.append(result)
             if copyright_list:
-                message = "版权合作方添加成功，列表为：%s" % (str(copyright_list))
+                list_key = [i[0] for i in copyright_list]
+                list_value = [i[1] for i in copyright_list]
+                print(list_key, list_value)
+                json_res = dict(zip(list_key, list_value))
+                message = "版权合作方添加成功，列表为：%s" % (str(json_res))
                 return render(request, 'login/platform/copyright_partner.html', locals())
     return render(request, 'login/platform/copyright_partner.html', locals())

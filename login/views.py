@@ -39,7 +39,7 @@ def error(request):
 
 def login(request):
     if not request.session.is_empty():
-        return redirect('/index/')
+        return redirect('/')
     if request.method == "POST":
         login_form = forms.UserForm(request.POST)
         message = '请检查填写的内容！'
@@ -56,7 +56,7 @@ def login(request):
             request.session['user_id'] = user.id
             request.session['user_name'] = user.name
             request.session['role'] = user.role
-            return redirect('/index/')
+            return redirect('/')
         else:
             message = '密码不正确！'
             return render(request, 'login/login.html', locals())

@@ -1,3 +1,5 @@
+import json
+
 from login.formsgroup import platform_forms
 from login.templates.admin.platform.add_Partner.Add_ChannelPartner import add_ChannelPartner
 from login.templates.utils.confutils import login_control, init_configs
@@ -25,6 +27,10 @@ def add_channel_partner(request):
                 result = add_ChannelPartner(int(channel), int(partnerType))
                 channel_list.append(result)
             if channel_list:
-                message = "渠道合作方添加成功，列表为：%s" % (str(channel_list))
+                list_key = [i[0] for i in channel_list]
+                list_value = [i[1] for i in channel_list]
+                print(list_key, list_value)
+                json_res = dict(zip(list_key, list_value))
+                message = "渠道合作方添加成功，列表为：%s" % (str(json_res))
                 return render(request, 'login/platform/channel_partner.html', locals())
     return render(request, 'login/platform/channel_partner.html', locals())

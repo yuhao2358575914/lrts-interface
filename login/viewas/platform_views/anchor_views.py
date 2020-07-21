@@ -25,6 +25,10 @@ def add_anchor_partner(request):
                 result = add_AnchorPartner(int(anchor), int(partnerType))
                 anchor_list.append(result)
             if anchor_list:
-                message = "主播合作方添加成功，列表为：%s" % (str(anchor_list))
+                list_key = [i[0] for i in anchor_list]
+                list_value = [i[1] for i in anchor_list]
+                print(list_key, list_value)
+                json_res = dict(zip(list_key, list_value))
+                message = "主播合作方添加成功，列表为：%s" % (str(json_res))
                 return render(request, 'login/platform/anchor_partner.html', locals())
     return render(request, 'login/platform/anchor_partner.html', locals())
