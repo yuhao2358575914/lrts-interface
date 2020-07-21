@@ -1,0 +1,55 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'login/css/send_vip.css' %}" rel="stylesheet"/>
+    <title>添加渠道开发者</title>
+  </head>
+  <body>
+    <div class="container">
+            <div class="col-md-8" style="margin-top: 110px">
+                <form class="form-add_channel_partner" action="/platform/add_develop_channel" method="post">
+                    {% if share_form.captcha.errors %}
+                        <div class="alert alert-warning">{{ channel_form.captcha.errors}}</div>
+                    {% elif message %}
+                        <div class="alert alert-warning">{{ message }}</div>
+                    {% endif %}
+
+                  {% csrf_token %}
+{#                {{ request.session.user_name }}#}
+                    <h3 class="text-center">添加渠道开发者</h3>
+                    <br><br>
+                    <p style="background: gold">tips：添加的渠道合作期限默认为当前时间往后2个月</p>
+                    <div class="form-group">
+                      {{ channel.host.label_tag}}
+                      {{ channel.host}}
+                  </div>
+                  <div class="form-group">
+                      {{ channel.channel_type.label_tag }}
+                      {{ channel.channel_type }}
+                  </div>
+                    <div class="form-group">
+                      {{ channel.approveType.label_tag }}
+                      {{ channel.approveType }}
+                  </div>
+                  <div>
+                      <a href="/" class="text-success "><ins>返回首页</ins></a>
+                      <button name="button-add_Subtract" type="submit" class="btn btn-primary float-right">新增开发者渠道</button>
+                  </div>
+                </form>
+            </div>
+    </div> <!-- /container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

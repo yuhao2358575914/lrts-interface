@@ -20,7 +20,7 @@ def auto_gen_channelID():
     else:
         day = str(day)
     year = str(year)
-    str1 = year + month + day + '001' + str(rand)
+    str1 = year[-2:] + month + day + '001' + str(rand)
     return str1
 
 
@@ -34,3 +34,4 @@ def auto_gen_referID():
     for i in range(24):
         salt += random.choice(H)
     return str(salt)
+

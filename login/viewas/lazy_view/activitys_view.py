@@ -84,3 +84,5 @@ def items_list(request, x_type):
         return render(request, 'login/activity_init.html', locals())
     elif x_type == "2":
         return render(request, 'login/platform/platform_all.html', locals())
+    elif x_type == "3":
+        return render(request, 'login/platform/open_channel.html', locals())

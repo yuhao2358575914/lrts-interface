@@ -321,8 +321,8 @@ def pass_rate_stats(request):
     successRate = Report_Results.objects.filter(report_style=1, create_time__gt=show_time).extra(
         select=select).values_list(
         'report_successRate')
-    print('key个数',key_data)
-    print('key值',successRate)
+    print('key个数', key_data)
+    print('key值', successRate)
 
     json_data = {
         "key1": [i[0] for i in key_data],

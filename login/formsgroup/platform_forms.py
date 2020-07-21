@@ -74,3 +74,25 @@ class AnchorForm(forms.Form):
         (2, '公司账户'),
     )
     partnerType = forms.ChoiceField(label="账户类型", choices=partner_choice)
+
+
+class DevelopChannelForm(forms.Form):
+    """
+    channel_choice：2-拉取，3-推送
+    """
+    host_name = (
+        ('http://moon-api.mting.info,http://moon-admin.lrts.me', '月亮'),
+    )
+    host = forms.ChoiceField(label="测试环境", choices=host_name)
+    channel_choice = (
+        ('2', '开放平台渠道(拉取)'),
+        ('3', '	开放平台渠道(推送)'),
+    )
+    channel_type = forms.ChoiceField(label="开放平台渠道类型", choices=channel_choice)
+    approve_choice = (
+        ('1', '是'),
+        ('2', '否'),
+    )
+    approveType = forms.ChoiceField(label="是否审核", choices=approve_choice,
+                                    widget=forms.RadioSelect(attrs={'required': 'required',
+                                                                    'class': 'radioset'}))
