@@ -1,0 +1,15 @@
+[2020-07-21 10:20:37,019] [base.py:93] [base:get_response] [WARNING]- Not Found: /index/
+[2020-07-21 10:20:37,022] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /index/ HTTP/1.1" 404 6712
+[2020-07-21 10:20:42,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 10:21:48,399] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 10:21:56,050] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 10:22:01,437] [base.py:93] [base:get_response] [WARNING]- Not Found: /index
+[2020-07-21 10:22:01,439] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /index HTTP/1.1" 404 6709
+[2020-07-21 10:25:16,734] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 10:25:29,461] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 10:25:29,545] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-21 10:25:29,671] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-21 10:25:29,673] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 6727
+[2020-07-21 10:30:49,260] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 10:30:58,335] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468
+[2020-07-21 11:07:30,081] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10468

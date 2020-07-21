@@ -27,3 +27,13 @@ Traceback (most recent call last):
 configparser.NoSectionError: No section: 'moon'
 [2020-07-20 16:40:59,657] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /platform/add_copyright_partner HTTP/1.1" 500 112948
 [2020-07-20 16:43:33,006] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_copyright_partner HTTP/1.1" 200 3664
+[2020-07-20 16:47:58,385] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-20 16:50:42,670] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-20 17:50:20,402] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12811
+[2020-07-20 17:50:22,008] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 840
+[2020-07-20 17:50:22,015] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 3686
+[2020-07-20 18:18:43,224] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-20 19:22:18,823] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-20 19:29:51,066] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
+[2020-07-20 19:29:53,870] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3549
+[2020-07-20 19:29:57,472] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /index/ HTTP/1.1" 200 10468
