@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'y8bmpy%ds5+c4#j@@*76&z#a)k%nv-#ur93a7m4#g=s!&h6thw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 APPEND_SLASH = False
 ALLOWED_HOSTS = ['*', ]
 
@@ -135,7 +135,8 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = os.path.join(BASE_DIR, "/static/")  # 使用 collectstatic后收集的静态文件的存放绝对路径
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'login\static')]  # 存放静态文件的目录，其中也可以包含url
 cur_path = os.path.dirname(os.path.realpath(__file__))  # log_path是存放日志的路径
 log_path = os.path.join(os.path.dirname(cur_path), 'logs')
 if not os.path.exists(log_path): os.mkdir(log_path)  # 如果不存在这个logs文件夹，就自动创建一个
@@ -210,3 +211,5 @@ LOGGING = {
         },
     }
 }
+
+

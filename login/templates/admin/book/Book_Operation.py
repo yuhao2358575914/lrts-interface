@@ -124,8 +124,8 @@ def operation_book_get_unbuyedcharpters_all(bookid, token):
     for i in range(sct):
         all_list.append(str(i + 1))
     print('所有章节:', all_list)
-    print('已购章节',operation_book_get_buyedcharpters_all(bookid, token))
-    print('免费章节：',operation_book_get_freecharpters(bookid))
+    print('已购章节', operation_book_get_buyedcharpters_all(bookid, token))
+    print('免费章节：', operation_book_get_freecharpters(bookid))
     re_list = list(set(all_list) - set(operation_book_get_buyedcharpters_all(bookid, token)) - set(
         operation_book_get_freecharpters(bookid)))
     re_list.sort()
@@ -321,3 +321,4 @@ def push_a_book_To_online(bookid):
             edit_book_info_approve(bookid)
     elif bState == 0:
         return '书籍%s已经是在线状态啦！' % bookid
+

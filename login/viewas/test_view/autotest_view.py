@@ -280,7 +280,7 @@ def mail_config_manual(request):
             message = '邮箱配置不能为空！'
             return render(request, 'login/mail_config.html', locals())
         write_config_ini('email', 'mail_default_receivers', receivers_new.strip())
-        return redirect('/index/')
+        return redirect('/')
     # 获取配置文件下的收件人邮箱
     receivers = get_conf('email', 'mail_default_receivers')
     if receivers is None:

@@ -208,3 +208,16 @@ django.template.exceptions.TemplateDoesNotExist: login/reports/test_report202007
 [2020-07-21 18:33:17,083] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
 [2020-07-21 18:33:27,932] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
 [2020-07-21 18:33:30,272] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /platform/add_develop_channel HTTP/1.1" 200 3020
+[2020-07-21 18:37:02,714] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /platform/add_develop_channel HTTP/1.1" 200 3257
+[2020-07-21 18:43:40,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-22 09:51:31,374] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12792
+[2020-07-22 09:51:33,028] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 860
+[2020-07-22 09:51:33,038] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 3877
+[2020-07-22 14:09:41,703] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-22 15:06:31,405] [base.py:93] [base:get_response] [WARNING]- Not Found: /9000
+[2020-07-22 15:06:31,411] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /9000 HTTP/1.1" 404 6706
+[2020-07-22 15:08:40,819] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-22 15:16:21,925] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-22 15:20:44,429] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12786
+[2020-07-22 15:20:46,964] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 880
+[2020-07-22 15:20:46,970] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4015

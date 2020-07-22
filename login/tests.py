@@ -49,16 +49,16 @@ from login.templates.utils import getconf
 # print(r.text)
 # print(r.status_code)
 
+# 买书
+r = requests.get(
+    'http://192.168.3.158:8084/yytingopenapi/order/createOrder?totalFee=1500&goodsId=32201&phoneNum=15959082192&partnerId=200429001579&goodsNum=48&shareFee=233&outOrderNum=VJ66r21122H311&goodsType=4&token=82c8fdd4d2f747a90934a22a87b8403b',
+    headers=getconf.getdict('Headers', 'user-agent'))
+print(r.text)
+print(r.status_code)
+
 # 买vip
 # r = requests.get(
-#     'http://moon-openapi.lrts.me/order/createOrder?totalFee=1500&goodsId=1&phoneNum=15959082191&partnerId=200720001927&goodsNum=1&shareFee=233&outOrderNum=VJ52GGWb13H321&goodsType=3&token=82c8fdd4d2f747a90934a22a87b8403b',
-#     headers=getconf.getdict('Headers', 'user-agent'))
-# print(r.text)
-# print(r.status_code)
-
-# #买书
-# r = requests.get(
-#     'http://moon-openapi.lrts.me/open/oauth2/tmall/createOrder?accessToken=qweqe1212121asd&totalFee=20&goodsId=58&phoneNum=15959082192&payTime=1594971823721&partnerId=200429001579&shareFee=2&outOrderNum=VJ66rrk14H311&goodsType=1&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     'http://moon-openapi.lrts.me/order/createOrder?totalFee=4200&goodsId=3&phoneNum=15959082191&partnerId=200429001579&goodsNum=1&shareFee=233&outOrderNum=VJ52GGWb11H221&goodsType=3&token=82c8fdd4d2f747a90934a22a87b8403b',
 #     headers=getconf.getdict('Headers', 'user-agent'))
 # print(r.text)
 # print(r.status_code)
@@ -66,7 +66,7 @@ from login.templates.utils import getconf
 
 # 充值
 # r = requests.get(
-#     'http://moon-openapi.lrts.me/order/createOrder?totalFee=1000&goodsId=1&phoneNum=15959082192&partnerId=200429001579&goodsNum=100&shareFee=233&outOrderNum=VT67rok122H311&goodsType=1&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     'http://192.168.3.158:8084/yytingopenapi/order/createOrder?totalFee=1000&goodsId=1&phoneNum=15959082194&partnerId=200429001579&goodsNum=100&shareFee=233&outOrderNum=VT67r1k1edge2&goodsType=2&token=82c8fdd4d2f747a90934a22a87b8403b',
 #     headers=getconf.getdict('Headers', 'user-agent'))
 # print(r.text)
 # print(r.status_code)
@@ -74,6 +74,30 @@ from login.templates.utils import getconf
 
 # r = requests.get(
 #     'http://moon-openapi.lrts.me/open/oauth2/accessToken?appId=200429001579&secret=U?YXFAcwmzrtUe%CbxcdRFGF&code=epMSMr3QADeBL5txsLlv78WY8GOogNUuTbeD32lqnj1xsQGVvaWXE+69vBGLdJNjQ/fKa124oZM4Tc14ZvCAfDCFBhKbs/WI7GTz9VYUsiP1H0zKYMtxLQ==',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
+
+
+#############天猫精灵app下单##############
+#买书-分章节
+# r = requests.get(
+#         'http://moon-openapi.lrts.me/open/oauth2/tmall/createOrder?openId=aUKe%2bHKJ7CtPvR%2b8X8DDvpY8%2bbEUJ9fXILo40f8sX8ta2InOddIWzO5XRjGkHbKQ&accessToken=3WRChlp9FQLM9%2fWhnsSzvzfvtIAsEIg%2fszTtRtGOjFyvUDTQTvljGD2hBCXujtPrDaJN4dyKLsfudyNPJ60evw4vgWGexBNwewnlcAteLHHhbhf5VbOVfy3hkHOWgwi%2bz8i%2f2n%2bezR9Q0ZippFY6V8%2b8Tg88asv1SZRm1BcOT0S8QDZZEbPUkg%3d%3d&totalFee=2&goodsId=10003308600055&payTime=1594436206000&appId=200429001579&shareFee=1&outOrderNum=asd71311221452&goodsType=1&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
+
+
+#买书-整本
+# r = requests.get(
+#         'http://moon-openapi.lrts.me/open/oauth2/tmall/createOrder?openId=aUKe%2bHKJ7CtPvR%2b8X8DDvpY8%2bbEUJ9fXILo40f8sX8ta2InOddIWzO5XRjGkHbKQ&accessToken=3WRChlp9FQLM9%2fWhnsSzvzfvtIAsEIg%2fszTtRtGOjFyvUDTQTvljGD2hBCXujtPrDaJN4dyKLsfudyNPJ60evw4vgWGexBNwewnlcAteLHHhbhf5VbOVfy3hkHOWgwi%2bz8i%2f2n%2bezR9Q0ZippFY6V8%2b8Tg88asv1SZRm1BcOT0S8QDZZEbPUkg%3d%3d&totalFee=2&goodsId=54343796&payTime=1594436206000&appId=200429001579&shareFee=1&outOrderNum=asd713338114100&goodsType=2&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
+
+#买vip
+# r = requests.get(
+#         'http://moon-openapi.lrts.me/open/oauth2/tmall/createOrder?openId=aUKe%2bHKJ7CtPvR%2b8X8DDvpY8%2bbEUJ9fXILo40f8sX8ta2InOddIWzO5XRjGkHbKQ&accessToken=3WRChlp9FQLM9%2fWhnsSzvzfvtIAsEIg%2fszTtRtGOjFyvUDTQTvljGD2hBCXujtPrDaJN4dyKLsfudyNPJ60evw4vgWGexBNwewnlcAteLHHhbhf5VbOVfy3hkHOWgwi%2bz8i%2f2n%2bezR9Q0ZippFY6V8%2b8Tg88asv1SZRm1BcOT0S8QDZZEbPUkg%3d%3d&totalFee=3&goodsId=vip_30&payTime=1594436206000&appId=200429001579&shareFee=2&outOrderNum=asd713sds8114519&goodsType=3&token=82c8fdd4d2f747a90934a22a87b8403b&os=1',
 #     headers=getconf.getdict('Headers', 'user-agent'))
 # print(r.text)
 # print(r.status_code)

@@ -25,7 +25,7 @@ class case_Necessary_LazyCoins_Buy_Album(unittest.TestCase):
 
         token = get_app_login_token()
         # 获取节目
-        random_int = random.randint(0, 30)
+        random_int = random.randint(0, 20)
         albumn = dbutil.select(
             ' SELECT Id FROM `t_sns_ablumn` WHERE  pay_type=2 AND pay_free=1 AND STATUS=0 LIMIT %d,1' % random_int,
             'db_audiobook')
