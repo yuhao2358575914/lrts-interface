@@ -14,7 +14,6 @@ import unittest
 from time import sleep
 
 from login.templates.admin.activities.send_code import send_ticket_by_exchangeCode
-from login.templates.admin.book.Book_Operation import operation_book_get_unbuyedcharpters_all
 from login.templates.app.account.Get_Logon_Token import get_app_login_token
 from login.templates.app.order.Purchase_Resources import buy_albumn_utils
 from login.templates.users.Get_UserInfo_By_Token import get_userid_by_token
@@ -30,7 +29,7 @@ class case_Necessary_Ticket_Buy_Album(unittest.TestCase):
         token = get_app_login_token()
         user_id = get_userid_by_token(token)
         # 获取节目
-        random_int = random.randint(0, 30)
+        random_int = random.randint(0, 20)
         albumn = dbutil.select(
             ' SELECT Id FROM `t_sns_ablumn` WHERE  pay_type=2 AND pay_free=1 AND STATUS=0 LIMIT %d,1' % random_int,
             'db_audiobook')

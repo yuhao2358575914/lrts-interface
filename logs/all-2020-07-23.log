@@ -59,3 +59,46 @@
 [2020-07-23 10:16:12,102] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
 [2020-07-23 10:16:13,796] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
 [2020-07-23 10:16:14,223] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:17:45,408] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:18:17,469] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:18:17,486] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:26:00,757] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-23 10:26:00,975] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 10:26:00,978] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 10:26:11,786] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:26:12,816] [base.py:93] [base:get_response] [WARNING]- Not Found: /test_report_list10/bootstrap-select.css.map
+[2020-07-23 10:26:12,818] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /test_report_list10/bootstrap-select.css.map HTTP/1.1" 404 117
+[2020-07-23 10:26:14,112] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:26:15,005] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:26:26,265] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:26:27,909] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:26:27,924] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 11:55:54,827] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12788
+[2020-07-23 11:55:55,954] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-23 11:55:57,454] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 901
+[2020-07-23 11:55:57,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4426
+[2020-07-23 11:56:00,804] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /test_report/test_report20200723103359
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\test_view\autotest_view.py", line 188, in test_report
+    return render(request, 'login/reports/%s.html' % report_name, locals())
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login/reports/test_report20200723103359.html
+[2020-07-23 11:56:00,854] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /test_report/test_report20200723103359 HTTP/1.1" 500 27
+[2020-07-23 14:19:44,596] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12792
+[2020-07-23 14:19:45,642] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-07-23 14:19:47,120] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 901
+[2020-07-23 14:19:47,129] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4534
+[2020-07-23 14:21:16,264] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-23 15:37:01,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_ips/ HTTP/1.1" 200 133
+[2020-07-23 15:42:26,050] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_buy_share/ HTTP/1.1" 200 2827

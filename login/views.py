@@ -187,6 +187,7 @@ def get_ips(request):
     else:
         ip_name = request.META.get("REMOTE_ADDR")
     search = IpUtils.objects.filter(ip=ip_name)
+    print("ip信息",ip_name)
     if not search:
         local_time = get_local_time_second()
         ips = models.IpUtils()

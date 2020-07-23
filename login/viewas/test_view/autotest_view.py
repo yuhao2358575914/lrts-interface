@@ -1,7 +1,7 @@
 import urllib
 
 from django.views.decorators.csrf import csrf_exempt
-
+import logging
 import re
 import requests
 import json
@@ -77,6 +77,7 @@ def run_test(request):
     """
     # if request.session.is_empty():
     #     return redirect('/login/')
+    logger = logging.getLogger('log')
     host_names = 'http://earth-api.mting.info,http://earth-admin.lrts.me'
     test_form = forms.ReportUtils(request.GET)
     if test_form.is_valid():
@@ -98,6 +99,7 @@ def run_test(request):
         elif test_type == 'AdminNec':
             test_type_1 = 'case_Admin_Necessary*.py'
         test_results = run_test_bf_old(test_type_1)
+        logger.info('测试完成！ 测试结果集合为:{}'.format(test_results))
         file_name = test_results.get('filename')
         test_all = test_results.get('result').get('testAll')
         test_Pass = test_results.get('result').get('testPass')

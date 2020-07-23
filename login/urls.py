@@ -17,5 +17,4 @@ urlpatterns = [
     path('add_channel_partner', channel_views.add_channel_partner),
     path('add_anchor_partner', anchor_views.add_anchor_partner),
     path('add_develop_channel', channel_views.add_develop_channel),
-
 ]
