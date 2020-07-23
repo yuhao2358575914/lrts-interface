@@ -59,3 +59,45 @@
 [2020-07-22 17:58:28,408] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
 [2020-07-22 17:58:29,893] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4177
 [2020-07-22 17:58:30,093] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 880
+[2020-07-22 17:59:02,384] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /test_report/test_report20200722110730
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\test_view\autotest_view.py", line 188, in test_report
+    return render(request, 'login/reports/%s.html' % report_name, locals())
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login/reports/test_report20200722110730.html
+[2020-07-22 17:59:02,396] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /test_report/test_report20200722110730 HTTP/1.1" 500 27
+[2020-07-22 17:59:13,808] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /test_report/test_report20200722110730
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\test_view\autotest_view.py", line 188, in test_report
+    return render(request, 'login/reports/%s.html' % report_name, locals())
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login/reports/test_report20200722110730.html
+[2020-07-22 17:59:13,819] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /test_report/test_report20200722110730 HTTP/1.1" 500 27
+[2020-07-23 09:39:53,147] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 09:39:54,180] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-07-23 09:39:55,239] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 09:39:55,240] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 09:39:55,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 09:39:55,662] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370

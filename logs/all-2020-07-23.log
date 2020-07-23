@@ -1,0 +1,61 @@
+[2020-07-23 09:43:36,853] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 09:43:38,002] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 09:43:38,003] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 09:43:38,405] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 09:43:38,425] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 09:46:30,270] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 09:46:31,304] [base.py:93] [base:get_response] [WARNING]- Not Found: /static/login/js/echarts.min.js
+[2020-07-23 09:46:31,306] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/login/js/echarts.min.js HTTP/1.1" 404 104
+[2020-07-23 09:46:32,407] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 09:46:32,408] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 09:46:39,212] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 09:46:40,244] [base.py:93] [base:get_response] [WARNING]- Not Found: /static/login/js/echarts.min.js
+[2020-07-23 09:46:40,246] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/login/js/echarts.min.js HTTP/1.1" 404 104
+[2020-07-23 09:46:57,701] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 09:46:58,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-23 09:47:00,495] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 09:47:00,729] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 09:47:15,735] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 09:47:16,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-23 09:47:17,828] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 09:47:17,829] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 09:47:19,027] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 09:47:19,503] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 09:50:51,116] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 09:50:52,695] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 09:50:52,707] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:00:03,674] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:00:06,985] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:00:07,183] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:00:17,671] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:00:18,710] [base.py:93] [base:get_response] [WARNING]- Not Found: /static/login/js/echarts.min.js
+[2020-07-23 10:00:18,712] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/login/js/echarts.min.js HTTP/1.1" 404 104
+[2020-07-23 10:00:19,743] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 10:00:19,744] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 10:00:28,887] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:00:29,957] [base.py:93] [base:get_response] [WARNING]- Not Found: /static/login/js/echarts.min.js
+[2020-07-23 10:00:29,959] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/login/js/echarts.min.js HTTP/1.1" 404 104
+[2020-07-23 10:00:52,677] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:00:53,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-23 10:00:55,503] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:00:55,924] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:00:56,558] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-23 10:00:57,639] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 10:00:57,640] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 10:00:58,068] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:00:58,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:01:00,647] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:03:30,355] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:03:31,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:03:31,997] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:04:11,702] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:04:13,319] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:04:13,819] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:11:33,296] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:11:34,559] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 10:11:34,560] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 10:11:35,423] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
+[2020-07-23 10:11:35,760] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:16:12,102] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12790
+[2020-07-23 10:16:13,796] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4370
+[2020-07-23 10:16:14,223] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 881
