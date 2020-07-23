@@ -102,3 +102,110 @@ django.template.exceptions.TemplateDoesNotExist: login/reports/test_report202007
 [2020-07-23 14:21:16,264] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
 [2020-07-23 15:37:01,393] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_ips/ HTTP/1.1" 200 133
 [2020-07-23 15:42:26,050] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /add_buy_share/ HTTP/1.1" 200 2827
+[2020-07-23 15:43:49,354] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-23 15:43:50,409] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-07-23 18:19:55,566] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12797
+[2020-07-23 18:19:57,228] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-07-23 18:19:58,754] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 902
+[2020-07-23 18:19:58,854] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4807
+[2020-07-23 18:34:57,681] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /test_report_list10/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'login_report_results.publish_module' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\PycharmProjects\MyPro1\login\viewas\test_view\autotest_view.py", line 201, in test_report_list10
+    print('报告列表：', data)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 248, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 272, in __iter__
+    self._fetch_all()
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 1015, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\models\sql\compiler.py", line 1064, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Programs\Python\Python37\Lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'login_report_results.publish_module' in 'field list'")
+[2020-07-23 18:34:57,788] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET /test_report_list10/ HTTP/1.1" 500 27
+[2020-07-23 18:41:37,332] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12396
+[2020-07-23 18:41:41,016] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 670
+[2020-07-23 18:41:41,021] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 120
+[2020-07-23 18:41:59,625] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12396
+[2020-07-23 18:42:02,935] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 120
+[2020-07-23 18:42:02,951] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 670
+[2020-07-23 18:42:08,906] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12396
+[2020-07-23 18:42:09,972] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-23 18:42:11,179] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 18:42:11,181] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 18:42:13,161] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 120
+[2020-07-23 18:42:13,198] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 670
+[2020-07-23 18:42:54,455] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12396
+[2020-07-23 18:42:57,808] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 120
+[2020-07-23 18:42:57,864] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 670
+[2020-07-23 18:43:01,875] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12396
+[2020-07-23 18:43:03,235] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383547
+[2020-07-23 18:43:04,380] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-23 18:43:04,383] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-07-23 18:43:06,375] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 120
+[2020-07-23 18:43:06,419] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 670
+[2020-07-23 18:43:21,666] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12316
+[2020-07-23 18:43:25,422] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 120
+[2020-07-23 18:43:25,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 670

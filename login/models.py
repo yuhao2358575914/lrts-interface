@@ -109,6 +109,7 @@ class Report_Results(models.Model):
     report_testFail = models.IntegerField(default=0)
     report_testError = models.IntegerField(default=0)
     report_successRate = models.IntegerField(default=0)
+    publish_module = models.CharField(max_length=64, default="yyting-apps-api")
 
     class Meta:
         verbose_name = "测试报告"

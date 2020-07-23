@@ -97,7 +97,7 @@ def run_test(request):
         elif test_type == 'Nec':
             test_type_1 = 'case_Necessary*.py'
         elif test_type == 'AdminNec':
-            test_type_1 = 'case_Admin_Necessary*.py'
+            test_type_1 = 'case_Necessary_Admin*.py'
         test_results = run_test_bf_old(test_type_1)
         logger.info('测试完成！ 测试结果集合为:{}'.format(test_results))
         file_name = test_results.get('filename')
@@ -118,6 +118,7 @@ def run_test(request):
         test_repo.reporter_name = file_name
         test_repo.reporter_type = test_type
         test_repo.create_time = get_local_time_second()
+        test_repo.publish_module = project
         if request.session.get('user_name'):
             test_repo.create_user = request.session.get('user_name')
         else:

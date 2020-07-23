@@ -41,16 +41,10 @@
                     <td>{{ report.report_testFail}}</td>
                     <td>{{ report.report_testError}}</td>
                     <td>{{ report.report_successRate}}%</td>
-                    {% if report.reporter_type == 'Nec' %}
-                        <td>yyting-apps-api</td>
-                    {% elif report.reporter_type == 'AdminNec'  %}
-                        <td>yyting-apps-admin</td>
-                    {% elif report.reporter_type == 'All'  %}
-                        <td>yyting-apps-api</td>
-                    {% endif %}
-                    {% if report.reporter_type == 'Nec' %}
+                    <td>{{ report.publish_module}}</td>
+                    {% if report.publish_module == 'yyting-apps-api' %}
                         <td>必测</td>
-                    {% elif report.reporter_type == 'AdminNec'  %}
+                    {% elif report.publish_module == 'yyting-apps-admin' %}
                         <td>Admin必测</td>
                     {% else %}
                         <td>全量</td>
