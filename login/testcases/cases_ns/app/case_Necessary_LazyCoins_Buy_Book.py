@@ -31,6 +31,7 @@ class case_Necessary_LazyCoins_Buy_Book(unittest.TestCase):
         book_id = str(book[0]['book_id'])
         # 获取未购章节
         charpters = operation_book_get_unbuyedcharpters_all(book_id, token)
+        charpters.remove(charpters[0])
         print('未购章节：', charpters)
         # 购买书籍
         res = buy_book_utils(token, book_id, charpters[0:1], '2', '27', '0')

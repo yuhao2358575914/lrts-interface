@@ -50,11 +50,11 @@ from login.templates.utils import getconf
 # print(r.status_code)
 
 # 买书
-r = requests.get(
-    'http://192.168.3.158:8084/yytingopenapi/order/createOrder?totalFee=1500&goodsId=32201&phoneNum=15959082192&partnerId=200429001579&goodsNum=48&shareFee=233&outOrderNum=VJ66r21122H311&goodsType=4&token=82c8fdd4d2f747a90934a22a87b8403b',
-    headers=getconf.getdict('Headers', 'user-agent'))
-print(r.text)
-print(r.status_code)
+# r = requests.get(
+#     'http://192.168.3.158:8084/yytingopenapi/order/createOrder?totalFee=1500&goodsId=32201&phoneNum=15959082192&partnerId=200429001579&goodsNum=48&shareFee=233&outOrderNum=VJ66r21122H311&goodsType=4&token=82c8fdd4d2f747a90934a22a87b8403b',
+#     headers=getconf.getdict('Headers', 'user-agent'))
+# print(r.text)
+# print(r.status_code)
 
 # 买vip
 # r = requests.get(
