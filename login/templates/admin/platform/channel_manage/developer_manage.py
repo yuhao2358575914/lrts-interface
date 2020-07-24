@@ -54,7 +54,8 @@ def add_channel_by_type(channel_type: str):
     if json.loads(r.text)['status'] == 0:
         res = dbutil.select('SELECT id,nick_name FROM `p_share_fee_channel` WHERE full_name= "%s"' % chanel_name,
                             'db_audiobook')
-        sleep(0.1)
+        sleep(0.2)
+        print('查询返回值：', res)
         return res[0]
     else:
         return json.loads(r.text)['msg']
