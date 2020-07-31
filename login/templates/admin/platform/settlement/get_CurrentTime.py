@@ -9,16 +9,16 @@ def getCurrentTime():
     return [currentDate, currentMonth_style1, currentMonth_style2]
 
 
-def month_days(date1='202006'):
+def month_days(date1=202006):
     '''获取当前月份的天数'''
     date2 = str(date1)
-    print('日期11111：',date2)
     years = int(date2[0:4])
-    month = date2[5:7]
+    month = date2[4:6]
+    print(month)
     if (years % 4 == 0 and years % 100 != 0) or (years % 400 == 0):
         if month in ['01', '03', '05', '07','08', '10', '12']:
             month_days = 31
-        elif month in [4, 6, 9, 11]:
+        elif month in ['04', '06', '09', '11']:
             month_days = 30
         else:
             month_days = 29
@@ -34,4 +34,4 @@ def month_days(date1='202006'):
 
 if __name__ == '__main__':
     getCurrentTime()
-    # print(month_days())
+    print(month_days(202010))

@@ -459,3 +459,10 @@ ValueError: invalid literal for int() with base 10: '<WSG'
 [2020-07-31 17:45:53,375] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2020-07-31 17:46:07,094] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
 [2020-07-31 17:46:08,055] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:47:22,585] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-07-31 17:50:16,150] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:50:17,079] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:51:53,349] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:51:54,258] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:52:14,847] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:52:15,750] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
