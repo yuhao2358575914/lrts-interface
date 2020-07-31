@@ -55,3 +55,4 @@
 [2020-07-31 17:02:21,130] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2020-07-31 17:02:38,373] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\urls.py changed, reloading.
 [2020-07-31 17:02:39,342] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:12:45,193] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
