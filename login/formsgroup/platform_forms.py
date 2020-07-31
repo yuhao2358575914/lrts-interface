@@ -96,3 +96,8 @@ class DevelopChannelForm(forms.Form):
     approveType = forms.ChoiceField(label="是否审核", choices=approve_choice,
                                     widget=forms.RadioSelect(attrs={'required': 'required',
                                                                     'class': 'radioset'}))
+
+
+class Month_Days(forms.Form):
+    month_days = forms.CharField(label='获取当前月份天数', max_length=64,
+                                 widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入当前年月份"}))

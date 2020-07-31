@@ -56,3 +56,406 @@
 [2020-07-31 17:02:38,373] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\urls.py changed, reloading.
 [2020-07-31 17:02:39,342] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2020-07-31 17:12:45,193] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:13:12,530] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-07-31 17:13:12,774] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-31 17:13:12,775] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-07-31 17:15:35,631] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-07-31 17:15:37,146] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day
+[2020-07-31 17:15:37,147] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day HTTP/1.1" 404 179
+[2020-07-31 17:15:49,351] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day
+[2020-07-31 17:15:49,352] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day HTTP/1.1" 404 179
+[2020-07-31 17:15:54,430] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day/
+[2020-07-31 17:15:54,431] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day/ HTTP/1.1" 404 179
+[2020-07-31 17:15:58,289] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day/
+[2020-07-31 17:15:58,290] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day/ HTTP/1.1" 404 179
+[2020-07-31 17:16:33,798] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-07-31 17:16:34,721] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:17:16,361] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-07-31 17:17:17,304] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:17:29,556] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:17:33,944] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day/
+[2020-07-31 17:17:33,944] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day/ HTTP/1.1" 404 179
+[2020-07-31 17:17:35,516] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day/
+[2020-07-31 17:17:35,517] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day/ HTTP/1.1" 404 179
+[2020-07-31 17:17:40,063] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 12, in month_days
+    years=int(date[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:17:40,065] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:17:43,365] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day/
+[2020-07-31 17:17:43,365] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day/ HTTP/1.1" 404 179
+[2020-07-31 17:18:09,709] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 12, in month_days
+    years=int(date[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:18:09,710] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:19:11,289] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-07-31 17:19:12,818] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 12, in month_days
+    years=int(date[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:19:12,819] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:19:40,379] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:19:41,339] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:19:45,808] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 12, in month_days
+    years=int(date[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:19:45,811] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:19:52,912] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:19:53,882] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:20:02,899] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:20:03,838] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:20:09,216] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 15, in month_days
+    years = int(date[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:20:09,217] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:22:20,444] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:22:21,367] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:22:28,079] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:22:29,028] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:22:40,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-07-31 17:22:41,343] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 15, in month_days
+    years = int(date[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:22:41,344] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:23:22,725] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:23:23,637] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:23:29,495] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:23:29,499] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:23:58,573] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:23:59,504] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:24:17,821] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:24:18,730] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:24:27,631] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:24:27,640] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:24:47,763] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:24:48,691] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:24:49,874] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:24:49,882] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:25:51,496] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:25:52,439] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:25:57,705] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:25:57,711] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:26:44,857] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\date_views.py changed, reloading.
+[2020-07-31 17:26:45,850] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:26:46,834] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:26:46,836] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:26:59,362] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:26:59,365] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:27:04,256] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:27:04,265] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:27:04,449] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:27:04,451] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:27:39,211] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:27:40,161] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:27:43,608] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:27:43,610] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:27:53,963] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:27:53,964] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:28:47,636] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:28:48,542] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:28:49,529] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 18, in month_days
+    if (years % 4 == 0 and years % 100 != 0) or (years % 400 == 0):
+TypeError: not all arguments converted during string formatting
+[2020-07-31 17:28:49,531] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:29:02,259] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:29:03,223] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:32:03,504] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:32:04,415] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:32:18,075] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:32:19,011] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:32:26,857] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:32:27,779] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:32:40,965] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:32:40,967] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:32:47,642] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:32:47,647] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:32:50,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/add_develop_channel HTTP/1.1" 200 3014
+[2020-07-31 17:32:52,282] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-07-31 17:32:53,178] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:32:53,179] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:34:14,285] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-07-31 17:34:14,312] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/run_test.css HTTP/1.1" 200 634
+[2020-07-31 17:34:15,896] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-07-31 17:36:32,213] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 17:36:33,204] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:36:53,836] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 17:36:54,778] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:37:09,630] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 17:37:10,577] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:38:12,179] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 17:38:13,054] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:38:45,356] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 17:38:46,327] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:39:02,335] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:39:06,030] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:39:06,032] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:39:14,246] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:39:14,248] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:39:35,026] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 17:39:35,939] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:39:56,605] [log.py:228] [log:log_response] [WARNING]- Not Found: //platform/month_day
+[2020-07-31 17:39:56,608] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET //platform/month_day HTTP/1.1" 404 179
+[2020-07-31 17:40:00,184] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:40:00,185] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:40:28,324] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\date_views.py changed, reloading.
+[2020-07-31 17:40:29,240] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:40:46,428] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:40:47,356] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:41:09,177] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:41:10,121] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:41:13,833] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\utils\deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+[2020-07-31 17:41:13,834] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:41:49,705] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:41:50,638] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:41:54,227] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/month_day
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py", line 16, in month_days
+    years = int(date2[0:4])
+ValueError: invalid literal for int() with base 10: '<WSG'
+[2020-07-31 17:41:54,237] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/month_day HTTP/1.1" 500 145
+[2020-07-31 17:44:24,298] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-07-31 17:44:25,207] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:44:41,173] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-07-31 17:44:42,160] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:44:50,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-07-31 17:45:12,396] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-07-31 17:45:13,322] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:45:17,621] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-07-31 17:45:18,549] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:45:22,196] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-07-31 17:45:40,760] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-07-31 17:45:40,945] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-07-31 17:45:41,554] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-07-31 17:45:41,713] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-07-31 17:45:41,829] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-07-31 17:45:53,375] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:46:07,094] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-07-31 17:46:08,055] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
