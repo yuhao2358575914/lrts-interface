@@ -18,7 +18,6 @@ from django.contrib import admin
 from django.urls import path, re_path
 from django.views.generic import TemplateView
 from django.views.static import serve
-
 from login.viewas.platform_views import copyright_views
 from login.views import echarts_data, change_hosts, data_ajax, test_data, pass_rate_stats
 from login import views
@@ -70,7 +69,6 @@ urlpatterns = [
     path('api/echarts/', echarts_data, name='api-echarts'),
     path('api/pass_stats/', pass_rate_stats, name='api-passStats'),
     path('api/modify_config/', change_hosts, name='modify_config'),
-    path('captcha/', include('captcha.urls')),
     path('api/test_ajax/', data_ajax, name='test_ajax'),
     path('test_data/', test_data),
     re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}, name='static'),

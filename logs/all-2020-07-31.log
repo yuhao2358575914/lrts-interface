@@ -1,0 +1,57 @@
+[2020-07-31 16:17:48,596] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:20:10,787] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 16:20:11,725] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:21:34,096] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 16:21:35,030] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:24:03,478] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3426
+[2020-07-31 16:34:51,358] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-07-31 16:34:52,283] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:44:34,235] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\date_views.py changed, reloading.
+[2020-07-31 16:44:35,156] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:45:05,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-31 16:45:05,464] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-07-31 16:45:17,764] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-31 16:45:17,765] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-07-31 16:45:18,359] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-31 16:45:18,360] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-07-31 16:45:18,960] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-31 16:45:18,960] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-07-31 16:45:19,059] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2089
+[2020-07-31 16:45:19,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-07-31 16:45:30,478] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2218
+[2020-07-31 16:45:57,505] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-31 16:48:40,006] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-31 16:48:42,933] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-31 16:48:42,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 200 383558
+[2020-07-31 16:48:43,219] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-31 16:48:43,219] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-07-31 16:49:10,412] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:49:13,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11150
+[2020-07-31 16:49:38,122] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11150
+[2020-07-31 16:49:46,177] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:49:47,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11094
+[2020-07-31 16:49:48,308] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11094
+[2020-07-31 16:49:50,052] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2089
+[2020-07-31 16:49:56,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2218
+[2020-07-31 16:50:03,765] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11094
+[2020-07-31 16:50:26,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11094
+[2020-07-31 16:50:34,136] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:50:36,048] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11084
+[2020-07-31 16:50:54,208] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:50:56,363] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11083
+[2020-07-31 16:51:49,512] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11083
+[2020-07-31 16:54:46,726] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-07-31 16:54:47,680] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:58:10,954] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\forms.py changed, reloading.
+[2020-07-31 16:58:11,886] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:58:51,867] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:59:02,519] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\forms.py changed, reloading.
+[2020-07-31 16:59:03,585] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:00:32,143] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:01:22,596] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:02:07,752] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\urls.py changed, reloading.
+[2020-07-31 17:02:08,681] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:02:20,158] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\forms.py changed, reloading.
+[2020-07-31 17:02:21,130] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 17:02:38,373] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\urls.py changed, reloading.
+[2020-07-31 17:02:39,342] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

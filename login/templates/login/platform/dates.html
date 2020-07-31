@@ -1,0 +1,47 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'login/css/send_vip.css' %}" rel="stylesheet"/>
+    <title>获取当前月份的天数</title>
+  </head>
+  <body>
+    <div class="container">
+            <div class="col-md-8" style="margin-top: 110px">
+                <form class="form-get-monthDays" action="/platform/month_day" method="post">
+                    {% if share_form.captcha.errors %}
+                        <div class="alert alert-warning">{{ anchor_form.captcha.errors}}</div>
+                    {% elif message %}
+                        <div class="alert alert-warning">{{ message }}</div>
+                    {% endif %}
+
+                  {% csrf_token %}
+{#                {{ request.session.user_name }}#}
+                    <h3 class="text-center">获取当前月份的天数</h3>
+                    <br><br>
+                    <p style="background: gold">tips：获取当前月份的天数</p>
+                    <div class="form-group">
+                      {{ month_days_form.month_days.label_tag}}
+                      {{ month_days_form.month_days}}
+                  </div>
+                  <div>
+                      <a href="/" class="text-success "><ins>返回首页</ins></a>
+                      <button name="button-days" type="submit" class="btn btn-primary float-right">当前月天数</button>
+                  </div>
+                </form>
+            </div>
+    </div> <!-- /container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

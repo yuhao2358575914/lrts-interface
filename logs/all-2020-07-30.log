@@ -1,0 +1,18 @@
+[2020-07-30 10:54:12,502] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-30 11:37:57,378] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-30 11:42:07,114] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\views.py changed, reloading.
+[2020-07-30 11:42:08,051] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-30 11:47:54,896] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\views.py changed, reloading.
+[2020-07-30 11:47:55,993] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-30 11:49:16,166] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\views.py changed, reloading.
+[2020-07-30 11:49:17,147] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-30 11:52:31,887] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\views.py changed, reloading.
+[2020-07-30 11:52:32,813] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-30 11:54:23,008] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-31 16:07:14,686] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-31 16:07:14,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-07-31 16:07:43,702] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/add_develop_channel HTTP/1.1" 200 3014
+[2020-07-31 16:07:43,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-07-31 16:07:50,293] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-31 16:12:53,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/add_develop_channel HTTP/1.1" 200 3014
+[2020-07-31 16:17:47,426] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.

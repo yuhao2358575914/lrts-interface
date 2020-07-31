@@ -1,0 +1,59 @@
+[2020-07-29 18:09:38,842] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-29 18:09:50,872] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-29 18:09:50,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-07-29 18:09:51,566] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-07-29 18:09:51,567] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 6761
+[2020-07-29 18:09:55,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-29 18:09:58,205] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12346
+[2020-07-29 18:09:58,882] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 944
+[2020-07-29 18:09:58,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 6177
+[2020-07-29 18:10:00,893] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /test_report/test_report20200729175355
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 191, in test_report
+    return render(request, 'login/reports/%s.html' % report_name, locals())
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login/reports/test_report20200729175355.html
+[2020-07-29 18:10:00,895] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /test_report/test_report20200729175355 HTTP/1.1" 500 87640
+[2020-07-29 18:10:16,926] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-07-29 18:10:17,946] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-29 18:10:22,699] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /test_report/test_report20200729180456
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 191, in test_report
+    return render(request, 'login/reports/%s.html' % report_name, locals())
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login/reports/test_report20200729180456.html
+[2020-07-29 18:10:22,701] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /test_report/test_report20200729180456 HTTP/1.1" 500 145
+[2020-07-29 18:10:40,077] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12346
+[2020-07-29 18:10:40,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 944
+[2020-07-29 18:10:40,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 6177
+[2020-07-29 18:12:31,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10879
+[2020-07-29 18:34:45,645] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /charge_account/ HTTP/1.1" 200 2976
+[2020-07-29 18:34:45,700] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-07-29 18:35:03,509] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /charge_account/ HTTP/1.1" 200 3120
+[2020-07-29 18:40:25,414] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /charge_account/ HTTP/1.1" 200 3120
+[2020-07-29 18:41:41,355] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\account\user_account.py changed, reloading.
+[2020-07-29 18:41:42,311] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-07-29 18:41:46,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /charge_account/ HTTP/1.1" 200 3120
+[2020-07-30 10:54:11,463] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\utils\wechat_robot.py changed, reloading.
