@@ -101,3 +101,14 @@ class DevelopChannelForm(forms.Form):
 class Month_Days(forms.Form):
     month_days = forms.CharField(label='获取当前月份天数', max_length=64,
                                  widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入当前年月份"}))
+
+
+class Create_Num(forms.Form):
+    '''随机生成11位手机号'''
+    num_type_choice = (
+        (1, '手机号'),
+        (2, '身份证号'),
+        (3, '银行卡号'),
+    )
+    num_type = forms.ChoiceField(label="号码类型", choices=num_type_choice,
+                                 widget=forms.RadioSelect(attrs={'class': 'radioset'}))

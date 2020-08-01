@@ -1,0 +1,252 @@
+[2020-08-01 10:18:57,953] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 10:19:10,464] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 10:19:10,690] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-01 10:19:13,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 5209
+[2020-08-01 10:19:14,043] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/echarts/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\views.py", line 247, in echarts_data
+    for j in less_list:
+UnboundLocalError: local variable 'less_list' referenced before assignment
+[2020-08-01 10:19:14,047] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 38
+[2020-08-01 10:19:14,060] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/echarts/ HTTP/1.1" 500 145
+[2020-08-01 10:19:26,678] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 10:19:34,289] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-01 10:19:34,345] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/run_test.css HTTP/1.1" 200 634
+[2020-08-01 10:20:15,825] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 5209
+[2020-08-01 10:20:15,976] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/echarts/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\views.py", line 247, in echarts_data
+    for j in less_list:
+UnboundLocalError: local variable 'less_list' referenced before assignment
+[2020-08-01 10:20:15,981] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/echarts/ HTTP/1.1" 500 145
+[2020-08-01 10:20:15,984] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 38
+[2020-08-01 10:20:18,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-01 10:20:28,703] [autotest_view.py:102] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200801101954', 'result': {'testAll': 42, 'testPass': 36, 'testFail': 6, 'testError': 0}}
+[2020-08-01 10:20:59,451] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-01 10:21:01,134] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 5921
+[2020-08-01 10:21:01,300] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /api/echarts/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\views.py", line 247, in echarts_data
+    for j in less_list:
+UnboundLocalError: local variable 'less_list' referenced before assignment
+[2020-08-01 10:21:01,300] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 65
+[2020-08-01 10:21:01,302] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /api/echarts/ HTTP/1.1" 500 145
+[2020-08-01 10:21:13,951] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report/test_report20200801101954 HTTP/1.1" 200 13129251
+[2020-08-01 10:21:49,686] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-01 10:22:22,386] [autotest_view.py:102] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200801102153', 'result': {'testAll': 42, 'testPass': 31, 'testFail': 11, 'testError': 0}}
+[2020-08-01 10:22:23,069] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=CSKkfD6HHVT70EqjR1FB4JxtnuYpXjggEWkxD2TjjC4nJE7GfMqOy4tAErkzcWOL&test_type=Nec&envId=4&project=yyting-apps-api HTTP/1.1" 200 99
+[2020-08-01 10:22:36,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-01 10:22:38,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6631
+[2020-08-01 10:22:38,160] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-01 10:22:38,168] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-01 10:32:34,149] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-08-01 10:32:35,140] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 10:33:25,223] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-08-01 10:33:26,214] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 10:36:00,987] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\get_CurrentTime.py changed, reloading.
+[2020-08-01 10:36:01,966] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 10:36:15,044] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 10:36:15,088] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-01 10:36:18,891] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 10:36:20,219] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-08-01 10:36:20,254] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-08-01 10:36:23,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2239
+[2020-08-01 10:36:43,748] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 10:36:44,837] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-08-01 10:36:47,670] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2239
+[2020-08-01 10:36:55,953] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2239
+[2020-08-01 10:37:03,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2239
+[2020-08-01 10:44:54,084] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\common\Create_Number.py changed, reloading.
+[2020-08-01 10:44:55,014] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:19:17,151] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-01 11:19:18,084] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:19:28,545] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:28,545] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:29,134] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:29,134] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:29,749] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:29,750] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:30,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 11:19:30,817] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:30,818] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:34,871] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day
+[2020-08-01 11:19:34,872] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day HTTP/1.1" 404 179
+[2020-08-01 11:19:40,530] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:40,530] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:41,126] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:41,127] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:41,728] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:41,729] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:42,343] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:19:42,343] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:19:42,773] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day_zhou HTTP/1.1" 200 2110
+[2020-08-01 11:19:42,818] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-08-01 11:20:00,383] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day
+[2020-08-01 11:20:00,384] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /platform/month_day HTTP/1.1" 404 179
+[2020-08-01 11:20:02,355] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day_zhou HTTP/1.1" 200 2110
+[2020-08-01 11:20:14,482] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day
+[2020-08-01 11:20:14,482] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /platform/month_day HTTP/1.1" 404 179
+[2020-08-01 11:20:24,443] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:20:29,083] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day_zhou HTTP/1.1" 200 2115
+[2020-08-01 11:20:31,457] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day_zhou HTTP/1.1" 200 2244
+[2020-08-01 11:20:57,180] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-01 11:20:58,115] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:21:04,996] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day_zhou
+[2020-08-01 11:21:04,997] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /platform/month_day_zhou HTTP/1.1" 404 179
+[2020-08-01 11:21:08,464] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:21:08,464] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:21:08,878] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-08-01 11:22:06,281] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\urls.py changed, reloading.
+[2020-08-01 11:22:07,276] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:22:11,318] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/month_day
+[2020-08-01 11:22:11,318] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/month_day HTTP/1.1" 404 179
+[2020-08-01 11:22:15,017] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:22:15,018] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:22:15,615] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:22:15,616] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:22:16,009] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform1/month_day HTTP/1.1" 200 2110
+[2020-08-01 11:22:26,145] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\urls.py changed, reloading.
+[2020-08-01 11:22:27,070] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:22:40,213] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:22:48,441] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform1/month_day
+[2020-08-01 11:22:48,442] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform1/month_day HTTP/1.1" 404 179
+[2020-08-01 11:22:52,106] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:22:52,106] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:22:52,710] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 11:22:52,710] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 11:22:53,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-08-01 11:22:56,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2239
+[2020-08-01 11:22:57,618] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 11:23:02,305] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-08-01 11:23:04,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 11:27:58,360] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-08-01 11:28:09,989] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2239
+[2020-08-01 11:28:50,491] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/month_day HTTP/1.1" 200 2239
+[2020-08-01 11:40:35,568] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 11:40:36,604] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:40:49,787] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /add_Subtracts_activity/ HTTP/1.1" 200 2882
+[2020-08-01 11:40:54,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 11:41:01,695] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/add_copyright_partner HTTP/1.1" 200 3426
+[2020-08-01 11:46:06,501] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 11:46:07,439] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:47:21,947] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 11:47:22,871] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 11:48:02,338] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 11:48:03,312] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 12:04:26,571] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 12:04:27,539] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:12:19,866] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-01 14:12:20,810] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:12:37,915] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:12:51,130] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 14:12:51,131] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 14:12:51,662] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11144
+[2020-08-01 14:17:01,025] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:17:09,250] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:17:11,772] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:17:13,508] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:17:44,973] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:17:59,135] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:18:00,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/month_day HTTP/1.1" 200 2110
+[2020-08-01 14:18:02,453] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:18:04,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:18:06,954] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:18:07,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:18:14,813] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:18:15,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:18:17,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:18:18,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:22:51,346] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:22:58,711] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:23:00,657] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:23:01,786] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:23:24,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:23:25,921] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:24:47,004] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:24:47,938] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:24:48,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2041
+[2020-08-01 14:26:29,388] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 14:26:30,354] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:26:32,430] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 1913
+[2020-08-01 14:27:20,416] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:27:21,391] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:27:22,120] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 1913
+[2020-08-01 14:27:32,907] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:27:34,019] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:27:52,541] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 1913
+[2020-08-01 14:28:30,037] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 14:28:30,980] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:29:34,793] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:29:35,733] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:29:42,542] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:29:48,637] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2506
+[2020-08-01 14:29:54,643] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2642
+[2020-08-01 14:30:45,509] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:30:46,437] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:31:24,712] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:31:25,676] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:31:39,176] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2642
+[2020-08-01 14:32:14,572] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:32:15,680] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:32:18,256] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:32:23,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2641
+[2020-08-01 14:32:29,528] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2642
+[2020-08-01 14:32:38,947] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:19,265] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:34:20,292] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:34:24,309] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:25,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:26,479] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:26,723] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:26,911] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:27,083] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:27,261] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:34:27,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2634
+[2020-08-01 14:47:04,226] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:47:05,164] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:47:13,979] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:47:19,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:49:05,752] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 14:49:06,697] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:49:14,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:43,311] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 14:50:44,280] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 14:50:48,434] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:49,265] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:49,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:49,713] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:49,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:50,025] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:50,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:50,354] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:50:53,326] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:50:55,585] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 14:51:00,323] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 14:51:00,757] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 14:51:00,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 14:51:03,264] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:51:09,329] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:51:29,423] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 14:51:49,616] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 14:52:33,494] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 14:52:35,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 14:55:14,566] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-01 14:55:15,532] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

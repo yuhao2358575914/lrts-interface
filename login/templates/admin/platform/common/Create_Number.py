@@ -1,4 +1,3 @@
-#生成一个新的手机号
 import random
 def create_PhoneNum():
     '''生成一个手机号'''

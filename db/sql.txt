@@ -1,59 +1,35 @@
-CREATE TABLE `login_testcases` (
-    `id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY,
-    `case_name_ch` varchar(64) NOT NULL,
-    `case_name_en` varchar(64) NOT NULL,
-    `case_steps` varchar(128) NOT NULL,
-    `script_name` varchar(64) NOT NULL,
-    `create_time` datetime NOT NULL);
-
-CREATE TABLE `login_report_results` (
-	`id` INT (11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
-	`reporter_name` VARCHAR (492),
-	`reporter_type` VARCHAR (96),
-	`create_user` VARCHAR (192),
-	`create_time` DATETIME ,
-	`report_style` VARCHAR (24),
-	`env_Id` VARCHAR (24),
-	`report_successRate` INT (11),
-	`report_testAll` INT (11),
-	`report_testError` INT (11),
-	`report_testFail` INT (11),
-	`report_testPass` INT (11)
-);
-
- CREATE TABLE `login_iputils` (
-  `id` int(11) DEFAULT NULL,
-  `ip` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `login_time` datetime DEFAULT NULL
-) ;
-
-CREATE TABLE `login_requests` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `method_type` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `header` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `params` varchar(1024) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `apiname` varchar(256) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `host` varchar(1024) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `result` varchar(1024) COLLATE utf8mb4_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`)
-);
-
-CREATE TABLE `login_testcases` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `case_name_ch` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `case_name_en` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `case_steps` varchar(384) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `script_name` varchar(192) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `create_time` datetime DEFAULT NULL,
-  `case_creater` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
-  KEY `id` (`id`)
-);
-
- CREATE TABLE `login_sendcode` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `mount_type` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_id` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `exchangeType` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `result` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`)
-);
+--
+-- Create model AutoTest_Results
+--
+CREATE TABLE `login_autotest_results` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `script_name` varchar(164) NOT NULL, `test_response` varchar(2048) NOT NULL, `test_result` varchar(8) NOT NULL, `create_time` datetime(6) NOT N
+ULL, `update_time` datetime(6) NOT NULL, `tester` varchar(64) NOT NULL);
+--
+-- Create model IpUtils
+--
+CREATE TABLE `login_iputils` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `ip` varchar(64) NOT NULL, `login_time` datetime(6) NOT NULL);
+--
+-- Create model Report_Results
+--
+CREATE TABLE `login_report_results` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `reporter_name` varchar(164) NOT NULL, `reporter_type` varchar(32) NOT NULL, `create_user` varchar(64) NOT NULL, `create_time` datetime(6) NOT NU
+LL, `report_style` varchar(8) NOT NULL, `env_Id` varchar(8) NOT NULL, `report_testAll` integer NOT NULL, `report_testPass` integer NOT NULL, `report_testFail` integer NOT NULL, `report_testError` integer NOT NULL, `report_successRat
+e` integer NOT NULL, `publish_module` varchar(64) NOT NULL);
+--
+-- Create model Requests
+--
+CREATE TABLE `login_requests` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `method_type` varchar(64) NOT NULL, `header` varchar(256) NOT NULL, `params` varchar(1024) NOT NULL, `apiname` varchar(256) NOT NULL, `host` varchar(10
+24) NOT NULL, `result` varchar(1024) NOT NULL);
+--
+-- Create model SendCode
+--
+CREATE TABLE `login_sendcode` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `mount_type` varchar(64) NOT NULL, `user_id` varchar(64) NOT NULL, `exchangeType` varchar(64) NOT NULL, `result` varchar(32) NOT NULL, `send_time` date
+time(6) NOT NULL);
+--
+-- Create model TestCases
+--
+CREATE TABLE `login_testcases` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `case_name_ch` varchar(64) NOT NULL, `case_name_en` varchar(64) NOT NULL, `case_steps` varchar(128) NOT NULL, `script_name` varchar(64) NOT NULL, `cre
+ate_time` datetime(6) NOT NULL, `case_creater` varchar(64) NOT NULL);
+--
+-- Create model User
+--
+CREATE TABLE `login_user` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(128) NOT NULL UNIQUE, `password` varchar(256) NOT NULL, `email` varchar(254) NOT NULL UNIQUE, `role` varchar(32) NOT NULL, `c_time` datetime
+(6) NOT NULL);

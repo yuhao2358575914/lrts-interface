@@ -15,9 +15,7 @@
     <div class="container">
             <div class="col-md-8" style="margin-top: 110px">
                 <form class="form-get-monthDays" action="/platform/month_day" method="post">
-                    {% if share_form.captcha.errors %}
-                        <div class="alert alert-warning">{{ anchor_form.captcha.errors}}</div>
-                    {% elif message %}
+                    {% if message %}
                         <div class="alert alert-warning">{{ message }}</div>
                     {% endif %}
 

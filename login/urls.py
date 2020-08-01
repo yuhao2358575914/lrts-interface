@@ -4,7 +4,7 @@ from django.urls import path
 # 导入当前目录下的views
 
 # 确定命名空间
-from .viewas.platform_views import copyright_views, channel_views, anchor_views, date_views
+from .viewas.platform_views import copyright_views, channel_views, anchor_views, date_views,randomNum_views
 
 app_name = 'login'
 # 子路由表
@@ -18,4 +18,5 @@ urlpatterns = [
     path('add_anchor_partner', anchor_views.add_anchor_partner),
     path('add_develop_channel', channel_views.add_develop_channel),
     path('month_day', date_views.month_day),
+    path('randomNum', randomNum_views.create_random_num),
 ]

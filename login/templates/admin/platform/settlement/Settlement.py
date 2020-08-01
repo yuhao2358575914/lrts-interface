@@ -29,10 +29,10 @@ class Settlement(object):
         print(start_time)
         #根据传入的结算月份得到结算结束时间
         input_month=date_style[0:6]
-        current_time_recorde=getCurrentTime()
-        current_month=current_time_recorde[2]
+        current_time_record=getCurrentTime()
+        current_month=current_time_record[2]
         if input_month==current_month:
-            end_time=current_time_recorde[0]
+            end_time=current_time_record[0]
             print(end_time)
         else:
             days = month_days(date_style)
@@ -62,10 +62,11 @@ class Settlement(object):
         #                                     FROM p_resource_daily_billing
         #                                     WHERE entity_id='%s' and partner_id='%s'and sp_type='%s' and  product_type='%s'and billing_date between '%s' and '%s' ORDER BY create_time desc ;'''
         #                                   % (self.entity_id, self.partner_id, self.sp_type,product_type, first_day_month, current_date),"billing")
-        lr_cp_daily_info = billing_select(''' SELECT * FROM p_resource_daily_billing
+        lr_cp_daily_info = billing_select(''' SELECT * FROM test_resource_daily_billing
                                             WHERE entity_id='%s' and partner_id='%s'and sp_type='%s' and  product_type='%s'and billing_date between '%s' and '%s' ORDER BY create_time desc ;'''
                                           % (self.entity_id, self.partner_id, self.sp_type, product_type,start_time,end_time), "billing")
-        lr_sum_cash_flow_billing = 0
+        lr_sum_cash_flow_billing_1 = 0
+        lr_sum_cash_flow_billing_2 = 0
         lr_sum_commission_out = 0
         lr_sum_cash_flow = 0
         for day in lr_cp_daily_info:
@@ -73,14 +74,16 @@ class Settlement(object):
             channel_partner_id=day['channel_partner_id'] #查看关联的渠道合作方id
             if channel_partner_id:
                 channel_partner_rate=day['channel_partner_rate']
-                lr_sum_cash_flow_billing += math.floor(day['sum_cash_flow']*(1-channel_partner_rate)) # 统计本月可分成流水
+                lr_sum_cash_flow_billing_1 += math.floor(day['sum_cash_flow']*(1-channel_partner_rate)) # 统计本月可分成流水
             else:
-                lr_sum_cash_flow_billing=lr_sum_cash_flow # 统计本月可分成流水
+                lr_sum_cash_flow_billing_2+=day['sum_cash_flow'] # 统计本月可分成流水
+                print('-------------------'+str(lr_sum_cash_flow_billing_2))
+            sum_cash_flow_billing=lr_sum_cash_flow_billing_1+lr_sum_cash_flow_billing_2
             commission_id = day['commission_id'] #获取手续费率id
             #测试环境切换成这个sql
-            pay_rate=billing_select("SELECT * from p_billing_records_commission where id='%s';" %(commission_id),'billing') #根据commission_id查询相对应的手续费明细
+            # pay_rate=billing_select("SELECT * from p_billing_records_commission where id='%s';" %(commission_id),'billing') #根据commission_id查询相对应的手续费明细
             #预发布切换成这个sql
-            # pay_rate=billing_select("SELECT * from test_billing_records_commission where id='%s';" %(commission_id),'billing') #根据commission_id查询相对应的手续费明细
+            pay_rate=billing_select("SELECT * from test_billing_records_commission where id='%s';" %(commission_id),'billing') #根据commission_id查询相对应的手续费明细
             # 统计份额外支付手续费
             lr_sum_commission_out +=Decimal(day['and_wx_cash_flow_billing']) * pay_rate[0]['wx_pay_rate'] + Decimal(day['and_ali_cash_flow_billing']) * pay_rate[0]['ali_pay_rate'] + Decimal(day['and_hw_cash_flow_billing']) * pay_rate[0]['hw_pay_rate'] + \
                                     Decimal(day['and_vivo_cash_flow_billing']) * pay_rate[0]['vivo_pay_rate'] + Decimal(day['and_oppo_cash_flow_billing']) * pay_rate[0]['oppo_pay_rate'] + Decimal(day['and_meizu_cash_flow_billing']) * pay_rate[0]['meizu_pay_rate'] + \
@@ -93,7 +96,7 @@ class Settlement(object):
         lr_sum_commission_in_original = lr_sum_commission_out * rate['partner_rate']
         lr_sum_commission_in = math.ceil(lr_sum_commission_in_original)
         # 本月可分成流水
-        lr_sum_cash_flow_billing = lr_sum_cash_flow_billing
+        lr_sum_cash_flow_billing = sum_cash_flow_billing
         # 渠道分成金额
         lr_channel_partner_amount = lr_sum_cash_flow - lr_sum_cash_flow_billing
         # 计算分成基数(原始值）、分成基数（截断）
@@ -164,6 +167,12 @@ if __name__=="__main__":
     # Settlement().cp_settlement(33214,2)
     '''依次传入资源id，合作方id，合作业务(1电子阅读 2付费收听 4主播打赏  8漫画)'''
     # Settlement(92426468, 1489,4).settlement_partner()
-    Settlement(202006,33214, 1596,2).settlement_partner()
+    # Settlement(202007,96860832,1666,2).settlement_lr_yaya(1)
+    # Settlement(202007,96860832,1665,2).settlement_lr_yaya(1)
+    # Settlement(202007,45051,1665,2).settlement_lr_yaya(1)
+
+    # Settlement(202007,70494065,1666,2).settlement_lr_yaya(1)
+    # Settlement(202007,17874154,1602,4).settlement_lr_yaya(1)
+    Settlement(202007,211,1638,8).settlement_lr_yaya(1)
     # Settlement(147, 1638, 8).settlement_partner()
 
