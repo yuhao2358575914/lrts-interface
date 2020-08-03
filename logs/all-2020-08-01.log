@@ -250,3 +250,408 @@ UnboundLocalError: local variable 'less_list' referenced before assignment
 [2020-08-01 14:52:35,454] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
 [2020-08-01 14:55:14,566] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
 [2020-08-01 14:55:15,532] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:00:08,248] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-01 15:00:09,273] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:00:42,756] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\randomNum_views.py changed, reloading.
+[2020-08-01 15:00:43,674] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:00:52,210] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:00:57,010] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2619
+[2020-08-01 15:01:00,915] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2620
+[2020-08-01 15:01:03,768] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 15:15:07,584] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:15:08,507] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:15:15,045] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 15:15:30,143] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 15:15:30,144] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 15:15:30,671] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 15:15:32,373] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:15:45,261] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 15:15:50,004] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:15:52,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 15:15:53,767] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:16:37,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:17:55,884] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:17:57,808] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:18:00,280] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:18:01,815] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:31:19,432] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:38:51,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:40:31,366] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 15:40:33,133] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/add_channel_partner HTTP/1.1" 200 3529
+[2020-08-01 15:41:43,836] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:41:44,763] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:41:49,838] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 15:41:51,726] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 15:41:52,844] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:41:54,856] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:43:04,121] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:43:06,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 15:43:07,005] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:43:18,455] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:43:22,799] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:44:09,837] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:47:13,973] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:47:14,965] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:47:16,116] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:47:20,034] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:47:22,143] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/randomNum HTTP/1.1" 200 2609
+[2020-08-01 15:47:26,086] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 15:47:27,240] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:47:37,111] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:47:38,119] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:48:16,437] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:48:17,399] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:48:18,676] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:48:20,819] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:50:19,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:52:18,677] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:52:19,586] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:52:39,637] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:52:44,997] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:52:54,581] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:52:55,529] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:52:59,696] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:53:25,899] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:53:26,826] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 15:53:29,903] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/randomNum HTTP/1.1" 200 2481
+[2020-08-01 15:53:37,246] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 15:53:38,161] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 16:01:09,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 16:01:52,912] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /items_list/3 HTTP/1.1" 200 354
+[2020-08-01 16:02:01,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 16:02:05,880] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /items_list/2 HTTP/1.1" 200 514
+[2020-08-01 16:02:07,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 16:02:10,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /items_list/3 HTTP/1.1" 200 354
+[2020-08-01 16:02:12,617] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 16:02:22,943] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /items_list/3 HTTP/1.1" 200 354
+[2020-08-01 16:07:15,280] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 16:25:57,007] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-01 16:31:56,651] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11418
+[2020-08-01 16:31:58,283] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 302 0
+[2020-08-01 16:31:58,323] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2210
+[2020-08-01 16:31:58,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/login.css HTTP/1.1" 304 0
+[2020-08-01 16:31:58,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/img/photos/timg3.jpg HTTP/1.1" 304 0
+[2020-08-01 16:32:05,747] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2322
+[2020-08-01 16:32:11,852] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3010
+[2020-08-01 16:32:11,930] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/register.css HTTP/1.1" 200 613
+[2020-08-01 16:32:11,963] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/img/photos/timg.jpg HTTP/1.1" 200 20895
+[2020-08-01 16:32:42,841] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /register/ HTTP/1.1" 302 0
+[2020-08-01 16:32:42,851] [log.py:228] [log:log_response] [WARNING]- Not Found: /login
+[2020-08-01 16:32:42,852] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /login HTTP/1.1" 404 179
+[2020-08-01 16:32:45,804] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /register/ HTTP/1.1" 200 3010
+[2020-08-01 16:32:47,591] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2210
+[2020-08-01 16:32:56,389] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-08-01 16:32:56,407] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11421
+[2020-08-01 16:33:02,166] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6683
+[2020-08-01 16:33:18,856] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11421
+[2020-08-01 16:33:21,561] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6683
+[2020-08-01 16:33:40,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11421
+[2020-08-01 17:03:33,787] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 17:03:34,759] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 17:03:42,885] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 17:03:43,812] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 17:06:34,487] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 17:06:35,470] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 17:08:43,614] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 17:08:44,540] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 17:10:43,290] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 17:10:44,263] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 17:12:24,306] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 17:12:25,251] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 17:13:46,657] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 17:13:47,637] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:09:40,350] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-01 18:09:41,377] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:20:03,720] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-01 18:20:04,658] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:20:43,218] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:20:46,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11799
+[2020-08-01 18:20:51,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /items_list/3 HTTP/1.1" 200 354
+[2020-08-01 18:20:55,155] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11799
+[2020-08-01 18:21:58,425] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:21:59,670] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11823
+[2020-08-01 18:22:32,360] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:22:35,212] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11814
+[2020-08-01 18:22:36,524] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:22:36,526] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:22:38,827] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11814
+[2020-08-01 18:22:41,287] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:22:41,288] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:25:44,171] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:25:44,172] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:25:56,105] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:25:59,250] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:25:59,252] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:26:01,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /get_config/ HTTP/1.1" 200 6681
+[2020-08-01 18:26:10,389] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 18:26:10,390] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 18:26:11,028] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/
+[2020-08-01 18:26:11,029] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/ HTTP/1.1" 404 179
+[2020-08-01 18:26:14,701] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 18:26:14,701] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 18:26:15,309] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 18:26:15,310] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 18:26:15,912] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 18:26:15,912] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 18:26:16,527] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-01 18:26:16,527] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-01 18:26:17,000] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11814
+[2020-08-01 18:26:19,090] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:26:19,091] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:26:20,683] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11814
+[2020-08-01 18:26:44,307] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:26:44,308] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:26:46,013] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11814
+[2020-08-01 18:27:42,921] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:27:42,922] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:30:15,344] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:30:15,345] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:30:53,765] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:30:54,703] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:30:59,278] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:30:59,280] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:33:20,406] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:33:21,326] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:33:30,387] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:33:31,324] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:33:39,489] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 23, in settlement_not_vip
+    settlement_form = platform_forms.settlement_not_vip_form(request.POST)
+TypeError: settlement_not_vip_form() takes no arguments
+[2020-08-01 18:33:39,491] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:34:40,020] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 18:34:40,974] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:34:47,670] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-01 18:34:48,643] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:35:09,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3198
+[2020-08-01 18:36:22,017] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:36:22,934] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:37:02,416] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:37:03,367] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:37:15,418] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 31, in settlement_not_vip
+    settlement_record=Settlement(int(Settlement_Date),int(Settlement_Res_ID),int(Settlement_Partner_ID),int(Settlement_Cooperation_Business)).settlement_partner()
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py", line 131, in settlement_partner
+    yaya_list=self.settlement_lr_yaya(2)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py", line 99, in settlement_lr_yaya
+    lr_sum_cash_flow_billing = sum_cash_flow_billing
+UnboundLocalError: local variable 'sum_cash_flow_billing' referenced before assignment
+[2020-08-01 18:37:15,420] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:40:24,369] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-01 18:40:25,301] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:40:33,122] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:40:34,268] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:41:24,608] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:41:25,575] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:41:29,695] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3198
+[2020-08-01 18:41:36,337] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 31, in settlement_not_vip
+    settlement_record=Settlement1(int(Settlement_Date),int(Settlement_Res_ID),int(Settlement_Partner_ID),int(Settlement_Cooperation_Business)).settlement_partner()
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py", line 131, in settlement_partner
+    yaya_list=self.settlement_lr_yaya(2)
+  File "E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py", line 99, in settlement_lr_yaya
+    lr_sum_cash_flow_billing = sum_cash_flow_billing
+UnboundLocalError: local variable 'sum_cash_flow_billing' referenced before assignment
+[2020-08-01 18:41:36,339] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-01 18:41:52,560] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:41:53,516] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:42:03,742] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:42:04,735] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:42:18,377] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:42:19,419] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:42:46,216] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:42:47,165] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:43:33,676] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-01 18:43:34,629] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-01 18:43:36,267] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3198
+[2020-08-01 18:43:38,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3619
+[2020-08-03 10:57:53,413] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 10:57:53,443] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-03 10:57:56,806] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3136
+[2020-08-03 10:57:59,810] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 10:58:00,998] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 3686
+[2020-08-03 10:58:51,225] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /upload_cases/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 73, in upload_cases
+    f = open(os.path.join(BASE_DIR, File.name), 'wb')
+PermissionError: [Errno 13] Permission denied: 'E:\\Auto\\testplat\\login/files\\APIcase_2019.xls'
+[2020-08-03 10:58:51,246] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /upload_cases/ HTTP/1.1" 500 145
+[2020-08-03 10:59:07,072] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 10:59:09,482] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2210
+[2020-08-03 10:59:09,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/login.css HTTP/1.1" 200 1121
+[2020-08-03 10:59:09,584] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/img/photos/timg3.jpg HTTP/1.1" 200 13234
+[2020-08-03 10:59:33,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 3686
+[2020-08-03 10:59:40,750] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /upload_cases/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 73, in upload_cases
+    f = open(os.path.join(BASE_DIR, File.name), 'wb')
+PermissionError: [Errno 13] Permission denied: 'E:\\Auto\\testplat\\login/files\\APIcase_2019.xls'
+[2020-08-03 10:59:40,759] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /upload_cases/ HTTP/1.1" 500 145
+[2020-08-03 11:00:27,322] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /upload_cases/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 73, in upload_cases
+    f = open(os.path.join(BASE_DIR, File.name), 'wb')
+PermissionError: [Errno 13] Permission denied: 'E:\\Auto\\testplat\\login/files\\APIcase_2019.xls'
+[2020-08-03 11:00:27,324] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /upload_cases/ HTTP/1.1" 500 145
+[2020-08-03 11:00:40,821] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 3686
+[2020-08-03 11:00:47,298] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /upload_cases/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 79, in upload_cases
+    data = pd.read_excel(f.name, sheet_name=0)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\excel\_base.py", line 824, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\excel\_xlrd.py", line 20, in __init__
+    import_optional_dependency("xlrd", extra=err_msg)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\compat\_optional.py", line 92, in import_optional_dependency
+    raise ImportError(msg) from None
+ImportError: Missing optional dependency 'xlrd'. Install xlrd >= 1.0.0 for Excel support Use pip or conda to install xlrd.
+[2020-08-03 11:00:47,303] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /upload_cases/ HTTP/1.1" 500 145
+[2020-08-03 11:04:07,664] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 3686
+[2020-08-03 11:04:14,994] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /upload_cases/ HTTP/1.1" 302 0
+[2020-08-03 11:04:15,145] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_detail/ HTTP/1.1" 200 43276
+[2020-08-03 11:05:31,520] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_detail/ HTTP/1.1" 200 43276
+[2020-08-03 11:05:33,732] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 11:05:43,076] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:07:49,724] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 11:07:50,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 11:07:52,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:09:01,672] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:17:37,380] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:19:24,174] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.

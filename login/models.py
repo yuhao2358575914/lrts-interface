@@ -116,6 +116,7 @@ class Report_Results(models.Model):
         verbose_name_plural = "测试报告"
 
 
+
 class AutoTest_Results(models.Model):
     script_name = models.CharField(max_length=164)
     test_response = models.CharField(max_length=2048)
@@ -123,10 +124,29 @@ class AutoTest_Results(models.Model):
     create_time = models.DateTimeField(auto_now_add=True)
     update_time = models.DateTimeField()
     tester = models.CharField(max_length=64)
-
     class Meta:
         verbose_name = "测试结果"
         verbose_name_plural = "测试结果"
+
+class settlement_not_vip_models(models.Model):
+    '''结算非VIP会员业务models类'''
+    sum_cash_flow = models.CharField(max_length=128)
+    sum_cash_flow_billing = models.CharField(max_length=128)
+    channel_partner_amount = models.CharField(max_length=128)
+    sum_commission_in_original = models.CharField(max_length=128)
+    sum_commission_in=models.CharField(max_length=128)
+    base_billing_amount_original=models.CharField(max_length=128)
+    base_billing_amount=models.CharField(max_length=128)
+    partner_amount_original=models.CharField(max_length=128)
+    partner_amount=models.CharField(max_length=128)
+    tech_amount_original=models.CharField(max_length=128)
+    tech_amount=models.CharField(max_length=128)
+    baseBillingAounmt_subtract_techAmount_Original=models.CharField(max_length=128)
+    baseBillingAounmt_subtract_techAmount=models.CharField(max_length=128)
+    create_time = models.DateTimeField(auto_now_add=True)
+    update_time = models.DateTimeField()
+    class Meta:
+        verbose_name = "非VIP会员业务结算结果"
 
 # class Devices_Management(models.Model):
 #     device_type=models.CharField(max_length=32)

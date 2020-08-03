@@ -101,3 +101,5 @@ from login.templates.utils import getconf
 #     headers=getconf.getdict('Headers', 'user-agent'))
 # print(r.text)
 # print(r.status_code)
+A='a'
+print('测试：',type(A))

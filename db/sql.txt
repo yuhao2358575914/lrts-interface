@@ -33,3 +33,11 @@ ate_time` datetime(6) NOT NULL, `case_creater` varchar(64) NOT NULL);
 --
 CREATE TABLE `login_user` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `name` varchar(128) NOT NULL UNIQUE, `password` varchar(256) NOT NULL, `email` varchar(254) NOT NULL UNIQUE, `role` varchar(32) NOT NULL, `c_time` datetime
 (6) NOT NULL);
+
+--
+-- Create model settlement_not_vip_models
+--
+CREATE TABLE `login_settlement_not_vip_models` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `sum_cash_flow` varchar(128) NOT NULL, `sum_cash_flow_billing` varchar(128) NOT NULL, `channel_partner_amount` varchar(128) NOT NULL,
+`sum_commission_in_original` varchar(128) NOT NULL, `sum_commission_in` varchar(128) NOT NULL, `base_billing_amount_original` varchar(128) NOT NULL, `base_billing_amount` varchar(128) NOT NULL, `partner_amount_original` varchar(128)
+ NOT NULL, `partner_amount` varchar(128) NOT NULL, `tech_amount_original` varchar(128) NOT NULL, `tech_amount` varchar(128) NOT NULL, `baseBillingAounmt_subtract_techAmount_Original` varchar(128) NOT NULL, `baseBillingAounmt_subtrac
+t_techAmount` varchar(128) NOT NULL, `create_time` datetime(6) NOT NULL, `update_time` datetime(6) NOT NULL);

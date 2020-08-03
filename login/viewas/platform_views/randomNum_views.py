@@ -31,10 +31,10 @@ def create_random_num(request):
             elif Num_Type==2:
                 IDNumber=create_IDNumber()
                 print(IDNumber)
-                message = "生成的手机号为：%s" % (str(IDNumber))
+                message = "生成的身份证号为：%s" % (str(IDNumber))
             else:
                 CreditCardNumbers=create_CreditCardNumbers()
                 print(CreditCardNumbers)
-                message = "生成的手机号为：%s" % (str(CreditCardNumbers))
+                message = "生成的银行卡号为：%s" % (str(CreditCardNumbers))
             return render(request, 'login/platform/randomNum.html', locals())
     return render(request, 'login/platform/randomNum.html', locals())

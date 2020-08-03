@@ -12,7 +12,7 @@ class Settlement(object):
         '''
         :param entity_id: 书籍id
         :param partner_id 合作方id
-        :param sp_type: 2付费收听  8漫画
+        :param sp_type: 1电子阅读 2付费收听 4主播打赏  8漫画
         '''
         self.settlement_month=settlement_month
         self.entity_id=entity_id
@@ -119,10 +119,18 @@ class Settlement(object):
         print('当月税前(原始值）:' + str(lr_partner_amount_original / 100) + '|' + '当月税前：' + str(lr_partner_amount / 100))
         print('懒人技术服务费(原始值）:' + str(lr_tech_amount_original / 100) + '|' + '懒人技术服务费' + str(lr_tech_amount / 100))
         print('分成基数-懒人技术服务费(原始值)：'+str(baseBillingAounmt_subtract_techAmount_Original/100)+'|'+'分成基数-懒人技术服务费：'+str(baseBillingAounmt_subtract_techAmount/100))
-        return [str(lr_sum_cash_flow / 100),str(lr_sum_cash_flow_billing / 100),str(lr_channel_partner_amount / 100),str(lr_sum_commission_in_original / 100),str(lr_sum_commission_in / 100),
-                str(lr_base_billing_amount_original / 100),str(lr_base_billing_amount / 100),str(lr_partner_amount_original / 100),str(lr_partner_amount / 100),
-                str(lr_tech_amount_original / 100),str(lr_tech_amount / 100),str(baseBillingAounmt_subtract_techAmount_Original/100),str(baseBillingAounmt_subtract_techAmount/100)]
-
+        # return [str(lr_sum_cash_flow / 100),str(lr_sum_cash_flow_billing / 100),str(lr_channel_partner_amount / 100),str(lr_sum_commission_in_original / 100),str(lr_sum_commission_in / 100),
+        #         str(lr_base_billing_amount_original / 100),str(lr_base_billing_amount / 100),str(lr_partner_amount_original / 100),str(lr_partner_amount / 100),
+        #         str(lr_tech_amount_original / 100),str(lr_tech_amount / 100),str(baseBillingAounmt_subtract_techAmount_Original/100),str(baseBillingAounmt_subtract_techAmount/100)]
+        return {'lr_sum_cash_flow': str(lr_sum_cash_flow/100), 'lr_sum_cash_flow_billing': str(lr_sum_cash_flow_billing/100),
+                'lr_channel_partner_amount': str(lr_channel_partner_amount/100),
+                'lr_sum_commission_in_original': str(lr_sum_commission_in_original/100), 'lr_sum_commission_in': str(lr_sum_commission_in/100),
+                'lr_base_billing_amount_original' :str(lr_base_billing_amount_original / 100),'lr_base_billing_amount':str(lr_base_billing_amount/100),
+                'lr_partner_amount_original': str(lr_partner_amount_original/100),'lr_partner_amount': str(lr_partner_amount/100),
+                'lr_tech_amount_original': str(lr_tech_amount_original/100),'lr_tech_amount': str(lr_tech_amount/100),
+                'baseBillingAounmt_subtract_techAmount_Original': str(baseBillingAounmt_subtract_techAmount_Original/100),
+                'baseBillingAounmt_subtract_techAmount': str(baseBillingAounmt_subtract_techAmount/100)
+                }
     def settlement_partner(self):
         '''版权合作方结算(懒人+芽芽)'''
         print('---------------------------------懒人听书-------------------------------')
@@ -159,6 +167,12 @@ class Settlement(object):
         print('当月税前(原始值）:'+str(partner_amount_original)+'|'+'当月税前：'+str(partner_amount))
         print('懒人技术服务费(原始值）:' + str(tech_amount_original) +'|'+'懒人技术服务费' + str(tech_amount))
         print('分成基数-懒人技术服务费(原始值)：' + str(baseBillingAounmt_subtract_techAmount_Original) + '|' + '分成基数-懒人技术服务费：' + str(baseBillingAounmt_subtract_techAmount))
+        return {'sum_cash_flow':str(sum_cash_flow),'sum_cash_flow_billing':str(sum_cash_flow_billing),'channel_partner_amount':str(channel_partner_amount),
+                'sum_commission_original':str(sum_commission_original),'sum_commission':str(sum_commission),'分成基数(原始值）：':str(base_billing_amount_original),'分成基数：':str(base_billing_amount),
+                'partner_amount_original':str(partner_amount_original),
+                'partner_amount':str(partner_amount),'tech_amount_original':str(tech_amount_original),'tech_amount':str(tech_amount),
+                'baseBillingAounmt_subtract_techAmount_Original':str(baseBillingAounmt_subtract_techAmount_Original),'baseBillingAounmt_subtract_techAmount':str(baseBillingAounmt_subtract_techAmount)
+                }
 
         #计算总的可分成流水，支付手续费
 
@@ -167,12 +181,6 @@ if __name__=="__main__":
     # Settlement().cp_settlement(33214,2)
     '''依次传入资源id，合作方id，合作业务(1电子阅读 2付费收听 4主播打赏  8漫画)'''
     # Settlement(92426468, 1489,4).settlement_partner()
-    # Settlement(202007,96860832,1666,2).settlement_lr_yaya(1)
-    # Settlement(202007,96860832,1665,2).settlement_lr_yaya(1)
-    # Settlement(202007,45051,1665,2).settlement_lr_yaya(1)
-
-    # Settlement(202007,70494065,1666,2).settlement_lr_yaya(1)
-    # Settlement(202007,17874154,1602,4).settlement_lr_yaya(1)
-    Settlement(202007,211,1638,8).settlement_lr_yaya(1)
+    Settlement(202006,33215,1596,2).settlement_lr_yaya(1)
     # Settlement(147, 1638, 8).settlement_partner()
 

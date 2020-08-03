@@ -1,0 +1,786 @@
+[2020-08-03 11:19:25,273] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:33:10,719] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:33:11,750] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:33:46,694] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:33:47,732] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:33:50,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=Cu3bOd421eix2ns4CRIiIZWDzDZUo76pdXIuuj9Md7sHo1hqAitL8094ZZoS9usr&query=%09case_Necessary_Add_Collection_Boo HTTP/1.1" 200 4547
+[2020-08-03 11:38:25,614] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:38:26,620] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:38:34,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=Cu3bOd421eix2ns4CRIiIZWDzDZUo76pdXIuuj9Md7sHo1hqAitL8094ZZoS9usr&query=%09case_Necessary_Add_Collection_Boo HTTP/1.1" 200 4547
+[2020-08-03 11:39:51,994] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:39:52,931] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:40:24,291] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:40:25,294] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:41:10,812] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=Cu3bOd421eix2ns4CRIiIZWDzDZUo76pdXIuuj9Md7sHo1hqAitL8094ZZoS9usr&query=case_Necessary_Add_Collection_Bo HTTP/1.1" 200 3502
+[2020-08-03 11:41:22,702] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:41:23,663] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:41:30,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 11:41:57,588] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:41:58,541] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:42:03,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:42:09,929] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=QIjZmMAMPW5lueH64zfWkLf5UzIPL3yKrbYi2SFw1PfvQSws200pKMswkV7NwqUM&query=Add_Collecti HTTP/1.1" 200 4547
+[2020-08-03 11:42:23,148] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:42:24,080] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:43:51,551] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:43:52,536] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:44:05,093] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:44:06,053] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:44:23,242] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:44:24,199] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:44:38,914] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:44:43,135] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /search_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 60, in search_case
+    case_list = models.TestCases.objects.filter(Q(script_name__icontains=query.strip())|Q(case_name_en_icontains=query.strip()))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1254, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1487, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'case_name_en_icontains' into field. Choices are: case_creater, case_name_ch, case_name_en, case_steps, create_time, id, script_name
+[2020-08-03 11:44:43,141] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /search_case/?csrfmiddlewaretoken=54RjvWGO0PeOJR6qwfc3LB5a4WKR1OvZGxwCb2LycIoY5vVMuGXwbCiBui9PMbR1&query=%09Add_Colle HTTP/1.1" 500 145
+[2020-08-03 11:44:48,840] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /search_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 60, in search_case
+    case_list = models.TestCases.objects.filter(Q(script_name__icontains=query.strip())|Q(case_name_en_icontains=query.strip()))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1254, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1487, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'case_name_en_icontains' into field. Choices are: case_creater, case_name_ch, case_name_en, case_steps, create_time, id, script_name
+[2020-08-03 11:44:48,841] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /search_case/?csrfmiddlewaretoken=54RjvWGO0PeOJR6qwfc3LB5a4WKR1OvZGxwCb2LycIoY5vVMuGXwbCiBui9PMbR1&query=Add_Colle HTTP/1.1" 500 145
+[2020-08-03 11:45:08,461] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-03 11:45:09,403] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:45:17,125] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=54RjvWGO0PeOJR6qwfc3LB5a4WKR1OvZGxwCb2LycIoY5vVMuGXwbCiBui9PMbR1&query=Add_Colle HTTP/1.1" 200 4547
+[2020-08-03 11:45:35,353] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=54RjvWGO0PeOJR6qwfc3LB5a4WKR1OvZGxwCb2LycIoY5vVMuGXwbCiBui9PMbR1&query=case_Necessary_ HTTP/1.1" 200 43276
+[2020-08-03 11:45:37,949] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=TXfeBDNYyDy01xdnPueJn8uBMKPTsJd5uqUxhJSIKwIanb2JNVZcN9H2c6eRd6z7&query=case_Necessary_ HTTP/1.1" 200 43276
+[2020-08-03 11:45:45,748] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=0Gv0D1qd0KC4z7FpLJ7zTZwYMl6kizbdB9ajj7vXcDMeVLuLJaS2j0JpcHvi3Wxf&query=case_Necessary_Add_Collection HTTP/1.1" 200 4547
+[2020-08-03 11:46:01,026] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 11:46:02,387] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:46:41,697] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6631
+[2020-08-03 11:46:41,848] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 11:46:41,872] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 11:54:01,165] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-03 11:54:01,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/run_test.css HTTP/1.1" 304 0
+[2020-08-03 11:54:04,951] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 11:54:06,940] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:54:09,942] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'create_user' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 255, in run_case
+    test_repo.save()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1392, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'create_user' cannot be null")
+[2020-08-03 11:54:09,951] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id=1 HTTP/1.1" 500 145
+[2020-08-03 11:54:18,928] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'create_user' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 255, in run_case
+    test_repo.save()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1392, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'create_user' cannot be null")
+[2020-08-03 11:54:18,931] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id=2 HTTP/1.1" 500 145
+[2020-08-03 11:56:42,485] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 11:56:43,419] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:56:57,940] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'create_user' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 257, in run_case
+    test_repo.save()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1392, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'create_user' cannot be null")
+[2020-08-03 11:56:57,945] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id=4 HTTP/1.1" 500 145
+[2020-08-03 11:57:35,400] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 11:57:36,326] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:57:42,799] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=5 HTTP/1.1" 302 0
+[2020-08-03 11:57:42,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 11:57:56,437] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'create_user' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 247, in run_case
+    create_user=request.session.get('user_name'))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 752, in update
+    rows = query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1500, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'create_user' cannot be null")
+[2020-08-03 11:57:56,443] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id=5 HTTP/1.1" 500 145
+[2020-08-03 11:58:09,780] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 11:58:56,132] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 11:58:57,082] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 12:00:31,325] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=5 HTTP/1.1" 302 0
+[2020-08-03 12:00:31,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 12:00:34,043] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=b2bbUu40VMDxHrp7TVfhDtozNDBwzaoDMvQuAA9K7FNH35etRm0K3uB0dZ0ukxKF&query=%09case_Necessary_LazyCoins_Buy_Album.py HTTP/1.1" 200 4568
+[2020-08-03 12:00:35,954] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 166731
+[2020-08-03 12:38:07,853] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 12:38:08,777] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 12:40:37,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 166731
+[2020-08-03 12:42:44,743] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 166731
+[2020-08-03 12:43:16,728] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 12:43:34,289] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 12:43:50,948] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-03 12:43:50,948] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-03 12:43:52,121] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11814
+[2020-08-03 12:43:52,376] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-03 12:43:52,542] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-03 12:43:52,543] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-03 12:43:56,010] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 12:44:00,990] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-03 12:44:00,991] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-03 12:44:18,165] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 166731
+[2020-08-03 12:44:26,916] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 166731
+[2020-08-03 12:44:37,746] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 12:44:44,122] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=5 HTTP/1.1" 302 0
+[2020-08-03 12:44:44,136] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 12:44:49,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 156976
+[2020-08-03 12:45:00,055] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-03 12:45:02,664] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 156976
+[2020-08-03 14:11:58,024] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 14:12:11,857] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3198
+[2020-08-03 14:12:11,884] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-08-03 14:12:45,956] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3198
+[2020-08-03 14:13:31,905] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3619
+[2020-08-03 14:22:44,145] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 14:22:51,406] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3199
+[2020-08-03 14:22:56,295] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3199
+[2020-08-03 14:23:06,003] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3620
+[2020-08-03 14:23:44,828] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3620
+[2020-08-03 14:23:46,946] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 14:23:48,322] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3199
+[2020-08-03 14:23:54,291] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3620
+[2020-08-03 14:48:39,513] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-03 14:48:40,570] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 14:48:58,331] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 14:49:03,615] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3252
+[2020-08-03 14:49:10,042] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4031
+[2020-08-03 14:54:07,728] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-03 14:54:08,706] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 14:58:25,361] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-03 14:58:26,318] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 14:58:29,805] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4176
+[2020-08-03 14:59:45,088] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-03 14:59:46,110] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 14:59:47,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4163
+[2020-08-03 15:00:06,242] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4163
+[2020-08-03 15:00:27,048] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:00:31,783] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4163
+[2020-08-03 15:08:49,657] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:08:50,644] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:25:38,426] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:25:39,364] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:25:58,951] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:25:59,867] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:31:38,212] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:31:39,206] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:34:12,384] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:34:13,316] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:34:32,827] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:34:33,783] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:36:39,910] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:36:40,906] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:42:55,134] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:45:28,281] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-03 15:45:29,235] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:55:56,079] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 15:56:03,149] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 15:56:07,359] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3252
+[2020-08-03 15:56:15,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4163
+[2020-08-03 16:00:42,866] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-03 16:00:43,863] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:00:50,534] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4185
+[2020-08-03 16:01:27,028] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:01:27,981] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:01:30,297] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4185
+[2020-08-03 16:02:01,691] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:02:02,602] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:03:33,897] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:03:34,833] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:03:58,955] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:03:59,896] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:04:01,940] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:04:02,871] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:04:30,408] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:04:31,354] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:16:35,561] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:16:42,451] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 4185
+[2020-08-03 16:23:25,956] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:23:26,914] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:25:22,756] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:25:23,711] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:26:06,303] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:26:07,221] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:26:15,093] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:26:16,055] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:26:23,912] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:26:24,826] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:26:29,237] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:26:30,274] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:26:36,126] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3418
+[2020-08-03 16:26:52,547] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:26:53,472] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:27:11,828] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:27:12,756] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:27:21,749] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:27:22,669] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:27:25,878] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3420
+[2020-08-03 16:27:39,176] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:27:40,119] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:27:56,187] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:27:57,210] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:28:00,942] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3420
+[2020-08-03 16:28:13,510] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:28:14,459] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:29:31,460] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3420
+[2020-08-03 16:29:33,487] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3420
+[2020-08-03 16:30:06,354] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:30:07,307] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:30:09,227] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3421
+[2020-08-03 16:30:17,674] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:30:18,615] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:30:19,801] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3424
+[2020-08-03 16:30:25,394] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:30:26,300] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:30:30,653] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:30:31,585] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:30:34,499] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3420
+[2020-08-03 16:32:43,553] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3420
+[2020-08-03 16:32:58,494] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:32:59,465] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:33:00,506] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3494
+[2020-08-03 16:33:14,371] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:33:15,324] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:33:16,420] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3430
+[2020-08-03 16:33:24,368] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-03 16:33:25,319] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:33:26,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3426
+[2020-08-03 16:34:55,080] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 16:34:57,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6631
+[2020-08-03 16:34:58,062] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 16:34:58,063] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 16:35:02,024] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6631
+[2020-08-03 16:35:02,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 16:35:02,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 16:40:44,585] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:40:47,557] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6635
+[2020-08-03 16:40:47,783] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 16:40:47,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 16:40:57,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6635
+[2020-08-03 16:40:57,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 16:40:57,705] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 16:41:04,039] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:41:05,869] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6631
+[2020-08-03 16:41:06,079] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 16:41:06,083] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 16:41:40,425] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:41:42,326] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6640
+[2020-08-03 16:41:42,462] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 16:41:42,464] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 16:41:56,055] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:41:58,028] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6624
+[2020-08-03 16:41:58,226] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-03 16:41:58,227] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 96
+[2020-08-03 16:58:38,036] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-03 16:58:38,984] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 16:59:11,475] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 16:59:11,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 16:59:11,932] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 6445
+[2020-08-03 17:00:47,200] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:00:49,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 11875
+[2020-08-03 17:00:50,072] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:00:50,123] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 6445
+[2020-08-03 17:01:43,735] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:01:46,289] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:01:46,586] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:01:46,637] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 6445
+[2020-08-03 17:08:15,012] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:08:15,328] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:08:15,378] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 6445
+[2020-08-03 17:12:20,816] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\views.py changed, reloading.
+[2020-08-03 17:12:21,833] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:12:25,566] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:12:25,865] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:12:26,134] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:12:57,773] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:12:58,110] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:12:58,140] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:13:53,152] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:13:53,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:13:53,547] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:17:22,522] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:17:28,222] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12361
+[2020-08-03 17:17:28,591] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:17:28,649] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:18:29,321] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:18:30,324] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:18:32,570] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 5209
+[2020-08-03 17:18:32,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:18:32,941] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:18:40,724] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:18:41,903] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:19:08,286] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:19:08,892] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:19:08,944] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:21:15,840] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:21:16,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:21:16,247] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:21:30,896] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:21:31,848] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:21:33,095] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6629
+[2020-08-03 17:21:33,402] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:21:33,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:29:12,370] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6629
+[2020-08-03 17:29:12,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:29:12,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:31:39,123] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6629
+[2020-08-03 17:31:39,471] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:31:39,501] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:32:27,605] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6629
+[2020-08-03 17:32:27,924] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:32:27,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:32:51,228] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:32:52,172] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:33:18,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:33:18,487] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:33:18,677] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:33:31,687] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:33:32,673] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:33:34,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 15934
+[2020-08-03 17:33:34,664] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:33:34,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:33:43,143] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 15934
+[2020-08-03 17:33:43,425] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:33:43,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:33:50,023] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:33:51,013] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:33:52,414] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 19509
+[2020-08-03 17:33:52,718] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:33:52,767] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:34:22,344] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:34:23,284] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:34:28,675] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 19509
+[2020-08-03 17:34:29,008] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:34:29,068] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:34:31,720] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 19509
+[2020-08-03 17:34:32,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:34:32,064] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:34:40,997] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:34:41,942] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:34:43,287] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 19509
+[2020-08-03 17:34:43,631] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:34:43,681] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:34:45,165] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:34:46,295] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:34:47,637] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:34:47,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:34:48,020] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:35:08,525] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:35:09,434] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:35:19,821] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:35:20,137] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:35:20,182] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:36:06,541] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:36:07,608] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:36:09,826] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:36:10,133] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:36:10,185] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:37:27,899] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:37:28,817] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:37:33,175] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:37:34,276] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:37:42,161] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:37:43,115] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:37:46,519] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:37:47,443] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:37:49,562] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:37:50,516] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:37:57,403] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:37:57,846] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:37:57,890] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:38:49,940] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:38:50,846] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:40:28,143] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:40:29,078] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:40:41,892] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:40:42,932] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:41:00,697] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:41:01,660] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:41:02,874] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:41:03,230] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:41:03,279] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:41:08,320] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:41:09,277] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:41:10,536] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:41:10,846] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:41:10,892] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:43:20,507] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:43:21,493] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:43:27,069] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11811
+[2020-08-03 17:43:29,720] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:43:30,091] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:43:30,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:43:33,753] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:43:34,083] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:43:34,112] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:43:40,240] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:43:41,310] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:43:46,461] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /test_report_list10/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 202, in test_report_list10
+    return render('login/test_report_list10.html', {'data':data})
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\cached.py", line 53, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\cached.py", line 64, in get_template_sources
+    yield from loader.get_template_sources(template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\ntpath.py", line 115, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\genericpath.py", line 149, in _check_arg_types
+    (funcname, s.__class__.__name__)) from None
+TypeError: join() argument must be str or bytes, not 'dict'
+[2020-08-03 17:43:46,466] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /test_report_list10/ HTTP/1.1" 500 145
+[2020-08-03 17:43:52,902] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:43:53,837] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:43:55,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:43:55,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:43:55,578] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:44:04,037] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-03 17:44:04,984] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-03 17:44:06,289] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12360
+[2020-08-03 17:44:06,582] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 925
+[2020-08-03 17:44:06,631] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4348
+[2020-08-03 17:46:11,573] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

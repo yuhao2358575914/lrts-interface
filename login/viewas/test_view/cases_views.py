@@ -53,10 +53,11 @@ def search_case(request):
     """
     if request.session.is_empty() and login_control():
         return redirect('/login/')
-    query = request.GET.get('query')
+    query = request.GET.get('query')#获取查询值
+    print('查询值：',query)
     if not query:
         return redirect('/cases_pages/%d' % 1)
-    case_list = models.TestCases.objects.filter(Q(script_name__icontains=query.strip()))
+    case_list = models.TestCases.objects.filter(Q(script_name__icontains=query.strip())|Q(case_name_en__icontains=query.strip()))
     print('查询结果', case_list)
     return render(request, 'login/cases_detail.html', locals())
 

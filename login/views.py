@@ -318,7 +318,7 @@ def pass_rate_stats(request):
     select = {'day': connection.ops.date_trunc_sql('day', 'create_time')}
     key_data = Report_Results.objects.filter(create_time__gt=show_time, report_style=1).extra(
         select=select).values_list(
-        'create_time')
+        'day')
     successRate = Report_Results.objects.filter(report_style=1, create_time__gt=show_time).extra(
         select=select).values_list(
         'report_successRate')

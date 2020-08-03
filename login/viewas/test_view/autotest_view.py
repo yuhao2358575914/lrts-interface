@@ -197,10 +197,9 @@ def test_report_list10(request):
     :param request:
     :return:
     """
-    report_list = []
     data = models.Report_Results.objects.filter(report_style__exact='1').order_by('-id').values()[0:10]
     print('报告列表：', data)
-    return render(request, 'login/test_report_list10.html', locals())
+    return render(request,'login/test_report_list10.html', {'data':data})
 
 
 def send_email(request):
@@ -241,16 +240,19 @@ def run_case(request):
         test_script_name = a.script_name
     file_name = run_test_bf_old(test_script_name, run_id)
     obj = models.Report_Results.objects.filter(reporter_type=run_id)
-    if obj and len(obj) == 1:
+    if obj and len(obj) == 1:#只保存最后一次执行结果
         models.Report_Results.objects.filter(reporter_type=run_id).update(reporter_name=file_name,
-                                                                          create_time=get_local_time_second(),
-                                                                          create_user=request.session.get('user_name'))
+                                                                          create_time=get_local_time_second()
+                                                                          )
     else:
         test_repo = models.Report_Results()
         test_repo.reporter_name = file_name
         test_repo.reporter_type = run_id
         test_repo.create_time = get_local_time_second()
-        test_repo.create_user = request.session.get('user_name')
+        if login_control()==False:
+            test_repo.create_user='visitor'
+        else:
+            test_repo.create_user = request.session.get('user_name')
         test_repo.report_style = '2'
         test_repo.save()
     return redirect('/cases_pages/%d' % 1)

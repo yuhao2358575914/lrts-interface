@@ -110,5 +110,20 @@ class Create_Num(forms.Form):
         (2, '身份证号'),
         (3, '银行卡号'),
     )
-    num_type = forms.ChoiceField(label="号码类型", choices=num_type_choice,
-                                 widget=forms.RadioSelect(attrs={'class': 'radioset'}))
+    num_type = forms.ChoiceField(label="号码类型", initial=1, choices=num_type_choice,
+                                 widget=forms.RadioSelect(attrs={'required': 'required', 'class': 'radioset'}))
+
+
+class settlement_not_vip_form(forms.Form):
+    '''结算非VIP会员业务'''
+    settlement_date = forms.CharField(label='结算年份月份', max_length=64,
+                                      widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入结算年月份"}))
+    settlement_res_id = forms.CharField(label='结算资源id', max_length=64,
+                                        widget=forms.TextInput(
+                                            attrs={'class': 'form-control', 'placeholder': "输入结算资源id"}))
+    settlement_partner_id = forms.CharField(label='结算合作方id', max_length=64,
+                                            widget=forms.TextInput(
+                                                attrs={'class': 'form-control', 'placeholder': "输入合作方id"}))
+    settlement_cooperation_business = forms.CharField(label='结算合作业务的值', max_length=64,
+                                                      widget=forms.TextInput(
+                                                          attrs={'class': 'form-control', 'placeholder': "输入合作业务的值"}))
