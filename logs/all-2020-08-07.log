@@ -1,0 +1,435 @@
+[2020-08-07 14:19:50,915] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:24:18,603] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:24:19,722] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:30:21,688] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:30:22,932] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:31:31,036] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:31:31,993] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:33:24,964] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:33:25,912] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:41:27,812] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:41:28,762] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:45:21,935] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:45:22,927] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:47:42,959] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:47:43,896] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:49:11,351] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:49:12,284] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:53:44,521] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:53:45,456] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:55:20,210] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:55:21,194] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:57:43,831] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:57:44,770] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:58:12,704] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:58:13,651] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:59:08,519] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 14:59:09,476] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:01:35,095] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:01:36,040] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:02:06,574] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:02:07,538] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:05:01,357] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:05:02,290] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:06:33,269] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:06:34,219] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:15:55,646] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:15:56,605] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:16:55,968] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:16:56,915] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:22:53,938] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:22:54,889] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:23:01,594] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:23:02,541] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:23:28,027] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:23:28,959] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:31:53,899] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:31:54,864] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:32:36,642] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:32:37,566] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:34:56,060] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:34:57,001] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:44:34,769] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:44:35,687] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:45:50,183] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:45:51,106] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:48:04,039] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:48:04,965] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 15:49:57,819] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 15:49:58,751] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:00:04,972] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:00:06,024] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:01:00,947] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:01:01,939] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:02:45,515] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:02:46,513] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:04:28,018] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:04:28,937] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:08:50,036] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:08:50,959] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:12:56,700] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:12:57,719] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:17:03,500] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:17:04,456] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:17:32,297] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:17:33,248] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:19:19,791] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:19:20,759] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:20:24,427] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:20:25,401] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:20:52,313] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:20:53,293] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:21:21,025] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:21:21,951] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:22:33,748] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-07 16:22:33,770] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-08-07 16:22:34,920] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-07 16:22:34,963] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-07 16:22:36,470] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-07 16:23:00,592] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'sum_commission_in_original' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 48, in settlement_not_vip
+    results.save() #存表操作
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1392, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'sum_commission_in_original' cannot be null")
+[2020-08-07 16:23:00,600] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-07 16:25:10,535] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-07 16:25:11,460] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:26:45,547] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-07 16:26:46,481] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:30:24,927] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:30:31,827] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3892
+[2020-08-07 16:31:14,201] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:31:15,190] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:32:50,969] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8692
+[2020-08-07 16:36:38,703] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-07 16:36:39,696] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:44:06,212] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-07 16:44:07,144] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:46:16,508] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-07 16:46:17,419] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:46:37,336] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-07 16:46:38,228] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 16:56:01,598] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip_result
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'login_settlement_not_vip_models.settlement_month' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 66, in settlement_not_vip_result
+    print('结算结果：', settlement_data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 252, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 115, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1104, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'login_settlement_not_vip_models.settlement_month' in 'field list'")
+[2020-08-07 16:56:01,602] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip_result HTTP/1.1" 500 145
+[2020-08-07 17:00:50,936] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 17:00:54,593] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'settlement_month' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 47, in settlement_not_vip
+    results.save() #存表操作
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1392, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'settlement_month' in 'field list'")
+[2020-08-07 17:00:54,597] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-07 17:12:28,913] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 17:12:43,480] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-07 17:12:49,001] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-07 17:12:56,314] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3892
+[2020-08-07 17:12:57,821] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 10896
+[2020-08-07 17:13:40,338] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-07 17:13:41,265] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 17:13:46,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3892
+[2020-08-07 17:13:47,970] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 10918
+[2020-08-07 17:14:40,690] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-07 17:14:50,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-07 17:45:13,376] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 17:45:14,319] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 17:53:11,921] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 17:53:12,991] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 17:56:51,137] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 17:56:52,108] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 17:58:07,141] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 17:58:08,129] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:01:57,375] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\common\operate_mysql.py changed, reloading.
+[2020-08-07 18:01:58,304] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:04:04,988] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\common\operate_mysql.py changed, reloading.
+[2020-08-07 18:04:05,919] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:05:54,282] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:05:55,253] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:07:24,552] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:07:25,488] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:08:04,951] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:08:05,878] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:08:34,014] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:08:34,965] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:09:26,438] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:09:27,399] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:09:38,855] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:09:39,811] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:11:12,770] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:11:13,702] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:13:18,255] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:13:19,209] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:13:34,272] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:13:35,325] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:15:51,029] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:15:51,951] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:16:17,331] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:16:18,268] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:16:57,609] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:16:58,526] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:20:29,801] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:20:30,851] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:22:10,844] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:22:11,777] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:22:32,788] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:22:33,708] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:28:43,299] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:28:44,232] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:32:25,473] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:32:26,465] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:32:29,883] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:32:30,834] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:33:48,976] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:33:49,891] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:34:08,514] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:34:09,632] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:36:25,631] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:36:26,543] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:43:29,630] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:43:30,547] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:45:38,458] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:45:39,418] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:50:08,848] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:50:09,847] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:55:01,292] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:55:02,441] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:55:49,404] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:55:50,337] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:56:35,901] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:56:37,028] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:57:15,254] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:57:16,226] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:58:14,230] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:58:15,224] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:58:40,856] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:58:41,854] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 18:59:13,352] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 18:59:14,286] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 19:00:26,341] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 19:00:27,548] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 19:02:35,378] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 19:02:36,310] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 19:03:41,948] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 19:03:42,898] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 19:05:22,269] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-07 19:05:23,306] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-08 11:02:47,013] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.

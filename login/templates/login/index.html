@@ -148,7 +148,7 @@ html,body{
                         </a>
                     </li>
 {#                    {% if request.session.role == '1' %}#}
-                    <li class="active glyphicon glyphicon-copyright-mark">
+                    <li class="active glyphicon glyphicon-blackboard">
                         <a href="/send_email/">
                             邮件通知
                         </a>
@@ -195,7 +195,7 @@ html,body{
                  </li>
              <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>友情链接</strong></a>
                 <ul id="list1" class="collapse in">
-                <li class="active glyphicon glyphicon-tags">
+                <li class="active glyphicon glyphicon-book">
                     <a href="https://apidoc.lrts.me/">
                         懒人听书API接口文档
                     </a>
@@ -263,7 +263,11 @@ html,body{
                 <p></p>
                 <a href="/items_list/3" class="btn-outline-light" style="margin-left: 50px">结算>>>></a>
                 <span>
-                    <button style="margin-left: 20px"><a href="/platform/settlement_not_vip" style="color: darkgoldenrod"><strong>结算</strong></a></button>
+                    <button style="margin-left: 20px"><a href="/platform/settlement_not_vip" style="color: darkgoldenrod"><strong>结算非VIP业务</strong></a></button>
+                    <a style="font-size: 20px">....</a>
+                </span>
+                <span>
+                    <button style="margin-left: 20px"><a href="/platform/settlement_vip" style="color: darkgoldenrod"><strong>结算VIP业务</strong></a></button>
                     <a style="font-size: 20px">....</a>
                 </span>
 {#                <iframe width="800" scrolling="no" height="600" frameborder="0" allowtransparency="true" style="color: #721c24"></iframe>#}

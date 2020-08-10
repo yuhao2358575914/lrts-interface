@@ -99,17 +99,17 @@ class Report_Results(models.Model):
         ('2', '单条执行'),
     )
     reporter_name = models.CharField(max_length=164)
-    reporter_type = models.CharField(max_length=32, choices=type, default="全量用例")
+    reporter_type = models.CharField(max_length=32, choices=type, default="全量用例") #Nec-必测用例批量执行;All-全量用例批量执行;数字-单条用例执行的用例id
     create_user = models.CharField(max_length=64)
     create_time = models.DateTimeField(auto_now_add=True)
-    report_style = models.CharField(max_length=8, choices=style, default="1")
-    env_Id = models.CharField(max_length=8, default='4')
-    report_testAll = models.IntegerField(default=0)
-    report_testPass = models.IntegerField(default=0)
-    report_testFail = models.IntegerField(default=0)
-    report_testError = models.IntegerField(default=0)
-    report_successRate = models.IntegerField(default=0)
-    publish_module = models.CharField(max_length=64, default="yyting-apps-api")
+    report_style = models.CharField(max_length=8, choices=style, default="1") #报告类型，1批量执行 2单条执行
+    env_Id = models.CharField(max_length=8, default='4') #host类型，4-地球，3-月亮，5-火星
+    report_testAll = models.IntegerField(default=0) #批量执行的总用例数
+    report_testPass = models.IntegerField(default=0)#批量执行的通过用例数
+    report_testFail = models.IntegerField(default=0)#批量执行的失败用例数
+    report_testError = models.IntegerField(default=0)#批量执行的错误用例数
+    report_successRate = models.IntegerField(default=0)#批量执行的通过率
+    publish_module = models.CharField(max_length=64, default="yyting-apps-api")#批量执行对应的后台api模块
 
     class Meta:
         verbose_name = "测试报告"
@@ -130,24 +130,48 @@ class AutoTest_Results(models.Model):
 
 class settlement_not_vip_models(models.Model):
     '''结算非VIP会员业务models类'''
+    settlement_month=models.CharField(max_length=32,default='Null')
+    partner_id=models.CharField(max_length=32,default='Null')
+    entity_id=models.CharField(max_length=32,default='Null')
+    business=models.CharField(max_length=32,default='Null')
     sum_cash_flow = models.CharField(max_length=128)
     sum_cash_flow_billing = models.CharField(max_length=128)
     channel_partner_amount = models.CharField(max_length=128)
-    sum_commission_in_original = models.CharField(max_length=128)
     sum_commission_in=models.CharField(max_length=128)
-    base_billing_amount_original=models.CharField(max_length=128)
     base_billing_amount=models.CharField(max_length=128)
-    partner_amount_original=models.CharField(max_length=128)
     partner_amount=models.CharField(max_length=128)
-    tech_amount_original=models.CharField(max_length=128)
     tech_amount=models.CharField(max_length=128)
-    baseBillingAounmt_subtract_techAmount_Original=models.CharField(max_length=128)
     baseBillingAounmt_subtract_techAmount=models.CharField(max_length=128)
     create_time = models.DateTimeField(auto_now_add=True)
     update_time = models.DateTimeField()
     class Meta:
         verbose_name = "非VIP会员业务结算结果"
 
+class settlement_vip_models(models.Model):
+    '''结算VIP会员业务models类'''
+    sum_cash_flow = models.CharField(max_length=128)
+    book_playCount = models.CharField(max_length=128)
+    partner_divide_rate = models.CharField(max_length=128)
+    partner_divide_money_final=models.CharField(max_length=128)
+    tech_service_consumption=models.CharField(max_length=128)
+    create_time = models.DateTimeField(auto_now_add=True)
+    update_time = models.DateTimeField()
+    class Meta:
+        verbose_name = "VIP会员业务结算结果"
+
+
+
+
+# class AutoTest_Results_T(models.Model):
+#     script_name = models.CharField(max_length=164)
+#     test_response = models.CharField(max_length=2048)
+#     test_result = models.CharField(max_length=8)
+#     create_time = models.DateTimeField(auto_now_add=True)
+#     update_time = models.DateTimeField()
+#     tester = models.CharField(max_length=64)
+#     class Meta:
+#         verbose_name = "测试结果"
+#         verbose_name_plural = "测试结果"
 # class Devices_Management(models.Model):
 #     device_type=models.CharField(max_length=32)
 #     device_logo = models.CharField(max_length=32)

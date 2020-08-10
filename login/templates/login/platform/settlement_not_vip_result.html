@@ -1,0 +1,83 @@
+
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'login/css/send_vip.css' %}" rel="stylesheet"/>
+    <title>非VIP会员业务结算结果</title>
+  </head>
+    <style>
+        th{
+            background: #b1dfbb;
+        }
+        td{
+            background: ivory;
+        }
+    </style>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="margin-top: 110px">
+                <table class="table table-hover  table-bordered table.contextual">
+                        <thead>
+                        <tr class="success">
+                            <th>序号</th>
+                            <th>结算年月份</th>
+                            <th>合作方id</th>
+                            <th>结算资源id</th>
+                            <th>结算业务</th>
+                            <th>本月实际流水</th>
+                            <th>本月可分成流水</th>
+                            <th>渠道分成金额</th>
+                            <th>支付手续费</th>
+                            <th>分成基数</th>
+                            <th>当月税前</th>
+                            <th>懒人技术服务费</th>
+                            <th>分成基数 - 懒人技术服务费</th>
+                            <th>结算时间</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                {%for result in settlement_data%}
+                                    <tr class="success">
+                                    <td>{{ forloop.counter }}</td>
+                                    <td>{{result.settlement_month}}</td>
+                                    <td>{{result.partner_id}}</td>
+                                    <td>{{result.entity_id}}</td>
+                                    <td>{{result.business}}</td>
+                                    <td>{{result.sum_cash_flow}}</td>
+                                    <td>{{result.sum_cash_flow_billing}}</td>
+                                    <td>{{result.channel_partner_amount}}</td>
+                                    <td>{{result.sum_commission_in}}</td>
+                                    <td>{{result.base_billing_amount}}</td>
+                                    <td>{{result.partner_amount}}</td>
+                                    <td>{{result.tech_amount}}</td>
+                                    <td>{{result.baseBillingAounmt_subtract_techAmount}}</td>
+                                    <td>{{result.create_time}}</td>
+                                    </tr>
+                            {%endfor%}
+                        </tbody>
+                </table>
+            </div>
+        </div>
+        <div >
+            <a href="/platform/settlement_not_vip" class="btn btn-link">返回结算页</a>
+        </div>
+    </div>
+
+
+    <!-- /container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

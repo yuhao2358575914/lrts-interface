@@ -5,7 +5,7 @@ from django.urls import path
 
 # 确定命名空间
 from .viewas.platform_views import copyright_views, channel_views, anchor_views, date_views, randomNum_views, \
-    settlement_views
+    settlement_views, settlement_vip_views
 
 app_name = 'login'
 # 子路由表
@@ -21,4 +21,8 @@ urlpatterns = [
     path('month_day', date_views.month_day),
     path('randomNum', randomNum_views.create_random_num),
     path('settlement_not_vip', settlement_views.settlement_not_vip),
+    path('settlement_not_vip_result', settlement_views.settlement_not_vip_result),
+    path('settlement_vip', settlement_vip_views.settlement_vip),
+    path('settlement_vip_result', settlement_vip_views.settlement_vip_result),
+    # path('settlement_vip_result', settlement_vip_views.settlement_vip_result),
 ]

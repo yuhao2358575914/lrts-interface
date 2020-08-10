@@ -101,7 +101,7 @@ def register(request):
                 new_user.email = email
                 new_user.role = role
                 new_user.save()
-                return redirect('/login')
+                return redirect('/login/')
         else:
             return render(request, 'login/register.html', locals())
     register_form = forms.RegisterForm

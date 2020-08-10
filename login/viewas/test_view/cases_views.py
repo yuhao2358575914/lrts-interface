@@ -30,7 +30,8 @@ def cases_pages(request, pindex):
     """
     if request.session.is_empty() and login_control():
         return redirect('/login/')
-    case_obj = models.TestCases.objects.all()
+    case_obj = models.TestCases.objects.all().values() #查询所有用例
+    print('用例：',case_obj)
     case_list = []
     for i in case_obj:
         case_list.append(i)
@@ -63,6 +64,7 @@ def search_case(request):
 
 
 def upload_cases(request):
+    '''上传用例'''
     if request.session.is_empty() and login_control():
         return redirect('/login/')
     if request.method == 'POST':

@@ -1,5 +1,6 @@
-{% load static %}
+
 <!doctype html>
+{% load static %}
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,21 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- 上述meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <!-- Bootstrap CSS -->
+      <title>结算非VIP会员业务</title>
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="{% static 'login/css/send_vip.css' %}" rel="stylesheet"/>
-    <title>版权/主播/渠道非VIP会员业务结算</title>
+
+
   </head>
+
   <body>
     <div class="container">
-            <div class="col-md-8" style="margin-top: 110px">
+            <div class="col-md-12" style="margin-top: 110px">
                 <form class="form-add_channel_partner" action="/platform/settlement_not_vip" method="post">
-
-
                   {% csrf_token %}
 {#                {{ request.session.user_name }}#}
-                    <h3 class="text-center">结算</h3>
+                    <h3 class="text-center">结算非VIP业务</h3>
                     <br><br>
-                    <p style="background: gold">tips：版权/主播/渠道合作方非VIP会员业务结算</p>
+                    <p style="background: gold">Tips：版权/主播/渠道合作方非VIP会员业务结算</p>
                     <div class="form-group">
                       {{ settlement_form.settlement_date.label_tag}}
                       {{ settlement_form.settlement_date}}
@@ -39,17 +41,23 @@
                       {{ settlement_form.settlement_cooperation_business }}
                   </div>
                     <div>
-                    {% if share_form.captcha.errors %}
-                        <div class="alert alert-warning">{{ anchor_form.captcha.errors}}</div>
+                    {% if settlement_form.captcha.errors %}
+                        <div class="alert alert-warning">{{ settlement_form.captcha.errors}}</div>
                     {% elif message %}
                         <div class="alert alert-warning">{{ message|linebreaksbr }}</div>
                     {% endif %}
                     </div>
-                  <div>
-                      <a href="/" class="text-success "><ins>返回首页</ins></a>
-                      <button name="button-add_anchor_partner" type="submit" class="btn btn-primary float-right">结算</button>
-                  </div>
+                    <div>
+                      <button name="button-add_anchor_partner" type="submit" class="btn btn-primary ">结算</button>
+                    </div>
                 </form>
+                    </br>
+                    <div>
+                      <a href="/platform/settlement_not_vip_result" class="btn btn-info ">结算结果</a>
+                    </div>
+                    <div style="margin-top: 20px">
+                        <a href="/" class="text-success" ><ins>返回首页</ins></a>
+                  </div>
             </div>
     </div> <!-- /container -->
     <!-- Optional JavaScript -->

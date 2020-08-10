@@ -1,0 +1,278 @@
+[2020-08-06 10:35:27,807] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 10:35:40,047] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3514
+[2020-08-06 10:35:43,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3514
+[2020-08-06 10:53:09,131] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 10:53:16,641] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 58, in settlement_not_vip
+    return render(request, 'login/platform/settlement_not_vip.html', locals())
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\cached.py", line 53, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[2020-08-06 10:53:16,648] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-06 10:53:24,101] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 58, in settlement_not_vip
+    return render(request, 'login/platform/settlement_not_vip.html', locals())
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\cached.py", line 53, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 477, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+[2020-08-06 10:53:24,103] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip HTTP/1.1" 500 145
+[2020-08-06 10:57:00,974] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 10:57:09,091] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3515
+[2020-08-06 10:59:07,709] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 10:59:10,432] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3518
+[2020-08-06 10:59:45,761] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 10:59:51,805] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3514
+[2020-08-06 11:00:32,254] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 11:00:36,348] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3402
+[2020-08-06 11:03:27,535] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 11:03:30,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3494
+[2020-08-06 11:06:59,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3880
+[2020-08-06 11:07:02,919] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8692
+[2020-08-06 11:07:35,887] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3494
+[2020-08-06 14:21:41,748] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-06 14:21:42,727] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:22:01,118] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-06 14:22:02,262] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:27:03,063] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-06 14:27:04,004] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:27:50,259] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-06 14:27:51,173] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:28:22,328] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-06 14:28:23,254] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:28:45,055] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-06 14:28:45,994] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:31:26,507] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-06 14:31:27,441] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:42:17,722] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-06 14:42:21,533] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 14:42:33,624] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3892
+[2020-08-06 14:55:25,976] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-06 14:55:26,962] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 14:56:41,294] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-06 14:56:42,368] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:06:44,032] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\models.py changed, reloading.
+[2020-08-06 15:06:44,966] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:47:22,666] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:49:39,262] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-06 15:49:40,198] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:49:50,353] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-06 15:49:51,329] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:49:59,027] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-06 15:50:03,475] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:51:29,252] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:51:33,138] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12090
+[2020-08-06 15:51:34,782] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:51:44,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:52:16,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:52:19,622] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:53:10,855] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:53:14,016] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:53:16,932] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:53:20,450] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:53:23,084] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-06 15:54:25,275] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:54:33,368] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/
+[2020-08-06 15:54:33,369] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/ HTTP/1.1" 404 179
+[2020-08-06 15:54:39,748] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-06 15:54:41,250] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-06 15:56:41,000] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 15:56:41,918] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:56:46,269] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 15:56:47,194] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 15:57:17,767] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3677
+[2020-08-06 15:59:03,745] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 15:59:04,650] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:02:41,247] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:02:42,211] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:04:30,391] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:04:31,360] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:05:04,790] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:05:05,728] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:05:44,817] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:05:45,736] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:07:27,606] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:07:28,584] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:08:31,405] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:08:32,333] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:08:53,379] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3794
+[2020-08-06 16:10:44,204] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:10:45,123] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:10:56,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 16:10:59,859] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 16:13:27,442] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-06 16:13:28,362] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:14:03,264] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-06 16:14:04,286] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:14:57,549] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-06 16:14:58,552] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:15:07,004] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 16:16:50,034] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_vip_result
+[2020-08-06 16:16:50,035] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_vip_result HTTP/1.1" 404 179
+[2020-08-06 16:31:39,866] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:31:40,888] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:32:51,294] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_vip_result
+[2020-08-06 16:32:51,295] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_vip_result HTTP/1.1" 404 179
+[2020-08-06 16:33:06,691] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:33:13,188] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/
+[2020-08-06 16:33:13,189] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/ HTTP/1.1" 404 179
+[2020-08-06 16:33:16,652] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/
+[2020-08-06 16:33:16,652] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/ HTTP/1.1" 404 179
+[2020-08-06 16:33:20,167] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-06 16:33:21,733] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-06 16:33:31,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 16:33:33,783] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_vip_result
+[2020-08-06 16:33:33,784] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_vip_result HTTP/1.1" 404 179
+[2020-08-06 16:34:37,857] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-06 16:34:38,786] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:35:08,108] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:35:41,469] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-06 16:35:42,422] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:35:45,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-06 16:35:47,389] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-06 16:35:58,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 16:36:00,248] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip_result HTTP/1.1" 200 7105
+[2020-08-06 16:37:08,435] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-06 16:42:07,001] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:42:07,914] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:45:34,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 16:50:35,072] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\formsgroup\platform_forms.py changed, reloading.
+[2020-08-06 16:50:35,995] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:51:43,656] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:51:49,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3577
+[2020-08-06 16:55:10,100] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:55:11,023] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:55:24,712] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:55:25,692] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:55:30,161] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py changed, reloading.
+[2020-08-06 16:55:31,134] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 16:55:35,909] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3511
+[2020-08-06 16:55:54,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 16:58:52,156] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 17:00:26,161] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 17:01:09,579] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 17:01:14,170] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 17:02:07,451] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:02:15,731] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-06 17:02:17,201] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 2594
+[2020-08-06 17:03:01,504] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:03:09,797] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-06 17:03:10,895] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-06 17:03:24,568] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_vip HTTP/1.1" 200 3792
+[2020-08-06 17:03:43,065] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip_result HTTP/1.1" 200 7105
+[2020-08-06 17:04:30,952] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip_result HTTP/1.1" 200 7105
+[2020-08-06 17:04:34,326] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-06 17:15:21,782] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:15:22,737] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:18:39,474] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:18:40,401] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:25:19,219] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:25:20,136] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:39:07,354] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:39:08,286] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:39:30,510] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:39:31,472] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:40:47,375] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:40:48,321] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:51:06,484] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:51:07,493] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-06 17:53:16,885] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-06 17:53:17,856] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-07 14:19:49,410] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.

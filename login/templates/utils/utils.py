@@ -6,6 +6,7 @@
 # @Software: PyCharm
 # coding=utf-8
 import datetime
+import os
 import random
 import hashlib
 import time
@@ -248,3 +249,12 @@ def dec_To_Bin(num):
         return bins[::-1]
     else:
         return sts[::-1]
+
+def getFiles(path, suffix):
+    """
+    根据路径查找对应文件是否存在
+    :param path: 查找目录
+    :param suffix: 关键字
+    :return:满足条件的文件地址列表
+    """
+    return [os.path.join(root, file) for root, dirs, files in os.walk(path) for file in files if file.endswith(suffix)]

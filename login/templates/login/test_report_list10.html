@@ -66,6 +66,31 @@
             {% endfor %}
             </tbody>
         </table>
+        <table class="table-hover table table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>sum_cash_flow</th>
+                            <th>sum_cash_flow_billing</th>
+                            <th>channel_partner_amount</th>
+                            <th>create_time</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                                {%for result in settlement_data%}
+                                    <tr>
+                                    <td>{{ forloop.counter }}</td>
+                                    <td>{{result.sum_cash_flow}}</td>
+                                    <td>{{result.sum_cash_flow}}</td>
+                                    <td>{{result.channel_partner_amount}}</td>
+                                    <td>{{result.create_time}}</td>
+                                    </tr>
+                            {%endfor%}
+
+
+                        </tbody>
+        </table>
     </div>
         <h4 style="margin-left: 50px;margin-top: 80px">用例执行统计：</h4>
         <div id="main" style="height:500px; margin-left: 0px">

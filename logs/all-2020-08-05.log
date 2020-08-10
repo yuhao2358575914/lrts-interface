@@ -1,0 +1,1129 @@
+[2020-08-05 10:00:01,934] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:02:41,077] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 10:02:42,028] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:02:46,358] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 10:02:47,276] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:29:02,925] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 10:29:03,859] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:30:27,590] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 10:30:28,530] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:44:28,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11815
+[2020-08-05 10:44:28,214] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-05 10:44:30,586] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 10:44:35,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6631
+[2020-08-05 10:44:35,881] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 10:44:35,885] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 10:47:08,378] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-05 10:47:09,323] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:47:18,293] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:47:34,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11815
+[2020-08-05 10:47:36,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3548
+[2020-08-05 10:47:36,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-08-05 10:47:43,428] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3934
+[2020-08-05 10:49:28,109] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:49:32,861] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11810
+[2020-08-05 10:49:32,993] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-05 10:49:33,301] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-05 10:49:33,302] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-05 10:49:58,341] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3548
+[2020-08-05 10:49:58,387] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-08-05 10:50:04,357] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3934
+[2020-08-05 10:54:03,034] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 10:54:03,982] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:54:51,626] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3568
+[2020-08-05 10:54:59,214] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 6631
+[2020-08-05 10:55:00,181] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 10:55:00,183] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 10:59:14,124] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 10:59:18,676] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /test_report_list10/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'strat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'strat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'strat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 205, in test_report_list10
+    return render(request,'login/test_report_list10.html', {'data':data,'settlement_data':settlement_data})
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 986, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 691, in resolve
+    arg_vals.append(arg.resolve(context))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 795, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [strat] in [{'True': True, 'False': False, 'None': None}, {}, {}, {'data': <QuerySet [{'id': 2, 'reporter_name': 'test_report20200801102153', 'reporter_type': 'Nec', 'create_user': 'developer', 'create_time': datetime.datetime(2020, 8, 1, 10, 22, 23, 38611), 'report_style': '1', 'env_Id': '4', 'report_testAll': 42, 'report_testPass': 31, 'report_testFail': 11, 'report_testError': 0, 'report_successRate': 73, 'publish_module': 'yyting-apps-api'}, {'id': 1, 'reporter_name': 'test_report20200801101954', 'reporter_type': 'Nec', 'create_user': 'developer', 'create_time': datetime.datetime(2020, 8, 1, 10, 20, 29, 496903), 'report_style': '1', 'env_Id': '3', 'report_testAll': 42, 'report_testPass': 36, 'report_testFail': 6, 'report_testError': 0, 'report_successRate': 85, 'publish_module': 'yyting-apps-api'}]>, 'settlement_data': <QuerySet [{'id': 12, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 5, 10, 50, 4, 343001), 'update_time': datetime.datetime(2020, 8, 5, 10, 50, 4)}, {'id': 11, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 5, 10, 47, 43, 407916), 'update_time': datetime.datetime(2020, 8, 5, 10, 47, 43)}, {'id': 10, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 17, 45, 0, 332888), 'update_time': datetime.datetime(2020, 8, 4, 17, 45)}, {'id': 9, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 17, 44, 43, 36618), 'update_time': datetime.datetime(2020, 8, 4, 17, 44, 43)}, {'id': 8, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 17, 44, 39, 741429), 'update_time': datetime.datetime(2020, 8, 4, 17, 44, 39)}, {'id': 7, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 17, 31, 38, 75770), 'update_time': datetime.datetime(2020, 8, 4, 17, 31, 38)}, {'id': 6, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 17, 27, 3, 466756), 'update_time': datetime.datetime(2020, 8, 4, 17, 27, 3)}, {'id': 5, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 17, 26, 54, 974460), 'update_time': datetime.datetime(2020, 8, 4, 17, 26, 54)}, {'id': 4, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 17, 3, 51, 538281), 'update_time': datetime.datetime(2020, 8, 4, 17, 3, 51)}, {'id': 3, 'sum_cash_flow': '12.0', 'sum_cash_flow_billing': '10.8', 'channel_partner_amount': '1.2', 'sum_commission_in_original': '0.10800000', 'sum_commission_in': '0.11', 'base_billing_amount_original': '10.2600', 'base_billing_amount': '10.26', 'partner_amount_original': '1.846800000000', 'partner_amount': '1.84', 'tech_amount_original': '0.205200000000', 'tech_amount': '0.21', 'baseBillingAounmt_subtract_techAmount_Original': '9.23400000', 'baseBillingAounmt_subtract_techAmount': '9.23', 'create_time': datetime.datetime(2020, 8, 4, 10, 27, 55, 900517), 'update_time': datetime.datetime(2020, 8, 4, 10, 27, 55)}]>}]
+[2020-08-05 10:59:18,683] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /test_report_list10/ HTTP/1.1" 500 145
+[2020-08-05 11:01:29,600] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:01:35,933] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 9970
+[2020-08-05 11:01:35,965] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-05 11:01:36,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:01:36,710] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:02:07,780] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 9970
+[2020-08-05 11:02:07,924] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:02:07,934] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:02:13,631] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:02:15,166] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10142
+[2020-08-05 11:02:15,376] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:02:15,388] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:03:40,431] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10142
+[2020-08-05 11:03:50,406] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:03:52,045] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10214
+[2020-08-05 11:03:53,276] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:03:53,277] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:04:59,871] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:05:01,602] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10957
+[2020-08-05 11:05:02,290] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:05:02,296] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:05:48,611] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:05:51,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10436
+[2020-08-05 11:05:51,373] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:05:51,382] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:13:02,329] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:13:07,179] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3568
+[2020-08-05 11:13:14,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-05 11:13:14,600] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/run_test.css HTTP/1.1" 304 0
+[2020-08-05 11:13:17,027] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10447
+[2020-08-05 11:13:17,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:13:17,195] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:14:09,107] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:14:18,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10455
+[2020-08-05 11:14:18,410] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:14:18,412] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:14:57,003] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 11:14:57,937] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:15:01,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 7175
+[2020-08-05 11:15:02,094] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:15:02,102] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:15:16,660] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 11:15:17,597] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:15:54,614] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 11:15:55,607] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:15:58,868] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 7175
+[2020-08-05 11:15:59,029] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:15:59,031] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:16:04,900] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 11:16:06,145] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:16:06,893] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10455
+[2020-08-05 11:16:07,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:16:07,590] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:20:07,466] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 11:20:08,404] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:21:15,722] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:21:19,588] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 10970
+[2020-08-05 11:21:20,078] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 60
+[2020-08-05 11:21:20,079] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 70
+[2020-08-05 11:27:24,413] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:27:46,345] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id= HTTP/1.1" 200 27
+[2020-08-05 11:27:55,844] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:27:55,850] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:27:58,977] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:27:58,979] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:28:03,764] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:28:03,765] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:28:17,370] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:28:17,372] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:28:48,334] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:28:48,336] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:28:58,213] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:28:58,215] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:29:16,699] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11815
+[2020-08-05 11:29:19,825] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:29:24,467] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:29:24,469] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:32:16,476] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:32:16,478] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:37:40,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3252
+[2020-08-05 11:40:44,515] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:42:05,559] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 184, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 11:42:05,560] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 11:43:48,789] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=LqkWepcA8bMB1Aeue8Qi5QGipWjZjUk6mTZfUvhkk4WLne3QczBLvRTJPiIX4hG8&query=case_Necessary_LazyCoins_Buy_Book HTTP/1.1" 200 4582
+[2020-08-05 11:43:59,449] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=4 HTTP/1.1" 302 0
+[2020-08-05 11:43:59,466] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:44:01,989] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /search_case/?csrfmiddlewaretoken=yso6V8qq6xMLH5ZXzk4zLneKmLkDl0CS9V3pBevaiqWV3JOjxLP2borbM7JB6nYU&query=case_Necessary_LazyCoins_Buy_Book HTTP/1.1" 200 4582
+[2020-08-05 11:44:03,447] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 156909
+[2020-08-05 11:44:25,604] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:44:25,607] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:45:57,789] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:45:57,791] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:47:20,169] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 11:47:21,099] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:47:26,145] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 241, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:47:26,170] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:48:10,089] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 11:48:11,015] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:48:15,967] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 242, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:48:15,971] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:48:38,706] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:44,223] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:44,363] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-05 11:49:44,364] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-05 11:49:47,754] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:48,507] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:48,827] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:49,015] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:49,196] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:49,360] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:49,499] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:49,650] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:49:56,428] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:51:03,657] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\cases_views.py changed, reloading.
+[2020-08-05 11:51:04,666] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:51:07,155] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:51:49,458] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16377
+[2020-08-05 11:52:10,338] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:52:18,003] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /run_case/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 242, in run_case
+    res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1354, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1385, in _add_q
+    check_filterable=check_filterable,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1315, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 1169, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got ''.
+[2020-08-05 11:52:18,007] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /run_case/?run_id= HTTP/1.1" 500 145
+[2020-08-05 11:52:40,493] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:52:42,800] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16398
+[2020-08-05 11:52:46,041] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=1 HTTP/1.1" 200 54
+[2020-08-05 11:54:55,530] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 185, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 11:54:55,532] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 11:55:19,943] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:55:25,140] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 185, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 11:55:25,141] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 11:55:58,188] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 185, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 11:55:58,190] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 11:56:06,042] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 185, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 11:56:06,043] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 11:57:53,435] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-05 11:57:54,391] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:57:56,503] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-05 11:57:57,484] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:58:10,949] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 11:58:12,692] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16547
+[2020-08-05 11:58:15,308] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 185, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 11:58:15,309] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 11:58:18,436] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 185, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 11:58:18,437] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 11:58:25,550] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-05 11:58:26,482] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 11:58:28,525] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-05 11:58:29,453] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 12:00:13,802] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16692
+[2020-08-05 12:00:20,958] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16692
+[2020-08-05 12:00:27,326] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 12:00:29,365] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16737
+[2020-08-05 12:00:45,847] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 12:00:47,543] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16692
+[2020-08-05 12:01:04,511] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 12:01:05,931] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16713
+[2020-08-05 12:01:13,024] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /case_edit/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 185, in case_edit
+    case_query = models.TestCases.objects.filter(id=int(edit_id)).first()
+ValueError: invalid literal for int() with base 10: ''
+[2020-08-05 12:01:13,026] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /case_edit/?edit_id= HTTP/1.1" 500 145
+[2020-08-05 12:01:30,725] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 12:01:34,063] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16797
+[2020-08-05 12:01:34,974] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /case_edit/?edit_id=1 HTTP/1.1" 200 2459
+[2020-08-05 14:07:26,998] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /case_edit/?edit_id=1 HTTP/1.1" 200 2459
+[2020-08-05 14:08:04,199] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:08:09,876] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-05 14:08:10,916] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /case_edit/?edit_id=1 HTTP/1.1" 200 2459
+[2020-08-05 14:18:35,202] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 14:18:40,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3251
+[2020-08-05 14:18:59,290] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-05 14:19:07,162] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=1 HTTP/1.1" 200 54
+[2020-08-05 14:19:11,330] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=3 HTTP/1.1" 200 54
+[2020-08-05 14:19:16,785] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=4 HTTP/1.1" 302 0
+[2020-08-05 14:19:16,801] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-05 14:19:25,082] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=3 HTTP/1.1" 200 27
+[2020-08-05 14:19:28,417] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=5 HTTP/1.1" 200 156976
+[2020-08-05 14:33:14,578] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 14:33:15,551] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:41:48,467] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 14:41:49,387] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:41:58,132] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=3 HTTP/1.1" 200 27
+[2020-08-05 14:42:01,010] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 145845
+[2020-08-05 14:42:51,134] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 14:42:52,076] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:42:57,842] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 145845
+[2020-08-05 14:43:27,055] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 14:43:27,984] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:43:32,928] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 145845
+[2020-08-05 14:44:12,219] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 14:44:13,181] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:44:38,961] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 14:44:39,874] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:44:41,860] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 145845
+[2020-08-05 14:47:51,120] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\test_view\autotest_view.py changed, reloading.
+[2020-08-05 14:47:52,042] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 14:53:52,188] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 145845
+[2020-08-05 14:54:33,292] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 145845
+[2020-08-05 14:55:30,282] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_single/?run_id=4 HTTP/1.1" 200 145845
+[2020-08-05 15:31:31,156] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-05 15:31:32,059] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:31:56,192] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-05 15:31:57,103] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:33:30,889] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\urls.py changed, reloading.
+[2020-08-05 15:33:31,814] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:34:59,709] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 15:35:00,653] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:43:57,945] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:44:12,935] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3359
+[2020-08-05 15:44:24,047] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3745
+[2020-08-05 15:44:26,146] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_not_vip_result.html
+[2020-08-05 15:44:26,146] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_not_vip_result.html HTTP/1.1" 404 179
+[2020-08-05 15:46:00,218] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 15:46:01,157] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:46:09,956] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_not_vip_result.html
+[2020-08-05 15:46:09,957] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_not_vip_result.html HTTP/1.1" 404 179
+[2020-08-05 15:46:29,938] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:46:41,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3745
+[2020-08-05 15:46:47,125] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3745
+[2020-08-05 15:46:48,201] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3745
+[2020-08-05 15:46:48,766] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_not_vip_result.html
+[2020-08-05 15:46:48,767] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_not_vip_result.html HTTP/1.1" 404 179
+[2020-08-05 15:47:26,020] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 15:47:26,937] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:47:58,022] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 15:47:58,964] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:48:01,878] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_not_vip_result.html
+[2020-08-05 15:48:01,878] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_not_vip_result.html HTTP/1.1" 404 179
+[2020-08-05 15:50:57,748] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_not_vip_result.html
+[2020-08-05 15:50:57,748] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_not_vip_result.html HTTP/1.1" 404 179
+[2020-08-05 15:51:33,006] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 15:51:33,924] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:51:40,445] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_not_vip_result.html
+[2020-08-05 15:51:40,445] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_not_vip_result.html HTTP/1.1" 404 179
+[2020-08-05 15:51:54,725] [log.py:228] [log:log_response] [WARNING]- Not Found: /platform/settlement_not_vip_result.html
+[2020-08-05 15:51:54,726] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /platform/settlement_not_vip_result.html HTTP/1.1" 404 179
+[2020-08-05 15:52:53,268] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3740
+[2020-08-05 15:52:55,203] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip_result
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 68, in settlement_not_vip_result
+    return render(request, 'login/platform/settlement_not_vip_result', {'settlement_data': settlement_data})
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login/platform/settlement_not_vip_result
+[2020-08-05 15:52:55,204] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip_result HTTP/1.1" 500 145
+[2020-08-05 15:53:44,847] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 15:53:45,852] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 15:53:46,747] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 15:53:50,241] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 15:54:26,177] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 15:54:49,777] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 15:54:57,117] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 15:54:58,717] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3354
+[2020-08-05 15:55:43,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3354
+[2020-08-05 16:01:08,335] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:01:16,653] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3363
+[2020-08-05 16:01:20,307] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3363
+[2020-08-05 16:01:27,413] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3363
+[2020-08-05 16:02:27,127] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:02:32,158] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3341
+[2020-08-05 16:04:34,060] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:04:36,996] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3372
+[2020-08-05 16:06:16,628] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:06:20,792] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3451
+[2020-08-05 16:07:56,729] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:08:05,004] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3450
+[2020-08-05 16:08:37,160] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3836
+[2020-08-05 16:08:40,496] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 16:09:25,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3836
+[2020-08-05 16:09:35,344] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3836
+[2020-08-05 16:09:36,399] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3836
+[2020-08-05 16:09:38,315] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 16:10:11,654] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:10:17,621] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3836
+[2020-08-05 16:10:19,469] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3836
+[2020-08-05 16:10:21,430] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 16:11:21,560] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 16:11:22,470] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:11:29,837] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3836
+[2020-08-05 16:11:31,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 16:11:47,094] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 16:11:48,497] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3450
+[2020-08-05 16:21:56,199] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:22:00,795] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3450
+[2020-08-05 16:22:05,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3450
+[2020-08-05 16:22:23,327] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:22:30,923] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3471
+[2020-08-05 16:22:33,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3471
+[2020-08-05 16:22:36,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3471
+[2020-08-05 16:23:38,447] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:23:44,106] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3471
+[2020-08-05 16:23:46,822] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3471
+[2020-08-05 16:25:29,559] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:25:33,992] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3524
+[2020-08-05 16:25:37,006] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3524
+[2020-08-05 16:25:40,118] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3524
+[2020-08-05 16:25:44,889] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3524
+[2020-08-05 16:26:05,795] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:26:06,746] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3579
+[2020-08-05 16:28:13,417] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:28:20,075] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3497
+[2020-08-05 16:37:25,690] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:37:29,310] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3513
+[2020-08-05 16:45:08,459] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:45:11,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3605
+[2020-08-05 16:45:18,838] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3605
+[2020-08-05 16:45:22,053] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3605
+[2020-08-05 16:45:23,756] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3605
+[2020-08-05 16:45:24,873] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3605
+[2020-08-05 16:45:27,303] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3605
+[2020-08-05 16:46:29,572] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:46:32,004] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3605
+[2020-08-05 16:48:17,805] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:48:21,459] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3621
+[2020-08-05 16:48:24,510] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3621
+[2020-08-05 16:48:27,080] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 16:48:29,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3621
+[2020-08-05 16:49:05,664] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:49:09,563] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3622
+[2020-08-05 16:49:12,295] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3622
+[2020-08-05 16:49:35,452] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:49:37,481] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3514
+[2020-08-05 16:51:38,375] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:51:43,867] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3564
+[2020-08-05 16:53:42,755] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 16:53:46,888] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3434
+[2020-08-05 16:55:40,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3434
+[2020-08-05 16:58:27,365] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5562
+[2020-08-05 17:01:05,996] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:01:09,979] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5543
+[2020-08-05 17:02:02,583] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:02:05,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5549
+[2020-08-05 17:03:42,551] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:03:45,855] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5745
+[2020-08-05 17:03:48,199] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5745
+[2020-08-05 17:05:24,287] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:05:28,642] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5746
+[2020-08-05 17:05:31,377] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5746
+[2020-08-05 17:05:33,422] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5746
+[2020-08-05 17:05:37,828] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5746
+[2020-08-05 17:06:40,216] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-05 17:07:12,051] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3434
+[2020-08-05 17:09:11,225] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:09:11,949] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3458
+[2020-08-05 17:10:24,715] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:10:27,445] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3598
+[2020-08-05 17:10:55,816] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:10:56,780] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3513
+[2020-08-05 17:11:55,103] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:11:58,704] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3485
+[2020-08-05 17:12:17,900] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:12:20,708] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3510
+[2020-08-05 17:24:27,186] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3510
+[2020-08-05 17:25:43,817] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5746
+[2020-08-05 17:28:23,864] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:28:29,866] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5717
+[2020-08-05 17:29:42,843] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:29:51,749] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5721
+[2020-08-05 17:29:53,652] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5721
+[2020-08-05 17:29:55,193] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5721
+[2020-08-05 17:29:59,240] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 17:30:02,129] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 17:30:03,324] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5721
+[2020-08-05 17:30:36,843] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:30:40,150] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5729
+[2020-08-05 17:31:50,825] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:31:54,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5708
+[2020-08-05 17:31:57,912] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 17:32:02,987] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 17:32:42,004] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:32:45,996] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5717
+[2020-08-05 17:34:48,046] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:35:13,883] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5706
+[2020-08-05 17:35:18,833] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 17:35:20,285] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 17:35:21,403] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 17:35:22,648] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 17:35:23,860] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 17:35:27,584] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 17:35:28,506] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5706
+[2020-08-05 17:35:29,955] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 17:35:39,392] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 17:35:41,636] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5706
+[2020-08-05 17:41:05,403] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:41:09,006] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5866
+[2020-08-05 17:41:12,576] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5866
+[2020-08-05 17:42:12,273] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:42:15,225] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5882
+[2020-08-05 17:42:17,197] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5882
+[2020-08-05 17:42:20,295] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5882
+[2020-08-05 17:44:37,845] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:44:40,125] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5899
+[2020-08-05 17:44:42,472] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5899
+[2020-08-05 17:44:43,877] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5899
+[2020-08-05 17:44:47,041] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5899
+[2020-08-05 17:46:39,140] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 17:46:42,622] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5703
+[2020-08-05 18:18:18,491] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 18:18:21,592] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5704
+[2020-08-05 18:24:08,706] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 18:24:14,361] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5745
+[2020-08-05 18:26:12,405] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5745
+[2020-08-05 18:29:25,825] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 18:29:28,338] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 6004
+[2020-08-05 18:29:36,611] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 18:29:37,972] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 18:29:46,774] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3898
+[2020-08-05 18:29:51,113] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 6004
+[2020-08-05 18:33:55,039] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 18:34:01,191] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5877
+[2020-08-05 18:34:21,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 18:34:22,428] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 18:34:25,044] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5877
+[2020-08-05 18:34:33,625] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 18:34:35,861] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 18:34:43,776] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3898
+[2020-08-05 18:34:49,690] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 5877
+[2020-08-05 18:35:39,168] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 18:36:51,653] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 18:37:04,540] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3898
+[2020-08-05 18:59:33,735] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 18:59:34,719] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 18:59:39,145] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\viewas\platform_views\settlement_views.py changed, reloading.
+[2020-08-05 18:59:40,094] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 18:59:44,260] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3898
+[2020-08-05 19:10:26,118] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8675
+[2020-08-05 19:10:35,707] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 19:10:56,681] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /platform/settlement_not_vip HTTP/1.1" 200 3898
+[2020-08-05 19:10:58,955] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8675
+[2020-08-05 19:11:28,740] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-05 19:11:33,314] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 19:13:30,573] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 19:13:35,775] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8705
+[2020-08-05 19:13:38,614] [log.py:228] [log:log_response] [WARNING]- Not Found: /paltform/settlement_not_vip
+[2020-08-05 19:13:38,615] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /paltform/settlement_not_vip HTTP/1.1" 404 179
+[2020-08-05 19:15:34,983] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 19:15:43,169] [log.py:228] [log:log_response] [WARNING]- Not Found: /paltform/settlement_not_vip
+[2020-08-05 19:15:43,169] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /paltform/settlement_not_vip HTTP/1.1" 404 179
+[2020-08-05 19:15:56,809] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8705
+[2020-08-05 19:16:00,939] [log.py:228] [log:log_response] [WARNING]- Not Found: /paltform/settlement_not_vip
+[2020-08-05 19:16:00,939] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /paltform/settlement_not_vip HTTP/1.1" 404 179
+[2020-08-05 19:16:55,263] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 19:16:59,141] [log.py:228] [log:log_response] [WARNING]- Not Found: /paltform/settlement_not_vip
+[2020-08-05 19:16:59,142] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /paltform/settlement_not_vip HTTP/1.1" 404 179
+[2020-08-05 19:17:01,755] [log.py:228] [log:log_response] [WARNING]- Not Found: /paltform/settlement_not_vip
+[2020-08-05 19:17:01,755] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /paltform/settlement_not_vip HTTP/1.1" 404 179
+[2020-08-05 19:18:42,140] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 19:18:45,362] [log.py:228] [log:log_response] [WARNING]- Not Found: /paltform/settlement_not_vip
+[2020-08-05 19:18:45,362] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /paltform/settlement_not_vip HTTP/1.1" 404 179
+[2020-08-05 19:19:19,018] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8705
+[2020-08-05 19:19:21,637] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 19:19:33,393] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8705
+[2020-08-05 19:19:35,532] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 19:20:14,844] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8705
+[2020-08-05 19:20:18,228] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 19:27:43,824] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 19:27:48,779] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip_result HTTP/1.1" 200 8705
+[2020-08-05 19:29:59,934] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3512
+[2020-08-05 19:30:50,815] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-05 19:30:56,870] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3513
+[2020-08-05 19:31:23,803] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3513
+[2020-08-06 10:34:52,466] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11807
+[2020-08-06 10:34:52,508] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-06 10:34:54,004] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3513
+[2020-08-06 10:34:54,033] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0

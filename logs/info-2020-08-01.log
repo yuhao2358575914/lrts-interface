@@ -1,2 +1,0 @@
-[2020-08-01 10:20:28,703] [autotest_view.py:102] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200801101954', 'result': {'testAll': 42, 'testPass': 36, 'testFail': 6, 'testError': 0}}
-[2020-08-01 10:22:22,386] [autotest_view.py:102] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200801102153', 'result': {'testAll': 42, 'testPass': 31, 'testFail': 11, 'testError': 0}}

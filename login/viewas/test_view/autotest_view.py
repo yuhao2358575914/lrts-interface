@@ -1,3 +1,4 @@
+import os
 import urllib
 
 from django.views.decorators.csrf import csrf_exempt
@@ -9,7 +10,7 @@ from login.run.run_test import run_test_bf_old
 from login.templates.utils.confutils import init_configs, login_control, get_services_conf
 from login.templates.utils.emails import send_emails, send_emails_multi
 from login.templates.utils.getconf import get_conf, write_config_ini
-from login.templates.utils.utils import securitycode, geturl, get_local_time_second
+from login.templates.utils.utils import securitycode, geturl, get_local_time_second, getFiles
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
@@ -25,7 +26,7 @@ def api_test(request):
     :param request:
     :return:
     """
-    if request.session.is_empty():
+    if request.session.is_empty() and login_control():
         return redirect('/login/')
     if request.method:
         requests_form = forms.RequestsForm(request.POST)
@@ -88,7 +89,7 @@ def run_test(request):
             host_names = 'http://moon-api.mting.info,http://moon-admin.lrts.me'
         elif envId == '5':
             host_names = 'http://mars-api.mting.info,http://mars-admin.lrts.me'
-        init_configs(host_names)
+        init_configs(host_names) #修改host和切换数据库
         time.sleep(0.2)
         test_type = test_form.cleaned_data.get('test_type')
         project = test_form.cleaned_data.get('project')
@@ -198,8 +199,10 @@ def test_report_list10(request):
     :return:
     """
     data = models.Report_Results.objects.filter(report_style__exact='1').order_by('-id').values()[0:10]
+    settlement_data = models.settlement_not_vip_models.objects.order_by('create_time').values()[0:10]
+    print('结算结果：', settlement_data)
     print('报告列表：', data)
-    return render(request,'login/test_report_list10.html', {'data':data})
+    return render(request,'login/test_report_list10.html', {'data':data,'settlement_data':settlement_data})
 
 
 def send_email(request):
@@ -235,9 +238,17 @@ def run_case(request):
     if request.session.is_empty() and login_control():
         return redirect('/login/')
     run_id = request.GET.get('run_id')
+    print('查询结果：',run_id)
     res = models.TestCases.objects.filter(id=run_id)  # 查看首条数据
     for a in res:
         test_script_name = a.script_name
+    abs_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    file_path = abs_path + '\\testcases\cases_ns'
+    test_script_name=test_script_name
+    exsits=getFiles(file_path,test_script_name)
+    if len(exsits)==0:
+        response_data="未找到脚本，请检查脚本是否存在！！！"
+        return HttpResponse(response_data)
     file_name = run_test_bf_old(test_script_name, run_id)
     obj = models.Report_Results.objects.filter(reporter_type=run_id)
     if obj and len(obj) == 1:#只保存最后一次执行结果
@@ -267,11 +278,16 @@ def test_report_single(request):
     """
     if request.session.is_empty() and login_control():
         return redirect('/login/')
-    run_id = request.GET.get('run_id')
-    report = \
-        models.Report_Results.objects.filter(report_style__exact='2', reporter_type=run_id).order_by('-id').values()[
-            0].get(
-            'reporter_name')
+    run_id = request.GET.get('run_id') #获取对应url的参数值
+
+    try:  # 尝试执行下列代码
+        report = \
+            models.Report_Results.objects.filter(report_style__exact='2', reporter_type=run_id).order_by('-id').values()[0].get('reporter_name')
+        print('打印一下咯:',type(models.Report_Results.objects.filter(report_style__exact='2', reporter_type=run_id).order_by('-id').values()))
+        print(models.Report_Results.objects.filter(report_style__exact='2', reporter_type=run_id).order_by('-id').values())
+    except Exception as e:
+        print(e)
+        return HttpResponse('请先执行用例！！！')
     print('报告名：', report)
     return render(request, 'login/reports/single/%s.html' % report, locals())
 
@@ -292,3 +308,6 @@ def mail_config_manual(request):
         receivers = ''
     # 将当前数据渲染到页面上去
     return render(request, 'login/mail_config.html', locals())
+
+
+

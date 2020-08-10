@@ -77,10 +77,10 @@
                 <td>{{item.create_time}}</td>
                 <td>{{item.case_creater}}</td>
                 <td>
-                    <a href="/case_edit/?edit_id={{ item.pk }}" class="btn btn-success">编辑</a>　　
-                    <a href="/delete_case/?delete_id={{ item.pk }} " class="btn btn-danger">删除</a>
-                    <a href="/run_case/?run_id={{ item.pk }} " class="btn btn-info">执行</a>
-                    <a href="/test_report_single/?run_id={{ item.pk }}" class="text-info">详情</a>
+                    <a href="/case_edit/?edit_id={{ item.id }}" class="btn btn-success">编辑</a>　　
+                    <a href="/delete_case/?delete_id={{ item.id }} " class="btn btn-danger">删除</a>
+                    <a href="/run_case/?run_id={{ item.id }} " class="btn btn-info">执行</a>
+                    <a href="/test_report_single/?run_id={{ item.id }}" class="text-info">详情</a>
                 </td>
             </tr>
         {%endfor%}
