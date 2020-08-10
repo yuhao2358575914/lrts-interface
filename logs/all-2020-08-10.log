@@ -158,3 +158,329 @@ django.db.utils.IntegrityError: (1048, "Column 'case_creater' cannot be null")
 [2020-08-10 17:31:54,139] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2020-08-10 17:33:12,764] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
 [2020-08-10 17:33:13,862] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:37:00,934] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-10 17:37:02,599] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-10 17:37:05,180] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3285
+[2020-08-10 17:38:06,402] [autotest_view.py:103] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200810173710', 'result': {'testAll': 47, 'testPass': 38, 'testFail': 9, 'testError': 0}}
+[2020-08-10 17:38:07,598] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=vbPyKm9IwctHglR6wAlHucXa228nbs6U6EuRqsesI5DRCZGsu16aUdaBsoxlWPsW&test_type=All&envId=3&project=platform-billing-admin HTTP/1.1" 200 106
+[2020-08-10 17:38:19,198] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /test_report_list10/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'login_settlement_not_vip_models.settlement_month' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\autotest_view.py", line 203, in test_report_list10
+    print('结算结果：', settlement_data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 252, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 115, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1104, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'login_settlement_not_vip_models.settlement_month' in 'field list'")
+[2020-08-10 17:38:19,202] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /test_report_list10/ HTTP/1.1" 500 145
+[2020-08-10 17:43:42,594] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:45:37,091] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-10 17:45:39,746] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_not_vip_result
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'login_settlement_not_vip_models.settlement_month' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_views.py", line 66, in settlement_not_vip_result
+    print('结算结果：', settlement_data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 252, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 115, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1104, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'login_settlement_not_vip_models.settlement_month' in 'field list'")
+[2020-08-10 17:45:39,751] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_not_vip_result HTTP/1.1" 500 145
+[2020-08-10 17:45:46,196] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_vip HTTP/1.1" 200 3471
+[2020-08-10 17:45:47,678] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_vip_result
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'autotest.login_settlement_vip_models' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py", line 55, in settlement_vip_result
+    print('结算结果：', settlement_data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 252, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 115, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1104, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'autotest.login_settlement_vip_models' doesn't exist")
+[2020-08-10 17:45:47,680] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_vip_result HTTP/1.1" 500 145
+[2020-08-10 17:45:51,839] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /platform/settlement_vip_result
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'autotest.login_settlement_vip_models' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\platform_views\settlement_vip_views.py", line 55, in settlement_vip_result
+    print('结算结果：', settlement_data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 252, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 115, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1104, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'autotest.login_settlement_vip_models' doesn't exist")
+[2020-08-10 17:45:51,841] [basehttp.py:157] [basehttp:log_message] [ERROR]- "GET /platform/settlement_vip_result HTTP/1.1" 500 145
+[2020-08-10 17:50:32,392] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:50:36,459] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3285
+[2020-08-10 17:51:32,838] [autotest_view.py:103] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200810175040', 'result': {'testAll': 47, 'testPass': 39, 'testFail': 8, 'testError': 0}}
+[2020-08-10 17:51:35,266] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=MC32l6P7yZHb47Qtc54AH4fAl9rVlJVbn5Il1cURKSRlqLFPawP375s1LvQT66hd&test_type=All&envId=3&project=platform-billing-admin HTTP/1.1" 200 106
+[2020-08-10 17:52:07,023] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 13663
+[2020-08-10 17:52:07,483] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 905
+[2020-08-10 17:52:07,513] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 4646
+[2020-08-10 17:52:21,773] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report/test_report20200810175040 HTTP/1.1" 200 17428132
+[2020-08-10 17:55:19,828] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\testcases\case_new\admin\case_Platform_PartnerList.py changed, reloading.
+[2020-08-10 17:55:20,926] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

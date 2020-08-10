@@ -19,7 +19,7 @@ from login.templates.utils.confutils import getcurrentPath, getAdminName
 class case_Platform_PartnerList(unittest.TestCase):
 
     def test_platform_partnerList(self):
-        """后台节目搜索"""
+        """分成合作方列表页"""
         # 登录并获取token
         admin_token = login_admin()
         # 获取admin接口url
