@@ -1,0 +1,11 @@
+[2020-08-10 14:24:56,312] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 14:25:07,158] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-10 14:25:07,174] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-10 14:25:09,768] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-10 14:25:09,769] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-10 14:25:13,047] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /platform/settlement_not_vip HTTP/1.1" 200 3506
+[2020-08-10 14:25:13,070] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/send_vip.css HTTP/1.1" 304 0
+[2020-08-10 14:33:35,603] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-10 14:34:07,847] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 14:53:25,453] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-10 14:53:26,540] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
