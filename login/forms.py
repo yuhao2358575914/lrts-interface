@@ -106,6 +106,7 @@ class ReportUtils(forms.Form):
     api_choice = (
         ('yyting-apps-api', 'yyting-apps-api'),
         ('yyting-apps-admin','yyting-apps-admin'),
+        ('platform-billing-admin','platform-billing-admin')
     )
     envId = forms.ChoiceField(label="测试环境", choices=host_name)
     test_type = forms.ChoiceField(label='自动化用例执行类型', choices=test_choice)

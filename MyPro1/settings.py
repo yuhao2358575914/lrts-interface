@@ -78,27 +78,27 @@ WSGI_APPLICATION = 'MyPro1.wsgi.application'
 
 pymysql.install_as_MySQLdb()
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'mysite',
-#         'HOST': 'localhost',
-#         'USER': 'root',
-#         'PASSWORD': '123456',
-#         'PORT': '3306',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'autotest',
-        'HOST': '192.168.1.175',
-        'USER': 'autotest_rw',
-        'PASSWORD': 'UnzQ=iwr9924G.4Hnzej@Cm8+249',
+        'NAME': 'mysite',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': '123456',
         'PORT': '3306',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'autotest',
+#         'HOST': '192.168.1.175',
+#         'USER': 'autotest_rw',
+#         'PASSWORD': 'UnzQ=iwr9924G.4Hnzej@Cm8+249',
+#         'PORT': '3306',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators

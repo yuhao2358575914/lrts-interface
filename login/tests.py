@@ -102,3 +102,15 @@ from login.templates.utils import getconf
 # print(r.text)
 # print(r.status_code)
 
+def geturl(parameters):
+    keys = []
+    for k, v in parameters.items():
+        keys.append(k)
+    keys.sort(reverse=False)
+    url = ''
+    for key in keys:
+        url = url + key + "=" + parameters[key] + "&"
+    return url.rstrip('&')
+if __name__=='__main__':
+    data={}
+    geturl(data)

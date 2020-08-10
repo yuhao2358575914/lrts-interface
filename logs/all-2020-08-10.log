@@ -9,3 +9,139 @@
 [2020-08-10 14:34:07,847] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2020-08-10 14:53:25,453] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
 [2020-08-10 14:53:26,540] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 14:56:02,847] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-10 14:56:03,917] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 14:56:05,885] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-10 14:56:07,071] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 14:59:50,234] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3101
+[2020-08-10 14:59:50,246] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/run_test.css HTTP/1.1" 304 0
+[2020-08-10 15:03:19,374] [autotest_view.py:103] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200810150237', 'result': {'testAll': 46, 'testPass': 37, 'testFail': 9, 'testError': 0}}
+[2020-08-10 15:03:21,035] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=1NqntoJWnoI4n8LZ9XyesI4qtkcAO6aCCg5G9uOGzhSeJMAl7ojHSJhRTGByztwE&test_type=All&envId=3&project=yyting-apps-admin HTTP/1.1" 200 101
+[2020-08-10 16:31:08,950] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-10 16:31:14,601] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3136
+[2020-08-10 16:31:47,878] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /add_cases/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'case_creater' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Auto\testplat\login\viewas\test_view\cases_views.py", line 141, in add_cases
+    cases.save()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1392, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python37\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'case_creater' cannot be null")
+[2020-08-10 16:31:47,888] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /add_cases/ HTTP/1.1" 500 145
+[2020-08-10 16:32:22,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12086
+[2020-08-10 16:32:24,371] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2210
+[2020-08-10 16:32:24,401] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/css/login.css HTTP/1.1" 304 0
+[2020-08-10 16:32:24,415] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/img/photos/timg3.jpg HTTP/1.1" 304 0
+[2020-08-10 16:32:32,467] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 302 0
+[2020-08-10 16:32:32,484] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12094
+[2020-08-10 16:32:34,075] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3136
+[2020-08-10 16:33:03,844] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /add_cases/ HTTP/1.1" 200 3283
+[2020-08-10 16:33:05,087] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /add_cases/ HTTP/1.1" 200 3389
+[2020-08-10 16:33:08,521] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_detail/ HTTP/1.1" 200 45225
+[2020-08-10 16:33:29,672] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /delete_case/?delete_id=42 HTTP/1.1" 302 0
+[2020-08-10 16:33:29,695] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-10 16:33:33,184] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/3 HTTP/1.1" 200 12956
+[2020-08-10 16:33:37,398] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=43 HTTP/1.1" 200 54
+[2020-08-10 16:33:55,864] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /case_edit/?edit_id=43 HTTP/1.1" 200 2397
+[2020-08-10 16:34:04,734] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=43 HTTP/1.1" 200 54
+[2020-08-10 16:34:28,294] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12094
+[2020-08-10 16:34:30,307] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /add_cases/ HTTP/1.1" 200 3136
+[2020-08-10 16:34:32,419] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-10 16:34:35,121] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/3 HTTP/1.1" 200 12956
+[2020-08-10 16:34:36,511] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=43 HTTP/1.1" 200 54
+[2020-08-10 16:37:59,531] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=31 HTTP/1.1" 302 0
+[2020-08-10 16:37:59,552] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-10 16:38:11,733] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=15 HTTP/1.1" 302 0
+[2020-08-10 16:38:11,753] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-10 16:38:14,356] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12094
+[2020-08-10 16:38:21,284] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-10 16:38:23,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/3 HTTP/1.1" 200 12956
+[2020-08-10 16:42:26,407] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=43 HTTP/1.1" 200 54
+[2020-08-10 16:42:46,405] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 16:42:51,978] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=43 HTTP/1.1" 200 54
+[2020-08-10 16:43:41,542] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-10 16:43:44,192] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/1 HTTP/1.1" 200 16461
+[2020-08-10 16:43:46,498] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/2 HTTP/1.1" 200 15507
+[2020-08-10 16:43:49,273] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/2 HTTP/1.1" 200 15507
+[2020-08-10 16:43:51,320] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /cases_pages/3 HTTP/1.1" 200 12956
+[2020-08-10 16:53:34,764] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 16:53:47,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_case/?run_id=43 HTTP/1.1" 200 54
+[2020-08-10 17:10:38,698] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\forms.py changed, reloading.
+[2020-08-10 17:10:39,787] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:10:55,816] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\forms.py changed, reloading.
+[2020-08-10 17:10:56,890] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:20:33,010] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12089
+[2020-08-10 17:20:33,082] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/login/js/echarts.min.js HTTP/1.1" 304 0
+[2020-08-10 17:20:33,256] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2020-08-10 17:20:33,257] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
+[2020-08-10 17:20:40,020] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
