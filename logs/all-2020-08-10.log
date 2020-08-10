@@ -145,3 +145,16 @@ django.db.utils.IntegrityError: (1048, "Column 'case_creater' cannot be null")
 [2020-08-10 17:20:33,256] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
 [2020-08-10 17:20:33,257] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 179
 [2020-08-10 17:20:40,020] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:20:54,699] [log.py:228] [log:log_response] [WARNING]- Not Found: /run_case
+[2020-08-10 17:20:54,700] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /run_case HTTP/1.1" 404 179
+[2020-08-10 17:20:58,100] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12094
+[2020-08-10 17:21:03,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/ HTTP/1.1" 200 3285
+[2020-08-10 17:23:20,423] [autotest_view.py:103] [autotest_view:run_test] [INFO]- 测试完成！ 测试结果集合为:{'filename': 'test_report20200810172203', 'result': {'testAll': 47, 'testPass': 37, 'testFail': 10, 'testError': 0}}
+[2020-08-10 17:23:20,516] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /run_test/?csrfmiddlewaretoken=FaOVKVHPxlvyDJ1fPO3N0hDNLl8lVCN0gDteq1MzJeFIZnQBNfOgqiQebHxjGZ92&test_type=All&envId=3&project=platform-billing-admin HTTP/1.1" 200 106
+[2020-08-10 17:24:00,737] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report_list10/ HTTP/1.1" 200 12387
+[2020-08-10 17:24:00,962] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/pass_stats/ HTTP/1.1" 200 106
+[2020-08-10 17:24:00,968] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/echarts/ HTTP/1.1" 200 80
+[2020-08-10 17:24:06,572] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report/test_report20200810172203 HTTP/1.1" 200 15397166
+[2020-08-10 17:31:54,139] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:33:12,764] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-10 17:33:13,862] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
