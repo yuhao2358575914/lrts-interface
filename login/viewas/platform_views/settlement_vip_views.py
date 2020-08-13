@@ -23,10 +23,11 @@ def settlement_vip(request):
         print('Settlement_form的类型',type(settlement_form))
         if settlement_form.is_valid():
             Settlement_Date = settlement_form.cleaned_data.get('settlement_date')
+            print('hhhh哈哈哈哈哈哈',Settlement_Date)
             Settlement_Res_ID = settlement_form.cleaned_data.get('settlement_res_id')
             Settlement_Partner_ID = settlement_form.cleaned_data.get('settlement_partner_id')
             Settlement_Partner_Rate = settlement_form.cleaned_data.get('settlement_partner_rate')
-            settlement_record=SettlementVIP(int(Settlement_Date),int(Settlement_Res_ID),int(Settlement_Partner_ID),Settlement_Partner_Rate).platform_book_settlement_amount(1)
+            settlement_record=SettlementVIP(Settlement_Date,Settlement_Res_ID,Settlement_Partner_ID,Settlement_Partner_Rate).platform_book_settlement_amount(1)
             #从结算结果中取值存表
             results = models.settlement_vip_models()
             results.sum_cash_flow = settlement_record.get('book_platform_amount_final')
