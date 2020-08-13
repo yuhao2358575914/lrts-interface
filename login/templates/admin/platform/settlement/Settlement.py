@@ -210,6 +210,7 @@ if __name__=="__main__":
     # Settlement().cp_settlement(33214,2)
     '''依次传入资源id，合作方id，合作业务(1电子阅读 2付费收听 4主播打赏  8漫画)'''
     # Settlement(92426468, 1489,4).settlement_partner()
-    Settlement(202006,33215,1596,2).settlement_partner()
+    Settlement(202008,33214,1596,2).settlement_partner()
+    # Settlement(202008,45051, 1680, 2).settlement_partner()
     # Settlement(147, 1638, 8).settlement_partner()
 

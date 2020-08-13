@@ -146,3 +146,6 @@ def check_information(business, partnerType):
         print('--------主播合作方：' + Anchor_partnerName + '(id:' + str(Anchor_partnerId) + ')' + '资源审核通过！！-----------')
     else:
         print('--------主播合作方资源审核失败！！-----------')
+
+if __name__=='__main__':
+    add_AnchorPartner(1,2)

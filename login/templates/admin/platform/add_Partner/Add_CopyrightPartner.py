@@ -184,3 +184,6 @@ def check_information(business, partnerType):
             '--------版权合作方：' + copyright_partnerName + '(id:' + str(copyright_partnerId) + ')' + '资源审核通过！！-----------')
     else:
         print('--------版权合作方资源审核失败！！-----------')
+
+if __name__=='__main__':
+    add_CopyrightPartner(2,2)

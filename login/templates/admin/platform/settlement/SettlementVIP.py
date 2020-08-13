@@ -255,7 +255,8 @@ class SettlementVIP():
         # 合作方分成金额
         partner_divide_money_original = (book_platform_amount - book_platform_amount * tech_service_rate) * partner_divide_rate
         partner_divide_money_median = str(partner_divide_money_original).split('.', 1)
-        partner_divide_money = Decimal(partner_divide_money_median[0] + '.' + partner_divide_money_median[1][0:6])
+        # partner_divide_money = Decimal(partner_divide_money_median[0] + '.' + partner_divide_money_median[1][0:6])
+        partner_divide_money = Decimal(partner_divide_money_median[0])
         print('懒人技术服务费(份额内）:' + str(tech_service_consumption / 100))
         print('预计合作方会员分成金额:' + str(partner_divide_money / 100))
         '''合作方书籍所属等级当月公司补贴金额'''
@@ -365,8 +366,8 @@ class Channel_Settlement():
         # print('合作方id:' + str(self.partner_id) + '|' + '资源id:' + str(self.entity_id))
         print('合作方id:' + str(self.partner_id) )
         print('本月实际流水/本月可分成流水:' + str(can_divide_amount/100))
+        print('第三方支付手续费：' + str(pay_amount_in / 100))
         print('渠道合作方分成基数:' + str(divide_baseAmount_final/100))
-        print('第三方支付手续费：' + str(pay_amount_in/100))
         print('懒人技术服务费：' + str(channel_lr_amount_in/100))
         print('渠道分成金额/当月税前：' + str(settlement_amount/100))
         return [str(can_divide_amount/100),str(divide_baseAmount_final/100),str(pay_amount_in/100),str(channel_lr_amount_in/100),str(settlement_amount/100)]
@@ -395,10 +396,10 @@ class Channel_Settlement():
 
 if __name__=='__main__':
     #版权/主播合作方 分别传入结算月份，书籍id，合作方id,以及合作方当月分成天数占比
-    SettlementVIP(202007,56444559,1596,1).platform_book_settlement_amount()
+    SettlementVIP(202008,56444559,1596,1).platform_book_settlement_amount()
     # SettlementVIP(202007,930,1695,0.096774).platform_book_settlement_amount()
-    #渠道合作方 分成传入结算月份，合作方id
-    # Channel_Settlement(202007,1698).channel_platform_book_settlement_amount()
+    # 渠道合作方 分成传入结算月份，合作方id
+    # Channel_Settlement(202008,1666).channel_platform_book_settlement_amount()
     # SettlementVIP(202006,32945,1459,1).adjust_percent()
 
 

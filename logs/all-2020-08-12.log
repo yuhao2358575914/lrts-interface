@@ -1,0 +1,30 @@
+[2020-08-12 14:54:01,677] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 14:55:15,048] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 14:55:16,217] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 14:56:27,989] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 14:56:29,096] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 14:56:36,957] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 14:56:38,057] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 15:07:00,863] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 15:07:01,957] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 15:07:12,314] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 15:07:13,413] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 15:07:40,313] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 15:07:41,421] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 15:09:31,782] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 15:09:32,883] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 17:09:32,026] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
+[2020-08-12 17:09:33,333] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 17:33:04,465] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-12 17:33:05,551] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 17:44:40,154] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-12 17:44:41,262] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 17:47:13,109] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-12 17:47:14,202] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 17:53:49,764] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-12 17:53:50,846] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 17:54:57,865] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-12 17:54:59,257] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 18:01:14,837] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\SettlementVIP.py changed, reloading.
+[2020-08-12 18:01:15,937] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-13 10:18:42,252] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\add_Partner\Add_AnchorPartner.py changed, reloading.

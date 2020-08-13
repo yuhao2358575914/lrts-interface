@@ -484,3 +484,6 @@ django.db.utils.ProgrammingError: (1146, "Table 'autotest.login_settlement_vip_m
 [2020-08-10 17:52:21,773] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /test_report/test_report20200810175040 HTTP/1.1" 200 17428132
 [2020-08-10 17:55:19,828] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\testcases\case_new\admin\case_Platform_PartnerList.py changed, reloading.
 [2020-08-10 17:55:20,926] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-10 17:56:36,247] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\MyPro1\settings.py changed, reloading.
+[2020-08-10 17:56:37,358] [autoreload.py:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-08-12 14:54:00,464] [autoreload.py:222] [autoreload:trigger_reload] [INFO]- E:\Auto\testplat\login\templates\admin\platform\settlement\Settlement.py changed, reloading.
