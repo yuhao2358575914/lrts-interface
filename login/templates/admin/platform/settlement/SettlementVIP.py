@@ -95,7 +95,11 @@ class SettlementVIP():
         #查询书籍当月的有效播放次数记录
         book_playCount_record=billing_select("select * from p_member_play_month pmpm where entity_id=%s and product_type=%s and `month`='%s'  and status=0"
                                           %(self.entity_id,product_type,self.settlement_month),"billing")
-        book_playCount=book_playCount_record[0]['play_count']
+        if book_playCount_record:
+            book_playCount=book_playCount_record[0]['play_count']
+        else:
+            book_playCount=0
+            print('当前结算月份该资源播放记录为空！！！')
         #查询书籍所在等级的奖励倍数
         award_multiple_record=billing_select('''select award_multiple from p_member_grade pmg where grade_type = 1 and id in (select grade_id from p_member_grade_book pmgb where entity_id=%s and product_type=%s and status=1)'''
                                             %(self.entity_id,product_type),"billing")
@@ -125,7 +129,11 @@ class SettlementVIP():
                                                         GROUP BY grade_id 
                                                         ) a left JOIN p_member_grade grade on id = a.grade_id ;'''%(self.settlement_month,product_type,),'billing')
         # 查询合作方的VIP合作业务
-        partner_record = billing_select("SELECT * from p_partner_service where partner_id='%s' and service_type=6 ORDER BY id desc LIMIT 1" % (self.partner_id), "billing")
+        partner_records = billing_select("SELECT * from p_partner_service where partner_id='%s' and service_type=6 ORDER BY id desc LIMIT 1" % (self.partner_id), "billing")
+        if partner_records:
+            partner_record=partner_records
+        else:
+            partner_record=0
         #查询主播合作方VIP分成资源记录
         Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 3 order by create_time desc limit 1;"
                                             % (self.entity_id), "billing")
@@ -168,6 +176,7 @@ class SettlementVIP():
             grade_amplify_playCount = grade_playCount * award_multiple
             print('书籍所在等级放大后的有效播放次数:' + str(grade_amplify_playCount))
         else:
+            grade_playCount=0
             grade_amplify_playCount=0
             print('书籍所在等级放大后的有效播放次数:',grade_amplify_playCount)
         if platform_base_billing_amount:
@@ -177,10 +186,14 @@ class SettlementVIP():
             for every1 in grade_record:
                 playCount_multiple += every1['SUM(pmpm.play_count )'] * Decimal(str(every1['award_multiple']))
             #整个平台当月播放单价，分后保留6位小数，多余小数截断
-            platform_play_price_original = platform_base_billing_amount / playCount_multiple
-            platform_play_price_str = str(platform_play_price_original).split('.', 1)
-            platform_play_price = Decimal(platform_play_price_str[0] + '.' + platform_play_price_str[1][0:6])
-            print('平台当月播放单价：' + str(platform_play_price / 100))
+            if playCount_multiple:
+                platform_play_price_original = platform_base_billing_amount / playCount_multiple
+                platform_play_price_str = str(platform_play_price_original).split('.', 1)
+                platform_play_price = Decimal(platform_play_price_str[0] + '.' + platform_play_price_str[1][0:6])
+                print('平台当月播放单价：' + str(platform_play_price / 100))
+            else:
+                platform_play_price = 0
+                print('平台当月播放单价：',0)
         else:
             platform_play_price=0
             print('平台当月播放单价：',platform_play_price)
@@ -199,7 +212,7 @@ class SettlementVIP():
             book_platform_amount_original_str = str(book_platform_amount_original).split('.', 1)
             # 某个平台某本书的分成基数,精确到分，取整
             book_platform_divide_baseNum = book_platform_amount_original_str[0]
-            book_platform_amount = Decimal(book_platform_divide_baseNum + '.' + book_platform_amount_original_str[1][0:6]) * self.book_days_rate
+            book_platform_amount = Decimal(book_platform_divide_baseNum + '.' + book_platform_amount_original_str[1][0:6]) * book_days_rate
             book_platform_amount_final = str(book_platform_amount).split('.', 1)[0]
             # print(platform_play_price)
             print('会员书籍每月每本书的会员收入：' + str(book_platform_amount / 100))
@@ -210,12 +223,12 @@ class SettlementVIP():
             print('会员书籍每月每本书的会员收入:',book_platform_amount)
             print('会员书籍每月每本书的分成基数/本月可分成流水：',book_platform_amount_final)
         '''查询合作方的分成比例、技术服务费率'''
-        partner_record = settlementAmount_sql_record[5][0]#合作方信息
+        partner_record = settlementAmount_sql_record[5]#合作方信息
         if partner_record:
-            cooperator_type = partner_record['sp_type']  # 合作方类型 1渠道 2版权3主播 4分销商
-            tech_service_rate = partner_record['channel_rate']  # 版权/主播合作方的技术服务费比例
+            cooperator_type = partner_record[0]['sp_type']  # 合作方类型 1渠道 2版权3主播 4分销商
+            tech_service_rate = partner_record[0]['channel_rate']  # 版权/主播合作方的技术服务费比例
             if cooperator_type == 2:
-                partner_rate = partner_record['partner_rate']  # 版权合作方分成比例
+                partner_rate = partner_record[0]['partner_rate']  # 版权合作方分成比例
                 print('版权合作方分成比例：'+str(partner_rate))
             elif cooperator_type==3:
                 Anch_partner_record = settlementAmount_sql_record[6][0]
@@ -223,8 +236,10 @@ class SettlementVIP():
                 print('主播合作方分成比例：' + str(partner_rate))
             else:
                 partner_rate=0
-                print('--------合作方为渠道合作方，请检查合作方id！！----------')
-                return {'partner_rate':partner_rate}
+                book_platform_amount_final=0
+                print('书籍每月分成基数/本月可分成流水：' + str(book_platform_amount_final))
+                print('--------合作方为渠道合作方，请检查合作方id！！!----------')
+                return {'partner_rate':partner_rate,'book_platform_amount_final':book_platform_amount_final}
         else:
             print("未查询到合作方或合作方无该业务！！！")
             # partner_rate=0
@@ -239,11 +254,14 @@ class SettlementVIP():
             print('合作方当月公司补贴金额:',partner_company_subsidy_money)
             print('合作方分成金额/当月税前:',partner_divide_money_final)
             return {
+                    'book_playCount':0,
+                    'book_platform_amount_final':0,
+                    'partner_divide_rate':0,
                     'partner_divide_money': 0,
                     'tech_service_consumption': 0,
                     'book_company_subsidy_money':0,
                     'partner_company_subsidy_money':0,
-                     'partner_divide_money_final':0,
+                    'partner_divide_money_final':0,
                     }
         # 合作方分成比例
         partner_divide_rate = partner_rate
@@ -269,11 +287,17 @@ class SettlementVIP():
             # book_company_subsidy_money=Decimal(book_company_subsidy_money_median[0])
             print('合作方书籍所属等级当月公司补贴金额:' + str(book_company_subsidy_money / 100))
             # 书籍当月的有效播放次数与书籍所属等级当月总的有效播放次数的比值
-            book_grade_playCount_ratio_original = book_playCount / grade_playCount
-            book_grade_playCount_ratio_median = str(book_grade_playCount_ratio_original).split('.', 1)
-            book_grade_playCount_ratio = Decimal(book_grade_playCount_ratio_median[0] + '.' + book_grade_playCount_ratio_median[1][0:6])
+            if grade_playCount:
+                book_grade_playCount_ratio_original = book_playCount / grade_playCount
+            else:
+                book_grade_playCount_ratio_original=0
+            if book_grade_playCount_ratio_original:
+                book_grade_playCount_ratio_median = str(book_grade_playCount_ratio_original).split('.', 1)
+                book_grade_playCount_ratio = Decimal(book_grade_playCount_ratio_median[0] + '.' + book_grade_playCount_ratio_median[1][0:6])
+            else:
+                book_grade_playCount_ratio=0
             # 合作方当月公司补贴金额
-            partner_company_subsidy_money_original = book_grade_playCount_ratio * book_company_subsidy_money*self.book_days_rate
+            partner_company_subsidy_money_original = book_grade_playCount_ratio * book_company_subsidy_money*book_days_rate
             partner_company_subsidy_money_median = str(partner_company_subsidy_money_original).split('.', 1)
             # partner_company_subsidy_money_1 = partner_company_subsidy_money_median[0] + '.' + partner_company_subsidy_money_median[1][0:6]
             partner_company_subsidy_money=Decimal(partner_company_subsidy_money_median[0])
@@ -291,11 +315,11 @@ class SettlementVIP():
         partner_divide_money_final = math.floor(partner_divide_money + partner_company_subsidy_money)
         print('合作方分成金额/当月税前：' + str(partner_divide_money_final / 100))
         # return {'总流水(本月可分成流水/分成基数)':Decimal(book_platform_amount_final)/100,'书籍有效播放次数':book_playCount,'分成比例':partner_divide_rate,'分成金额':Decimal(partner_divide_money_final)/100,'懒人技术服务费':Decimal(tech_service_consumption)/100}
-        return {'book_platform_amount_final': Decimal(book_platform_amount_final) / 100,
-                'book_playCount': book_playCount,
-                'partner_divide_rate': partner_divide_rate,
-                'partner_divide_money_final': Decimal(partner_divide_money_final) / 100,
-                'tech_service_consumption': Decimal(tech_service_consumption) / 100}
+        return {'book_platform_amount_final': str(Decimal(book_platform_amount_final) / 100),
+                'book_playCount': str(book_playCount),
+                'partner_divide_rate': str(partner_divide_rate),
+                'partner_divide_money_final': str(Decimal(partner_divide_money_final) / 100),
+                'tech_service_consumption': str(Decimal(tech_service_consumption) / 100)}
         # return [book_playCount,Decimal(book_platform_amount_final)/100,Decimal(tech_service_consumption)/100,partner_divide_money/100,Decimal(partner_company_subsidy_money)/100,Decimal(partner_divide_money_final)/100]
 
     def book_settlement_amount(self):
@@ -306,10 +330,10 @@ class SettlementVIP():
         #芽芽故事平台会员书籍每月每本书的会员收入
         print('-----------芽芽故事-------------------')
         yaya=self.platform_book_settlement_amount(2)
-        book_playCount=lr[0]+yaya[0]
-        book_platform_divide_baseNum=lr[1]+yaya[1]
-        tech_service_consumption=lr[2]+yaya[2]
-        partner_divide_money_final=lr[5]+yaya[5]
+        book_platform_divide_baseNum=lr['book_platform_amount_final']+yaya['book_platform_amount_final']
+        book_playCount = lr['book_playCount'] + yaya['book_playCount']
+        tech_service_consumption=lr['tech_service_consumption']+yaya['tech_service_consumption']
+        partner_divide_money_final=lr['partner_divide_money_final']+yaya['partner_divide_money_final']
         print('-------------懒人听书+芽芽故事-------------')
         print('合作方id:' + str(self.partner_id) + '|' + '资源id:' + str(self.entity_id))
         print('懒人+芽芽的书籍当月有效播放次数：' + str(book_playCount))
@@ -364,13 +388,17 @@ class Channel_Settlement():
         #渠道合作方结算金额/分成金额
         settlement_amount=math.floor(settlement_amount_original)
         # print('合作方id:' + str(self.partner_id) + '|' + '资源id:' + str(self.entity_id))
+        print('结算月份:'+str(self.settlement_month))
         print('合作方id:' + str(self.partner_id) )
         print('本月实际流水/本月可分成流水:' + str(can_divide_amount/100))
         print('第三方支付手续费：' + str(pay_amount_in / 100))
         print('渠道合作方分成基数:' + str(divide_baseAmount_final/100))
         print('懒人技术服务费：' + str(channel_lr_amount_in/100))
         print('渠道分成金额/当月税前：' + str(settlement_amount/100))
-        return [str(can_divide_amount/100),str(divide_baseAmount_final/100),str(pay_amount_in/100),str(channel_lr_amount_in/100),str(settlement_amount/100)]
+        return {'settlement_month':str(self.settlement_month),'partner_id':str(self.partner_id),'can_divide_amount':str(can_divide_amount/100),
+                'pay_amount_in':str(pay_amount_in/100),'divide_baseAmount_final':str(divide_baseAmount_final/100),
+                'channel_lr_amount_in':str(channel_lr_amount_in/100),'settlement_amount':str(settlement_amount/100)}
+        # return [str(can_divide_amount/100),str(divide_baseAmount_final/100),str(pay_amount_in/100),str(channel_lr_amount_in/100),str(settlement_amount/100)]
 
     def channel_book_settlement_amount(self):
         '''渠道合作方懒人+芽芽结算数据'''
@@ -396,7 +424,7 @@ class Channel_Settlement():
 
 if __name__=='__main__':
     #版权/主播合作方 分别传入结算月份，书籍id，合作方id,以及合作方当月分成天数占比
-    SettlementVIP(202008,56444559,1596,1).platform_book_settlement_amount()
+    SettlementVIP(202009,931,1899,1).platform_book_settlement_amount()
     # SettlementVIP(202007,930,1695,0.096774).platform_book_settlement_amount()
     # 渠道合作方 分成传入结算月份，合作方id
     # Channel_Settlement(202008,1666).channel_platform_book_settlement_amount()
