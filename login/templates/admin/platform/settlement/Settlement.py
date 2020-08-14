@@ -87,6 +87,7 @@ class Settlement(object):
             lr_sum_cash_flow_billing_2 = 0
             lr_sum_commission_out = 0
             lr_sum_cash_flow = 0
+            tech_service_out=0
             for day in lr_cp_daily_info:
                 lr_sum_cash_flow += day['sum_cash_flow']  # 统计本月实际流水
                 channel_partner_id=day['channel_partner_id'] #查看关联的渠道合作方id
@@ -210,7 +211,7 @@ if __name__=="__main__":
     # Settlement().cp_settlement(33214,2)
     '''依次传入资源id，合作方id，合作业务(1电子阅读 2付费收听 4主播打赏  8漫画)'''
     # Settlement(92426468, 1489,4).settlement_partner()
-    Settlement(202008,33214,1596,2).settlement_partner()
+    Settlement(202007,96860832,1665,2).settlement_partner()
     # Settlement(202008,45051, 1680, 2).settlement_partner()
     # Settlement(147, 1638, 8).settlement_partner()
 

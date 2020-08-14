@@ -122,7 +122,7 @@ class settlement_not_vip_form(forms.Form):
                                         widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入结算资源id"}))
     settlement_partner_id = forms.CharField(label='结算合作方id', max_length=64,
                                             widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入合作方id"}))
-    settlement_cooperation_business = forms.CharField(label='结算合作业务的值', max_length=64,
+    settlement_cooperation_business = forms.CharField(label='结算合作业务的值 ( 1电子阅读 2付费收听 4主播打赏 8漫画 )', max_length=64,
                                                       widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入合作业务的值"}))
 class settlement_vip_form(forms.Form):
     '''结算VIP会员业务'''
