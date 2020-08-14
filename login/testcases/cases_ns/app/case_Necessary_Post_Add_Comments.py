@@ -15,9 +15,9 @@ from login.templates.utils import getconf, httputils, dbutil
 from login.templates.utils.utils import ranstr
 
 
-class case_Necessary_Book_Add_Comments(unittest.TestCase):
+class case_Necessary_Post_Add_Comments(unittest.TestCase):
 
-    def test_book_add_comments(self):
+    def test_post_add_comments(self):
         """帖子添加评论"""
         # 数据准备
         Id = dbutil.select('SELECT id FROM t_group_post WHERE STATUS=0 LIMIT 1', 'db_audiobook')
