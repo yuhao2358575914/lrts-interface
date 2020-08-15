@@ -1,4 +1,4 @@
-from login.formsgroup import platform_forms
+from login.forms_group import platform_forms
 from login.templates.admin.platform.add_Partner.Add_AnchorPartner import add_AnchorPartner
 from login.templates.admin.platform.common.Create_Number import create_PhoneNum, create_IDNumber, \
     create_CreditCardNumbers

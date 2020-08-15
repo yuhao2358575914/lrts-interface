@@ -1,6 +1,6 @@
 import json
 
-from login.formsgroup import platform_forms
+from login.forms_group import platform_forms
 from login.templates.admin.platform.add_Partner.Add_ChannelPartner import add_ChannelPartner
 from login.templates.admin.platform.channel_manage.developer_manage import add_channel_by_type, approve_channel_by_id
 from login.templates.utils.confutils import login_control, init_configs

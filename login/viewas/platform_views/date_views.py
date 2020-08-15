@@ -1,4 +1,4 @@
-from login.formsgroup import platform_forms
+from login.forms_group import platform_forms
 from login.templates.admin.platform.add_Partner.Add_AnchorPartner import add_AnchorPartner
 from login.templates.admin.platform.settlement.get_CurrentTime import month_days
 from login.templates.utils.confutils import login_control, init_configs

@@ -39,6 +39,7 @@ class Settlement(object):
             end_time = year_month + '-' + str(days)
             print(end_time)
         #判断合作方的合作业务
+
         if self.sp_type==1:
             business='电子阅读'
         elif self.sp_type==2:
@@ -47,6 +48,8 @@ class Settlement(object):
             business='主播打赏'
         elif self.sp_type==8:
             business='漫画'
+        else:
+            business = 0
         '''查询版权/主播/渠道合作方的相关分成信息'''
         partner_record = billing_select("SELECT * from billing.p_partner_service where partner_id='%s' and service_type=%s ORDER BY id desc LIMIT 1" % (self.partner_id,self.sp_type), "billing")
         if partner_record:
@@ -68,7 +71,8 @@ class Settlement(object):
                     pass
         else:
             print("未查询到合作方或合作方无该业务！！！")
-            return {'lr_sum_cash_flow': 0,
+            return {'settlement_month':self.settlement_month,'partner_id':self.partner_id,'entity_id':self.entity_id,'business':business,
+                    'lr_sum_cash_flow': 0,
                     'lr_sum_cash_flow_billing': 0,
                     'lr_channel_partner_amount': 0,
                     'lr_sum_commission_in': 0,
@@ -119,7 +123,8 @@ class Settlement(object):
             lr_tech_amount=0
             baseBillingAounmt_subtract_techAmount=0
             print('合作方书籍无日结数据！！！')
-            return {'lr_sum_cash_flow': str(lr_sum_cash_flow / 100),
+            return {'settlement_month':self.settlement_month,'partner_id':self.partner_id,'entity_id':self.entity_id,'business':business,
+                    'lr_sum_cash_flow': str(lr_sum_cash_flow / 100),
                     'lr_sum_cash_flow_billing': str(lr_sum_cash_flow_billing / 100),
                     'lr_channel_partner_amount': str(lr_channel_partner_amount / 100),
                     'lr_sum_commission_in': str(lr_sum_commission_in / 100),
@@ -211,7 +216,7 @@ if __name__=="__main__":
     # Settlement().cp_settlement(33214,2)
     '''依次传入资源id，合作方id，合作业务(1电子阅读 2付费收听 4主播打赏  8漫画)'''
     # Settlement(92426468, 1489,4).settlement_partner()
-    Settlement(202007,96860832,1665,2).settlement_partner()
+    Settlement(202008,56444559,1670,2).settlement_partner()
     # Settlement(202008,45051, 1680, 2).settlement_partner()
     # Settlement(147, 1638, 8).settlement_partner()
 

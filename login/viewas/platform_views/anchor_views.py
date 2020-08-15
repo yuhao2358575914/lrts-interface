@@ -1,4 +1,4 @@
-from login.formsgroup import platform_forms
+from login.forms_group import platform_forms
 from login.templates.admin.platform.add_Partner.Add_AnchorPartner import add_AnchorPartner
 from login.templates.utils.confutils import login_control, init_configs
 from django.shortcuts import redirect, render

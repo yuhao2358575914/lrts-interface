@@ -28,6 +28,9 @@
                         <thead>
                         <tr class="success">
                             <th>序号</th>
+                            <th>结算年月份</th>
+                            <th>合作方id</th>
+                            <th>结算资源id</th>
                             <th>本月实际流水(可分成流水/分成基数)</th>
                             <th>书籍有效播放次数</th>
                             <th>分成比例</th>
@@ -40,6 +43,9 @@
                                 {%for result in settlement_data%}
                                     <tr class="success">
                                     <td>{{ forloop.counter }}</td>
+                                    <td>{{result.settlement_month}}</td>
+                                    <td>{{result.partner_id}}</td>
+                                    <td>{{result.entity_id}}</td>
                                     <td>{{result.sum_cash_flow}}</td>
                                     <td>{{result.book_playCount}}</td>
                                     <td>{{result.partner_divide_rate}}</td>

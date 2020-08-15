@@ -149,11 +149,14 @@ class settlement_not_vip_models(models.Model):
 
 class settlement_vip_models(models.Model):
     '''结算VIP会员业务models类'''
-    sum_cash_flow = models.CharField(max_length=64)
-    book_playCount = models.CharField(max_length=64)
-    partner_divide_rate = models.CharField(max_length=64)
-    partner_divide_money_final=models.CharField(max_length=64)
-    tech_service_consumption=models.CharField(max_length=64)
+    settlement_month = models.CharField(max_length=32, default='Null')
+    partner_id = models.CharField(max_length=32, default='Null')
+    entity_id = models.CharField(max_length=32, default='Null')
+    sum_cash_flow = models.CharField(max_length=64,default='Null')
+    book_playCount = models.CharField(max_length=64,default='Null')
+    partner_divide_rate = models.CharField(max_length=64,default='Null')
+    partner_divide_money_final=models.CharField(max_length=64,default='Null')
+    tech_service_consumption=models.CharField(max_length=64,default='Null')
     create_time = models.DateTimeField(auto_now_add=True)
     update_time = models.DateTimeField()
     class Meta:

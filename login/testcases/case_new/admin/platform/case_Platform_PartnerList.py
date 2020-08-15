@@ -1,13 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/10 14:38
-# @Author  : caozhuo
-# @FileName: case_Admin_Necessary_Book_Search_byKeyWords.py
-# @Software: PyCharm
-"""
-后台节目搜索
 
-"""
 import json
 import random
 import unittest

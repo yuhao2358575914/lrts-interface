@@ -1,5 +1,5 @@
 from login import models
-from login.formsgroup import platform_forms
+from login.forms_group import platform_forms
 from login.templates.admin.platform.settlement.Settlement import Settlement
 from login.templates.utils.confutils import login_control, init_configs
 from django.shortcuts import redirect, render
@@ -19,13 +19,17 @@ def settlement_not_vip(request):
     if request.method:
         settlement_form = platform_forms.settlement_not_vip_form(request.POST)
         print('**************',settlement_form)
-        if settlement_form.is_valid():
+        if settlement_form.is_valid(): #校验表单有没错误
             Settlement_Date = settlement_form.cleaned_data.get('settlement_date')
             Settlement_Res_ID = settlement_form.cleaned_data.get('settlement_res_id')
+            PlatformType = int(settlement_form.cleaned_data.get('platformType'))
             Settlement_Partner_ID = settlement_form.cleaned_data.get('settlement_partner_id')
             Settlement_Cooperation_Business = settlement_form.cleaned_data.get('settlement_cooperation_business')
             print('数据类型',type(Settlement_Date))
-            settlement_record=Settlement(int(Settlement_Date),int(Settlement_Res_ID),int(Settlement_Partner_ID),int(Settlement_Cooperation_Business)).settlement_lr_yaya(1)
+            if PlatformType==1:
+                settlement_record = Settlement(Settlement_Date, Settlement_Res_ID, Settlement_Partner_ID,int(Settlement_Cooperation_Business)).settlement_lr_yaya(1)
+            else:
+                settlement_record = Settlement(Settlement_Date, Settlement_Res_ID, Settlement_Partner_ID,int(Settlement_Cooperation_Business)).settlement_lr_yaya(2)
             print('数据值：',settlement_record)
             print('数据类型：',type(settlement_record))
             #存表

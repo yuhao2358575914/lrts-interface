@@ -1,5 +1,5 @@
 from login import models
-from login.formsgroup import platform_forms
+from login.forms_group import platform_forms
 from login.templates.admin.platform.settlement.Settlement import Settlement
 from login.templates.admin.platform.settlement.SettlementVIP import SettlementVIP
 from login.templates.utils.confutils import login_control, init_configs
@@ -23,13 +23,20 @@ def settlement_vip(request):
         print('Settlement_form的类型',type(settlement_form))
         if settlement_form.is_valid():
             Settlement_Date = settlement_form.cleaned_data.get('settlement_date')
-            print('hhhh哈哈哈哈哈哈',Settlement_Date)
             Settlement_Res_ID = settlement_form.cleaned_data.get('settlement_res_id')
+            PlatformType=int(settlement_form.cleaned_data.get('platformType'))
+            print('懒人听书----------------------',PlatformType)
             Settlement_Partner_ID = settlement_form.cleaned_data.get('settlement_partner_id')
             Settlement_Partner_Rate = settlement_form.cleaned_data.get('settlement_partner_rate')
-            settlement_record=SettlementVIP(Settlement_Date,Settlement_Res_ID,Settlement_Partner_ID,Settlement_Partner_Rate).platform_book_settlement_amount(1)
+            if PlatformType==1:
+                settlement_record = SettlementVIP(Settlement_Date,Settlement_Res_ID,Settlement_Partner_ID,Settlement_Partner_Rate).platform_book_settlement_amount(1)
+            else:
+                settlement_record = SettlementVIP(Settlement_Date, Settlement_Res_ID, Settlement_Partner_ID,Settlement_Partner_Rate).platform_book_settlement_amount(2)
             #从结算结果中取值存表
             results = models.settlement_vip_models()
+            results.settlement_month = settlement_record.get('settlement_month')
+            results.partner_id = settlement_record.get('partner_id')
+            results.entity_id = settlement_record.get('entity_id')
             results.sum_cash_flow = settlement_record.get('book_platform_amount_final')
             results.book_playCount=settlement_record.get('book_playCount')
             results.partner_divide_rate=settlement_record.get('partner_divide_rate')
@@ -52,6 +59,6 @@ def settlement_vip_result(request):
     :param request:
     :return:
     '''
-    settlement_data = models.settlement_vip_models.objects.order_by('create_time').values()[0:10]
+    settlement_data = models.settlement_vip_models.objects.order_by('-create_time').values()[0:10]
     print('结算结果：', settlement_data)
     return render(request, 'login/platform/settlement_vip_result.html', {'settlement_data': settlement_data})
