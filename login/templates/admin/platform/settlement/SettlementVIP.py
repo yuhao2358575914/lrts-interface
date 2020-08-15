@@ -373,7 +373,7 @@ class Channel_Settlement():
         self.settlement_month = settlement_month
         self.partner_id=partner_id
 
-    def channel_platform_book_settlement_amount(self,product_type=1):
+    def channel_vip_platform_settlement_amount(self,product_type=1):
         '''渠道合作方结算计算'''
         date_style = str(self.settlement_month)
         year_month = date_style[0:4] + '-' + date_style[4:6]
@@ -389,7 +389,6 @@ class Channel_Settlement():
         member_order_item=billing_select('''SELECT * from p_member_order_item pmoi 
                                             where product_type=%s and channel_partner_id =%s and create_time BETWEEN '%s' and '%s'and status=0 and channel_amount >0;'''%(product_type,self.partner_id,start_time,end_time),'billing')
         if member_order_item:
-
             #数据初始化
             can_divide_amount=0
             pay_amount_in=0
@@ -420,9 +419,9 @@ class Channel_Settlement():
             print('合作方id:' + str(self.partner_id) )
             print('本月实际流水/本月可分成流水:' + str(can_divide_amount/100))
             print('第三方支付手续费：' + str(pay_amount_in / 100))
-            print('渠道合作方分成基数:' + str(divide_baseAmount_final/100))
+            print('合作方分成基数:' + str(divide_baseAmount_final/100))
             print('懒人技术服务费：' + str(channel_lr_amount_in/100))
-            print('渠道分成金额/当月税前：' + str(settlement_amount/100))
+            print('分成金额/当月税前：' + str(settlement_amount/100))
             return {'settlement_month':str(self.settlement_month),'partner_id':str(self.partner_id),
                     'can_divide_amount':str(can_divide_amount/100),
                     'divide_baseAmount_final':str(divide_baseAmount_final/100),
@@ -438,7 +437,7 @@ class Channel_Settlement():
                     'settlement_amount': 0}
         # return [str(can_divide_amount/100),str(divide_baseAmount_final/100),str(pay_amount_in/100),str(channel_lr_amount_in/100),str(settlement_amount/100)]
 
-    def channel_book_settlement_amount(self):
+    def channel_vip_settlement_amount(self):
         '''渠道合作方懒人+芽芽结算数据'''
         # 懒人听书平台会员书籍每月每本书的会员收入
         print('-----------懒人听书-------------------')
@@ -462,10 +461,10 @@ class Channel_Settlement():
 
 if __name__=='__main__':
     #版权/主播合作方 分别传入结算月份，书籍id，合作方id,以及合作方当月分成天数占比
-    SettlementVIP(202008,56444559,1670,1).platform_book_settlement_amount(2)
+    # SettlementVIP(202008,56444559,1670,1).platform_book_settlement_amount(2)
     # SettlementVIP(202007,930,1695,0.096774).platform_book_settlement_amount()
     # 渠道合作方 分成传入结算月份，合作方id
-    # Channel_Settlement(202008,1666).channel_platform_book_settlement_amount()
+    Channel_Settlement(202008,1666).channel_vip_platform_settlement_amount()
     # SettlementVIP(202006,32945,1459,1).adjust_percent()
 
 

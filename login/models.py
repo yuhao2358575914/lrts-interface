@@ -160,8 +160,20 @@ class settlement_vip_models(models.Model):
     create_time = models.DateTimeField(auto_now_add=True)
     update_time = models.DateTimeField()
     class Meta:
-        verbose_name = "VIP会员业务结算结果"
-
+        verbose_name = "版权/主播VIP会员业务结算结果"
+class settlement_channel_vip_models(models.Model):
+    '''结算渠道VIP会员业务models类'''
+    settlement_month=models.CharField(max_length=32,default='Null')
+    partner_id=models.CharField(max_length=32,default='Null')
+    can_divide_amount = models.CharField(max_length=64)
+    divide_baseAmount_final = models.CharField(max_length=64)
+    pay_amount = models.CharField(max_length=64)
+    channel_lr_amount=models.CharField(max_length=64)
+    settlement_amount=models.CharField(max_length=64)
+    create_time = models.DateTimeField(auto_now_add=True)
+    update_time = models.DateTimeField()
+    class Meta:
+        verbose_name = "渠道VIP会员业务结算结果"
 
 
 

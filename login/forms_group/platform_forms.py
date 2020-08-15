@@ -102,18 +102,6 @@ class Month_Days(forms.Form):
     month_days = forms.CharField(label='获取当前月份天数', max_length=64,
                                  widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入当前年月份"}))
 
-
-class Create_Num(forms.Form):
-    '''随机生成11位手机号'''
-    num_type_choice = (
-        (1, '手机号'),
-        (2, '身份证号'),
-        (3, '银行卡号'),
-    )
-    num_type = forms.ChoiceField(label="号码类型", initial=1, choices=num_type_choice,
-                                 widget=forms.RadioSelect(attrs={'required': 'required', 'class': 'radioset'}))
-
-
 class settlement_not_vip_form(forms.Form):
     '''结算非VIP会员业务'''
     settlement_date = forms.CharField(label='结算年份月份', max_length=64,
@@ -148,3 +136,16 @@ class settlement_vip_form(forms.Form):
                                             widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入合作方id"}))
     settlement_partner_rate = forms.CharField(label='结算合作方天数占比', max_length=64,
                                             widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入合作方天数占比"}))
+class settlement_channel_vip_form(forms.Form):
+    '''渠道结算VIP会员业务'''
+    settlement_date = forms.CharField(label='结算年份月份', max_length=64,
+                                      widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入结算年月份"}))
+    settlement_partner_id = forms.CharField(label='结算合作方id', max_length=64,
+                                            widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': "输入合作方id"}))
+    platform_choice = (
+        (1, '懒人平台'),
+        (2, '芽芽故事'),
+    )
+    platformType = forms.ChoiceField(label="资源所在平台", choices=platform_choice,
+                                    widget=forms.RadioSelect(attrs={'required': 'required',
+                                                                    'class': 'radioset'}))
