@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
       <title>结算VIP会员业务</title>
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{% static 'login/css/send_vip.css' %}" rel="stylesheet"/>
+    <link href="/static/login/css/settlement.css" rel="stylesheet"/>
 
 
   </head>
@@ -18,7 +18,7 @@
   <body>
     <div class="container">
             <div class="col-md-12" style="margin-top: 110px">
-                <form class="form-add_channel_partner" action="/platform/settlement_vip" method="post">
+                <form class="form-settlement-vip" action="/platform/settlement_vip" method="post">
                   {% csrf_token %}
 {#                {{ request.session.user_name }}#}
                     <h3 class="text-center">结算VIP业务</h3>
@@ -52,7 +52,7 @@
                     {% endif %}
                     </div>
                     <div>
-                      <button name="button-add_anchor_partner" type="submit" class="btn btn-primary ">结算</button>
+                      <button name="button-settlement-vip" type="submit" class="btn btn-success ">结算</button>
                     </div>
                 </form>
                     </br>

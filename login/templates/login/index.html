@@ -32,7 +32,7 @@ html,body{
     .top-head{
         width: 100%;
         height: 10%;
-        background: #eeeeee;
+        background: #FFFFFF;
         display:flex;
         flex-wrap: nowrap;
         justify-content:center;
@@ -51,14 +51,14 @@ html,body{
         width:10%;
         height:100%;
         line-height:80px;
-        background:#eeeeee;
+        background:#FFFFFF;
     }
     #title{
         width:50%;
         font-size: 28px;
         text-align:center;
         line-height: 80px;
-        background:#eeeeee;
+        background:#FFFFFF;
     }
     #per-mes{
         width:20%;
@@ -99,11 +99,11 @@ html,body{
              <!-- 侧边栏标签页 -->
         <ul class="nav nav-stacked">
             <!-- 侧边栏选项 -->
-            <li role="presentation" class="active">
+            <li role="presentation" class="active " id="data_create">
                 <!-- 选项控制data-target对应的显隐 -->
-                <a href="#" data-toggle="collapse" data-target="#list"><strong>数据构造</strong></a>
+                <a href="#" data-toggle="collapse" data-target="#list1"><strong>数据构造</strong></a>
                 <!-- 隐藏的详细菜单 -->
-                <ul id="list" class="collapse in">
+                <ul id="list1" class="collapse in">
                     <li class="active glyphicon glyphicon-tags">
                         <a href="/send_code/">
                             听读券赠送
@@ -133,9 +133,9 @@ html,body{
             </li>
             <li role="presentation" class="active">
                 <!-- 选项控制data-target对应的显隐 -->
-                <a href="#" data-toggle="collapse" data-target="#list"><strong>测试报告</strong></a>
+                <a href="#" data-toggle="collapse" data-target="#list2"><strong>测试执行</strong></a>
                 <!-- 隐藏的详细菜单 -->
-                <ul id="list" class="collapse in">
+                <ul id="list2" class="collapse in">
 {#                  {% if request.session.role == '1' %}#}
                     <li class="active glyphicon glyphicon-book">
                              <a href="/run_test/">
@@ -164,9 +164,10 @@ html,body{
                 </ul>
             </li>
             <li role="presentation" class="active">
-                <a href="#" data-toggle="collapse" data-target="#list1"><strong>测试用例</strong></a>
-                <ul id="list1" class="collapse in">
-                <li class="glyphicon glyphicon-lock"><a href="/add_cases/">
+                <a href="#" data-toggle="collapse" data-target="#list3"><strong>测试用例</strong></a>
+                <ul id="list3" class="collapse in">
+                <li class="glyphicon glyphicon-lock">
+                    <a href="/add_cases/">
                     添加用例
                     </a>
                 </li>
@@ -177,8 +178,8 @@ html,body{
                 </ul>
                  </li>
             <li role="presentation" class="active">
-                <a href="#" data-toggle="collapse" data-target="#list1"><strong>测试工具</strong></a>
-                <ul id="list1" class="collapse in">
+                <a href="#" data-toggle="collapse" data-target="#list4"><strong>测试工具</strong></a>
+                <ul id="list4" class="collapse in">
                 <li class="active glyphicon glyphicon-tags">
                     <a href="/api_test/">
                         懒人接口调试
@@ -196,8 +197,8 @@ html,body{
                 </ul>
                  </li>
 
-             <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>友情链接</strong></a>
-                <ul id="list1" class="collapse in">
+             <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list5"><strong>友情链接</strong></a>
+                <ul id="list5" class="collapse in">
                 <li class="active glyphicon glyphicon-book">
                     <a href="https://apidoc.lrts.me/">
                         懒人听书API接口文档
