@@ -163,7 +163,21 @@ html,body{
                     <br>
                 </ul>
             </li>
-            <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>测试工具</strong></a>
+            <li role="presentation" class="active">
+                <a href="#" data-toggle="collapse" data-target="#list1"><strong>测试用例</strong></a>
+                <ul id="list1" class="collapse in">
+                <li class="glyphicon glyphicon-lock"><a href="/add_cases/">
+                    添加用例
+                    </a>
+                </li>
+                        <li class="glyphicon glyphicon-star"><a href="/cases_pages/{{ 1 }}">
+                            用例集
+                        </a>
+                        </li>
+                </ul>
+                 </li>
+            <li role="presentation" class="active">
+                <a href="#" data-toggle="collapse" data-target="#list1"><strong>测试工具</strong></a>
                 <ul id="list1" class="collapse in">
                 <li class="active glyphicon glyphicon-tags">
                     <a href="/api_test/">
@@ -181,18 +195,7 @@ html,body{
                     <br>
                 </ul>
                  </li>
-                 <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>测试用例</strong></a>
-                <ul id="list1" class="collapse in">
-               <li class="glyphicon glyphicon-lock"><a href="/add_cases/">
-                    添加用例
-                    </a>
-                </li>
-                        <li class="glyphicon glyphicon-star"><a href="/cases_pages/{{ 1 }}">
-                            用例集
-                        </a>
-                        </li>
-                </ul>
-                 </li>
+
              <li role="presentation" class="active"><a href="#" data-toggle="collapse" data-target="#list1"><strong>友情链接</strong></a>
                 <ul id="list1" class="collapse in">
                 <li class="active glyphicon glyphicon-book">
@@ -244,7 +247,6 @@ html,body{
                     <button style="margin-left: 20px"><a href="/platform/add_copyright_partner" style="color: darkgoldenrod"><strong>添加版权合作方</strong></a></button>
                     <button style="margin-left: 20px"><a href="/platform/add_channel_partner" style="color: darkgoldenrod"><strong>添加渠道合作方</strong></a></button>
                     <button style="margin-left: 20px"><a href="/platform/add_anchor_partner" style="color: darkgoldenrod"><strong>添加主播合作方</strong></a></button>
-                    <a style="font-size: 20px">....</a>
                 </span>
                 <p></p>
                 <a href="/items_list/3" class="btn-outline-light" style="margin-left: 50px">开放平台>>>></a>
@@ -260,15 +262,12 @@ html,body{
                 <a href="/items_list/3" class="btn-outline-light" style="margin-left: 50px">结算>>>></a>
                 <span>
                     <button style="margin-left: 20px"><a href="/platform/settlement_not_vip" style="color: darkgoldenrod"><strong>结算非VIP业务</strong></a></button>
-                    <a style="font-size: 20px">....</a>
                 </span>
                 <span>
                     <button style="margin-left: 20px"><a href="/platform/settlement_vip" style="color: darkgoldenrod"><strong>结算版权/主播VIP业务</strong></a></button>
-                    <a style="font-size: 20px">....</a>
                 </span>
                 <span>
                     <button style="margin-left: 20px"><a href="/platform/settlement_channel_vip" style="color: darkgoldenrod"><strong>结算渠道VIP业务</strong></a></button>
-                    <a style="font-size: 20px">....</a>
                 </span>
 {#                <iframe width="800" scrolling="no" height="600" frameborder="0" allowtransparency="true" style="color: #721c24"></iframe>#}
 {#                <iframe ID='ifm1' width='500' height='330' align='center' marginwidth='0' marginheight='30' hspace='0' vspace='0' FRAMEBORDER='0' scrolling='no' src="/test_report_list10/" style="float: right"></iframe>#}
