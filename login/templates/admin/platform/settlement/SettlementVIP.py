@@ -147,10 +147,14 @@ class SettlementVIP():
         #查询主播合作方VIP分成资源记录
         Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 3 order by create_time desc limit 1;"
                                             % (self.entity_id), "billing")
+        if Anch_partner_record:
+            Anch_partner_rate=Anch_partner_record[0]['share_fee_ratio']
+        else:
+            Anch_partner_rate=0
         #公司补贴百分比
         company_subsidy_percent_record=billing_select("select * from p_config_server pcs where config_key ='COMPANY_SUBSIDY_PERCENT';",'billing')
         company_subsidy_percent=company_subsidy_percent_record[0]['config_value']
-        return [book_playCount,award_multiple,grade_playCount,platform_base_billing_amount,platform_playCount_awardMultiple,partner_record,Anch_partner_record,company_subsidy_percent,reward_factor]
+        return [book_playCount,award_multiple,grade_playCount,platform_base_billing_amount,platform_playCount_awardMultiple,partner_record,Anch_partner_rate,company_subsidy_percent,reward_factor]
 
     def platform_book_settlement_amount(self,product_type=1):
         '''版权/主播合作方结算计算
@@ -247,9 +251,21 @@ class SettlementVIP():
                 partner_rate = partner_record[0]['partner_rate']  # 版权合作方分成比例
                 print('版权合作方分成比例：'+str(partner_rate))
             elif cooperator_type==3:
-                Anch_partner_record = settlementAmount_sql_record[6][0]
-                partner_rate = Anch_partner_record['share_fee_ratio']  # 主播合作方分成比例
-                print('主播合作方分成比例：' + str(partner_rate))
+                if settlementAmount_sql_record[6]:
+                    partner_rate = settlementAmount_sql_record[6] # 主播合作方分成比例
+                    print('主播合作方分成比例：' + str(partner_rate))
+                else:
+                    return {'settlement_month': str(self.settlement_month), 'partner_id': str(self.partner_id),
+                            'entity_id': str(self.entity_id),
+                            'book_playCount': 0,
+                            'book_platform_amount_final': 0,
+                            'partner_divide_rate': 0,
+                            'partner_divide_money': 0,
+                            'tech_service_consumption': 0,
+                            'book_company_subsidy_money': 0,
+                            'partner_company_subsidy_money': 0,
+                            'partner_divide_money_final': 0,
+                            }
             else:
                 partner_rate=0
                 book_platform_amount_final=0
@@ -461,10 +477,11 @@ class Channel_Settlement():
 
 if __name__=='__main__':
     #版权/主播合作方 分别传入结算月份，书籍id，合作方id,以及合作方当月分成天数占比
-    # SettlementVIP(202008,56444559,1670,1).platform_book_settlement_amount(2)
-    # SettlementVIP(202007,930,1695,0.096774).platform_book_settlement_amount()
+    # SettlementVIP(202008,56444559,1670,1).platform_book_settlement_amount(1)
+    SettlementVIP(202008, 56444559, 1695, 1).platform_book_settlement_amount(1)
+    # SettlementVIP(202008,56444559,1596,1).platform_book_settlement_amount()
     # 渠道合作方 分成传入结算月份，合作方id
-    Channel_Settlement(202008,1666).channel_vip_platform_settlement_amount()
+    # Channel_Settlement(202008,1666).channel_vip_platform_settlement_amount()
     # SettlementVIP(202006,32945,1459,1).adjust_percent()
 
 
