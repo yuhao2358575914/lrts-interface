@@ -4,6 +4,8 @@
 import json
 import random
 import unittest
+from time import sleep
+
 from login.templates.admin.account.adminlogin import login_admin
 from login.templates.utils import getconf, httputils, dbutil
 from login.templates.utils.confutils import getcurrentPath, getAdminName
@@ -23,6 +25,7 @@ class case_Platform_PartnerList(unittest.TestCase):
         data={}
         #调用接口
         res=httputils.getadmin(partnerList,data,admin_token,partnerList_page)
+        sleep(1)
         #返回值转换成字典
         r=json.loads(res.text)
         print(r)

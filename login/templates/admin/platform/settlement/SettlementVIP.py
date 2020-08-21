@@ -478,10 +478,10 @@ class Channel_Settlement():
 if __name__=='__main__':
     #版权/主播合作方 分别传入结算月份，书籍id，合作方id,以及合作方当月分成天数占比
     # SettlementVIP(202008,56444559,1670,1).platform_book_settlement_amount(1)
-    SettlementVIP(202008, 56444559, 1695, 1).platform_book_settlement_amount(1)
+    # SettlementVIP(202007,930,1695,1).platform_book_settlement_amount(1)
     # SettlementVIP(202008,56444559,1596,1).platform_book_settlement_amount()
     # 渠道合作方 分成传入结算月份，合作方id
-    # Channel_Settlement(202008,1666).channel_vip_platform_settlement_amount()
+    Channel_Settlement(202008,1698).channel_vip_platform_settlement_amount()
     # SettlementVIP(202006,32945,1459,1).adjust_percent()
 
 
