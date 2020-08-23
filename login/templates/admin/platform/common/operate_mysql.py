@@ -48,8 +48,7 @@ def billing_delete(sql, db):
     cur = conn.cursor(cursor=pymysql.cursors.DictCursor)
     try:
         #执行sql语句
-        res=cur.execute(sql)
-        print(res)
+        cur.execute(sql)
         #提交修改
         conn.commit()
     except:
