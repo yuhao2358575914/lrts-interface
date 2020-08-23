@@ -25,10 +25,10 @@ class Add_AnchorParter(unittest.TestCase):
     @ddt.data((1, 2), (3,2)) #装饰测试方法
     @ddt.unpack
     def test_add_AnchorPartner(self,business, partnerType):
-        '''添加主播合作方
-        :param business 0勾选全部业务 1表示付费收听 2 表示主播打赏 3 表示VIP会员
-        :param partnerType 1表示个人账户 2表示公司账户
-        '''
+        """添加主播合作方"""
+        #:param business 0勾选全部业务 1表示付费收听 2 表示主播打赏 3 表示VIP会员
+        #:param partnerType 1表示个人账户 2表示公司账户
+
         admintoken = login_admin()  # 登录admin获取token
         admin_api = getAdminName('partnerEdit')  # 获取partnerEdit接口
         print(admin_api)
@@ -124,6 +124,7 @@ class Add_AnchorParter(unittest.TestCase):
         r = httputils.postadmin(admin_api, data, admintoken, confutils.getcurrentPath('PartnerEdit'))
         res = json.loads(r.text)
         print(res)
+        #校验
         self.assertTrue(res['status'] == 0 and res['error']==False,'测试失败!!!')
         print('----------------主播合作方添加成功！！！------------------')
 

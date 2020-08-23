@@ -31,10 +31,9 @@ class Add_CopyrightParter(unittest.TestCase):
     @ddt.unpack
 
     def test_add_CopyrightPartner(self,business, partnerType):
-        '''添加版权合作方
-    :param business 0表示勾选全部业务 1表示付费收听 2 表示电子阅读 3表示VIP会员 4 表示漫画
-    :param partnerType 1表示个人账户 2表示公司账户
-    '''
+        """添加版权合作方"""
+        #:param business 0表示勾选全部业务 1表示付费收听 2 表示电子阅读 3表示VIP会员 4 表示漫画
+        #:param partnerType 1表示个人账户 2表示公司账户
         admintoken = login_admin()  # 登录admin获取token
         admin_api = getAdminName('partnerEdit')  # 获取partnerEdit接口
         print(admin_api)
@@ -165,6 +164,7 @@ class Add_CopyrightParter(unittest.TestCase):
         r = httputils.postadmin(admin_api, data, admintoken, confutils.getcurrentPath('PartnerEdit'))
         res = json.loads(r.text)
         print(res)
+        #校验
         self.assertTrue(res['status'] == 0 and res['error'] == False, '测试失败!!!')
         print('----------------版权合作方添加成功！！！------------------')
 
