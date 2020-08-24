@@ -59,13 +59,11 @@ class Settlement(object):
                 partner_rate = partner_record[0]['partner_rate']  # 版权/渠道合作方分成比例
             else:
                 if self.sp_type == 2 or self.sp_type == 5:
-                    Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 2 order by create_time desc limit 1;" % (
-                            self.entity_id), "billing")
+                    Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 2 order by create_time desc limit 1;" % (self.entity_id), "billing")
                     partner_rate = Anch_partner_record[0]['share_fee_ratio']  # 主播合作方分成比例
                     # print('--------------------'+str(rate['partner_rate']))
                 elif self.sp_type == 4 or self.sp_type == 5:
-                    Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 1 order by create_time desc limit 1;" % (
-                            self.entity_id), "billing")
+                    Anch_partner_record = billing_select("select * from p_share_fee_resource where res_id = '%s' and share_fee_type = 1 order by create_time desc limit 1;" % (self.entity_id), "billing")
                     partner_rate = Anch_partner_record[0]['share_fee_ratio']  # 主播合作方分成比例
                 else:
                     pass
@@ -83,7 +81,7 @@ class Settlement(object):
                     }
 
         #---测试环境表名为:p_resource_daily_billing,预发布环境表名为：test_resource_daily_billing----
-        lr_cp_daily_info = billing_select(''' SELECT * FROM p_resource_daily_billing
+        lr_cp_daily_info = billing_select(''' SELECT * FROM test_resource_daily_billing
                                             WHERE entity_id='%s' and partner_id='%s'and sp_type='%s' and  product_type='%s'and billing_date between '%s' and '%s' ORDER BY create_time desc ;'''
                                           % (self.entity_id, self.partner_id, self.sp_type, product_type,start_time,end_time), "billing")
         if lr_cp_daily_info:
@@ -103,7 +101,7 @@ class Settlement(object):
                 sum_cash_flow_billing=lr_sum_cash_flow_billing_1+lr_sum_cash_flow_billing_2
                 commission_id = day['commission_id'] #获取手续费率id
                 #测试环境切换成这个sql
-                pay_rate=billing_select("SELECT * from p_billing_records_commission where id='%s';" %(commission_id),'billing') #根据commission_id查询相对应的手续费明细
+                pay_rate=billing_select("SELECT * from test_billing_records_commission where id='%s';" %(commission_id),'billing') #根据commission_id查询相对应的手续费明细
                 #预发布切换成这个sql
                 # pay_rate=billing_select("SELECT * from test_billing_records_commission where id='%s';" %(commission_id),'billing') #根据commission_id查询相对应的手续费明细
                 # 统计份额外支付手续费
@@ -215,8 +213,7 @@ class Settlement(object):
 if __name__=="__main__":
     # Settlement().cp_settlement(33214,2)
     '''依次传入资源id，合作方id，合作业务(1电子阅读 2付费收听 4主播打赏  8漫画)'''
-    # Settlement(92426468, 1489,4).settlement_partner()
-    Settlement(202008,56444559,1670,2).settlement_partner()
-    # Settlement(202008,45051, 1680, 2).settlement_partner()
-    # Settlement(147, 1638, 8).settlement_partner()
+    # Settlement(202008,96860832,1665,2).settlement_partner()
+    Settlement(202008,35705,1643,4).settlement_partner()
+
 
