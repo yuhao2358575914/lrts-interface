@@ -14,7 +14,7 @@ import unittest
 from login.templates.admin.book.Book_Operation import get_albumn_by_pay_type
 from login.templates.app.account.Get_Logon_Token import get_app_login_token
 from login.templates.utils import getconf, httputils
-from login.templates.utils.utils import get_json_value_by_key, check_keyword_in_list, ranstr
+from login.templates.utils.utils import get_json_value_by_key, check_keyword_in_list, ranstr, random_chinese
 
 
 class case_Necessary_Album_Add_Comments(unittest.TestCase):
@@ -27,7 +27,7 @@ class case_Necessary_Album_Add_Comments(unittest.TestCase):
         data = {
             'token': token,
             'checkType': '0',
-            'commentContent': ranstr(5),
+            'commentContent': random_chinese(4)+ranstr(2),
             'commentStar': '5',
             'entityType': '2',
             'fatherId': '0',
@@ -40,5 +40,5 @@ class case_Necessary_Album_Add_Comments(unittest.TestCase):
         commentId = json.loads(r.text)['commentId']
         self.assertTrue(commentId > 0)
 
-    if __name__ == '__main__':
-        unittest.main()
+if __name__ == '__main__':
+    unittest.main()

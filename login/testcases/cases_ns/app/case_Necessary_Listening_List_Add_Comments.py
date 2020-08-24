@@ -12,7 +12,7 @@ import json
 import unittest
 from login.templates.app.account.Get_Logon_Token import get_app_login_token
 from login.templates.utils import getconf, httputils, dbutil
-from login.templates.utils.utils import ranstr
+from login.templates.utils.utils import ranstr, random_chinese
 
 
 class case_Necessary_Reading_Book_Add_Comments(unittest.TestCase):
@@ -38,7 +38,7 @@ class case_Necessary_Reading_Book_Add_Comments(unittest.TestCase):
         data = {
             'token': token,
             'checkType': '0',
-            'commentContent': ranstr(5),
+            'commentContent': random_chinese(4)+ranstr(2),
             'commentStar': '5',
             'entityType': '7',
             'fatherId': '0',
@@ -51,5 +51,5 @@ class case_Necessary_Reading_Book_Add_Comments(unittest.TestCase):
         commentId = json.loads(r.text)['commentId']
         self.assertTrue(commentId > 0)
 
-    if __name__ == '__main__':
-        unittest.main()
+if __name__ == '__main__':
+    unittest.main()

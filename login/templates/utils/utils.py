@@ -28,6 +28,21 @@ def ranstr(num):
     for i in range(num):
         salt += random.choice(H)
     return str(salt)
+#生成随机汉字
+def random_chinese(num):
+    '''生成随机汉字
+    :param num 生成汉字的个数
+    '''
+    str_chinesse=[]
+    for i in range(num):
+        head = random.randint(0xb0, 0xf7)
+        body = random.randint(0xa1, 0xfe)
+        val = f'{head:x} {body:x}'
+        str = bytes.fromhex(val).decode('gb2312')
+        str_chinesse.append(str)
+    str_final="".join(str_chinesse)
+    print(str_final)
+    return str_final
 
 
 # sc校验公共方法
