@@ -113,7 +113,7 @@ def random_chinese(num):
         str = bytes.fromhex(val).decode('gb2312')
         str_chinesse.append(str)
     str_final="".join(str_chinesse)
-    print(str_final)
+
     return str_final
 
 
