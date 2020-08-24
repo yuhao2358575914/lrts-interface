@@ -85,4 +85,4 @@ def add_DivideChannel():
         print('---------添加失败!!!-----------')
 
 if __name__=='__main__':
-    add_ReleaseChannel(2)
+    add_DivideChannel()
