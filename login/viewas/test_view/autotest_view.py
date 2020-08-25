@@ -129,7 +129,7 @@ def run_test(request):
             mail_list = mail_receivers.split(',')
             send_emails_multi(mail_list, envId, get_local_time_second(),
                               project, file_name, round(success_rate * 100))
-            # 必测自动通知到企业微信群
+            # 必测自动通知到企业微信群1
             # robotKeys = get_services_conf('keys', 'robotKey')
             robotKeys_earth = get_services_conf('keys', 'robotKeyEarth')
             robotKeys_moon = get_services_conf('keys', 'robotKeyMoon')
