@@ -12,7 +12,7 @@ def msg_robot(message, robot_Key):
     data = {
         "msgtype": "markdown",  # 消息类型，此时固定为markdown
         "markdown": {
-            "content": "# **%s环境后台api发布！自动化测试完成。**\n" % (
+            "content": "# **%s环境后台api发布！自动化测试完成**\n" % (
                 message.get('host_name')) +  # 标题 （支持1至6级标题，注意#与文字中间要有空格）
                        "#### **请相关同事注意，及时跟进！**\n" +  # 加粗：**需要加粗的字**
                        "> 发布模块：<font color=\"error\">%s</font> \n" % (message.get('project')) +  # 引用：> 需要引用的文字

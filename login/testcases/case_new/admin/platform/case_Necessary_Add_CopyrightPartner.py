@@ -21,7 +21,8 @@ class Add_CopyrightParter(unittest.TestCase):
 
     # @ddt.ddt({'business':1,'partnerType':2},{'business':3,'partnerType':2})
     def setUp(self):
-        pass
+        billing_delete("DELETE from p_partner where login_name='zhoushichuanCpTest';", 'billing')  # 删除p_partner表数据
+        billing_delete("DELETE from p_partner_service where entity_id='6105';", 'billing')  # 删除p_partner_service表数据
     def tearDown(self):
         '''数据还原'''
         billing_delete("DELETE from p_partner where login_name='zhoushichuanCpTest';", 'billing')  # 删除p_partner表数据

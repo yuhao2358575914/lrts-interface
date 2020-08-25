@@ -42,12 +42,12 @@
                     <td>{{ report.report_testError}}</td>
                     <td>{{ report.report_successRate}}%</td>
                     <td>{{ report.publish_module}}</td>
-                    {% if report.publish_module == 'yyting-apps-api' %}
-                        <td>必测</td>
-                    {% elif report.publish_module == 'yyting-apps-admin' %}
-                        <td>Admin必测</td>
-                    {% else %}
+                    {% if report.reporter_type == 'All' %}
                         <td>全量</td>
+                    {% elif report.reporter_type == 'Nec' %}
+                        <td>必测</td>
+                    {% else %}
+                        <td>admin必测</td>
                     {% endif %}
                     {% if report.create_user == 'developer' %}
                         <td>后台发布自动触发</td>
