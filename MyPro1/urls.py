@@ -18,15 +18,15 @@ from django.contrib import admin
 from django.urls import path, re_path
 from django.views.generic import TemplateView
 from django.views.static import serve
-from login.viewas.platform_views import copyright_views
 from login.views import echarts_data, change_hosts, data_ajax, test_data, pass_rate_stats
-from login import views
+from login import views, static
 from login.viewas.lazy_view import activitys_view
 from login.viewas.lazy_view import user_view
 from login.viewas.test_view import autotest_view
 from login.viewas.test_view import cases_views
-from login.viewas.platform_views import copyright_views
 from django.urls import include
+from django.conf.urls import url
+from django.views.generic.base import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -72,4 +72,5 @@ urlpatterns = [
     path('api/test_ajax/', data_ajax, name='test_ajax'),
     path('test_data/', test_data),
     re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}, name='static'),
+    url(r'^favicon\.ico$', RedirectView.as_view(url=r'static/favicon.ico'))
 ]

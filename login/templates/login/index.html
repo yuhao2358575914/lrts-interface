@@ -7,6 +7,7 @@
     <!-- css -->
     <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
     <script src="/static/login/js/echarts.min.js"></script>
+    <link rel="icon" href="/static/favicon.ico">
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
@@ -109,6 +110,7 @@ html,body{
                             听读券赠送
                         </a>
                     </li>
+                    <br>
                     <li class="active glyphicon glyphicon-tags">
                         <a href="/send_vip/">
                             VIP赠送
@@ -119,12 +121,14 @@ html,body{
                         手机号注册
                         </a>
                     </li>
+                    <br>
                     <li class="active glyphicon glyphicon-lock">
                         <a href="/vip_expire/">
                             VIP过期
                         </a>
                     </li>
-                    <li class="active glyphicon glyphicon-lock">
+                    <br>
+                    <li class="active glyphicon glyphicon-yen">
                         <a href="/charge_account/">
                             懒人币充值
                         </a>
@@ -141,12 +145,14 @@ html,body{
                              <a href="/run_test/">
                             自动化用例执行</a>
                     </li>
+                    <br>
 {#                    {% endif %}#}
                     <li class="active glyphicon glyphicon-tags">
                         <a href="/test_report_list10/">
                             自动化测试统计
                         </a>
                     </li>
+                    <br>
 {#                    {% if request.session.role == '1' %}#}
                     <li class="active glyphicon glyphicon-blackboard">
                         <a href="/send_email/">
@@ -160,18 +166,18 @@ html,body{
                             邮件收件人配置
                         </a>
                     </li>
-                    <br>
                 </ul>
             </li>
             <li role="presentation" class="active">
                 <a href="#" data-toggle="collapse" data-target="#list3"><strong>测试用例</strong></a>
                 <ul id="list3" class="collapse in">
-                <li class="glyphicon glyphicon-lock">
+                <li class="glyphicon glyphicon-pencil">
                     <a href="/add_cases/">
                     添加用例
                     </a>
                 </li>
-                        <li class="glyphicon glyphicon-star"><a href="/cases_pages/{{ 1 }}">
+                    <br>
+                        <li class="glyphicon glyphicon-th-large"><a href="/cases_pages/{{ 1 }}">
                             用例集
                         </a>
                         </li>
@@ -184,11 +190,13 @@ html,body{
                     <a href="/api_test/">
                         懒人接口调试
                     </a>
-                </li><br>
+                </li>
+                    <br>
                 <li class="glyphicon glyphicon-user"><a href="/get_ips/">
                     用户ip
                     </a>
                 </li>
+                    <br>
                  <li class="glyphicon glyphicon-apple"><a href="/#/">
                     加解密
                     </a>
@@ -208,7 +216,7 @@ html,body{
                     Xconfluence
                     </a>
                 </li><br>
-                 <li class="glyphicon glyphicon-lock"><a href="https://www.jianshu.com/p/04207f3f2129">
+                 <li class="glyphicon glyphicon-plane"><a href="https://www.jianshu.com/p/04207f3f2129">
                     Django教程
                     </a>
                 </li>
@@ -240,7 +248,7 @@ html,body{
                     <button style="margin-left: 20px"><a href="/add_buy_share/" style="color: darkgoldenrod"><strong>买一赠一活动生成</strong></a></button>
                     <button style="margin-left: 20px"><a href="/add_ShareListen_free/" style="color: darkgoldenrod"><strong>分享免费听活动生成</strong></a></button>
                     <button style="margin-left: 20px"><a href="/add_Subtracts_activity/" style="color: darkgoldenrod"><strong>满减活动生成</strong></a></button>
-                    <a style="font-size: 20px">....</a>
+
                 </span>
                 <p></p>
                 <a href="/items_list/2" class="btn-outline-light" style="margin-left: 50px">分成合作方管理>>>></a>
@@ -253,11 +261,9 @@ html,body{
                 <a href="/items_list/3" class="btn-outline-light" style="margin-left: 50px">开放平台>>>></a>
                 <span>
                     <button style="margin-left: 20px"><a href="/platform/add_develop_channel" style="color: darkgoldenrod"><strong>开发者管理</strong></a></button>
-                    <a style="font-size: 20px">....</a>
                 </span>
                 <span>
                     <button style="margin-left: 20px"><a href="/platform/month_day" style="color: darkgoldenrod"><strong>当前月份天数</strong></a></button>
-                    <a style="font-size: 20px">....</a>
                 </span>
                 <p></p>
                 <a href="/items_list/3" class="btn-outline-light" style="margin-left: 50px">结算>>>></a>
